@@ -7,6 +7,7 @@ from datetime import datetime
 
 BASE_WIKI = "https://oldschool.runescape.wiki"
 CATEGORY_URL = f"{BASE_WIKI}/wiki/Category:Money_making_guides"
+API_URL = "https://oldschool.runescape.wiki/api.php"
 MAPPING_API = "https://prices.runescape.wiki/api/v1/osrs/mapping"
 
 
@@ -37,7 +38,6 @@ def get_all_method_pages():
 
     while page < max_pages:
         url = CATEGORY_URL if page == 0 else f"{CATEGORY_URL}?page={page}"
-        print(f"\n=== Página de categoría {page} ===")
         html = fetch(url)
         soup = BeautifulSoup(html, "html.parser")
 
@@ -66,154 +66,122 @@ def get_all_method_pages():
 
         page += 1
 
-    print(f"\nTotal métodos encontrados: {len(method_urls)}")
+    print(f"Total métodos encontrados: {len(method_urls)}")
     return method_urls
 
 
 # ---------------------------------------------------------
-# PARSER DE ITEMS DESDE TEXTO
+# NORMALIZAR NOMBRES DE ITEMS
 # ---------------------------------------------------------
-def parse_items_from_text(lines):
-    items = []
-    pattern = r"([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)"
+def clean_item_name(raw):
+    raw = raw.strip()
+    raw = re.sub(r"
 
-    for line in lines:
-        m = re.search(pattern, line)
-        if m:
-            qty = float(m.group(1))
-            name = m.group(2).strip()
-            price = int(m.group(3).replace(",", ""))
-            items.append({"item": name, "qty": qty, "price": price})
+\[
+
+\[(.*?)\]
+
+\]
+
+", r"\1", raw)  # remove [[ ]]
+    raw = raw.split("|")[-1]  # remove alias
+    raw = raw.replace("]]", "").replace("[[", "")
+    return raw.strip()
+
+
+# ---------------------------------------------------------
+# PARSEAR ITEMS DESDE WIKITEXT
+# ---------------------------------------------------------
+def parse_items_from_wikitext(wikitext, section_name):
+    items = []
+
+    # Buscar sección Inputs o Outputs
+    pattern_section = rf"==*\s*{section_name}\s*\(.*?\)\s*==*"
+    sections = re.split(pattern_section, wikitext, flags=re.IGNORECASE)
+
+    if len(sections) < 2:
+        return items
+
+    # Tomar la parte después del título
+    content = sections[1]
+
+    # Buscar líneas tipo:
+    # * 4 × [[Redwood logs]] (3,200)
+    pattern_item = r"\*\s*([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)"
+
+    for qty, name, price in re.findall(pattern_item, content):
+        items.append({
+            "item": clean_item_name(name),
+            "qty": float(qty),
+            "price": int(price.replace(",", ""))
+        })
 
     return items
 
 
 # ---------------------------------------------------------
-# PARSER DE ITEMS DESDE TABLAS
+# EXTRAER WIKITEXT REAL
 # ---------------------------------------------------------
-def parse_items_from_table(table):
-    items = []
-    rows = table.find_all("tr")
+def get_wikitext(page_title):
+    params = {
+        "action": "parse",
+        "page": page_title,
+        "prop": "wikitext",
+        "format": "json"
+    }
+    resp = requests.get(API_URL, params=params, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
+    resp.raise_for_status()
+    data = resp.json()
 
-    for row in rows:
-        cols = row.find_all("td")
-        if not cols:
-            continue
-
-        text = cols[0].get_text(" ", strip=True)
-
-        m = re.search(r"([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)", text)
-        if m:
-            qty = float(m.group(1))
-            name = m.group(2).strip()
-            price = int(m.group(3).replace(",", ""))
-            items.append({"item": name, "qty": qty, "price": price})
-
-    return items
+    try:
+        return data["parse"]["wikitext"]["*"]
+    except:
+        return ""
 
 
 # ---------------------------------------------------------
-# EXTRACCIÓN DE RATE REAL
+# EXTRAER RATE REAL
 # ---------------------------------------------------------
-def extract_rate(text):
-    m = re.search(r"([\d,]+)\s*per hour", text, re.IGNORECASE)
+def extract_rate(wikitext):
+    m = re.search(r"([\d,]+)\s*per hour", wikitext, re.IGNORECASE)
     if m:
         return int(m.group(1).replace(",", ""))
     return None
 
 
 # ---------------------------------------------------------
-# PARSER DE MÉTODOS (TABLAS + TEXTO)
+# PARSEAR MÉTODO COMPLETO
 # ---------------------------------------------------------
 def parse_method_page(url):
     print(f"Parseando método: {url}")
-    html = fetch(url)
-    soup = BeautifulSoup(html, "html.parser")
 
-    title_el = soup.find("h1", id="firstHeading")
-    name = title_el.get_text(strip=True) if title_el else url
+    # Extraer título
+    title = url.split("/")[-1]
 
-    page_text = soup.get_text("\n", strip=True)
-    members = "Members only" in page_text or "members-only" in page_text.lower()
+    # Obtener wikitext real
+    wikitext = get_wikitext(f"Money_making_guide/{title}")
 
-    # Categoría
-    category = None
-    cat_links = soup.find("div", id="mw-normal-catlinks")
-    if cat_links:
-        cats = [a.get_text(strip=True).lower() for a in cat_links.find_all("a")]
-        if any("combat" in c for c in cats):
-            category = "combat"
-        elif any("skilling" in c for c in cats):
-            category = "skilling"
-        elif any("processing" in c for c in cats):
-            category = "processing"
+    if not wikitext:
+        print("No wikitext encontrado.")
+        return None
 
-    # -----------------------------
-    # 1) BUSCAR TABLAS DE INPUTS/OUTPUTS
-    # -----------------------------
-    inputs = []
-    outputs = []
+    # Inputs y outputs desde wikitext
+    inputs = parse_items_from_wikitext(wikitext, "Inputs")
+    outputs = parse_items_from_wikitext(wikitext, "Outputs")
 
-    tables = soup.find_all("table", class_="wikitable")
+    # Rate
+    wiki_rate = extract_rate(wikitext)
 
-    for table in tables:
-        th = table.find("th")
-        if not th:
-            continue
-
-        title = th.get_text(strip=True).lower()
-
-        if "inputs" in title:
-            inputs = parse_items_from_table(table)
-
-        if "outputs" in title:
-            outputs = parse_items_from_table(table)
-
-    # -----------------------------
-    # 2) SI NO HAY TABLAS, USAR TEXTO
-    # -----------------------------
-    if not inputs or not outputs:
-        lines = page_text.split("\n")
-
-        inputs_raw = []
-        outputs_raw = []
-        current = None
-
-        for line in lines:
-            clean = line.strip()
-
-            if clean.lower().startswith("inputs"):
-                current = "inputs"
-                continue
-            if clean.lower().startswith("outputs"):
-                current = "outputs"
-                continue
-
-            if current == "inputs":
-                inputs_raw.append(clean)
-            elif current == "outputs":
-                outputs_raw.append(clean)
-
-        if not inputs:
-            inputs = parse_items_from_text(inputs_raw)
-
-        if not outputs:
-            outputs = parse_items_from_text(outputs_raw)
-
-    wiki_rate = extract_rate(page_text)
-
-    # FILTRO
     if not inputs and not outputs and not wiki_rate:
         return None
 
     return {
-        "name": name,
+        "name": title.replace("_", " "),
         "url": url,
-        "members": members,
-        "category": category,
         "wiki_rate": wiki_rate,
         "inputs": inputs,
         "outputs": outputs,
+        "wikitext": wikitext  # debugging
     }
 
 
@@ -221,7 +189,6 @@ def parse_method_page(url):
 # GE LIMITS
 # ---------------------------------------------------------
 def get_ge_limits():
-    print("\nDescargando GE limits...")
     resp = requests.get(MAPPING_API, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
     resp.raise_for_status()
     data = resp.json()
@@ -263,7 +230,7 @@ def main():
     with open("money_methods.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print("\nmoney_methods.json generado correctamente.")
+    print("money_methods.json generado correctamente.")
 
 
 if __name__ == "__main__":
