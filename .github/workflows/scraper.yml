@@ -32,4 +32,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add money_methods.json
           git commit -m "Update JSON" || echo "No changes"
-          git push
+          git pull --rebase
+          git push || echo "Push skipped"
