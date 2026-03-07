@@ -1,32 +1,27 @@
 import requests
-from bs4 import BeautifulSoup
 import json
 import time
 import re
 from datetime import datetime
+from bs4 import BeautifulSoup
 
-BASE_WIKI = "https://oldschool.runescape.wiki"
-CATEGORY_URL = f"{BASE_WIKI}/wiki/Category:Money_making_guides"
-API_URL = "https://oldschool.runescape.wiki/api.php"
-MAPPING_API = "https://prices.runescape.wiki/api/v1/osrs/mapping"
+BASE = "https://oldschool.runescape.wiki"
+CAT = BASE + "/wiki/Category:Money_making_guides"
+API = BASE + "/api.php"
+MAP = "https://prices.runescape.wiki/api/v1/osrs/mapping"
 
 
 def fetch(url):
-    print(f"Fetching: {url}")
-    resp = requests.get(url, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
-    resp.raise_for_status()
+    print("Fetching:", url)
+    r = requests.get(url, headers={"User-Agent": "OSRS-Scraper"})
+    r.raise_for_status()
     time.sleep(0.3)
-    return resp.text
+    return r.text
 
 
-# ---------------------------------------------------------
-# CRAWLER SEGURO + FILTRO DE CATEGORÍAS
-# ---------------------------------------------------------
-def get_all_method_pages():
-    method_urls = []
+def get_all_methods():
+    urls = []
     page = 0
-    max_pages = 20
-
     blacklist = {
         "Money making guide/Combat",
         "Money making guide/Skilling",
@@ -36,47 +31,41 @@ def get_all_method_pages():
         "Money making guide/Guides"
     }
 
-    while page < max_pages:
-        url = CATEGORY_URL if page == 0 else f"{CATEGORY_URL}?page={page}"
-        print(f"\n=== Página de categoría {page} ===")
+    while True:
+        url = CAT if page == 0 else CAT + "?page=" + str(page)
         html = fetch(url)
         soup = BeautifulSoup(html, "html.parser")
-
-        category_div = soup.find("div", class_="mw-category-generated")
-        if not category_div:
+        div = soup.find("div", class_="mw-category-generated")
+        if not div:
             break
 
-        links = category_div.find_all("a")
-        nuevos = 0
-
-        for a in links:
+        found = 0
+        for a in div.find_all("a"):
             title = a.get("title", "")
             href = a.get("href", "")
-
             if title in blacklist:
                 continue
-
             if "Money making guide/" in title:
-                full_url = BASE_WIKI + href
-                if full_url not in method_urls:
-                    method_urls.append(full_url)
-                    nuevos += 1
+                full = BASE + href
+                if full not in urls:
+                    urls.append(full)
+                    found += 1
 
-        if nuevos == 0:
+        if found == 0:
             break
 
         page += 1
 
-    print(f"\nTotal métodos encontrados: {len(method_urls)}")
-    return method_urls
+    print("Métodos encontrados:", len(urls))
+    return urls
 
 
-# ---------------------------------------------------------
-# NORMALIZAR NOMBRES DE ITEMS
-# ---------------------------------------------------------
-def clean_item_name(raw):
-    raw = raw.strip()
-    raw = re.sub(r"
+# -----------------------------
+# LIMPIAR NOMBRE DE ITEM
+# -----------------------------
+def clean_name(x):
+    x = x.strip()
+    x = re.sub(r"
 
 \[
 
@@ -84,32 +73,33 @@ def clean_item_name(raw):
 
 \]
 
-", r"\1", raw)  # remove [[ ]]
-    raw = raw.split("|")[-1]  # remove alias
-    raw = raw.replace("[[", "").replace("]]", "")
-    return raw.strip()
+", r"\1", x)
+    if "|" in x:
+        x = x.split("|")[-1]
+    x = x.replace("[[", "").replace("]]", "")
+    return x.strip()
 
 
-# ---------------------------------------------------------
+# -----------------------------
 # PARSEAR ITEMS DESDE WIKITEXT
-# ---------------------------------------------------------
-def parse_items_from_wikitext(wikitext, section_name):
+# -----------------------------
+def parse_items(wikitext, section):
     items = []
 
-    pattern_section = rf"==+\s*{section_name}\s*\(?.*?\)?\s*==+"
-    parts = re.split(pattern_section, wikitext, flags=re.IGNORECASE)
-
-    if len(parts) < 2:
+    # Buscar sección
+    sec = re.split(r"==+\s*" + section + r".*?==+", wikitext, flags=re.IGNORECASE)
+    if len(sec) < 2:
         return items
 
-    content = parts[1]
-    content = re.split(r"\n==+", content)[0]
+    block = sec[1]
+    block = re.split(r"\n==+", block)[0]
 
-    pattern_item = r"\*\s*([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)"
+    # Patrón simple y corto
+    pat = r"\*\s*([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)"
 
-    for qty, name, price in re.findall(pattern_item, content):
+    for qty, name, price in re.findall(pat, block):
         items.append({
-            "item": clean_item_name(name),
+            "item": clean_name(name),
             "qty": float(qty),
             "price": int(price.replace(",", ""))
         })
@@ -117,30 +107,28 @@ def parse_items_from_wikitext(wikitext, section_name):
     return items
 
 
-# ---------------------------------------------------------
-# EXTRAER WIKITEXT REAL
-# ---------------------------------------------------------
-def get_wikitext(page_title):
+# -----------------------------
+# OBTENER WIKITEXT
+# -----------------------------
+def get_wikitext(title):
     params = {
         "action": "parse",
-        "page": page_title,
+        "page": title,
         "prop": "wikitext",
         "format": "json"
     }
-    print(f"Fetching wikitext: {page_title}")
-    resp = requests.get(API_URL, params=params, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
-    resp.raise_for_status()
-    data = resp.json()
-
+    r = requests.get(API, params=params, headers={"User-Agent": "OSRS-Scraper"})
+    r.raise_for_status()
+    data = r.json()
     try:
         return data["parse"]["wikitext"]["*"]
     except:
         return ""
 
 
-# ---------------------------------------------------------
-# EXTRAER RATE REAL
-# ---------------------------------------------------------
+# -----------------------------
+# EXTRAER RATE
+# -----------------------------
 def extract_rate(wikitext):
     m = re.search(r"([\d,]+)\s*per hour", wikitext, re.IGNORECASE)
     if m:
@@ -148,88 +136,82 @@ def extract_rate(wikitext):
     return None
 
 
-# ---------------------------------------------------------
+# -----------------------------
 # PARSEAR MÉTODO COMPLETO
-# ---------------------------------------------------------
-def parse_method_page(url):
-    print(f"\nParseando método: {url}")
-
+# -----------------------------
+def parse_method(url):
+    print("Parseando:", url)
     title = url.split("/")[-1]
-    page_title = f"Money_making_guide/{title}"
+    page = "Money_making_guide/" + title
 
-    wikitext = get_wikitext(page_title)
-
+    wikitext = get_wikitext(page)
     if not wikitext:
-        print("No wikitext encontrado.")
         return None
 
-    inputs = parse_items_from_wikitext(wikitext, "Inputs")
-    outputs = parse_items_from_wikitext(wikitext, "Outputs")
-    wiki_rate = extract_rate(wikitext)
+    inputs = parse_items(wikitext, "Inputs")
+    outputs = parse_items(wikitext, "Outputs")
+    rate = extract_rate(wikitext)
 
-    if not inputs and not outputs and not wiki_rate:
+    if not inputs and not outputs and not rate:
         return None
 
     return {
         "name": title.replace("_", " "),
         "url": url,
-        "wiki_rate": wiki_rate,
+        "wiki_rate": rate,
         "inputs": inputs,
         "outputs": outputs,
         "wikitext": wikitext
     }
 
 
-# ---------------------------------------------------------
+# -----------------------------
 # GE LIMITS
-# ---------------------------------------------------------
-def get_ge_limits():
-    print("\nDescargando GE limits...")
-    resp = requests.get(MAPPING_API, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
-    resp.raise_for_status()
-    data = resp.json()
+# -----------------------------
+def get_limits():
+    print("Descargando GE limits...")
+    r = requests.get(MAP, headers={"User-Agent": "OSRS-Scraper"})
+    r.raise_for_status()
+    data = r.json()
 
-    limits = {}
+    out = {}
     for item in data:
         name = item.get("name")
-        item_id = item.get("id")
-        limit = item.get("limit")
-        if name and item_id:
-            limits[name] = {"id": item_id, "limit": limit}
+        iid = item.get("id")
+        lim = item.get("limit")
+        if name and iid:
+            out[name] = {"id": iid, "limit": lim}
 
-    return limits
+    return out
 
 
-# ---------------------------------------------------------
+# -----------------------------
 # MAIN
-# ---------------------------------------------------------
+# -----------------------------
 def main():
-    method_urls = get_all_method_pages()
-    ge_limits = get_ge_limits()
+    urls = get_all_methods()
+    limits = get_limits()
 
     methods = []
-    total = len(method_urls)
-
-    for i, url in enumerate(method_urls, start=1):
-        print(f"[{i}/{total}] {url}")
+    for i, url in enumerate(urls, start=1):
+        print(f"[{i}/{len(urls)}]")
         try:
-            m = parse_method_page(url)
+            m = parse_method(url)
             if m:
                 methods.append(m)
         except Exception as e:
-            print(f"Error parseando {url}: {e}")
+            print("Error:", e)
 
-    output = {
+    out = {
         "updated": datetime.utcnow().isoformat() + "Z",
         "methods": methods,
-        "ge_limits": ge_limits,
+        "ge_limits": limits
     }
 
     with open("money_methods.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(out, f, indent=2, ensure_ascii=False)
 
-    print("\nmoney_methods.json generado correctamente.")
-    print(f"Métodos válidos: {len(methods)}")
+    print("JSON generado:", len(methods), "métodos válidos.")
 
 
 if __name__ == "__main__":
