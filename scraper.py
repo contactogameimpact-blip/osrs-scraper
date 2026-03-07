@@ -22,6 +22,7 @@ def fetch(url):
 def get_all_methods():
     urls = []
     page = 0
+
     blacklist = {
         "Money making guide/Combat",
         "Money making guide/Skilling",
@@ -61,48 +62,78 @@ def get_all_methods():
 
 
 # -----------------------------
-# LIMPIAR NOMBRE DE ITEM
+# LIMPIAR NOMBRE DE ITEM (SIN REGEX LARGAS)
 # -----------------------------
 def clean_name(x):
     x = x.strip()
-    x = re.sub(r"
 
-\[
+    # quitar [[ ]]
+    if "[[" in x and "]]" in x:
+        x = x.replace("[[", "")
+        x = x.replace("]]", "")
 
-\[(.*?)\]
-
-\]
-
-", r"\1", x)
+    # quitar alias con |
     if "|" in x:
-        x = x.split("|")[-1]
-    x = x.replace("[[", "").replace("]]", "")
+        parts = x.split("|")
+        x = parts[-1]
+
     return x.strip()
 
 
 # -----------------------------
-# PARSEAR ITEMS DESDE WIKITEXT
+# PARSEAR ITEMS DESDE WIKITEXT (SIN REGEX LARGAS)
 # -----------------------------
 def parse_items(wikitext, section):
     items = []
 
-    # Buscar sección
-    sec = re.split(r"==+\s*" + section + r".*?==+", wikitext, flags=re.IGNORECASE)
-    if len(sec) < 2:
+    # dividir por secciones
+    sec_marker = "==" + section
+    parts = wikitext.split(sec_marker)
+    if len(parts) < 2:
         return items
 
-    block = sec[1]
-    block = re.split(r"\n==+", block)[0]
+    block = parts[1]
 
-    # Patrón simple y corto
-    pat = r"\*\s*([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)"
+    # cortar antes de la siguiente sección
+    block = block.split("\n==")[0]
 
-    for qty, name, price in re.findall(pat, block):
-        items.append({
-            "item": clean_name(name),
-            "qty": float(qty),
-            "price": int(price.replace(",", ""))
-        })
+    # procesar línea por línea
+    lines = block.split("\n")
+
+    for line in lines:
+        line = line.strip()
+        if not line.startswith("*"):
+            continue
+
+        # ejemplo:
+        # * 4 × [[Redwood logs]] (3,200)
+
+        if "×" not in line:
+            continue
+        if "(" not in line or ")" not in line:
+            continue
+
+        try:
+            # cantidad
+            qty_part = line.split("×")[0].replace("*", "").strip()
+            qty = float(qty_part)
+
+            # nombre
+            name_part = line.split("×")[1].split("(")[0].strip()
+            name = clean_name(name_part)
+
+            # precio
+            price_part = line.split("(")[1].split(")")[0]
+            price = int(price_part.replace(",", "").strip())
+
+            items.append({
+                "item": name,
+                "qty": qty,
+                "price": price
+            })
+
+        except:
+            continue
 
     return items
 
@@ -117,9 +148,11 @@ def get_wikitext(title):
         "prop": "wikitext",
         "format": "json"
     }
+    print("Fetching wikitext:", title)
     r = requests.get(API, params=params, headers={"User-Agent": "OSRS-Scraper"})
     r.raise_for_status()
     data = r.json()
+
     try:
         return data["parse"]["wikitext"]["*"]
     except:
@@ -127,12 +160,15 @@ def get_wikitext(title):
 
 
 # -----------------------------
-# EXTRAER RATE
+# EXTRAER RATE (SIN REGEX LARGAS)
 # -----------------------------
 def extract_rate(wikitext):
-    m = re.search(r"([\d,]+)\s*per hour", wikitext, re.IGNORECASE)
-    if m:
-        return int(m.group(1).replace(",", ""))
+    lines = wikitext.split("\n")
+    for line in lines:
+        if "per hour" in line.lower():
+            nums = "".join([c for c in line if c.isdigit() or c == ","])
+            if nums:
+                return int(nums.replace(",", ""))
     return None
 
 
@@ -141,6 +177,7 @@ def extract_rate(wikitext):
 # -----------------------------
 def parse_method(url):
     print("Parseando:", url)
+
     title = url.split("/")[-1]
     page = "Money_making_guide/" + title
 
@@ -193,8 +230,10 @@ def main():
     limits = get_limits()
 
     methods = []
+    total = len(urls)
+
     for i, url in enumerate(urls, start=1):
-        print(f"[{i}/{len(urls)}]")
+        print(f"[{i}/{total}]")
         try:
             m = parse_method(url)
             if m:
