@@ -44,7 +44,6 @@ def get_all_method_pages():
 
         category_div = soup.find("div", class_="mw-category-generated")
         if not category_div:
-            print("No hay más páginas.")
             break
 
         links = category_div.find_all("a")
@@ -63,8 +62,6 @@ def get_all_method_pages():
                     method_urls.append(full_url)
                     nuevos += 1
 
-        print(f"Página {page}: {nuevos} métodos nuevos.")
-
         if nuevos == 0:
             break
 
@@ -79,7 +76,6 @@ def get_all_method_pages():
 # ---------------------------------------------------------
 def clean_item_name(raw):
     raw = raw.strip()
-    # Quitar [[...]]
     raw = re.sub(r"
 
 \[
@@ -88,39 +84,30 @@ def clean_item_name(raw):
 
 \]
 
-", r"\1", raw)
-    # Si hay alias con |, quedarse con la parte visible
-    raw = raw.split("|")[-1]
-    # Limpiar corchetes sueltos por si acaso
+", r"\1", raw)  # remove [[ ]]
+    raw = raw.split("|")[-1]  # remove alias
     raw = raw.replace("[[", "").replace("]]", "")
     return raw.strip()
 
 
 # ---------------------------------------------------------
-# PARSEAR ITEMS DESDE WIKITEXT (SECCIÓN)
+# PARSEAR ITEMS DESDE WIKITEXT
 # ---------------------------------------------------------
 def parse_items_from_wikitext(wikitext, section_name):
     items = []
 
-    # Buscar sección tipo "== Inputs (3,534) ==", "=== Inputs ===", etc.
     pattern_section = rf"==+\s*{section_name}\s*\(?.*?\)?\s*==+"
     parts = re.split(pattern_section, wikitext, flags=re.IGNORECASE)
 
     if len(parts) < 2:
         return items
 
-    # Tomar el contenido después del título de la sección
     content = parts[1]
-
-    # Cortar antes de la siguiente sección grande (== Algo ==)
     content = re.split(r"\n==+", content)[0]
 
-    # Líneas tipo:
-    # * 4 × [[Redwood logs]] (3,200)
     pattern_item = r"\*\s*([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)"
 
-    for match in re.findall(pattern_item, content):
-        qty, name, price = match
+    for qty, name, price in re.findall(pattern_item, content):
         items.append({
             "item": clean_item_name(name),
             "qty": float(qty),
@@ -147,13 +134,12 @@ def get_wikitext(page_title):
 
     try:
         return data["parse"]["wikitext"]["*"]
-    except Exception as e:
-        print(f"Error obteniendo wikitext para {page_title}: {e}")
+    except:
         return ""
 
 
 # ---------------------------------------------------------
-# EXTRAER RATE REAL DESDE WIKITEXT
+# EXTRAER RATE REAL
 # ---------------------------------------------------------
 def extract_rate(wikitext):
     m = re.search(r"([\d,]+)\s*per hour", wikitext, re.IGNORECASE)
@@ -168,29 +154,20 @@ def extract_rate(wikitext):
 def parse_method_page(url):
     print(f"\nParseando método: {url}")
 
-    # Título de la página (parte final de la URL)
-    title = url.split("/")[-1]  # Money_making_guide/Bird_house_trapping -> Bird_house_trapping
-
-    # Nombre completo de la página en la wiki
+    title = url.split("/")[-1]
     page_title = f"Money_making_guide/{title}"
 
-    # Obtener wikitext real
     wikitext = get_wikitext(page_title)
 
     if not wikitext:
-        print("No wikitext encontrado, se omite.")
+        print("No wikitext encontrado.")
         return None
 
-    # Inputs y outputs desde wikitext
     inputs = parse_items_from_wikitext(wikitext, "Inputs")
     outputs = parse_items_from_wikitext(wikitext, "Outputs")
-
-    # Rate
     wiki_rate = extract_rate(wikitext)
 
-    # Si no hay nada útil, descartar
     if not inputs and not outputs and not wiki_rate:
-        print("Sin inputs/outputs/rate, se omite.")
         return None
 
     return {
@@ -220,7 +197,6 @@ def get_ge_limits():
         if name and item_id:
             limits[name] = {"id": item_id, "limit": limit}
 
-    print(f"GE limits cargados: {len(limits)} items.")
     return limits
 
 
