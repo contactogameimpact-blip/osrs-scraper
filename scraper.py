@@ -11,7 +11,6 @@ MAPPING_API = "https://prices.runescape.wiki/api/v1/osrs/mapping"
 
 
 def fetch(url):
-    """Descarga una URL con un pequeño delay para no abusar de la wiki."""
     print(f"Fetching: {url}")
     resp = requests.get(url, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
     resp.raise_for_status()
@@ -20,16 +19,21 @@ def fetch(url):
 
 
 # ---------------------------------------------------------
-# 🔥 CRAWLER NUEVO — SIN BUCLES + FILTRO DE CATEGORÍAS
+# CRAWLER SEGURO + FILTRO DE CATEGORÍAS
 # ---------------------------------------------------------
 def get_all_method_pages():
-    """
-    Recorre la categoría Money_making_guides con paginación real.
-    Filtra páginas que NO son métodos reales.
-    """
     method_urls = []
     page = 0
-    max_pages = 20  # límite de seguridad
+    max_pages = 20
+
+    blacklist = {
+        "Money making guide/Combat",
+        "Money making guide/Skilling",
+        "Money making guide/Recurring",
+        "Money making guide/Collecting",
+        "Money making guide/Processing",
+        "Money making guide/Guides"
+    }
 
     while page < max_pages:
         url = CATEGORY_URL if page == 0 else f"{CATEGORY_URL}?page={page}"
@@ -39,7 +43,7 @@ def get_all_method_pages():
 
         category_div = soup.find("div", class_="mw-category-generated")
         if not category_div:
-            print("No hay más páginas de categoría. Fin del crawler.")
+            print("No hay más páginas.")
             break
 
         links = category_div.find_all("a")
@@ -49,18 +53,9 @@ def get_all_method_pages():
             title = a.get("title", "")
             href = a.get("href", "")
 
-            # ❌ Filtrar categorías internas
-            if title in [
-                "Money making guide/Combat",
-                "Money making guide/Skilling",
-                "Money making guide/Recurring",
-                "Money making guide/Collecting",
-                "Money making guide/Processing",
-                "Money making guide/Guides"
-            ]:
+            if title in blacklist:
                 continue
 
-            # ✔ Solo métodos reales
             if "Money making guide/" in title:
                 full_url = BASE_WIKI + href
                 if full_url not in method_urls:
@@ -70,7 +65,6 @@ def get_all_method_pages():
         print(f"Página {page}: {nuevos} métodos nuevos.")
 
         if nuevos == 0:
-            print("No se encontraron métodos nuevos. Fin del crawler.")
             break
 
         page += 1
@@ -80,58 +74,35 @@ def get_all_method_pages():
 
 
 # ---------------------------------------------------------
-# PARSER DE ITEMS
+# PARSER DE LISTAS (Inputs/Outputs)
 # ---------------------------------------------------------
-def parse_items_table(table):
+def parse_list_items(lines):
     items = []
-    rows = table.find_all("tr")
-    for row in rows[1:]:
-        cols = row.find_all(["td", "th"])
-        if not cols:
-            continue
+    pattern = r"([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)"
 
-        link = cols[0].find("a")
-        if not link:
-            continue
-
-        item_name = link.get("title") or link.text.strip()
-        if not item_name:
-            continue
-
-        qty = 1
-        if len(cols) > 1:
-            text = cols[1].get_text(strip=True)
-            m = re.search(r"(\d+)", text.replace(",", ""))
-            if m:
-                qty = int(m.group(1))
-
-        items.append({"item": item_name, "qty": qty})
+    for line in lines:
+        m = re.search(pattern, line)
+        if m:
+            qty = float(m.group(1))
+            name = m.group(2).strip()
+            price = int(m.group(3).replace(",", ""))
+            items.append({"item": name, "qty": qty, "price": price})
 
     return items
 
 
 # ---------------------------------------------------------
-# EXTRACCIÓN DE RATE
+# EXTRACCIÓN DE RATE REAL
 # ---------------------------------------------------------
 def extract_rate(text):
-    patterns = [
-        r"(\d[\d,]*)\s*(?:items|actions)?\s*(?:per hour|/hour|per hr|/hr)",
-        r"(\d[\d,]*)\s*gp\s*(?:per hour|/hour|per hr|/hr)",
-    ]
-
-    for pat in patterns:
-        m = re.search(pat, text, re.IGNORECASE)
-        if m:
-            try:
-                return int(m.group(1).replace(",", ""))
-            except ValueError:
-                continue
-
+    m = re.search(r"([\d,]+)\s*per hour", text, re.IGNORECASE)
+    if m:
+        return int(m.group(1).replace(",", ""))
     return None
 
 
 # ---------------------------------------------------------
-# PARSER DE MÉTODOS (CON FILTRO)
+# PARSER DE MÉTODOS (INTELIGENTE)
 # ---------------------------------------------------------
 def parse_method_page(url):
     print(f"Parseando método: {url}")
@@ -144,40 +115,46 @@ def parse_method_page(url):
     page_text = soup.get_text(" ", strip=True)
     members = "Members only" in page_text or "members-only" in page_text.lower()
 
+    # Categoría
     category = None
     cat_links = soup.find("div", id="mw-normal-catlinks")
     if cat_links:
-        cats = [a.get_text(strip=True) for a in cat_links.find_all("a")]
-        for c in cats:
-            lc = c.lower()
-            if "combat" in lc or "boss" in lc:
-                category = "combat"
-                break
-            if "skilling" in lc:
-                category = "skilling"
-                break
-            if "processing" in lc or "crafting" in lc or "cooking" in lc:
-                category = "processing"
-                break
+        cats = [a.get_text(strip=True).lower() for a in cat_links.find_all("a")]
+        if any("combat" in c for c in cats):
+            category = "combat"
+        elif any("skilling" in c for c in cats):
+            category = "skilling"
+        elif any("processing" in c for c in cats):
+            category = "processing"
 
-    inputs = []
-    outputs = []
+    # Buscar secciones Inputs / Outputs
+    text_blocks = soup.get_text("\n", strip=True).split("\n")
 
-    tables = soup.find_all("table", class_="wikitable")
-    for table in tables:
-        caption = table.find("caption")
-        caption_text = caption.get_text(strip=True).lower() if caption else ""
+    inputs_section = []
+    outputs_section = []
+    current = None
 
-        if "items required" in caption_text or "requirements" in caption_text:
-            inputs = parse_items_table(table)
-        if "items produced" in caption_text or "output" in caption_text:
-            outputs = parse_items_table(table)
+    for line in text_blocks:
+        if line.lower().startswith("inputs"):
+            current = "inputs"
+            continue
+        if line.lower().startswith("outputs"):
+            current = "outputs"
+            continue
+
+        if current == "inputs":
+            inputs_section.append(line)
+        elif current == "outputs":
+            outputs_section.append(line)
+
+    inputs = parse_list_items(inputs_section)
+    outputs = parse_list_items(outputs_section)
 
     wiki_rate = extract_rate(page_text)
 
-    # ❌ FILTRO: descartar páginas vacías
+    # FILTRO: si no tiene nada útil, descartar
     if not inputs and not outputs and not wiki_rate:
-        print("Página descartada (vacía o no es método real).")
+        print("Página descartada (vacía).")
         return None
 
     return {
@@ -195,7 +172,7 @@ def parse_method_page(url):
 # GE LIMITS
 # ---------------------------------------------------------
 def get_ge_limits():
-    print("\nDescargando mapping de GE limits...")
+    print("\nDescargando GE limits...")
     resp = requests.get(MAPPING_API, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
     resp.raise_for_status()
     data = resp.json()
@@ -224,7 +201,7 @@ def main():
         print(f"[{i}/{len(method_urls)}]")
         try:
             m = parse_method_page(url)
-            if m:  # ✔ solo agregar métodos reales
+            if m:
                 methods.append(m)
         except Exception as e:
             print(f"Error parseando {url}: {e}")
