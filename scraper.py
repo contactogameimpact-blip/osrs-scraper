@@ -74,7 +74,7 @@ def get_all_method_pages():
 
 
 # ---------------------------------------------------------
-# PARSER DE LISTAS (Inputs/Outputs)
+# PARSER DE ITEMS (Inputs/Outputs)
 # ---------------------------------------------------------
 def parse_list_items(lines):
     items = []
@@ -112,7 +112,7 @@ def parse_method_page(url):
     title_el = soup.find("h1", id="firstHeading")
     name = title_el.get_text(strip=True) if title_el else url
 
-    page_text = soup.get_text(" ", strip=True)
+    page_text = soup.get_text("\n", strip=True)
     members = "Members only" in page_text or "members-only" in page_text.lower()
 
     # Categoría
@@ -127,28 +127,35 @@ def parse_method_page(url):
         elif any("processing" in c for c in cats):
             category = "processing"
 
-    # Buscar secciones Inputs / Outputs
-    text_blocks = soup.get_text("\n", strip=True).split("\n")
+    # Extraer secciones Inputs / Outputs
+    lines = page_text.split("\n")
 
-    inputs_section = []
-    outputs_section = []
+    inputs_raw = []
+    outputs_raw = []
+
     current = None
 
-    for line in text_blocks:
-        if line.lower().startswith("inputs"):
+    for line in lines:
+        clean = line.strip()
+
+        if clean.lower().startswith("inputs"):
             current = "inputs"
             continue
-        if line.lower().startswith("outputs"):
+        if clean.lower().startswith("outputs"):
             current = "outputs"
             continue
 
         if current == "inputs":
-            inputs_section.append(line)
+            inputs_raw.append(clean)
         elif current == "outputs":
-            outputs_section.append(line)
+            outputs_raw.append(clean)
 
-    inputs = parse_list_items(inputs_section)
-    outputs = parse_list_items(outputs_section)
+    # Limpiar líneas vacías
+    inputs_raw = [l for l in inputs_raw if "×" in l]
+    outputs_raw = [l for l in outputs_raw if "×" in l]
+
+    inputs = parse_list_items(inputs_raw)
+    outputs = parse_list_items(outputs_raw)
 
     wiki_rate = extract_rate(page_text)
 
