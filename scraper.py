@@ -15,67 +15,66 @@ def fetch(url):
     print(f"Fetching: {url}")
     resp = requests.get(url, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
     resp.raise_for_status()
-    time.sleep(1)  # ser amable con la wiki
+    time.sleep(0.3)  # más rápido pero respetuoso
     return resp.text
 
 
+# ---------------------------------------------------------
+# 🔥 CRAWLER NUEVO — SIN BUCLES INFINITOS
+# ---------------------------------------------------------
 def get_all_method_pages():
     """
-    Recorre TODAS las páginas de la categoría:
-    Category:Money_making_guides
-    incluyendo paginación (?page=1,2,3...)
-    y devuelve una lista de URLs de métodos.
+    Recorre la categoría Money_making_guides con paginación real.
+    La wiki usa 'mw-category-generated' para listar páginas.
+    Este crawler:
+    - detecta el final correctamente
+    - evita bucles infinitos
+    - limita a 20 páginas por seguridad
     """
     method_urls = []
     page = 0
+    max_pages = 20  # límite de seguridad
 
-    while True:
-        if page == 0:
-            url = CATEGORY_URL
-        else:
-            url = f"{CATEGORY_URL}?page={page}"
-
+    while page < max_pages:
+        url = CATEGORY_URL if page == 0 else f"{CATEGORY_URL}?page={page}"
+        print(f"\n=== Página de categoría {page} ===")
         html = fetch(url)
         soup = BeautifulSoup(html, "html.parser")
 
-        # Lista de páginas en la categoría
-        pages_div = soup.find("div", class_="mw-category")
-        if not pages_div:
-            # No hay más páginas
+        category_div = soup.find("div", class_="mw-category-generated")
+        if not category_div:
+            print("No hay más páginas de categoría. Fin del crawler.")
             break
 
-        links = pages_div.find_all("a")
-        count_before = len(method_urls)
+        links = category_div.find_all("a")
+        nuevos = 0
 
         for a in links:
-            href = a.get("href", "")
             title = a.get("title", "")
+            href = a.get("href", "")
 
-            # Filtrar solo páginas de money making guide
             if "Money making guide/" in title:
                 full_url = BASE_WIKI + href
                 if full_url not in method_urls:
                     method_urls.append(full_url)
+                    nuevos += 1
 
-        count_after = len(method_urls)
-        print(f"Página {page}: encontrados {count_after - count_before} métodos nuevos.")
+        print(f"Página {page}: {nuevos} métodos nuevos.")
 
-        # Ver si hay enlace a la siguiente página
-        next_link = soup.find("a", string=re.compile(r"next page", re.IGNORECASE))
-        if not next_link:
+        if nuevos == 0:
+            print("No se encontraron métodos nuevos. Fin del crawler.")
             break
 
         page += 1
 
-    print(f"Total métodos encontrados: {len(method_urls)}")
+    print(f"\nTotal métodos encontrados: {len(method_urls)}")
     return method_urls
 
 
+# ---------------------------------------------------------
+# PARSER DE ITEMS
+# ---------------------------------------------------------
 def parse_items_table(table):
-    """
-    Intenta extraer items y cantidades de una tabla de la wiki.
-    Busca filas con enlaces a items y cantidades en columnas.
-    """
     items = []
     rows = table.find_all("tr")
     for row in rows[1:]:
@@ -83,7 +82,6 @@ def parse_items_table(table):
         if not cols:
             continue
 
-        # Buscar enlace al item
         link = cols[0].find("a")
         if not link:
             continue
@@ -92,7 +90,6 @@ def parse_items_table(table):
         if not item_name:
             continue
 
-        # Intentar encontrar cantidad en la segunda columna
         qty = 1
         if len(cols) > 1:
             text = cols[1].get_text(strip=True)
@@ -105,13 +102,10 @@ def parse_items_table(table):
     return items
 
 
+# ---------------------------------------------------------
+# EXTRACCIÓN DE RATE
+# ---------------------------------------------------------
 def extract_rate(text):
-    """
-    Intenta encontrar un número 'por hora' en el texto de la página.
-    Ej: '2450 items per hour', '400k gp/hr', etc.
-    Devuelve un número aproximado o None.
-    """
-    # Buscar patrones tipo '2450 ... per hour' o '2450 .../hour'
     patterns = [
         r"(\d[\d,]*)\s*(?:items|actions)?\s*(?:per hour|/hour|per hr|/hr)",
         r"(\d[\d,]*)\s*gp\s*(?:per hour|/hour|per hr|/hr)",
@@ -128,34 +122,24 @@ def extract_rate(text):
     return None
 
 
+# ---------------------------------------------------------
+# PARSER DE MÉTODOS
+# ---------------------------------------------------------
 def parse_method_page(url):
-    """
-    Parsea una página individual de money making guide.
-    Extrae:
-    - name
-    - members (best effort)
-    - category (best effort)
-    - wiki_rate
-    - inputs
-    - outputs
-    """
+    print(f"Parseando método: {url}")
     html = fetch(url)
     soup = BeautifulSoup(html, "html.parser")
 
-    # Nombre del método
     title_el = soup.find("h1", id="firstHeading")
     name = title_el.get_text(strip=True) if title_el else url
 
-    # Miembro o no (best effort: buscar 'Members only' en la página)
     page_text = soup.get_text(" ", strip=True)
     members = "Members only" in page_text or "members-only" in page_text.lower()
 
-    # Categoría (best effort: leer categorías al final de la página)
     category = None
     cat_links = soup.find("div", id="mw-normal-catlinks")
     if cat_links:
         cats = [a.get_text(strip=True) for a in cat_links.find_all("a")]
-        # Ejemplos de categorías que nos interesan
         for c in cats:
             lc = c.lower()
             if "combat" in lc or "boss" in lc:
@@ -168,11 +152,9 @@ def parse_method_page(url):
                 category = "processing"
                 break
 
-    # Tablas de inputs / outputs
     inputs = []
     outputs = []
 
-    # Buscar tablas con títulos tipo 'Items required', 'Items produced'
     tables = soup.find_all("table", class_="wikitable")
     for table in tables:
         caption = table.find("caption")
@@ -183,7 +165,6 @@ def parse_method_page(url):
         if "items produced" in caption_text or "output" in caption_text:
             outputs = parse_items_table(table)
 
-    # Rate aproximado
     wiki_rate = extract_rate(page_text)
 
     return {
@@ -197,13 +178,11 @@ def parse_method_page(url):
     }
 
 
+# ---------------------------------------------------------
+# GE LIMITS
+# ---------------------------------------------------------
 def get_ge_limits():
-    """
-    Descarga el mapping de la API de precios y construye
-    un diccionario:
-    { "Item name": { "id": ..., "limit": ... }, ... }
-    """
-    print("Descargando mapping de GE limits...")
+    print("\nDescargando mapping de GE limits...")
     resp = requests.get(MAPPING_API, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
     resp.raise_for_status()
     data = resp.json()
@@ -214,33 +193,28 @@ def get_ge_limits():
         item_id = item.get("id")
         limit = item.get("limit")
         if name and item_id:
-            limits[name] = {
-                "id": item_id,
-                "limit": limit,
-            }
+            limits[name] = {"id": item_id, "limit": limit}
 
     print(f"GE limits cargados: {len(limits)} items.")
     return limits
 
 
+# ---------------------------------------------------------
+# MAIN
+# ---------------------------------------------------------
 def main():
-    # 1) Descubrir todos los métodos
     method_urls = get_all_method_pages()
-
-    # 2) Descargar GE limits una sola vez
     ge_limits = get_ge_limits()
 
-    # 3) Parsear cada método
     methods = []
     for i, url in enumerate(method_urls, start=1):
-        print(f"[{i}/{len(method_urls)}] Parseando método: {url}")
+        print(f"[{i}/{len(method_urls)}]")
         try:
             m = parse_method_page(url)
             methods.append(m)
         except Exception as e:
             print(f"Error parseando {url}: {e}")
 
-    # 4) Construir JSON final
     output = {
         "updated": datetime.utcnow().isoformat() + "Z",
         "methods": methods,
@@ -250,7 +224,7 @@ def main():
     with open("money_methods.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print("money_methods.json generado correctamente.")
+    print("\nmoney_methods.json generado correctamente.")
 
 
 if __name__ == "__main__":
