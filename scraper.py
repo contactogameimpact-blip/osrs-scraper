@@ -43,7 +43,6 @@ def get_all_method_pages():
 
         category_div = soup.find("div", class_="mw-category-generated")
         if not category_div:
-            print("No hay más páginas.")
             break
 
         links = category_div.find_all("a")
@@ -62,8 +61,6 @@ def get_all_method_pages():
                     method_urls.append(full_url)
                     nuevos += 1
 
-        print(f"Página {page}: {nuevos} métodos nuevos.")
-
         if nuevos == 0:
             break
 
@@ -74,14 +71,38 @@ def get_all_method_pages():
 
 
 # ---------------------------------------------------------
-# PARSER DE ITEMS (Inputs/Outputs)
+# PARSER DE ITEMS DESDE TEXTO
 # ---------------------------------------------------------
-def parse_list_items(lines):
+def parse_items_from_text(lines):
     items = []
     pattern = r"([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)"
 
     for line in lines:
         m = re.search(pattern, line)
+        if m:
+            qty = float(m.group(1))
+            name = m.group(2).strip()
+            price = int(m.group(3).replace(",", ""))
+            items.append({"item": name, "qty": qty, "price": price})
+
+    return items
+
+
+# ---------------------------------------------------------
+# PARSER DE ITEMS DESDE TABLAS
+# ---------------------------------------------------------
+def parse_items_from_table(table):
+    items = []
+    rows = table.find_all("tr")
+
+    for row in rows:
+        cols = row.find_all("td")
+        if not cols:
+            continue
+
+        text = cols[0].get_text(" ", strip=True)
+
+        m = re.search(r"([\d\.]+)\s*×\s*(.*?)\s*\(([\d,]+)\)", text)
         if m:
             qty = float(m.group(1))
             name = m.group(2).strip()
@@ -102,7 +123,7 @@ def extract_rate(text):
 
 
 # ---------------------------------------------------------
-# PARSER DE MÉTODOS (INTELIGENTE)
+# PARSER DE MÉTODOS (TABLAS + TEXTO)
 # ---------------------------------------------------------
 def parse_method_page(url):
     print(f"Parseando método: {url}")
@@ -127,41 +148,62 @@ def parse_method_page(url):
         elif any("processing" in c for c in cats):
             category = "processing"
 
-    # Extraer secciones Inputs / Outputs
-    lines = page_text.split("\n")
+    # -----------------------------
+    # 1) BUSCAR TABLAS DE INPUTS/OUTPUTS
+    # -----------------------------
+    inputs = []
+    outputs = []
 
-    inputs_raw = []
-    outputs_raw = []
+    tables = soup.find_all("table", class_="wikitable")
 
-    current = None
-
-    for line in lines:
-        clean = line.strip()
-
-        if clean.lower().startswith("inputs"):
-            current = "inputs"
-            continue
-        if clean.lower().startswith("outputs"):
-            current = "outputs"
+    for table in tables:
+        th = table.find("th")
+        if not th:
             continue
 
-        if current == "inputs":
-            inputs_raw.append(clean)
-        elif current == "outputs":
-            outputs_raw.append(clean)
+        title = th.get_text(strip=True).lower()
 
-    # Limpiar líneas vacías
-    inputs_raw = [l for l in inputs_raw if "×" in l]
-    outputs_raw = [l for l in outputs_raw if "×" in l]
+        if "inputs" in title:
+            inputs = parse_items_from_table(table)
 
-    inputs = parse_list_items(inputs_raw)
-    outputs = parse_list_items(outputs_raw)
+        if "outputs" in title:
+            outputs = parse_items_from_table(table)
+
+    # -----------------------------
+    # 2) SI NO HAY TABLAS, USAR TEXTO
+    # -----------------------------
+    if not inputs or not outputs:
+        lines = page_text.split("\n")
+
+        inputs_raw = []
+        outputs_raw = []
+        current = None
+
+        for line in lines:
+            clean = line.strip()
+
+            if clean.lower().startswith("inputs"):
+                current = "inputs"
+                continue
+            if clean.lower().startswith("outputs"):
+                current = "outputs"
+                continue
+
+            if current == "inputs":
+                inputs_raw.append(clean)
+            elif current == "outputs":
+                outputs_raw.append(clean)
+
+        if not inputs:
+            inputs = parse_items_from_text(inputs_raw)
+
+        if not outputs:
+            outputs = parse_items_from_text(outputs_raw)
 
     wiki_rate = extract_rate(page_text)
 
-    # FILTRO: si no tiene nada útil, descartar
+    # FILTRO
     if not inputs and not outputs and not wiki_rate:
-        print("Página descartada (vacía).")
         return None
 
     return {
@@ -192,7 +234,6 @@ def get_ge_limits():
         if name and item_id:
             limits[name] = {"id": item_id, "limit": limit}
 
-    print(f"GE limits cargados: {len(limits)} items.")
     return limits
 
 
