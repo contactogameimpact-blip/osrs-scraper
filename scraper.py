@@ -15,21 +15,17 @@ def fetch(url):
     print(f"Fetching: {url}")
     resp = requests.get(url, headers={"User-Agent": "OSRS-Money-Methods-Scraper"})
     resp.raise_for_status()
-    time.sleep(0.3)  # más rápido pero respetuoso
+    time.sleep(0.3)
     return resp.text
 
 
 # ---------------------------------------------------------
-# 🔥 CRAWLER NUEVO — SIN BUCLES INFINITOS
+# 🔥 CRAWLER NUEVO — SIN BUCLES + FILTRO DE CATEGORÍAS
 # ---------------------------------------------------------
 def get_all_method_pages():
     """
     Recorre la categoría Money_making_guides con paginación real.
-    La wiki usa 'mw-category-generated' para listar páginas.
-    Este crawler:
-    - detecta el final correctamente
-    - evita bucles infinitos
-    - limita a 20 páginas por seguridad
+    Filtra páginas que NO son métodos reales.
     """
     method_urls = []
     page = 0
@@ -53,6 +49,18 @@ def get_all_method_pages():
             title = a.get("title", "")
             href = a.get("href", "")
 
+            # ❌ Filtrar categorías internas
+            if title in [
+                "Money making guide/Combat",
+                "Money making guide/Skilling",
+                "Money making guide/Recurring",
+                "Money making guide/Collecting",
+                "Money making guide/Processing",
+                "Money making guide/Guides"
+            ]:
+                continue
+
+            # ✔ Solo métodos reales
             if "Money making guide/" in title:
                 full_url = BASE_WIKI + href
                 if full_url not in method_urls:
@@ -123,7 +131,7 @@ def extract_rate(text):
 
 
 # ---------------------------------------------------------
-# PARSER DE MÉTODOS
+# PARSER DE MÉTODOS (CON FILTRO)
 # ---------------------------------------------------------
 def parse_method_page(url):
     print(f"Parseando método: {url}")
@@ -166,6 +174,11 @@ def parse_method_page(url):
             outputs = parse_items_table(table)
 
     wiki_rate = extract_rate(page_text)
+
+    # ❌ FILTRO: descartar páginas vacías
+    if not inputs and not outputs and not wiki_rate:
+        print("Página descartada (vacía o no es método real).")
+        return None
 
     return {
         "name": name,
@@ -211,7 +224,8 @@ def main():
         print(f"[{i}/{len(method_urls)}]")
         try:
             m = parse_method_page(url)
-            methods.append(m)
+            if m:  # ✔ solo agregar métodos reales
+                methods.append(m)
         except Exception as e:
             print(f"Error parseando {url}: {e}")
 
