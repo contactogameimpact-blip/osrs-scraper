@@ -8,9 +8,15 @@ BASE = "https://oldschool.runescape.wiki"
 CATEGORY = BASE + "/wiki/Category:Money_making_guides"
 
 HEADERS = {
-    "User-Agent": "osrs-money-scraper"
+    "User-Agent": "osrs-money-hub-bot"
 }
 
+MAPPING_URL = "https://prices.runescape.wiki/api/v1/osrs/mapping"
+
+
+# --------------------------------
+# HTTP
+# --------------------------------
 
 def fetch(url):
 
@@ -23,6 +29,41 @@ def fetch(url):
     return r.text
 
 
+# --------------------------------
+# LOAD ITEM ID MAP
+# --------------------------------
+
+def load_item_mapping():
+
+    print("Downloading item mapping")
+
+    r = requests.get(MAPPING_URL)
+
+    data = r.json()
+
+    name_to_id = {}
+
+    ge_limits = {}
+
+    for item in data:
+
+        name = item["name"]
+
+        name_to_id[name] = item["id"]
+
+        ge_limits[name] = item.get("limit")
+
+    with open("ge_limits.json","w") as f:
+
+        json.dump(ge_limits,f)
+
+    return name_to_id
+
+
+# --------------------------------
+# GET MONEY METHOD URLS
+# --------------------------------
+
 def get_method_urls():
 
     urls = []
@@ -31,13 +72,11 @@ def get_method_urls():
 
     while next_page:
 
-        print("Fetching category:", next_page)
-
         html = fetch(next_page)
 
-        soup = BeautifulSoup(html, "html.parser")
+        soup = BeautifulSoup(html,"html.parser")
 
-        container = soup.find("div", id="mw-pages")
+        container = soup.find("div",id="mw-pages")
 
         if not container:
             break
@@ -47,18 +86,19 @@ def get_method_urls():
             title = a.get("title")
             href = a.get("href")
 
-            if not title or not href:
+            if not title:
                 continue
 
-            if "Money making guide/" in title:
+            if not title.startswith("Money making guide/"):
+                continue
 
-                url = BASE + href
+            url = BASE + href
 
-                if url not in urls:
+            if url not in urls:
 
-                    urls.append(url)
+                urls.append(url)
 
-        next_btn = container.find("a", string="next page")
+        next_btn = container.find("a",string="next page")
 
         if next_btn:
 
@@ -68,16 +108,20 @@ def get_method_urls():
 
             next_page = None
 
-    print("Total methods:", len(urls))
+    print("Methods found:",len(urls))
 
     return urls
 
 
-def parse_items(table):
+# --------------------------------
+# PARSE ITEMS
+# --------------------------------
 
-    items = []
+def parse_items(table, mapping):
 
     rows = table.find_all("tr")
+
+    items = []
 
     for r in rows:
 
@@ -87,6 +131,11 @@ def parse_items(table):
             continue
 
         name = link.text.strip()
+
+        item_id = mapping.get(name)
+
+        if not item_id:
+            continue
 
         text = r.get_text()
 
@@ -108,20 +157,22 @@ def parse_items(table):
                 pass
 
         items.append({
-            "item": name,
+            "id": item_id,
             "qty": qty
         })
 
     return items
 
 
-def parse_method(url):
+# --------------------------------
+# PARSE METHOD PAGE
+# --------------------------------
 
-    print("Parsing:", url)
+def parse_method(url, mapping):
 
     html = fetch(url)
 
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html,"html.parser")
 
     tables = soup.find_all("table")
 
@@ -134,50 +185,31 @@ def parse_method(url):
 
         if "inputs" in text and not inputs:
 
-            inputs = parse_items(t)
+            inputs = parse_items(t, mapping)
 
         if "outputs" in text and not outputs:
 
-            outputs = parse_items(t)
+            outputs = parse_items(t, mapping)
 
-    name = url.split("/")[-1].replace("_", " ")
+    name = url.split("/")[-1].replace("_"," ")
 
     return {
-        "name": name,
-        "url": url,
-        "inputs": inputs,
-        "outputs": outputs
+
+        "n": name,
+        "u": url,
+        "i": inputs,
+        "o": outputs
+
     }
 
 
-def download_ge_limits():
-
-    print("Downloading GE limits")
-
-    url = "https://prices.runescape.wiki/api/v1/osrs/mapping"
-
-    r = requests.get(url)
-
-    data = r.json()
-
-    limits = {}
-
-    for item in data:
-
-        name = item["name"]
-
-        limit = item.get("limit")
-
-        limits[name] = limit
-
-    with open("ge_limits.json", "w") as f:
-
-        json.dump(limits, f)
-
-    print("GE limits:", len(limits))
-
+# --------------------------------
+# SCRAPE ALL METHODS
+# --------------------------------
 
 def scrape_methods():
+
+    mapping = load_item_mapping()
 
     urls = get_method_urls()
 
@@ -187,34 +219,40 @@ def scrape_methods():
 
         try:
 
-            m = parse_method(url)
+            m = parse_method(url, mapping)
 
             methods.append(m)
 
         except Exception as e:
 
-            print("Error:", e)
+            print("Error:",e)
 
     return methods
 
+
+# --------------------------------
+# MAIN
+# --------------------------------
 
 def main():
 
     methods = scrape_methods()
 
     dataset = {
+
         "updated": datetime.utcnow().isoformat(),
+
         "methods": methods
+
     }
 
-    with open("money_methods.json", "w", encoding="utf-8") as f:
+    with open("money_methods.json","w") as f:
 
-        json.dump(dataset, f)
+        json.dump(dataset,f)
 
-    print("Saved methods:", len(methods))
-
-    download_ge_limits()
+    print("Saved:",len(methods),"methods")
 
 
 if __name__ == "__main__":
+
     main()
