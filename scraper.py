@@ -62,42 +62,33 @@ def get_all_methods():
 
 
 # -----------------------------
-# LIMPIAR NOMBRE DE ITEM (SIN REGEX LARGAS)
+# LIMPIAR NOMBRE DE ITEM
 # -----------------------------
 def clean_name(x):
     x = x.strip()
 
-    # quitar [[ ]]
     if "[[" in x and "]]" in x:
-        x = x.replace("[[", "")
-        x = x.replace("]]", "")
+        x = x.replace("[[", "").replace("]]", "")
 
-    # quitar alias con |
     if "|" in x:
-        parts = x.split("|")
-        x = parts[-1]
+        x = x.split("|")[-1]
 
     return x.strip()
 
 
 # -----------------------------
-# PARSEAR ITEMS DESDE WIKITEXT (SIN REGEX LARGAS)
+# PARSEAR ITEMS DESDE WIKITEXT
 # -----------------------------
 def parse_items(wikitext, section):
     items = []
 
-    # dividir por secciones
     sec_marker = "==" + section
     parts = wikitext.split(sec_marker)
     if len(parts) < 2:
         return items
 
     block = parts[1]
-
-    # cortar antes de la siguiente sección
     block = block.split("\n==")[0]
-
-    # procesar línea por línea
     lines = block.split("\n")
 
     for line in lines:
@@ -105,24 +96,18 @@ def parse_items(wikitext, section):
         if not line.startswith("*"):
             continue
 
-        # ejemplo:
-        # * 4 × [[Redwood logs]] (3,200)
-
         if "×" not in line:
             continue
         if "(" not in line or ")" not in line:
             continue
 
         try:
-            # cantidad
             qty_part = line.split("×")[0].replace("*", "").strip()
             qty = float(qty_part)
 
-            # nombre
             name_part = line.split("×")[1].split("(")[0].strip()
             name = clean_name(name_part)
 
-            # precio
             price_part = line.split("(")[1].split(")")[0]
             price = int(price_part.replace(",", "").strip())
 
@@ -160,15 +145,29 @@ def get_wikitext(title):
 
 
 # -----------------------------
-# EXTRAER RATE (SIN REGEX LARGAS)
+# EXTRAER PROFIT REAL (CORREGIDO)
 # -----------------------------
 def extract_rate(wikitext):
+    """
+    Extrae el profit real por hora desde el wikitext.
+    Busca específicamente líneas que contengan 'Profit:' o 'profit:' y 'after tax'.
+    Ignora XP, yields, fórmulas internas y valores corruptos.
+    """
     lines = wikitext.split("\n")
+
     for line in lines:
-        if "per hour" in line.lower():
+        low = line.lower()
+
+        if "profit" in low and "after tax" in low:
             nums = "".join([c for c in line if c.isdigit() or c == ","])
             if nums:
-                return int(nums.replace(",", ""))
+                try:
+                    value = int(nums.replace(",", ""))
+                    if 0 < value < 1_000_000_000:  # límite razonable
+                        return value
+                except:
+                    continue
+
     return None
 
 
