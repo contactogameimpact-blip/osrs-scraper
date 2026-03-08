@@ -1,156 +1,79 @@
-import requests
-from bs4 import BeautifulSoup
 import json
+import requests
 import time
 from datetime import datetime
 
-BASE_URL = "https://oldschool.runescape.wiki"
-CATEGORY_URL = BASE_URL + "/w/Category:Money_making_guides"
+PRICES_URL = "https://prices.runescape.wiki/api/v1/osrs/latest"
 
-HEADERS = {
-    "User-Agent": "osrs-money-scraper"
-}
+with open("money_methods.json") as f:
+    data = json.load(f)
 
-# paginas indice que NO son metodos
-SKIP_PAGES = [
-    "Money making guide/Collecting",
-    "Money making guide/Combat",
-    "Money making guide/Processing",
-    "Money making guide/Recurring",
-    "Money making guide/Skilling"
-]
+with open("ge_limits.json") as f:
+    ge_limits = json.load(f)
 
-def get_method_urls():
-    urls = []
+print("Fetching prices...")
+prices = requests.get(PRICES_URL).json()["data"]
 
-    url = CATEGORY_URL
+def get_price(item_id, buy=False):
+    p = prices.get(str(item_id), {})
+    if buy:
+        return p.get("high",0)
+    return p.get("low",0)
 
-    while True:
+def expected_drop_value(drops):
+    total = 0
+    for d in drops:
+        price = get_price(d["id"])
+        chance = d.get("chance",1)
+        qty = d.get("qty",1)
+        total += price * qty * chance
+    return total
 
-        r = requests.get(url, headers=HEADERS)
-        soup = BeautifulSoup(r.text, "html.parser")
+def input_cost(inputs):
+    total = 0
+    for i in inputs:
+        price = get_price(i["id"],True)
+        total += price * i.get("qty",1)
+    return total
 
-        for link in soup.select("#mw-pages a"):
+def apply_ge_limit(method_profit, outputs):
+    cap = method_profit
 
-            title = link.get("title")
+    for o in outputs:
+        item_id = str(o["id"])
+        qty = o.get("qty",1)
 
-            if not title:
-                continue
+        if item_id in ge_limits:
+            limit = ge_limits[item_id] / 4
+            max_gp = get_price(o["id"]) * limit
+            cap = min(cap, max_gp)
 
-            if not title.startswith("Money making guide/"):
-                continue
+    return cap
 
-            if title in SKIP_PAGES:
-                continue
+results = []
 
-            page_url = BASE_URL + link.get("href")
+for m in data["methods"]:
 
-            urls.append(page_url)
+    inputs = m.get("inputs",[])
+    drops = m.get("drops",[])
+    actions = m.get("actions_per_hour",1)
 
-        next_link = soup.select_one("a:contains('next page')")
+    drop_value = expected_drop_value(drops)
+    cost = input_cost(inputs)
 
-        if not next_link:
-            break
+    profit_action = drop_value - cost
+    profit_hour = profit_action * actions
 
-        url = BASE_URL + next_link.get("href")
+    profit_hour = apply_ge_limit(profit_hour,drops)
 
-        time.sleep(1)
+    m["profit_per_hour"] = int(profit_hour)
 
-    # eliminar duplicados
-    urls = list(set(urls))
+    results.append(m)
 
-    return urls
+data["updated"] = int(time.time())
+data["methods"] = results
 
+with open("money_methods.json","w") as f:
+    json.dump(data,f,indent=2)
 
-def parse_items(table):
-
-    items = []
-
-    for row in table.select("tr")[1:]:
-
-        cols = row.find_all("td")
-
-        if len(cols) < 2:
-            continue
-
-        name = cols[0].get_text(strip=True)
-
-        qty_text = cols[1].get_text(strip=True)
-
-        try:
-            qty = int(qty_text.replace(",", ""))
-        except:
-            qty = 1
-
-        items.append({
-            "name": name,
-            "qty": qty
-        })
-
-    return items
-
-
-def parse_method(url):
-
-    r = requests.get(url, headers=HEADERS)
-
-    soup = BeautifulSoup(r.text, "html.parser")
-
-    title = soup.select_one("#firstHeading").text.replace("Money making guide/", "")
-
-    tables = soup.select("table")
-
-    inputs = []
-    outputs = []
-
-    for table in tables:
-
-        headers = [th.get_text(strip=True).lower() for th in table.select("th")]
-
-        if any("input" in h or "required" in h or "cost" in h for h in headers):
-            inputs = parse_items(table)
-
-        if any("output" in h or "profit" in h or "reward" in h for h in headers):
-            outputs = parse_items(table)
-
-    return {
-        "n": title,
-        "u": url,
-        "i": inputs,
-        "o": outputs
-    }
-
-
-def scrape():
-
-    urls = get_method_urls()
-
-    print("Found methods:", len(urls))
-
-    methods = []
-
-    for i, url in enumerate(urls):
-
-        print("Scraping", i + 1, "/", len(urls))
-
-        try:
-            method = parse_method(url)
-            methods.append(method)
-        except Exception as e:
-            print("Error:", e)
-
-        time.sleep(1)
-
-    data = {
-        "updated": datetime.utcnow().isoformat(),
-        "methods": methods
-    }
-
-    with open("money_methods.json", "w", encoding="utf8") as f:
-        json.dump(data, f, indent=2)
-
-    print("Saved:", len(methods), "methods")
-
-
-if __name__ == "__main__":
-    scrape()
+print("Updated",len(results),"methods")
