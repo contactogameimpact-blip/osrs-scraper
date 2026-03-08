@@ -16,38 +16,40 @@ def fetch(url: str) -> str:
     return resp.text
 
 
+def clean_text(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def parse_method_links(html: str) -> List[str]:
     """
-    Desde la página principal de Money Making Guide,
-    extrae los enlaces a los métodos individuales.
+    Extrae SOLO métodos reales:
+    /w/Money_making_guide/NOMBRE_DEL_MÉTODO
+    Ignora talk pages, categorías, índices, secciones, etc.
     """
     soup = BeautifulSoup(html, "html.parser")
-    links = []
+    links: List[str] = []
 
-    # La wiki suele tener listas/tablas de métodos; aquí vamos amplio:
     for a in soup.select("a"):
         href = a.get("href", "")
-        title = a.get("title", "")
-        if not href.startswith("/w/"):
+        if not href.startswith("/w/Money_making_guide/"):
             continue
-        # Filtrar cosas obvias que no son métodos
-        if "Money_making_guide" not in href:
+
+        # Filtrar basura: Talk:, Special:, File:, Category:, etc.
+        if ":" in href:
             continue
+        # Anclas internas
         if "#" in href:
             continue
-        # Evitar la página índice principal
-        if href.rstrip("/") == "/w/Money_making_guide":
+        # /w/Money_making_guide (sin método)
+        if href.count("/") <= 2:
             continue
+
         full = BASE_URL + href
         if full not in links:
             links.append(full)
 
-    print(f"[parse_method_links] Encontrados {len(links)} métodos candidatos")
+    print(f"[parse_method_links] Métodos REALES encontrados: {len(links)}")
     return links
-
-
-def clean_text(text: str) -> str:
-    return re.sub(r"\s+", " ", text).strip()
 
 
 def parse_table_rows(table) -> List[Dict[str, Any]]:
@@ -55,12 +57,11 @@ def parse_table_rows(table) -> List[Dict[str, Any]]:
     Intenta leer filas de una tabla de inputs/outputs.
     Busca columnas tipo 'Item' y 'Quantity'.
     """
-    rows_data = []
+    rows_data: List[Dict[str, Any]] = []
     headers = [clean_text(th.get_text()) for th in table.select("tr th")]
     if not headers:
         return rows_data
 
-    # Intentar localizar columnas relevantes
     item_idx = None
     qty_idx = None
     for i, h in enumerate(headers):
@@ -100,17 +101,16 @@ def detect_type_from_title(title: str) -> str:
     t = title.lower()
     if "killing" in t or "kill" in t:
         return "kill"
-    if "crafting" in t or "fletching" in t or "smithing" in t or "cooking" in t:
+    if any(x in t for x in ["crafting", "fletching", "smithing", "cooking", "herblore", "making"]):
         return "craft"
-    if "gathering" in t or "mining" in t or "woodcutting" in t or "fishing" in t:
+    if any(x in t for x in ["gathering", "mining", "woodcutting", "fishing", "collecting"]):
         return "gather"
     return "other"
 
 
 def parse_actions_per_hour(text: str) -> int:
     """
-    Intenta encontrar algo tipo 'You can do up to 2,450 per hour'
-    y extraer ese número como actions_per_hour_wiki.
+    Intenta encontrar algo tipo '2,450 per hour' y extraer ese número.
     """
     m = re.search(r"([\d,]+)\s+per hour", text, flags=re.IGNORECASE)
     if not m:
@@ -118,7 +118,7 @@ def parse_actions_per_hour(text: str) -> int:
     return int(m.group(1).replace(",", ""))
 
 
-def parse_method_page(url: str) -> Dict[str, Any]:
+def parse_method_page(url: str) -> Dict[str, Any] | None:
     html = fetch(url)
     soup = BeautifulSoup(html, "html.parser")
 
@@ -129,10 +129,10 @@ def parse_method_page(url: str) -> Dict[str, Any]:
 
     actions_wiki = parse_actions_per_hour(page_text)
 
-    # Heurística: tablas con 'Inputs' y 'Outputs' en encabezados cercanos
     inputs: List[Dict[str, Any]] = []
     outputs: List[Dict[str, Any]] = []
 
+    # Heurística: tablas con caption que contenga 'Input' o 'Output'
     for table in soup.select("table"):
         caption = table.find("caption")
         caption_text = clean_text(caption.get_text()) if caption else ""
@@ -142,9 +142,14 @@ def parse_method_page(url: str) -> Dict[str, Any]:
         elif "output" in cap_low or "profit" in cap_low:
             outputs.extend(parse_table_rows(table))
 
+    # Si no tiene inputs ni outputs, no lo consideramos método real
+    if not inputs and not outputs:
+        print(f"[parse_method_page] Ignorado (sin inputs/outputs): {url}")
+        return None
+
     method_type = detect_type_from_title(title)
 
-    data = {
+    data: Dict[str, Any] = {
         "n": title,
         "u": url,
         "type": method_type,
@@ -152,7 +157,6 @@ def parse_method_page(url: str) -> Dict[str, Any]:
         "actions_per_hour_human": 0,  # se ajustará en el motor de profit
         "inputs": inputs,
         "outputs": outputs,
-        # estos campos los llenará el motor de profit
         "ge_limits": {
             "inputs": {},
             "outputs": {}
@@ -179,6 +183,8 @@ def main():
         print(f"\n[scraper] ({i}/{len(links)}) Procesando método: {url}")
         try:
             m = parse_method_page(url)
+            if not m:
+                continue
             methods.append(m)
         except Exception as e:
             print(f"[scraper] ERROR en {url}: {e}")
