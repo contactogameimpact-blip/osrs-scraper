@@ -23,8 +23,7 @@ def fetch_prices() -> Dict[str, Dict[str, Any]]:
     resp = requests.get(PRICES_API, headers={"User-Agent": USER_AGENT})
     resp.raise_for_status()
     data = resp.json().get("data", {})
-    # data: { "item_id": { "high": ..., "low": ... }, ... }
-    return data
+    return data  # { "item_id": { "high": ..., "low": ... }, ... }
 
 
 def fetch_volumes() -> Dict[str, int]:
@@ -32,8 +31,7 @@ def fetch_volumes() -> Dict[str, int]:
     resp = requests.get(VOLUMES_API, headers={"User-Agent": USER_AGENT})
     resp.raise_for_status()
     data = resp.json().get("data", {})
-    # data: { "item_id": volume, ... }
-    return data
+    return data  # { "item_id": volume, ... }
 
 
 def build_name_to_limit(ge_limits: Dict[str, Any]) -> Dict[str, int]:
@@ -50,15 +48,10 @@ def build_name_to_limit(ge_limits: Dict[str, Any]) -> Dict[str, int]:
 
 def get_price_for_name(name: str, prices: Dict[str, Dict[str, Any]]) -> int:
     """
-    Aquí hay un problema real: la API de precios trabaja por ID,
-    pero tu ge_limits.json está por nombre.
-
-    Como no tenemos el mapping nombre→ID en este motor,
-    vamos a dejar este punto como un hook para futuro.
-
-    Por ahora devolvemos 0 para no romper el flujo.
+    Placeholder: sin mapping nombre→ID, no podemos usar bien la API.
+    De momento devuelve 0 para no romper el flujo.
+    Cuando tengas mapping, aquí se conecta.
     """
-    # TODO: integrar mapping nombre→ID cuando lo tengas.
     return 0
 
 
@@ -66,9 +59,7 @@ def default_human_actions(method: Dict[str, Any]) -> int:
     t = method.get("type", "other")
     wiki = method.get("actions_per_hour_wiki") or 0
 
-    # Correcciones humanas básicas por tipo
     if t == "craft":
-        # ejemplo: wiki dice 3000, tú quieres 2000
         return min(wiki, 2000) if wiki > 0 else 2000
     if t == "kill":
         return min(wiki, 80) if wiki > 0 else 80
@@ -83,16 +74,9 @@ def compute_profit_for_method(
     prices: Dict[str, Dict[str, Any]],
     volumes: Dict[str, int]
 ) -> None:
-    """
-    Calcula profit_per_hour aproximado con:
-    - acciones humanas
-    - límites GE (por nombre, aproximado)
-    - volumen diario (no exacto sin IDs, pero dejamos hook)
-    """
     inputs = m.get("inputs", [])
     outputs = m.get("outputs", [])
 
-    # Coste de inputs por acción
     input_cost = 0
     for item in inputs:
         name = item.get("name", "")
@@ -100,7 +84,6 @@ def compute_profit_for_method(
         price = get_price_for_name(name, prices)
         input_cost += price * qty
 
-    # Valor de outputs por acción (sin probabilidades por ahora)
     output_value = 0
     for item in outputs:
         name = item.get("name", "")
@@ -110,24 +93,19 @@ def compute_profit_for_method(
 
     profit_per_action = output_value - input_cost
 
-    # Acciones por hora humanas
     human_actions = default_human_actions(m)
     m["actions_per_hour_human"] = human_actions
 
-    # Caps por GE limit (aprox, por nombre)
     caps: List[int] = []
 
-    # Inputs: no puedes comprar más de cierto límite por 4h
     for item in inputs:
         name = item.get("name", "")
         qty = item.get("qty", 1)
         limit = ge_limits_by_name.get(name.lower())
         if limit:
-            # límite por hora (aprox) = limit / 4
             max_actions = (limit / 4) / max(qty, 1)
             caps.append(int(max_actions))
 
-    # Outputs: no puedes vender más de cierto límite por 4h
     for item in outputs:
         name = item.get("name", "")
         qty = item.get("qty", 1)
@@ -135,10 +113,6 @@ def compute_profit_for_method(
         if limit:
             max_actions = (limit / 4) / max(qty, 1)
             caps.append(int(max_actions))
-
-    # Volumen diario: hook (sin IDs es difícil ser preciso)
-    # Dejamos el campo preparado para cuando tengas mapping nombre→ID.
-    # Por ahora no capamos por volumen para no matar todo.
 
     if caps:
         actions_final = min(human_actions, max(caps))
@@ -154,10 +128,7 @@ def compute_profit_for_method(
 
     profit_per_hour = int(profit_per_action * actions_final)
     m["profit_per_hour"] = profit_per_hour
-    if capped:
-        m["status"] = "capped_by_limit"
-    else:
-        m["status"] = "ok"
+    m["status"] = "capped_by_limit" if capped else "ok"
 
 
 def main():
@@ -180,7 +151,6 @@ def main():
         if m.get("profit_per_hour", 0) > 0:
             con_profit += 1
 
-    # Ordenar por profit_per_hour
     methods.sort(key=lambda x: x.get("profit_per_hour", 0), reverse=True)
 
     data["updated"] = int(time.time())
