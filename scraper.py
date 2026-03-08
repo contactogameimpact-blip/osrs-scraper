@@ -5,100 +5,104 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 BASE = "https://oldschool.runescape.wiki"
-CATEGORY = BASE + "/wiki/Category:Money_making_guides"
-MAPPING = "https://prices.runescape.wiki/api/v1/osrs/mapping"
+CAT = BASE + "/wiki/Category:Money_making_guides"
+API = BASE + "/api.php"
+MAP = "https://prices.runescape.wiki/api/v1/osrs/mapping"
 
-HEADERS = {
-    "User-Agent": "OSRS-MoneyMaker-Scraper"
-}
-
-
-# ---------------------------------------------------------
-# HTTP
-# ---------------------------------------------------------
 
 def fetch(url):
     print("Fetching:", url)
-    r = requests.get(url, headers=HEADERS)
+    r = requests.get(url, headers={"User-Agent": "OSRS-Scraper"})
     r.raise_for_status()
-    time.sleep(0.5)
+    time.sleep(0.3)
     return r.text
 
 
-# ---------------------------------------------------------
-# CRAWLER — obtiene todos los métodos
-# ---------------------------------------------------------
-
 def get_all_methods():
+    urls = []
+    page = 0
 
-    methods = []
-    next_page = CATEGORY
+    blacklist = {
+        "Money making guide/Combat",
+        "Money making guide/Skilling",
+        "Money making guide/Recurring",
+        "Money making guide/Collecting",
+        "Money making guide/Processing",
+        "Money making guide/Guides"
+    }
 
-    while next_page:
-
-        html = fetch(next_page)
+    while True:
+        url = CAT if page == 0 else CAT + "?page=" + str(page)
+        html = fetch(url)
         soup = BeautifulSoup(html, "html.parser")
-
-        category = soup.find("div", id="mw-pages")
-
-        if not category:
+        div = soup.find("div", class_="mw-category-generated")
+        if not div:
             break
 
-        for a in category.find_all("a"):
-
-            href = a.get("href")
-            title = a.get("title")
-
-            if not href or not title:
+        found = 0
+        for a in div.find_all("a"):
+            title = a.get("title", "")
+            href = a.get("href", "")
+            if title in blacklist:
                 continue
-
             if "Money making guide/" in title:
+                full = BASE + href
+                if full not in urls:
+                    urls.append(full)
+                    found += 1
 
-                url = BASE + href
+        if found == 0:
+            break
 
-                if url not in methods:
-                    methods.append(url)
+        page += 1
 
-        next_link = category.find("a", string="next page")
-
-        if next_link:
-            next_page = BASE + next_link.get("href")
-        else:
-            next_page = None
-
-    print("Total métodos encontrados:", len(methods))
-
-    return methods
+    print("Métodos encontrados:", len(urls))
+    return urls
 
 
-# ---------------------------------------------------------
-# PARSER — extrae items de tablas
-# ---------------------------------------------------------
+def clean_name(x):
+    x = x.strip()
+    if "[[" in x and "]]" in x:
+        x = x.replace("[[", "").replace("]]", "")
+    if "|" in x:
+        x = x.split("|")[-1]
+    return x.strip()
 
-def parse_items_from_table(table):
 
+def parse_items(wikitext, section):
     items = []
+    sec_marker = "==" + section
+    parts = wikitext.split(sec_marker)
+    if len(parts) < 2:
+        return items
 
-    rows = table.find_all("tr")
+    block = parts[1]
+    block = block.split("\n==")[0]
+    lines = block.split("\n")
 
-    for r in rows:
-
-        text = r.get_text(" ", strip=True)
-
-        if "×" not in text:
+    for line in lines:
+        line = line.strip()
+        if not line.startswith("*"):
+            continue
+        if "×" not in line:
+            continue
+        if "(" not in line or ")" not in line:
             continue
 
         try:
+            qty_part = line.split("×")[0].replace("*", "").strip()
+            qty = float(qty_part)
 
-            parts = text.split("×")
+            name_part = line.split("×")[1].split("(")[0].strip()
+            name = clean_name(name_part)
 
-            qty = float(parts[0].strip())
-
-            name = parts[1].split("(")[0].strip()
+            price_part = line.split("(")[1].split(")")[0]
+            price = int(price_part.replace(",", "").strip())
 
             items.append({
                 "item": name,
-                "qty": qty
+                "qty": qty,
+                "price": price
             })
 
         except:
@@ -107,146 +111,150 @@ def parse_items_from_table(table):
     return items
 
 
+def get_wikitext(title):
+    params = {
+        "action": "parse",
+        "page": title,
+        "prop": "wikitext",
+        "format": "json"
+    }
+    print("Fetching wikitext:", title)
+    r = requests.get(API, params=params, headers={"User-Agent": "OSRS-Scraper"})
+    r.raise_for_status()
+    data = r.json()
+
+    try:
+        return data["parse"]["wikitext"]["*"]
+    except:
+        return ""
+
+
 # ---------------------------------------------------------
-# PROFIT EXTRACTION
+# NUEVA extract_rate — IGNORA TEMPLATE, IGNORA E+08,
+# IGNORA NÚMEROS ABSURDOS, LEE SOLO EL PROFIT REAL
 # ---------------------------------------------------------
+def extract_rate(wikitext):
+    lines = wikitext.split("\n")
 
-def extract_profit(table):
+    # Variantes reales de profit en la Wiki
+    keys = [
+        "profit",
+        "profit per hour",
+        "profit/hr",
+        "profit/hour",
+        "profit (after tax)",
+        "profit (per hour)",
+        "profit (estimated)",
+        "profit (approx)",
+        "profit (after ge tax)",
+        "net profit",
+        "you can expect",
+        "gp/h",
+        "gp per hour"
+    ]
 
-    rows = table.find_all("tr")
+    for line in lines:
+        low = line.lower()
 
-    for r in rows:
+        # ❌ ignorar valores internos del template
+        if low.strip().startswith("|profit"):
+            continue
 
-        txt = r.get_text(" ", strip=True).lower()
+        # ❌ ignorar notación científica
+        if "e+" in low:
+            continue
 
-        if "profit" in txt:
-
-            nums = "".join(c for c in txt if c.isdigit() or c == ",")
-
+        # si contiene alguna variante real
+        if any(k in low for k in keys):
+            nums = "".join([c for c in line if c.isdigit() or c == ","])
             if nums:
                 try:
-                    return int(nums.replace(",", ""))
+                    value = int(nums.replace(",", ""))
+
+                    # ❌ ignorar números absurdos
+                    if value <= 0:
+                        continue
+                    if value > 5_000_000:  # límite realista OSRS
+                        continue
+
+                    return value
+
                 except:
-                    pass
+                    continue
 
     return None
 
 
-# ---------------------------------------------------------
-# PARSE METHOD PAGE
-# ---------------------------------------------------------
-
 def parse_method(url):
+    print("Parseando:", url)
 
-    print("Parsing:", url)
+    title = url.split("/")[-1]
+    page = "Money_making_guide/" + title
 
-    html = fetch(url)
-    soup = BeautifulSoup(html, "html.parser")
-
-    tables = soup.find_all("table")
-
-    inputs = []
-    outputs = []
-    profit = None
-
-    for table in tables:
-
-        text = table.get_text(" ", strip=True).lower()
-
-        if "inputs" in text and not inputs:
-            inputs = parse_items_from_table(table)
-
-        if "outputs" in text and not outputs:
-            outputs = parse_items_from_table(table)
-
-        if "profit" in text and "inputs" in text:
-            profit = extract_profit(table)
-
-    if not profit:
+    wikitext = get_wikitext(page)
+    if not wikitext:
         return None
 
-    title = url.split("/")[-1].replace("_", " ")
+    inputs = parse_items(wikitext, "Inputs")
+    outputs = parse_items(wikitext, "Outputs")
+    rate = extract_rate(wikitext)
+
+    if not rate:
+        return None
 
     return {
-        "name": title,
+        "name": title.replace("_", " "),
         "url": url,
-        "wiki_profit": profit,
+        "wiki_rate": rate,
         "inputs": inputs,
-        "outputs": outputs
+        "outputs": outputs,
+        "wikitext": wikitext
     }
 
 
-# ---------------------------------------------------------
-# GE LIMITS
-# ---------------------------------------------------------
-
-def get_ge_limits():
-
-    print("Downloading GE limits...")
-
-    r = requests.get(MAPPING, headers=HEADERS)
+def get_limits():
+    print("Descargando GE limits...")
+    r = requests.get(MAP, headers={"User-Agent": "OSRS-Scraper"})
     r.raise_for_status()
-
     data = r.json()
 
-    limits = {}
-
+    out = {}
     for item in data:
-
         name = item.get("name")
         iid = item.get("id")
-        limit = item.get("limit")
-
+        lim = item.get("limit")
         if name and iid:
+            out[name] = {"id": iid, "limit": lim}
 
-            limits[name] = {
-                "id": iid,
-                "limit": limit
-            }
+    return out
 
-    return limits
-
-
-# ---------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------
 
 def main():
-
-    methods_urls = get_all_methods()
-
-    limits = get_ge_limits()
+    urls = get_all_methods()
+    limits = get_limits()
 
     methods = []
+    total = len(urls)
 
-    total = len(methods_urls)
-
-    for i, url in enumerate(methods_urls, start=1):
-
+    for i, url in enumerate(urls, start=1):
         print(f"[{i}/{total}]")
-
         try:
-
             m = parse_method(url)
-
             if m:
                 methods.append(m)
-
         except Exception as e:
-
             print("Error:", e)
 
-    dataset = {
+    out = {
         "updated": datetime.utcnow().isoformat() + "Z",
         "methods": methods,
         "ge_limits": limits
     }
 
     with open("money_methods.json", "w", encoding="utf-8") as f:
+        json.dump(out, f, indent=2, ensure_ascii=False)
 
-        json.dump(dataset, f, indent=2, ensure_ascii=False)
-
-    print("JSON generado con", len(methods), "métodos.")
+    print("JSON generado:", len(methods), "métodos válidos.")
 
 
 if __name__ == "__main__":
