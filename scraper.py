@@ -14,13 +14,11 @@ HEADERS = {
 
 def fetch(url):
 
-    print("Fetching:", url)
-
     r = requests.get(url, headers=HEADERS)
 
     r.raise_for_status()
 
-    time.sleep(0.5)
+    time.sleep(0.4)
 
     return r.text
 
@@ -33,6 +31,8 @@ def get_method_urls():
 
     while next_page:
 
+        print("Fetching category:", next_page)
+
         html = fetch(next_page)
 
         soup = BeautifulSoup(html, "html.parser")
@@ -42,14 +42,12 @@ def get_method_urls():
         if not container:
             break
 
-        links = container.find_all("a")
-
-        for a in links:
+        for a in container.find_all("a"):
 
             title = a.get("title")
             href = a.get("href")
 
-            if not title:
+            if not title or not href:
                 continue
 
             if "Money making guide/" in title:
@@ -77,9 +75,9 @@ def get_method_urls():
 
 def parse_items(table):
 
-    rows = table.find_all("tr")
-
     items = []
+
+    rows = table.find_all("tr")
 
     for r in rows:
 
@@ -174,9 +172,9 @@ def download_ge_limits():
 
     with open("ge_limits.json", "w") as f:
 
-        json.dump(limits, f, indent=2)
+        json.dump(limits, f)
 
-    print("GE limits updated:", len(limits))
+    print("GE limits:", len(limits))
 
 
 def scrape_methods():
@@ -211,9 +209,9 @@ def main():
 
     with open("money_methods.json", "w", encoding="utf-8") as f:
 
-        json.dump(dataset, f, indent=2)
+        json.dump(dataset, f)
 
-    print("Methods saved:", len(methods))
+    print("Saved methods:", len(methods))
 
     download_ge_limits()
 
