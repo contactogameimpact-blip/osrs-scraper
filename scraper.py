@@ -1,149 +1,110 @@
 import requests
 import json
 import time
-from datetime import datetime
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 BASE = "https://oldschool.runescape.wiki"
 CATEGORY = BASE + "/wiki/Category:Money_making_guides"
-GE_MAPPING = "https://prices.runescape.wiki/api/v1/osrs/mapping"
 
 HEADERS = {
-    "User-Agent": "OSRS-Money-Making-Scraper"
+    "User-Agent": "osrs-money-scraper"
 }
 
-# ---------------------------------------------------------
-# HTTP
-# ---------------------------------------------------------
 
 def fetch(url):
+
     print("Fetching:", url)
+
     r = requests.get(url, headers=HEADERS)
+
     r.raise_for_status()
+
     time.sleep(0.5)
+
     return r.text
 
 
-# ---------------------------------------------------------
-# CRAWLER
-# ---------------------------------------------------------
+def get_method_urls():
 
-def get_all_methods():
+    urls = []
 
-    methods = []
     next_page = CATEGORY
 
     while next_page:
 
         html = fetch(next_page)
+
         soup = BeautifulSoup(html, "html.parser")
 
-        cat = soup.find("div", id="mw-pages")
+        container = soup.find("div", id="mw-pages")
 
-        if not cat:
+        if not container:
             break
 
-        for a in cat.find_all("a"):
+        links = container.find_all("a")
+
+        for a in links:
 
             title = a.get("title")
             href = a.get("href")
 
-            if not title or not href:
+            if not title:
                 continue
 
             if "Money making guide/" in title:
 
                 url = BASE + href
 
-                if url not in methods:
-                    methods.append(url)
+                if url not in urls:
 
-        next_btn = cat.find("a", string="next page")
+                    urls.append(url)
+
+        next_btn = container.find("a", string="next page")
 
         if next_btn:
-            next_page = BASE + next_btn.get("href")
+
+            next_page = BASE + next_btn["href"]
+
         else:
+
             next_page = None
 
-    print("Métodos encontrados:", len(methods))
+    print("Total methods:", len(urls))
 
-    return methods
-
-
-# ---------------------------------------------------------
-# PROFIT
-# ---------------------------------------------------------
-
-def extract_profit(soup):
-
-    rows = soup.find_all("tr")
-
-    for r in rows:
-
-        th = r.find("th")
-
-        if not th:
-            continue
-
-        label = th.get_text().lower()
-
-        if "profit" in label:
-
-            td = r.find("td")
-
-            if not td:
-                continue
-
-            text = td.get_text()
-
-            digits = "".join(c for c in text if c.isdigit())
-
-            if digits:
-
-                try:
-                    val = int(digits)
-
-                    if 0 < val < 50_000_000:
-                        return val
-
-                except:
-                    pass
-
-    return None
+    return urls
 
 
-# ---------------------------------------------------------
-# ITEMS
-# ---------------------------------------------------------
+def parse_items(table):
 
-def extract_items(section_table):
+    rows = table.find_all("tr")
 
     items = []
 
-    rows = section_table.find_all("tr")
-
     for r in rows:
 
-        links = r.find_all("a")
+        link = r.find("a")
 
-        if not links:
+        if not link:
             continue
 
-        name = links[-1].get_text().strip()
+        name = link.text.strip()
 
         text = r.get_text()
 
-        qty = 1
-
         digits = "".join(c for c in text if c.isdigit())
+
+        qty = 1
 
         if digits:
 
             try:
-                q = int(digits)
 
-                if q < 100000:
-                    qty = q
+                val = int(digits)
+
+                if val < 100000:
+
+                    qty = val
 
             except:
                 pass
@@ -156,69 +117,48 @@ def extract_items(section_table):
     return items
 
 
-# ---------------------------------------------------------
-# FIND INPUTS / OUTPUTS
-# ---------------------------------------------------------
-
-def extract_io(soup):
-
-    inputs = []
-    outputs = []
-
-    tables = soup.find_all("table")
-
-    for table in tables:
-
-        text = table.get_text().lower()
-
-        if "inputs" in text and not inputs:
-            inputs = extract_items(table)
-
-        if "outputs" in text and not outputs:
-            outputs = extract_items(table)
-
-    return inputs, outputs
-
-
-# ---------------------------------------------------------
-# PARSE METHOD
-# ---------------------------------------------------------
-
 def parse_method(url):
 
     print("Parsing:", url)
 
     html = fetch(url)
+
     soup = BeautifulSoup(html, "html.parser")
 
-    profit = extract_profit(soup)
+    tables = soup.find_all("table")
 
-    inputs, outputs = extract_io(soup)
+    inputs = []
+    outputs = []
 
-    if not profit:
-        return None
+    for t in tables:
 
-    title = url.split("/")[-1].replace("_", " ")
+        text = t.get_text().lower()
+
+        if "inputs" in text and not inputs:
+
+            inputs = parse_items(t)
+
+        if "outputs" in text and not outputs:
+
+            outputs = parse_items(t)
+
+    name = url.split("/")[-1].replace("_", " ")
 
     return {
-        "name": title,
+        "name": name,
         "url": url,
-        "wiki_profit": profit,
         "inputs": inputs,
         "outputs": outputs
     }
 
 
-# ---------------------------------------------------------
-# GE LIMITS
-# ---------------------------------------------------------
+def download_ge_limits():
 
-def get_ge_limits():
+    print("Downloading GE limits")
 
-    print("Downloading GE limits...")
+    url = "https://prices.runescape.wiki/api/v1/osrs/mapping"
 
-    r = requests.get(GE_MAPPING, headers=HEADERS)
-    r.raise_for_status()
+    r = requests.get(url)
 
     data = r.json()
 
@@ -226,60 +166,56 @@ def get_ge_limits():
 
     for item in data:
 
-        name = item.get("name")
-        iid = item.get("id")
+        name = item["name"]
+
         limit = item.get("limit")
 
-        if name and iid:
+        limits[name] = limit
 
-            limits[name] = {
-                "id": iid,
-                "limit": limit
-            }
+    with open("ge_limits.json", "w") as f:
 
-    return limits
+        json.dump(limits, f, indent=2)
+
+    print("GE limits updated:", len(limits))
 
 
-# ---------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------
+def scrape_methods():
 
-def main():
-
-    methods_urls = get_all_methods()
-
-    limits = get_ge_limits()
+    urls = get_method_urls()
 
     methods = []
 
-    total = len(methods_urls)
-
-    for i, url in enumerate(methods_urls, start=1):
-
-        print(f"[{i}/{total}]")
+    for url in urls:
 
         try:
 
             m = parse_method(url)
 
-            if m:
-                methods.append(m)
+            methods.append(m)
 
         except Exception as e:
 
             print("Error:", e)
 
+    return methods
+
+
+def main():
+
+    methods = scrape_methods()
+
     dataset = {
-        "updated": datetime.utcnow().isoformat() + "Z",
-        "methods": methods,
-        "ge_limits": limits
+        "updated": datetime.utcnow().isoformat(),
+        "methods": methods
     }
 
     with open("money_methods.json", "w", encoding="utf-8") as f:
 
-        json.dump(dataset, f, indent=2, ensure_ascii=False)
+        json.dump(dataset, f, indent=2)
 
-    print("Dataset generado con", len(methods), "métodos.")
+    print("Methods saved:", len(methods))
+
+    download_ge_limits()
 
 
 if __name__ == "__main__":
