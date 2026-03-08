@@ -12,7 +12,6 @@ HEADERS = {
     "User-Agent": "OSRS-Money-Making-Scraper"
 }
 
-
 # ---------------------------------------------------------
 # HTTP
 # ---------------------------------------------------------
@@ -37,7 +36,7 @@ def get_all_methods():
     while next_page:
 
         html = fetch(next_page)
-        soup = BeautifulSoup(html, "lxml")
+        soup = BeautifulSoup(html, "html.parser")
 
         cat = soup.find("div", id="mw-pages")
 
@@ -190,7 +189,7 @@ def parse_method(url):
     print("Parsing:", url)
 
     html = fetch(url)
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "html.parser")
 
     profit = extract_profit(soup)
 
