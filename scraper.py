@@ -1,7 +1,6 @@
 import requests
 import json
 import time
-import re
 from datetime import datetime
 from bs4 import BeautifulSoup
 
@@ -61,27 +60,17 @@ def get_all_methods():
     return urls
 
 
-# -----------------------------
-# LIMPIAR NOMBRE DE ITEM
-# -----------------------------
 def clean_name(x):
     x = x.strip()
-
     if "[[" in x and "]]" in x:
         x = x.replace("[[", "").replace("]]", "")
-
     if "|" in x:
         x = x.split("|")[-1]
-
     return x.strip()
 
 
-# -----------------------------
-# PARSEAR ITEMS DESDE WIKITEXT
-# -----------------------------
 def parse_items(wikitext, section):
     items = []
-
     sec_marker = "==" + section
     parts = wikitext.split(sec_marker)
     if len(parts) < 2:
@@ -95,7 +84,6 @@ def parse_items(wikitext, section):
         line = line.strip()
         if not line.startswith("*"):
             continue
-
         if "×" not in line:
             continue
         if "(" not in line or ")" not in line:
@@ -123,9 +111,6 @@ def parse_items(wikitext, section):
     return items
 
 
-# -----------------------------
-# OBTENER WIKITEXT
-# -----------------------------
 def get_wikitext(title):
     params = {
         "action": "parse",
@@ -144,26 +129,39 @@ def get_wikitext(title):
         return ""
 
 
-# -----------------------------
-# EXTRAER PROFIT REAL (CORREGIDO)
-# -----------------------------
+# ---------------------------------------------------------
+# NUEVA FUNCIÓN extract_rate — DETECTA TODAS LAS VARIANTES
+# ---------------------------------------------------------
 def extract_rate(wikitext):
     """
     Extrae el profit real por hora desde el wikitext.
-    Busca específicamente líneas que contengan 'Profit:' o 'profit:' y 'after tax'.
-    Ignora XP, yields, fórmulas internas y valores corruptos.
+    Detecta TODAS las variantes reales usadas en la Wiki.
     """
     lines = wikitext.split("\n")
+
+    keys = [
+        "profit",
+        "profit per hour",
+        "profit/hr",
+        "profit (after tax)",
+        "profit (per hour)",
+        "profit (estimated)",
+        "profit (approx)",
+        "profit (after ge tax)",
+        "profit/hour",
+        "profit/hr:",
+        "profit per hr"
+    ]
 
     for line in lines:
         low = line.lower()
 
-        if "profit" in low and "after tax" in low:
+        if any(k in low for k in keys):
             nums = "".join([c for c in line if c.isdigit() or c == ","])
             if nums:
                 try:
                     value = int(nums.replace(",", ""))
-                    if 0 < value < 1_000_000_000:  # límite razonable
+                    if 0 < value < 1_000_000_000:
                         return value
                 except:
                     continue
@@ -171,9 +169,6 @@ def extract_rate(wikitext):
     return None
 
 
-# -----------------------------
-# PARSEAR MÉTODO COMPLETO
-# -----------------------------
 def parse_method(url):
     print("Parseando:", url)
 
@@ -188,7 +183,8 @@ def parse_method(url):
     outputs = parse_items(wikitext, "Outputs")
     rate = extract_rate(wikitext)
 
-    if not inputs and not outputs and not rate:
+    # YA NO DESCARTAMOS MÉTODOS SOLO POR FALTA DE INPUTS/OUTPUTS
+    if not rate:
         return None
 
     return {
@@ -201,9 +197,6 @@ def parse_method(url):
     }
 
 
-# -----------------------------
-# GE LIMITS
-# -----------------------------
 def get_limits():
     print("Descargando GE limits...")
     r = requests.get(MAP, headers={"User-Agent": "OSRS-Scraper"})
@@ -221,9 +214,6 @@ def get_limits():
     return out
 
 
-# -----------------------------
-# MAIN
-# -----------------------------
 def main():
     urls = get_all_methods()
     limits = get_limits()
