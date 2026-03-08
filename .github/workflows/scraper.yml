@@ -24,7 +24,9 @@ jobs:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: |
+          pip install requests
+          pip install beautifulsoup4
 
       - name: Run scraper
         run: python scraper.py
@@ -33,6 +35,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add money_methods.json ge_limits.json
-          git commit -m "Update JSON data" || echo "No changes"
+          git add money_methods.json
+          git commit -m "Update methods" || echo "No changes"
           git push
