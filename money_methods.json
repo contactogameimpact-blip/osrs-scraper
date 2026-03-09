@@ -1,4 +1,101 @@
 {
-  "updated": 1773013103,
-  "methods": []
+  "updated": 1773019033,
+  "methods": [
+    {
+      "n": "Mining amethyst",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Mining_amethyst",
+      "type": "other",
+      "actions_per_hour_wiki": 0,
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        {
+          "name": "Soft clay pack",
+          "qty": 1
+        },
+        {
+          "name": "Bag full of gems",
+          "qty": 1
+        }
+      ],
+      "outputs": [],
+      "ge_limits": {
+        "inputs": {},
+        "outputs": {}
+      },
+      "volume": {
+        "inputs": {},
+        "outputs": {}
+      },
+      "profit_per_hour": 0,
+      "status": "dead"
+    },
+    {
+      "n": "Smithing rune items",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Smithing_rune_items",
+      "type": "other",
+      "actions_per_hour_wiki": 0,
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        {
+          "name": "Rune 2h sword",
+          "qty": 1
+        },
+        {
+          "name": "Rune platelegs",
+          "qty": 1
+        },
+        {
+          "name": "Rune plateskirt",
+          "qty": 1
+        }
+      ],
+      "outputs": [],
+      "ge_limits": {
+        "inputs": {},
+        "outputs": {}
+      },
+      "volume": {
+        "inputs": {},
+        "outputs": {}
+      },
+      "profit_per_hour": 0,
+      "status": "dead"
+    },
+    {
+      "n": "Stringing amulets",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Stringing_amulets",
+      "type": "other",
+      "actions_per_hour_wiki": 0,
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        {
+          "name": "−39.84",
+          "qty": 1
+        },
+        {
+          "name": "−64.74",
+          "qty": 1
+        },
+        {
+          "name": "−80.52",
+          "qty": 1
+        },
+        {
+          "name": "−36.88",
+          "qty": 1
+        }
+      ],
+      "outputs": [],
+      "ge_limits": {
+        "inputs": {},
+        "outputs": {}
+      },
+      "volume": {
+        "inputs": {},
+        "outputs": {}
+      },
+      "profit_per_hour": 0,
+      "status": "dead"
+    }
+  ]
 }
