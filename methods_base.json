@@ -1,16 +1,16 @@
 {
   "methods": [
     {
-      "n": "Stringing amulets",
+      "n": "Stringing sapphire amulets",
       "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Stringing_amulets",
       "type": "craft",
       "actions_per_hour_human": 2000,
       "inputs": [
-        { "name": "Unstrung amulet", "qty": 1 },
+        { "name": "Sapphire amulet (u)", "qty": 1 },
         { "name": "Ball of wool", "qty": 1 }
       ],
       "outputs": [
-        { "name": "Strung amulet", "qty": 1 }
+        { "name": "Sapphire amulet", "qty": 1 }
       ]
     },
     {
@@ -27,16 +27,16 @@
       ]
     },
     {
-      "n": "Making unfinished potions",
+      "n": "Making unfinished ranarr potions",
       "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
       "type": "craft",
       "actions_per_hour_human": 1800,
       "inputs": [
         { "name": "Vial of water", "qty": 1 },
-        { "name": "Herb", "qty": 1 }
+        { "name": "Ranarr weed", "qty": 1 }
       ],
       "outputs": [
-        { "name": "Unfinished potion", "qty": 1 }
+        { "name": "Ranarr potion (unf)", "qty": 1 }
       ]
     }
   ]
