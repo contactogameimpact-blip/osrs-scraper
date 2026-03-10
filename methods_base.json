@@ -13,6 +13,91 @@
         { "name": "Sapphire amulet", "qty": 1 }
       ]
     },
+
+    {
+      "n": "Stringing emerald amulets",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Stringing_amulets",
+      "type": "craft",
+      "actions_per_hour_human": 2000,
+      "inputs": [
+        { "name": "Emerald amulet (u)", "qty": 1 },
+        { "name": "Ball of wool", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Emerald amulet", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Stringing ruby amulets",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Stringing_amulets",
+      "type": "craft",
+      "actions_per_hour_human": 2000,
+      "inputs": [
+        { "name": "Ruby amulet (u)", "qty": 1 },
+        { "name": "Ball of wool", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Ruby amulet", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Stringing diamond amulets",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Stringing_amulets",
+      "type": "craft",
+      "actions_per_hour_human": 2000,
+      "inputs": [
+        { "name": "Diamond amulet (u)", "qty": 1 },
+        { "name": "Ball of wool", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Diamond amulet", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Cutting sapphires",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_gems",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Uncut sapphire", "qty": 1 },
+        { "name": "Chisel", "qty": 0 }
+      ],
+      "outputs": [
+        { "name": "Sapphire", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Cutting emeralds",
+      "u": "https://oldoldschool.runescape.wiki/w/Money_making_guide/Cutting_gems",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Uncut emerald", "qty": 1 },
+        { "name": "Chisel", "qty": 0 }
+      ],
+      "outputs": [
+        { "name": "Emerald", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Cutting rubies",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_gems",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Uncut ruby", "qty": 1 },
+        { "name": "Chisel", "qty": 0 }
+      ],
+      "outputs": [
+        { "name": "Ruby", "qty": 1 }
+      ]
+    },
+
     {
       "n": "Cutting diamonds",
       "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_diamonds",
@@ -26,6 +111,7 @@
         { "name": "Diamond", "qty": 1 }
       ]
     },
+
     {
       "n": "Making unfinished ranarr potions",
       "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
@@ -37,6 +123,90 @@
       ],
       "outputs": [
         { "name": "Ranarr potion (unf)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making unfinished irit potions",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Vial of water", "qty": 1 },
+        { "name": "Irit leaf", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Irit potion (unf)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making unfinished avantoe potions",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Vial of water", "qty": 1 },
+        { "name": "Avantoe", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Avantoe potion (unf)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making unfinished kwuarm potions",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Vial of water", "qty": 1 },
+        { "name": "Kwuarm", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Kwuarm potion (unf)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making unfinished cadantine potions",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Vial of water", "qty": 1 },
+        { "name": "Cadantine", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Cadantine potion (unf)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making unfinished dwarf weed potions",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Vial of water", "qty": 1 },
+        { "name": "Dwarf weed", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Dwarf weed potion (unf)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making unfinished torstol potions",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Vial of water", "qty": 1 },
+        { "name": "Torstol", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Torstol potion (unf)", "qty": 1 }
       ]
     }
   ]
