@@ -1,0 +1,43 @@
+{
+  "methods": [
+    {
+      "n": "Stringing amulets",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Stringing_amulets",
+      "type": "craft",
+      "actions_per_hour_human": 2000,
+      "inputs": [
+        { "name": "Unstrung amulet", "qty": 1 },
+        { "name": "Ball of wool", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Strung amulet", "qty": 1 }
+      ]
+    },
+    {
+      "n": "Cutting diamonds",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_diamonds",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Uncut diamond", "qty": 1 },
+        { "name": "Chisel", "qty": 0 }
+      ],
+      "outputs": [
+        { "name": "Diamond", "qty": 1 }
+      ]
+    },
+    {
+      "n": "Making unfinished potions",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        { "name": "Vial of water", "qty": 1 },
+        { "name": "Herb", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Unfinished potion", "qty": 1 }
+      ]
+    }
+  ]
+}
