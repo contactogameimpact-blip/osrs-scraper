@@ -1,5 +1,5 @@
 {
-  "updated": 1773137886,
+  "updated": 1773138206,
   "methods": [
     {
       "n": "Stringing amulets",
@@ -22,32 +22,8 @@
           "qty": 1
         }
       ],
-      "profit_per_hour": 0,
-      "status": "dead"
-    },
-    {
-      "n": "Cutting diamonds",
-      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_diamonds",
-      "type": "craft",
-      "actions_per_hour_human": 1800,
-      "inputs": [
-        {
-          "name": "Uncut diamond",
-          "qty": 1
-        },
-        {
-          "name": "Chisel",
-          "qty": 0
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Diamond",
-          "qty": 1
-        }
-      ],
-      "profit_per_hour": 0,
-      "status": "dead"
+      "profit_per_hour": 484000,
+      "status": "ok"
     },
     {
       "n": "Making unfinished potions",
@@ -70,7 +46,31 @@
           "qty": 1
         }
       ],
-      "profit_per_hour": 0,
+      "profit_per_hour": 297000,
+      "status": "ok"
+    },
+    {
+      "n": "Cutting diamonds",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_diamonds",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        {
+          "name": "Uncut diamond",
+          "qty": 1
+        },
+        {
+          "name": "Chisel",
+          "qty": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Diamond",
+          "qty": 1
+        }
+      ],
+      "profit_per_hour": -1506600,
       "status": "dead"
     }
   ]
