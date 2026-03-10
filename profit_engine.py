@@ -24,22 +24,28 @@ def fetch_volumes():
     r.raise_for_status()
     return r.json()["data"]
 
-def get_price(item_name, prices):
-    return 0
+def get_price(item_name, prices, items_map):
+    item_id = items_map.get(item_name)
+    if not item_id:
+        return 0
+    info = prices.get(str(item_id))
+    if not info:
+        return 0
+    return info.get("high", 0)
 
-def compute_profit(method, prices, volumes, ge_limits):
+def compute_profit(method, prices, volumes, ge_limits, items_map):
     inputs = method.get("inputs", [])
     outputs = method.get("outputs", [])
     actions = method.get("actions_per_hour_human", 0)
 
     cost = 0
     for item in inputs:
-        price = get_price(item["name"], prices)
+        price = get_price(item["name"], prices, items_map)
         cost += price * item["qty"]
 
     value = 0
     for item in outputs:
-        price = get_price(item["name"], prices)
+        price = get_price(item["name"], prices, items_map)
         value += price * item["qty"]
 
     profit_per_action = value - cost
@@ -51,6 +57,7 @@ def compute_profit(method, prices, volumes, ge_limits):
 def main():
     base = load_json("methods_base.json")
     ge_limits = load_json("ge_limits.json")
+    items_map = load_json("items_map.json")
 
     prices = fetch_prices()
     volumes = fetch_volumes()
@@ -58,7 +65,7 @@ def main():
     methods = base["methods"]
 
     for m in methods:
-        compute_profit(m, prices, volumes, ge_limits)
+        compute_profit(m, prices, volumes, ge_limits, items_map)
 
     methods.sort(key=lambda x: x.get("profit_per_hour", 0), reverse=True)
 
