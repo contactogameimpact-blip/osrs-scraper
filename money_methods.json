@@ -1,99 +1,75 @@
 {
-  "updated": 1773134352,
+  "updated": 1773137886,
   "methods": [
-    {
-      "n": "Mining amethyst",
-      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Mining_amethyst",
-      "type": "other",
-      "actions_per_hour_wiki": 0,
-      "actions_per_hour_human": 1000,
-      "inputs": [
-        {
-          "name": "Soft clay pack",
-          "qty": 1
-        },
-        {
-          "name": "Bag full of gems",
-          "qty": 1
-        }
-      ],
-      "outputs": [],
-      "ge_limits": {
-        "inputs": {},
-        "outputs": {}
-      },
-      "volume": {
-        "inputs": {},
-        "outputs": {}
-      },
-      "profit_per_hour": 0,
-      "status": "dead"
-    },
-    {
-      "n": "Smithing rune items",
-      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Smithing_rune_items",
-      "type": "other",
-      "actions_per_hour_wiki": 0,
-      "actions_per_hour_human": 1000,
-      "inputs": [
-        {
-          "name": "Rune 2h sword",
-          "qty": 1
-        },
-        {
-          "name": "Rune platelegs",
-          "qty": 1
-        },
-        {
-          "name": "Rune plateskirt",
-          "qty": 1
-        }
-      ],
-      "outputs": [],
-      "ge_limits": {
-        "inputs": {},
-        "outputs": {}
-      },
-      "volume": {
-        "inputs": {},
-        "outputs": {}
-      },
-      "profit_per_hour": 0,
-      "status": "dead"
-    },
     {
       "n": "Stringing amulets",
       "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Stringing_amulets",
-      "type": "other",
-      "actions_per_hour_wiki": 0,
-      "actions_per_hour_human": 1000,
+      "type": "craft",
+      "actions_per_hour_human": 2000,
       "inputs": [
         {
-          "name": "−40.84",
+          "name": "Unstrung amulet",
           "qty": 1
         },
         {
-          "name": "−65.74",
-          "qty": 1
-        },
-        {
-          "name": "−73.52",
-          "qty": 1
-        },
-        {
-          "name": "−37.88",
+          "name": "Ball of wool",
           "qty": 1
         }
       ],
-      "outputs": [],
-      "ge_limits": {
-        "inputs": {},
-        "outputs": {}
-      },
-      "volume": {
-        "inputs": {},
-        "outputs": {}
-      },
+      "outputs": [
+        {
+          "name": "Strung amulet",
+          "qty": 1
+        }
+      ],
+      "profit_per_hour": 0,
+      "status": "dead"
+    },
+    {
+      "n": "Cutting diamonds",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_diamonds",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        {
+          "name": "Uncut diamond",
+          "qty": 1
+        },
+        {
+          "name": "Chisel",
+          "qty": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Diamond",
+          "qty": 1
+        }
+      ],
+      "profit_per_hour": 0,
+      "status": "dead"
+    },
+    {
+      "n": "Making unfinished potions",
+      "u": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_unfinished_potions",
+      "type": "craft",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        {
+          "name": "Vial of water",
+          "qty": 1
+        },
+        {
+          "name": "Herb",
+          "qty": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Unfinished potion",
+          "qty": 1
+        }
+      ],
       "profit_per_hour": 0,
       "status": "dead"
     }
