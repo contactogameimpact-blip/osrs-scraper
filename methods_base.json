@@ -211,3 +211,619 @@
     }
   ]
 }
+    {
+      "n": "Making attack potions",
+      "u": "https://oldschool.runescape.wiki/w/Attack_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Guam potion (unf)", "qty": 1 },
+        { "name": "Eye of newt", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Attack potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making strength potions",
+      "u": "https://oldschool.runescape.wiki/w/Strength_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Tarromin potion (unf)", "qty": 1 },
+        { "name": "Limpwurt root", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Strength potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making prayer potions",
+      "u": "https://oldschool.runescape.wiki/w/Prayer_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Ranarr potion (unf)", "qty": 1 },
+        { "name": "Snape grass", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Prayer potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making super attack potions",
+      "u": "https://oldschool.runescape.wiki/w/Super_attack",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Irit potion (unf)", "qty": 1 },
+        { "name": "Eye of newt", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Super attack(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making super strength potions",
+      "u": "https://oldschool.runescape.wiki/w/Super_strength",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Kwuarm potion (unf)", "qty": 1 },
+        { "name": "Limpwurt root", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Super strength(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making super defence potions",
+      "u": "https://oldschool.runescape.wiki/w/Super_defence",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Cadantine potion (unf)", "qty": 1 },
+        { "name": "White berries", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Super defence(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making antifire potions",
+      "u": "https://oldschool.runescape.wiki/w/Antifire_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Lantadyme potion (unf)", "qty": 1 },
+        { "name": "Dragon scale dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Antifire potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making ranging potions",
+      "u": "https://oldschool.runescape.wiki/w/Ranging_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Dwarf weed potion (unf)", "qty": 1 },
+        { "name": "Wine of zamorak", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Ranging potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making magic potions",
+      "u": "https://oldschool.runescape.wiki/w/Magic_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Lantadyme potion (unf)", "qty": 1 },
+        { "name": "Potato cactus", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Magic potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making super restore potions",
+      "u": "https://oldschool.runescape.wiki/w/Super_restore",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Snapdragon potion (unf)", "qty": 1 },
+        { "name": "Red spiders' eggs", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Super restore(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making saradomin brews",
+      "u": "https://oldschool.runescape.wiki/w/Saradomin_brew",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Toadflax potion (unf)", "qty": 1 },
+        { "name": "Crushed nest", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Saradomin brew(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making super combat potions",
+      "u": "https://oldschool.runescape.wiki/w/Super_combat_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        { "name": "Torstol potion (unf)", "qty": 1 },
+        { "name": "Super attack(3)", "qty": 1 },
+        { "name": "Super strength(3)", "qty": 1 },
+        { "name": "Super defence(3)", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Super combat potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making stamina potions",
+      "u": "https://oldschool.runescape.wiki/w/Stamina_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        { "name": "Super energy(4)", "qty": 1 },
+        { "name": "Amylase crystal", "qty": 4 }
+      ],
+      "outputs": [
+        { "name": "Stamina potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making extended antifire potions",
+      "u": "https://oldschool.runescape.wiki/w/Extended_antifire",
+      "type": "herblore",
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        { "name": "Antifire potion(3)", "qty": 1 },
+        { "name": "Lava scale shard", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Extended antifire(3)", "qty": 1 }
+      ]
+    }
+    {
+      "n": "Making extended super antifire potions",
+      "u": "https://oldschool.runescape.wiki/w/Extended_super_antifire",
+      "type": "herblore",
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        { "name": "Super antifire potion(3)", "qty": 1 },
+        { "name": "Lava scale shard", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Extended super antifire(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making weapon poison++",
+      "u": "https://oldschool.runescape.wiki/w/Weapon_poison%2B%2B",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Coconut milk", "qty": 1 },
+        { "name": "Cave nightshade", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Weapon poison++", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making anti-venom+",
+      "u": "https://oldschool.runescape.wiki/w/Anti-venom%2B",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Anti-venom(4)", "qty": 1 },
+        { "name": "Torstol", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Anti-venom+(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making divine super attack potions",
+      "u": "https://oldschool.runescape.wiki/w/Divine_super_attack_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Super attack(4)", "qty": 1 },
+        { "name": "Crystal dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Divine super attack potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making divine super strength potions",
+      "u": "https://oldschool.runescape.wiki/w/Divine_super_strength_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Super strength(4)", "qty": 1 },
+        { "name": "Crystal dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Divine super strength potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making divine super defence potions",
+      "u": "https://oldschool.runescape.wiki/w/Divine_super_defence_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Super defence(4)", "qty": 1 },
+        { "name": "Crystal dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Divine super defence potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making divine ranging potions",
+      "u": "https://oldschool.runescape.wiki/w/Divine_ranging_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Ranging potion(4)", "qty": 1 },
+        { "name": "Crystal dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Divine ranging potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making divine magic potions",
+      "u": "https://oldschool.runescape.wiki/w/Divine_magic_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Magic potion(4)", "qty": 1 },
+        { "name": "Crystal dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Divine magic potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making divine super combat potions",
+      "u": "https://oldschool.runescape.wiki/w/Divine_super_combat_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 800,
+      "inputs": [
+        { "name": "Super combat potion(4)", "qty": 1 },
+        { "name": "Crystal dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Divine super combat potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making divine bastion potions",
+      "u": "https://oldschool.runescape.wiki/w/Divine_bastion_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 800,
+      "inputs": [
+        { "name": "Bastion potion(4)", "qty": 1 },
+        { "name": "Crystal dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Divine bastion potion(4)", "qty": 1 }
+      ]
+    }
+    {
+      "n": "Making divine battlemage potions",
+      "u": "https://oldschool.runescape.wiki/w/Divine_battlemage_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 800,
+      "inputs": [
+        { "name": "Battlemage potion(4)", "qty": 1 },
+        { "name": "Crystal dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Divine battlemage potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making saradomin brews (4)",
+      "u": "https://oldschool.runescape.wiki/w/Saradomin_brew",
+      "type": "herblore",
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        { "name": "Toadflax potion (unf)", "qty": 1 },
+        { "name": "Crushed nest", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Saradomin brew(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making super energy potions",
+      "u": "https://oldschool.runescape.wiki/w/Super_energy",
+      "type": "herblore",
+      "actions_per_hour_human": 1200,
+      "inputs": [
+        { "name": "Avantoe potion (unf)", "qty": 1 },
+        { "name": "Mort myre fungus", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Super energy(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making super antifire potions",
+      "u": "https://oldschool.runescape.wiki/w/Super_antifire_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1000,
+      "inputs": [
+        { "name": "Antifire potion(3)", "qty": 1 },
+        { "name": "Crushed superior dragon bones", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Super antifire potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making bastion potions",
+      "u": "https://oldschool.runescape.wiki/w/Bastion_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Cadantine potion (unf)", "qty": 1 },
+        { "name": "Wine of zamorak", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Bastion potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making battlemage potions",
+      "u": "https://oldschool.runescape.wiki/w/Battlemage_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Cadantine potion (unf)", "qty": 1 },
+        { "name": "Potato cactus", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Battlemage potion(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making weapon poison+",
+      "u": "https://oldschool.runescape.wiki/w/Weapon_poison%2B",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Coconut milk", "qty": 1 },
+        { "name": "Cactus spine", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Weapon poison+", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making weapon poison",
+      "u": "https://oldschool.runescape.wiki/w/Weapon_poison",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Coconut milk", "qty": 1 },
+        { "name": "Red spiders' eggs", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Weapon poison", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making compost potions",
+      "u": "https://oldschool.runescape.wiki/w/Compost_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1500,
+      "inputs": [
+        { "name": "Harralander potion (unf)", "qty": 1 },
+        { "name": "Volcanic ash", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Compost potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making serum 207",
+      "u": "https://oldschool.runescape.wiki/w/Serum_207",
+      "type": "herblore",
+      "actions_per_hour_human": 1500,
+      "inputs": [
+        { "name": "Tarromin potion (unf)", "qty": 1 },
+        { "name": "Ashes", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Serum 207(3)", "qty": 1 }
+      ]
+    }
+    {
+      "n": "Making energy potions",
+      "u": "https://oldschool.runescape.wiki/w/Energy_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1400,
+      "inputs": [
+        { "name": "Harralander potion (unf)", "qty": 1 },
+        { "name": "Chocolate dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Energy potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making restore potions",
+      "u": "https://oldschool.runescape.wiki/w/Restore_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1400,
+      "inputs": [
+        { "name": "Harralander potion (unf)", "qty": 1 },
+        { "name": "Red spiders' eggs", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Restore potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making serum 208",
+      "u": "https://oldschool.runescape.wiki/w/Serum_208",
+      "type": "herblore",
+      "actions_per_hour_human": 1500,
+      "inputs": [
+        { "name": "Tarromin potion (unf)", "qty": 1 },
+        { "name": "Ashes", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Serum 208(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making antidote+",
+      "u": "https://oldschool.runescape.wiki/w/Antidote%2B",
+      "type": "herblore",
+      "actions_per_hour_human": 1300,
+      "inputs": [
+        { "name": "Coconut milk", "qty": 1 },
+        { "name": "Toadflax", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Antidote+(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making antidote++",
+      "u": "https://oldschool.runescape.wiki/w/Antidote%2B%2B",
+      "type": "herblore",
+      "actions_per_hour_human": 1300,
+      "inputs": [
+        { "name": "Coconut milk", "qty": 1 },
+        { "name": "Irit leaf", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Antidote++(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making sanfew serums",
+      "u": "https://oldschool.runescape.wiki/w/Sanfew_serum",
+      "type": "herblore",
+      "actions_per_hour_human": 900,
+      "inputs": [
+        { "name": "Super restore(4)", "qty": 1 },
+        { "name": "Unicorn horn dust", "qty": 1 },
+        { "name": "Snake weed", "qty": 1 },
+        { "name": "Nail beast nails", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Sanfew serum(4)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making blamish oil",
+      "u": "https://oldschool.runescape.wiki/w/Blamish_oil",
+      "type": "herblore",
+      "actions_per_hour_human": 1500,
+      "inputs": [
+        { "name": "Blamish snail slime", "qty": 1 },
+        { "name": "Harralander potion (unf)", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Blamish oil", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making agility potions",
+      "u": "https://oldschool.runescape.wiki/w/Agility_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1300,
+      "inputs": [
+        { "name": "Toadflax potion (unf)", "qty": 1 },
+        { "name": "Toad's legs", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Agility potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making fishing potions",
+      "u": "https://oldschool.runescape.wiki/w/Fishing_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1300,
+      "inputs": [
+        { "name": "Avantoe potion (unf)", "qty": 1 },
+        { "name": "Snape grass", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Fishing potion(3)", "qty": 1 }
+      ]
+    },
+
+    {
+      "n": "Making hunter potions",
+      "u": "https://oldschool.runescape.wiki/w/Hunter_potion",
+      "type": "herblore",
+      "actions_per_hour_human": 1300,
+      "inputs": [
+        { "name": "Avantoe potion (unf)", "qty": 1 },
+        { "name": "Kebbit teeth dust", "qty": 1 }
+      ],
+      "outputs": [
+        { "name": "Hunter potion(3)", "qty": 1 }
+      ]
+    }
