@@ -1,104 +1,5284 @@
 {
-  "updated": 1773233125,
+  "updated": 1773235149,
   "methods": [
     {
-      "name": "Spin flax",
-      "actions_per_hour_human": 2000,
-      "inputs": [
-        {
-          "name": "Flax",
-          "qty": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Bow string",
-          "qty": 1
-        }
-      ],
-      "profit_per_action": 88,
-      "profit_per_hour": 176000,
-      "real_actions_per_hour": 2000,
-      "status": "ok"
-    },
-    {
-      "name": "Make pie shell",
-      "actions_per_hour_human": 1800,
-      "inputs": [
-        {
-          "name": "Pie dish",
-          "qty": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Pie shell",
-          "qty": 1
-        }
-      ],
-      "profit_per_action": 203,
-      "profit_per_hour": 25375,
-      "real_actions_per_hour": 125,
-      "status": "ok"
-    },
-    {
-      "name": "Cook salmon",
-      "actions_per_hour_human": 1400,
-      "inputs": [
-        {
-          "name": "Raw salmon",
-          "qty": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Salmon",
-          "qty": 1
-        }
-      ],
-      "profit_per_action": 4,
-      "profit_per_hour": 5600,
-      "real_actions_per_hour": 1400,
-      "status": "ok"
-    },
-    {
-      "name": "Cook shrimp",
-      "actions_per_hour_human": 1500,
-      "inputs": [
-        {
-          "name": "Raw shrimp",
-          "qty": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Shrimp",
-          "qty": 1
-        }
-      ],
-      "profit_per_action": -11,
-      "profit_per_hour": -16500,
-      "real_actions_per_hour": 1500,
+      "name": "Killing the Doom of Mokhaiotl (Delve 1-16)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
       "status": "dead"
     },
     {
-      "name": "Cook trout",
-      "actions_per_hour_human": 1400,
-      "inputs": [
-        {
-          "name": "Raw trout",
-          "qty": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Trout",
-          "qty": 1
-        }
-      ],
-      "profit_per_action": -23,
-      "profit_per_hour": -32200,
-      "real_actions_per_hour": 1400,
+      "name": "Killing Yama (Contract of shard acquisition, duo)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing The Doom of Mokhaiotl (Delve 1-8)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Theatre of Blood",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Nex (Duo)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Yama (Contract of catalyst acquisition, duo)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Tombs of Amascut (solo 545 raid level)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Completing the Fortis Colosseum (Wave 12)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Chambers of Xeric (Challenge Mode)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Yama (Contract of harmony acquisition)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Chambers of Xeric (Normal Mode)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Duke Sucellus",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Vardorvis",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Nex (Team)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Yama (solo)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Tombs of Amascut (solo 450 raid level)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Phosani's Nightmare",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing The Leviathan",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Araxxor",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing The Whisperer",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Phantom Muspah (Twisted bow)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Venenatis",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing demonic gorillas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Tormented Demons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Completing The Corrupted Gauntlet",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting aether runes using scarred extract",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing zombie pirates (Max efficiency)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing General Graardor",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Alchemical Hydra",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Frost dragons (on-task)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Kree'arra",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Vet'ion",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Vorkath (Dragon hunter lance)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Tombs of Amascut (Expert)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Spindel",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing revenants (Craw's bow)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Vorkath (Dragon hunter crossbow)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing The Nightmare",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating crystal keys",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting raw yellowfin",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Cerberus",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Callisto",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Zulrah (max efficiency)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Commander Zilyana",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Deep sea trawling for marlin",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Corporeal Beast",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Pickpocketing elves",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Abyssal Sire",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing revenants (Magic shortbow)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Frost dragons (off-task)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting runite bars at Blast Furnace",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting double nature runes (Achievement Diary Cape teleport)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Vorkath (Toxic blowpipe)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Casting Tan Leather",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting wrath runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Pickpocketing vyres",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Dagannoth Kings (Solo tribrid)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting adamantite bars at Blast Furnace",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making mahogany planks (max efficiency)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Blood Moon",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Completing The Gauntlet",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Moons of Peril",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Hueycoatl (Solo)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making sanfew serum(4)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting raw marlin",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mastering Mixology",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting blood runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Zulrah",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Poisoning ammunition",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Deep sea trawling for halibut",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Calvar'ion",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making toy cats",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Looting Eldric the Ice King",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Zalcano",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Looting Branda the Fire Queen",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Artio",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting death runes through the Abyss",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Scorpia",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Thermonuclear smoke devil",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy cadantine",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Wilderness Agility Course",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Opening sinister chests",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching gem-tipped dragon bolts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Stealing from Rogues' Castle chests",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Delivering food in Gnome Restaurant",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing adamant dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Opening larran's big chests",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing zombie pirates (Budget)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hallowed Sepulchre (Floor 5)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy irit leaf",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing basilisk knights (Slayer)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing K'ril Tsutsaroth",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting steel bars at Blast Furnace",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy dwarf weed",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy kwuarm",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting blood runes through the Abyss",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Zalcano (Experience)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting mud runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Chaos Elemental",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting mithril bars at Blast Furnace",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing brutal black dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Humidifying clay",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy toadflax",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting double law runes through the Abyss",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting steam runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making raw wild pies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing rune dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hunting moonlight antelopes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Opening grubby chests",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing lava dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting mist runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making mahogany planks at the Woodcutting Guild",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting aether runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Giant Mole (Twisted bow)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy ranarr weed",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Last Man Standing",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Deep sea trawling for bluefin",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Opening essence impling jars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing skeletal wyverns",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy torstol",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing hydras",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Tanning green dragonhide",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying kegs of beer",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Opening eclectic impling jars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making lantadyme potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying Relicym's balm",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting astral runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Tanning blue dragonhide",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating eternal glories",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Opening crystal chests",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Tanning red dragonhide",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Completing the Fortis Colosseum (Wave 1)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making cadantine potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Grotesque Guardians",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Chaos Fanatic",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making dwarf weed potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Kourend necromancers",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing kurasks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Lizardman Shamans (Settlement or Temple)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hunting sunlight antelopes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Guardians of the Rift",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting soul runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting raw sharks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making elemental battlestaves (Ironman)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making snapdragon potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smithing rune items (Player-to-player trading)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Lizardman Shamans (Canyon)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making avantoe potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy tarromin",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy lantadyme",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Deep sea trawling for yellowfin",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Filling bullseye lantern (empty)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Dagannoth Kings (Rex only)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting chaos runes through the Abyss",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting cosmic runes through the Abyss",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing gargoyles",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy guam leaf",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy marrentill",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making sacred oil",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making irit potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making oak planks (Auburnvale)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making toadflax potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making mahogany planks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Charging and alchemising bracelets of ethereum",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making redwood pyre logs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching snowy knights",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making kwuarm potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Spitting Wyvern",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing fiyr shades",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Casting Superglass Make",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making ranarr potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hallowed Sepulchre (Floor 4)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Looting ogre coffins",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying beer tankards",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making Guthix rests",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Pickpocketing master farmers",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying monkey nuts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Pickpocketing H.A.M. members",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Giant Mole (Dharok's)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making ultracompost",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining lead ore (Deepfin mine)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Completing elite clues (urium remains)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making pineapple pizzas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making prayer potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Tanning black dragonhide",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting wine of zamorak (Deep Wilderness Dungeon)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy harralander",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting cosmic runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hunting black chinchompas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating forester's rations",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making magic pyre logs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making raw summer pies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting air runes (high level)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hunting implings",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Barrows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Grinding unicorn horns",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing urium shades",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting blood runes at Arceuus (max)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Underwater Agility and Thieving",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing green dragons (Myths Guild)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating teleport to house tablets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching sunlight antler bolts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy avantoe",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting blood runes at Arceuus (no diary)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making tarromin potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making teak planks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Vyrewatch Sentinels",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making guam potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching flighted ogre arrows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Kraken",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing green dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining runite ore",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting runite bars (Superheat Item)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hallowed Sepulchre (Floor 3)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making raw admiral pies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy cadantine",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Stealing cave goblin wire",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining and crushing infernal shale (Tick manipulation)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making harralander potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching rainbow crabs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing brine rats",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Wyrms (Slayer)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching moonlight antler bolts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Enchanting dragonstone jewellery",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing mithril dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Pickpocketing paladins",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making adamant brutal arrows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting law runes through the Abyss",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting ruby bolt tips",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting snape grass",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Drakes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Selling archery supplies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy irit leaves",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy kwuarm",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy dwarf weed",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Amoxliatl",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making oak planks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Kalphite Queen",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching ogre arrow shafts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Casting plank make",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "High alching profitable free-to-play items",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making super combat potions (with prescription goggles)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making weapon poison(++)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting mort myre fungi",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating bones to peaches tablets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Casting Hunter kit",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating teleport tablets at Lectern (Lunar)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining gemstones",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Degriming grimy snapdragon",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Filling buckets with water",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy toadflax",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting drift nets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Sarachnis",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing spiritual mages",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting clockwork (teleport method)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating Varrock teleport tablets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing ents",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing ice troll runts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hunting carnivorous chinchompas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting blood runes at Arceuus (minimal requirements)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making tuna potatoes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Charging air orbs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making gloves of silence",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hunting herbiboars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing frost naguas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting opal bracelets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting nature runes through the Abyss",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy ranarr weed",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Nechrecycling",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crushing bird nests",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing blue dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching ruby bolts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy torstol",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining basalt",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying iron ore from Ordan",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Enchanting sapphire rings",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting adamantite bars (Superheat Item)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting climbing boots",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Charging fire orbs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing disciples of Iban",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting limestone bricks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining runite ore (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing brutal red dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting runes at Ourania Altar",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing skogres and zogres",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating Ardougne teleport tablets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting diamond bolt tips",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining salts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Grinding desert goat horns",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting jade bracelets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting black scimitars from Ardougne Castle",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating Barrows teleport tablets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting yew logs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying beer",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Blast mining",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Temple Trekking",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smithing rune items",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Subduing Tempoross",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Vyrecycling",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smithing steel cannonballs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy lantadyme",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy tarromin",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Salvaging mercenary shipwrecks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Filling water containers (Hosidius kitchen)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing fever spiders",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Creating Camelot teleport tablets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Stringing yew longbows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining lead ore",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smithing iron dart tips",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching headless arrows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing black dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Stringing magic longbows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy guam leaves",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy marrentill",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching dark crabs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying pies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw dark crabs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Jubsters",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smithing steel dart tips",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Chopping infected roots",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smithing bronze dart tips",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing cave horrors",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining amethyst",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the Crazy archaeologist",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing aviansie",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw sunlight antelope",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making dynamite",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching sacred eels",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy harralander",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making uncooked berry pies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Charging earth orbs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw sharks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Casting Bones to Bananas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making uncooked meat pies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Pickpocketing Ardougne knights",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting camphor logs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching anglerfish",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting ruby rings",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting runite bars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Salvaging merchant shipwrecks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting steel platebodies (High Alchemy)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Motherlode Mine",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing the King Black Dragon",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making pie shells",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Stringing maple longbows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting steel platebodies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy avantoe",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making dyes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting topaz bracelets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching minnows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining and crushing infernal shale (Infernal shale rocks)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making uncooked apple pies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Feral Vampyres",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Charging water orbs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing sulphur naguas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying feather packs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Enchanting jade amulets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw karambwan",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Salvaging pirate shipwrecks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Barbarian assault high gambles",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Salvaging Fremennik shipwrecks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching unstrung yew longbows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making pizza bases",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making anchovy pizzas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching sharks with shark lure",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Picking bananas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Enchanting topaz jewellery",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting jangerberries",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting wine of zamorak",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying steel nails",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Climbing the Agility Pyramid",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying team capes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting bronze pickaxes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw anglerfish",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cleaning grimy snapdragon",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting gold bracelets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making pastry dough",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Casting Spin Flax",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cremating urium remains",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Enchanting diamond necklaces",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making chocolate cake",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Grinding chocolate bars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw dashing kebbit",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Baking potatoes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Drift net fishing",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching raw karambwan",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Salvaging large shipwrecks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting eclipse red bottles",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Spinning flax to bow strings",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Exchanging impling jars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching infernal eels",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing red dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing brutal green dragons",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining iron ore",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw moonlight antelope",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Forging Giant swords",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting diamond jewellery",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting emerald bracelets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting white berries",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Hunting chinchompas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting redwood logs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching unstrung maple longbows",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Blessing unblessed symbols",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting fish food",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting magic logs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting iron bars at Blast Furnace",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing ogress shamans",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining volcanic ash",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making fine fish offcuts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Stealing valuables",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting chaos runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting cosmic runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Planting flower seeds",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing chaos druids",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting tinderboxes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting steel bars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Selling silk to silk merchant",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting rosewood logs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting ruby bracelets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Recharging rings of wealth",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting ruby jewellery",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting diamond bracelets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Picking up chisels",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Running the Colossal Wyrm Agility Course",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting dragonstone jewellery",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Running laps of the Canifis rooftop course",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting nature runes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining clay members",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting anti-dragon shields (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting yew logs (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smithing mithril dart tips",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing ankous",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching sharks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting wine of zamorak (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Fletching unstrung comp bow",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining coal and superheating Runite bars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting monk's robes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting emerald jewellery",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing ogress warriors",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying jug packs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining coal and superheating Adamantite bars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Firecycling",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing imps",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing chaos dwarves",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting and tanning cowhide",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing hill giants",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting sapphire jewellery",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting big bones from the Bone Yard",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining adamantite ore (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing monkeys",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining coal and superheating Mithril bars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Crafting gold jewellery",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting red spiders' eggs (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing cows and tanning cowhide",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking plain pizzas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying kebabs in Al Kharid",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making dough at Cooks' Guild",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Bryophyta (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Stringing amulets",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting iron ore",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying ale from the Rising Sun Inn",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting air talismans",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining iron ore (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Tanning cowhide",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining clay",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting ashes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw tuna",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cooking raw chicken",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining coal (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Cutting oak logs",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting iron bars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Collecting spades",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching lobsters",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining gold ore (Crafting Guild)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Stealing Wydin's bananas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Filling water containers",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Ankou (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing wizards",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing Zamorak monks",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching trout & salmon",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching tuna & swordfish (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching sardines & herring",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Smelting silver bars",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making flour",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching lobsters (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Taking from the infinite money bag while picking up coin spawns in Varrock West bank",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Killing bears",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Catching shrimp & anchovies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Mining gold ore (free-to-play)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Brewing chef's delight(m)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Brewing greenman's ale(m)",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Growing palm saplings",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Growing coral",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming ranarr weed",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming kwuarm",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming toadflax",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming snapdragon",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming huasca",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming cadantine",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Growing magic saplings",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming torstol",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming avantoe",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming irit leaves",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming dwarf weed",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming lantadyme",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Exchanging mole parts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Opening herb boxes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Buying battlestaves from Zaff",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming Yanillian hops",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Picking papayas",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Managing Miscellania",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Picking coconuts",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Bird house trapping",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Farming jute fibre",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Claiming Dynamite from Thirus",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Planting Celastrus sapling",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Picking cactus spines",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Dying blue wizard robes",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Selling hardleather bodies",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Claiming pure essence from Wizard Cromperty",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making divine bastion potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making divine battlemage potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making divine magic potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making divine ranging potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making divine super attack potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making divine super combat potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making divine super defence potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
+      "status": "dead"
+    },
+    {
+      "name": "Making divine super strength potions",
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "real_actions_per_hour": 1000,
       "status": "dead"
     }
   ]
