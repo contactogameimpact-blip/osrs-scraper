@@ -10,26 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
-      - name: Run profit engine
-        run: |
-          python profit_engine.py
+      - run: python scrape_methods.py
 
-      - name: Commit results
+      - run: python profit_engine.py
+
+      - name: commit results
         run: |
-          git config --global user.name "bot"
-          git config --global user.email "bot@users.noreply.github.com"
+          git config --global user.name bot
+          git config --global user.email bot@users.noreply.github.com
+          git add methods_base.json
           git add money_methods.json
-          git commit -m "update profits" || echo "no changes"
+          git commit -m "update methods" || echo "no changes"
           git push
