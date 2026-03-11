@@ -1,5 +1,5 @@
 {
-  "updated": 1773269251,
+  "updated": 1773271087,
   "methods": [
     {
       "name": "Killing the Doom of Mokhaiotl (Delve 1-16)",
@@ -86,7 +86,7 @@
       "market_saturated": false
     },
     {
-      "name": "Tombs of Amascut (solo 545 raid level)",
+      "name": "Completing the Fortis Colosseum (Wave 12)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -100,7 +100,7 @@
       "market_saturated": false
     },
     {
-      "name": "Completing the Fortis Colosseum (Wave 12)",
+      "name": "Tombs of Amascut (solo 545 raid level)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -268,7 +268,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing The Whisperer",
+      "name": "Killing Phantom Muspah (Twisted bow)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -282,7 +282,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Phantom Muspah (Twisted bow)",
+      "name": "Killing The Whisperer",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -310,20 +310,6 @@
       "market_saturated": false
     },
     {
-      "name": "Killing demonic gorillas",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Killing Tormented Demons",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -338,7 +324,7 @@
       "market_saturated": false
     },
     {
-      "name": "Completing The Corrupted Gauntlet",
+      "name": "Killing demonic gorillas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -353,6 +339,20 @@
     },
     {
       "name": "Crafting aether runes using scarred extract",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Completing The Corrupted Gauntlet",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -394,7 +394,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing the Alchemical Hydra",
+      "name": "Killing Frost dragons (on-task)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -408,7 +408,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Frost dragons (on-task)",
+      "name": "Killing the Alchemical Hydra",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -534,35 +534,7 @@
       "market_saturated": false
     },
     {
-      "name": "Creating crystal keys",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Cutting raw yellowfin",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing Cerberus",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -619,6 +591,20 @@
     },
     {
       "name": "Deep sea trawling for marlin",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Cerberus",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -744,20 +730,6 @@
       "market_saturated": false
     },
     {
-      "name": "Casting Tan Leather",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Crafting wrath runes",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -814,21 +786,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making mahogany planks (max efficiency)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing Blood Moon",
+      "name": "Cutting raw marlin",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -843,6 +801,34 @@
     },
     {
       "name": "Completing The Gauntlet",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making sanfew serum(4)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Blood Moon",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -884,7 +870,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making sanfew serum(4)",
+      "name": "Making mahogany planks (max efficiency)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -898,7 +884,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cutting raw marlin",
+      "name": "Creating crystal keys",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -940,6 +926,20 @@
       "market_saturated": false
     },
     {
+      "name": "Casting Tan Leather",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Killing Zulrah",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -954,7 +954,7 @@
       "market_saturated": false
     },
     {
-      "name": "Poisoning ammunition",
+      "name": "Opening larran's big chests",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1010,6 +1010,20 @@
       "market_saturated": false
     },
     {
+      "name": "Looting Branda the Fire Queen",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Looting Eldric the Ice King",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -1038,35 +1052,7 @@
       "market_saturated": false
     },
     {
-      "name": "Looting Branda the Fire Queen",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Killing Artio",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting death runes through the Abyss",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1108,7 +1094,7 @@
       "market_saturated": false
     },
     {
-      "name": "Degriming grimy cadantine",
+      "name": "Crafting death runes through the Abyss",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1136,7 +1122,7 @@
       "market_saturated": false
     },
     {
-      "name": "Opening sinister chests",
+      "name": "Fletching gem-tipped dragon bolts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1150,7 +1136,7 @@
       "market_saturated": false
     },
     {
-      "name": "Fletching gem-tipped dragon bolts",
+      "name": "Opening sinister chests",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1206,7 +1192,21 @@
       "market_saturated": false
     },
     {
-      "name": "Opening larran's big chests",
+      "name": "Degriming grimy cadantine",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Degriming grimy irit leaf",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1248,7 +1248,7 @@
       "market_saturated": false
     },
     {
-      "name": "Degriming grimy irit leaf",
+      "name": "Degriming grimy toadflax",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1290,49 +1290,21 @@
       "market_saturated": false
     },
     {
-      "name": "Smelting steel bars at Blast Furnace",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Degriming grimy dwarf weed",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Degriming grimy kwuarm",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Crafting blood runes through the Abyss",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Poisoning ammunition",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1360,7 +1332,21 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting mud runes",
+      "name": "Degriming grimy kwuarm",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Smelting steel bars at Blast Furnace",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1416,7 +1402,7 @@
       "market_saturated": false
     },
     {
-      "name": "Humidifying clay",
+      "name": "Crafting mud runes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1430,7 +1416,7 @@
       "market_saturated": false
     },
     {
-      "name": "Degriming grimy toadflax",
+      "name": "Humidifying clay",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1486,20 +1472,6 @@
       "market_saturated": false
     },
     {
-      "name": "Killing rune dragons",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Hunting moonlight antelopes",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -1514,7 +1486,35 @@
       "market_saturated": false
     },
     {
+      "name": "Killing rune dragons",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Opening grubby chests",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Degriming grimy dwarf weed",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1556,20 +1556,6 @@
       "market_saturated": false
     },
     {
-      "name": "Making mahogany planks at the Woodcutting Guild",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Crafting aether runes",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -1598,21 +1584,7 @@
       "market_saturated": false
     },
     {
-      "name": "Degriming grimy ranarr weed",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Last Man Standing",
+      "name": "Making mahogany planks at the Woodcutting Guild",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1640,105 +1612,7 @@
       "market_saturated": false
     },
     {
-      "name": "Opening essence impling jars",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing skeletal wyverns",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Degriming grimy torstol",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing hydras",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Tanning green dragonhide",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Buying kegs of beer",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Opening eclectic impling jars",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making lantadyme potions",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1766,7 +1640,7 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting astral runes",
+      "name": "Killing skeletal wyverns",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1780,7 +1654,7 @@
       "market_saturated": false
     },
     {
-      "name": "Tanning blue dragonhide",
+      "name": "Degriming grimy avantoe",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1794,7 +1668,7 @@
       "market_saturated": false
     },
     {
-      "name": "Creating eternal glories",
+      "name": "Last Man Standing",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1808,35 +1682,7 @@
       "market_saturated": false
     },
     {
-      "name": "Opening crystal chests",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Tanning red dragonhide",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Completing the Fortis Colosseum (Wave 1)",
+      "name": "Opening essence impling jars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1864,7 +1710,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing the Grotesque Guardians",
+      "name": "Creating eternal glories",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1878,7 +1724,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing the Chaos Fanatic",
+      "name": "Killing hydras",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1892,7 +1738,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making dwarf weed potions",
+      "name": "Completing the Fortis Colosseum (Wave 1)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1906,7 +1752,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Kourend necromancers",
+      "name": "Opening eclectic impling jars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1920,7 +1766,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing kurasks",
+      "name": "Crafting astral runes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -1934,287 +1780,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Lizardman Shamans (Settlement or Temple)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Hunting sunlight antelopes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Guardians of the Rift",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting soul runes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cutting raw sharks",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making elemental battlestaves (Ironman)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making snapdragon potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Smithing rune items (Player-to-player trading)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing Lizardman Shamans (Canyon)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making avantoe potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Degriming grimy tarromin",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Degriming grimy lantadyme",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Deep sea trawling for yellowfin",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Filling bullseye lantern (empty)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing Dagannoth Kings (Rex only)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting chaos runes through the Abyss",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting cosmic runes through the Abyss",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing gargoyles",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Degriming grimy guam leaf",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Degriming grimy marrentill",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making sacred oil",
+      "name": "Opening crystal chests",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2242,7 +1808,189 @@
       "market_saturated": false
     },
     {
-      "name": "Making oak planks (Auburnvale)",
+      "name": "Buying kegs of beer",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing the Chaos Fanatic",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing the Grotesque Guardians",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing kurasks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Kourend necromancers",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Degriming grimy ranarr weed",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Degriming grimy lantadyme",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Hunting sunlight antelopes",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making snapdragon potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Lizardman Shamans (Settlement or Temple)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making avantoe potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Smithing rune items (Player-to-player trading)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making dwarf weed potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Guardians of the Rift",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2270,7 +2018,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making mahogany planks",
+      "name": "Crafting soul runes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2284,7 +2032,7 @@
       "market_saturated": false
     },
     {
-      "name": "Charging and alchemising bracelets of ethereum",
+      "name": "Making elemental battlestaves (Ironman)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2298,7 +2046,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making redwood pyre logs",
+      "name": "Filling bullseye lantern (empty)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2312,7 +2060,7 @@
       "market_saturated": false
     },
     {
-      "name": "Catching snowy knights",
+      "name": "Making lantadyme potions",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2340,7 +2088,105 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Spitting Wyvern",
+      "name": "Deep sea trawling for yellowfin",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Lizardman Shamans (Canyon)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Crafting cosmic runes through the Abyss",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Tanning blue dragonhide",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cutting raw sharks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Crafting chaos runes through the Abyss",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing gargoyles",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Dagannoth Kings (Rex only)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2368,7 +2214,7 @@
       "market_saturated": false
     },
     {
-      "name": "Casting Superglass Make",
+      "name": "Making oak planks (Auburnvale)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2396,7 +2242,63 @@
       "market_saturated": false
     },
     {
-      "name": "Hallowed Sepulchre (Floor 4)",
+      "name": "Making sacred oil",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making super combat potions (with prescription goggles)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Spitting Wyvern",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Catching snowy knights",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Charging and alchemising bracelets of ethereum",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2424,6 +2326,62 @@
       "market_saturated": false
     },
     {
+      "name": "Making mahogany planks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Degriming grimy tarromin",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Casting Superglass Make",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Tanning red dragonhide",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Buying beer tankards",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -2438,7 +2396,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making Guthix rests",
+      "name": "Hallowed Sepulchre (Floor 4)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2480,7 +2438,49 @@
       "market_saturated": false
     },
     {
-      "name": "Pickpocketing H.A.M. members",
+      "name": "Making redwood pyre logs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making Guthix rests",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Degriming grimy marrentill",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making magic pyre logs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2508,35 +2508,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making ultracompost",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Mining lead ore (Deepfin mine)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Completing elite clues (urium remains)",
+      "name": "Pickpocketing H.A.M. members",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2564,6 +2536,34 @@
       "market_saturated": false
     },
     {
+      "name": "Tanning green dragonhide",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Completing elite clues (urium remains)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Making prayer potions",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -2578,7 +2578,7 @@
       "market_saturated": false
     },
     {
-      "name": "Tanning black dragonhide",
+      "name": "Mining lead ore (Deepfin mine)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2592,21 +2592,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting wine of zamorak (Deep Wilderness Dungeon)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Degriming grimy harralander",
+      "name": "Making ultracompost",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2634,35 +2620,21 @@
       "market_saturated": false
     },
     {
+      "name": "Hunting implings",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Hunting black chinchompas",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Creating forester's rations",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making magic pyre logs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2704,7 +2676,35 @@
       "market_saturated": false
     },
     {
-      "name": "Hunting implings",
+      "name": "Tanning black dragonhide",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Collecting wine of zamorak (Deep Wilderness Dungeon)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Creating forester's rations",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2732,7 +2732,7 @@
       "market_saturated": false
     },
     {
-      "name": "Grinding unicorn horns",
+      "name": "Degriming grimy guam leaf",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2747,6 +2747,34 @@
     },
     {
       "name": "Killing urium shades",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Enchanting dragonstone jewellery",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing green dragons (Myths Guild)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2788,77 +2816,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing green dragons (Myths Guild)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Creating teleport to house tablets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Fletching sunlight antler bolts",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Degriming grimy avantoe",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting blood runes at Arceuus (no diary)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making tarromin potions",
+      "name": "Grinding unicorn horns",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -2886,161 +2844,21 @@
       "market_saturated": false
     },
     {
+      "name": "Crafting blood runes at Arceuus (no diary)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Killing Vyrewatch Sentinels",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making guam potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Fletching flighted ogre arrows",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing the Kraken",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing green dragons",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Mining runite ore",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Smelting runite bars (Superheat Item)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Hallowed Sepulchre (Floor 3)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making raw admiral pies",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cleaning grimy cadantine",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Stealing cave goblin wire",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Mining and crushing infernal shale (Tick manipulation)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3068,6 +2886,62 @@
       "market_saturated": false
     },
     {
+      "name": "Making guam potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing green dragons",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Fletching sunlight antler bolts",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Creating teleport to house tablets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Catching rainbow crabs",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -3082,7 +2956,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing brine rats",
+      "name": "Killing the Kraken",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3096,7 +2970,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Wyrms (Slayer)",
+      "name": "Fletching flighted ogre arrows",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3110,7 +2984,7 @@
       "market_saturated": false
     },
     {
-      "name": "Fletching moonlight antler bolts",
+      "name": "Degriming grimy snapdragon",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3124,7 +2998,7 @@
       "market_saturated": false
     },
     {
-      "name": "Enchanting dragonstone jewellery",
+      "name": "Degriming grimy harralander",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3138,21 +3012,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing mithril dragons",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Pickpocketing paladins",
+      "name": "Making raw admiral pies",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3180,7 +3040,105 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting law runes through the Abyss",
+      "name": "Making tarromin potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Smelting runite bars (Superheat Item)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Mining runite ore",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Hallowed Sepulchre (Floor 3)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Mining and crushing infernal shale (Tick manipulation)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Fletching moonlight antler bolts",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing brine rats",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing mithril dragons",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3208,7 +3166,35 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting snape grass",
+      "name": "Pickpocketing paladins",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Stealing cave goblin wire",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Wyrms (Slayer)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3236,7 +3222,21 @@
       "market_saturated": false
     },
     {
-      "name": "Selling archery supplies",
+      "name": "Crafting law runes through the Abyss",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy cadantine",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3264,7 +3264,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cleaning grimy kwuarm",
+      "name": "Selling archery supplies",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3278,7 +3278,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cleaning grimy dwarf weed",
+      "name": "Collecting snape grass",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3292,7 +3292,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Amoxliatl",
+      "name": "Making tuna potatoes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3306,105 +3306,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making oak planks",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing the Kalphite Queen",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Fletching ogre arrow shafts",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Casting plank make",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "High alching profitable free-to-play items",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making super combat potions (with prescription goggles)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making weapon poison(++)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Collecting mort myre fungi",
+      "name": "Cleaning grimy toadflax",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3432,7 +3334,133 @@
       "market_saturated": false
     },
     {
-      "name": "Casting Hunter kit",
+      "name": "Making oak planks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing Amoxliatl",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Casting plank make",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Fletching ogre arrow shafts",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Collecting mort myre fungi",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "High alching profitable free-to-play items",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing the Kalphite Queen",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy kwuarm",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making weapon poison(++)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Filling buckets with water",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3474,49 +3502,7 @@
       "market_saturated": false
     },
     {
-      "name": "Degriming grimy snapdragon",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Filling buckets with water",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cleaning grimy toadflax",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting drift nets",
+      "name": "Casting Hunter kit",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3544,49 +3530,35 @@
       "market_saturated": false
     },
     {
+      "name": "Crushing bird nests",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy dwarf weed",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Killing spiritual mages",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting clockwork (teleport method)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Creating Varrock teleport tablets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing ents",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3614,35 +3586,49 @@
       "market_saturated": false
     },
     {
+      "name": "Killing ents",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Creating Varrock teleport tablets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Crafting clockwork (teleport method)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Hunting carnivorous chinchompas",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting blood runes at Arceuus (minimal requirements)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making tuna potatoes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3670,7 +3656,49 @@
       "market_saturated": false
     },
     {
+      "name": "Crafting drift nets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Crafting blood runes at Arceuus (minimal requirements)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Making gloves of silence",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Crafting nature runes through the Abyss",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3726,21 +3754,7 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting nature runes through the Abyss",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cleaning grimy ranarr weed",
+      "name": "Cleaning grimy torstol",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3768,20 +3782,6 @@
       "market_saturated": false
     },
     {
-      "name": "Crushing bird nests",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Killing blue dragons",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -3796,35 +3796,7 @@
       "market_saturated": false
     },
     {
-      "name": "Fletching ruby bolts",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cleaning grimy torstol",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Mining basalt",
+      "name": "Cleaning grimy avantoe",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3852,35 +3824,21 @@
       "market_saturated": false
     },
     {
+      "name": "Mining basalt",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Enchanting sapphire rings",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Smelting adamantite bars (Superheat Item)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Collecting climbing boots",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3908,7 +3866,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing disciples of Iban",
+      "name": "Collecting climbing boots",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3922,7 +3880,7 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting limestone bricks",
+      "name": "Smelting adamantite bars (Superheat Item)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -3964,6 +3922,20 @@
       "market_saturated": false
     },
     {
+      "name": "Killing disciples of Iban",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Crafting runes at Ourania Altar",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -3992,6 +3964,20 @@
       "market_saturated": false
     },
     {
+      "name": "Crafting limestone bricks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Creating Ardougne teleport tablets",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -4006,7 +3992,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cutting diamond bolt tips",
+      "name": "Stringing yew longbows",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4020,7 +4006,21 @@
       "market_saturated": false
     },
     {
-      "name": "Mining salts",
+      "name": "Cleaning grimy lantadyme",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy ranarr weed",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4062,6 +4062,34 @@
       "market_saturated": false
     },
     {
+      "name": "Cutting yew logs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Smithing rune items",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Collecting black scimitars from Ardougne Castle",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -4090,20 +4118,6 @@
       "market_saturated": false
     },
     {
-      "name": "Cutting yew logs",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Buying beer",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -4118,63 +4132,7 @@
       "market_saturated": false
     },
     {
-      "name": "Blast mining",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Temple Trekking",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Smithing rune items",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Subduing Tempoross",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Vyrecycling",
+      "name": "Mining salts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4202,7 +4160,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cleaning grimy lantadyme",
+      "name": "Subduing Tempoross",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4216,7 +4174,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cleaning grimy tarromin",
+      "name": "Blast mining",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4230,7 +4188,7 @@
       "market_saturated": false
     },
     {
-      "name": "Salvaging mercenary shipwrecks",
+      "name": "Smithing iron dart tips",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4244,21 +4202,7 @@
       "market_saturated": false
     },
     {
-      "name": "Filling water containers (Hosidius kitchen)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing fever spiders",
+      "name": "Temple Trekking",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4286,7 +4230,21 @@
       "market_saturated": false
     },
     {
-      "name": "Stringing yew longbows",
+      "name": "Vyrecycling",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Salvaging mercenary shipwrecks",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4314,7 +4272,7 @@
       "market_saturated": false
     },
     {
-      "name": "Smithing iron dart tips",
+      "name": "Killing fever spiders",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4370,34 +4328,6 @@
       "market_saturated": false
     },
     {
-      "name": "Cleaning grimy guam leaves",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cleaning grimy marrentill",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Catching dark crabs",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -4426,7 +4356,21 @@
       "market_saturated": false
     },
     {
-      "name": "Cooking raw dark crabs",
+      "name": "Crafting topaz bracelets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy tarromin",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4454,7 +4398,49 @@
       "market_saturated": false
     },
     {
-      "name": "Smithing steel dart tips",
+      "name": "Filling water containers (Hosidius kitchen)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cutting diamond bolt tips",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy marrentill",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Smithing bronze dart tips",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4482,7 +4468,63 @@
       "market_saturated": false
     },
     {
-      "name": "Smithing bronze dart tips",
+      "name": "Smithing steel dart tips",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cooking raw dark crabs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing the Crazy archaeologist",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Casting Bones to Bananas",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing aviansie",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4524,35 +4566,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing the Crazy archaeologist",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing aviansie",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cooking raw sunlight antelope",
+      "name": "Making uncooked berry pies",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4594,63 +4608,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cleaning grimy harralander",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making uncooked berry pies",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Charging earth orbs",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cooking raw sharks",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Casting Bones to Bananas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4692,20 +4650,6 @@
       "market_saturated": false
     },
     {
-      "name": "Cutting camphor logs",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Catching anglerfish",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -4720,7 +4664,21 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting ruby rings",
+      "name": "Cutting camphor logs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy guam leaves",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4776,6 +4734,20 @@
       "market_saturated": false
     },
     {
+      "name": "Collecting ruby rings",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Motherlode Mine",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -4804,20 +4776,6 @@
       "market_saturated": false
     },
     {
-      "name": "Making pie shells",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Stringing maple longbows",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -4832,7 +4790,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting steel platebodies",
+      "name": "Cooking raw sharks",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4846,63 +4804,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cleaning grimy avantoe",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making dyes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting topaz bracelets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Catching minnows",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Mining and crushing infernal shale (Infernal shale rocks)",
+      "name": "Making pie shells",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4930,7 +4832,49 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Feral Vampyres",
+      "name": "Collecting steel platebodies",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cooking raw sunlight antelope",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Catching minnows",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cooking raw moonlight antelope",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -4958,7 +4902,63 @@
       "market_saturated": false
     },
     {
+      "name": "Mining and crushing infernal shale (Infernal shale rocks)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy snapdragon",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Cleaning grimy harralander",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Killing sulphur naguas",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making dyes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5014,6 +5014,20 @@
       "market_saturated": false
     },
     {
+      "name": "Killing Feral Vampyres",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Salvaging pirate shipwrecks",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -5042,7 +5056,7 @@
       "market_saturated": false
     },
     {
-      "name": "Salvaging Fremennik shipwrecks",
+      "name": "Catching sharks with shark lure",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5056,7 +5070,7 @@
       "market_saturated": false
     },
     {
-      "name": "Fletching unstrung yew longbows",
+      "name": "Salvaging Fremennik shipwrecks",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5084,35 +5098,21 @@
       "market_saturated": false
     },
     {
+      "name": "Recharging rings of wealth",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Making anchovy pizzas",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Catching sharks with shark lure",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Picking bananas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5154,7 +5154,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting wine of zamorak",
+      "name": "Crafting emerald bracelets",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5168,7 +5168,35 @@
       "market_saturated": false
     },
     {
-      "name": "Buying steel nails",
+      "name": "Cremating urium remains",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Picking bananas",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Fletching unstrung yew longbows",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5183,6 +5211,20 @@
     },
     {
       "name": "Climbing the Agility Pyramid",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Buying steel nails",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5224,34 +5266,6 @@
       "market_saturated": false
     },
     {
-      "name": "Cooking raw anglerfish",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cleaning grimy snapdragon",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Crafting gold bracelets",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -5266,7 +5280,7 @@
       "market_saturated": false
     },
     {
-      "name": "Making pastry dough",
+      "name": "Collecting wine of zamorak",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5280,91 +5294,7 @@
       "market_saturated": false
     },
     {
-      "name": "Casting Spin Flax",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cremating urium remains",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Enchanting diamond necklaces",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Making chocolate cake",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Grinding chocolate bars",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cooking raw dashing kebbit",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Baking potatoes",
+      "name": "Crafting diamond jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5392,7 +5322,63 @@
       "market_saturated": false
     },
     {
+      "name": "Grinding chocolate bars",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Catching raw karambwan",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making pastry dough",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Baking potatoes",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Casting Spin Flax",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5420,6 +5406,20 @@
       "market_saturated": false
     },
     {
+      "name": "Killing brutal green dragons",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Collecting eclipse red bottles",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -5434,21 +5434,7 @@
       "market_saturated": false
     },
     {
-      "name": "Spinning flax to bow strings",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Exchanging impling jars",
+      "name": "Enchanting diamond necklaces",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5490,7 +5476,21 @@
       "market_saturated": false
     },
     {
-      "name": "Killing brutal green dragons",
+      "name": "Smelting iron bars at Blast Furnace",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Spinning flax to bow strings",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5518,7 +5518,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cooking raw moonlight antelope",
+      "name": "Cooking raw dashing kebbit",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5546,34 +5546,6 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting diamond jewellery",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Crafting emerald bracelets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Collecting white berries",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -5588,7 +5560,7 @@
       "market_saturated": false
     },
     {
-      "name": "Hunting chinchompas",
+      "name": "Cooking raw anglerfish",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5616,7 +5588,35 @@
       "market_saturated": false
     },
     {
-      "name": "Fletching unstrung maple longbows",
+      "name": "Hunting chinchompas",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Exchanging impling jars",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making super combat potions",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5672,7 +5672,7 @@
       "market_saturated": false
     },
     {
-      "name": "Smelting iron bars at Blast Furnace",
+      "name": "Mining volcanic ash",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5700,7 +5700,7 @@
       "market_saturated": false
     },
     {
-      "name": "Mining volcanic ash",
+      "name": "Fletching unstrung maple longbows",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5714,7 +5714,21 @@
       "market_saturated": false
     },
     {
-      "name": "Making fine fish offcuts",
+      "name": "Making chocolate cake",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Collecting cosmic runes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5756,91 +5770,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting cosmic runes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Planting flower seeds",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Killing chaos druids",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Collecting tinderboxes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Smelting steel bars",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Selling silk to silk merchant",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Cutting rosewood logs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5868,7 +5798,49 @@
       "market_saturated": false
     },
     {
-      "name": "Recharging rings of wealth",
+      "name": "Collecting tinderboxes",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing chaos druids",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Crafting diamond bracelets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Making fine fish offcuts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5896,7 +5868,21 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting diamond bracelets",
+      "name": "Cutting rosewood logs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Selling silk to silk merchant",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5938,21 +5924,7 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting dragonstone jewellery",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Running laps of the Canifis rooftop course",
+      "name": "Smelting steel bars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5980,7 +5952,7 @@
       "market_saturated": false
     },
     {
-      "name": "Mining clay members",
+      "name": "Running laps of the Canifis rooftop course",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -5994,7 +5966,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting anti-dragon shields (free-to-play)",
+      "name": "Mining clay members",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6022,7 +5994,7 @@
       "market_saturated": false
     },
     {
-      "name": "Smithing mithril dart tips",
+      "name": "Collecting anti-dragon shields (free-to-play)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6036,7 +6008,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing ankous",
+      "name": "Fletching ruby bolts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6064,7 +6036,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting wine of zamorak (free-to-play)",
+      "name": "Killing ankous",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6078,7 +6050,21 @@
       "market_saturated": false
     },
     {
-      "name": "Fletching unstrung comp bow",
+      "name": "Crafting emerald jewellery",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Killing spidines",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6106,7 +6092,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting monk's robes",
+      "name": "Collecting wine of zamorak (free-to-play)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6120,7 +6106,7 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting emerald jewellery",
+      "name": "Collecting monk's robes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6190,6 +6176,20 @@
       "market_saturated": false
     },
     {
+      "name": "Crafting sapphire jewellery",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Killing imps",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -6218,7 +6218,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting and tanning cowhide",
+      "name": "Collecting big bones from the Bone Yard",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6246,35 +6246,21 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting sapphire jewellery",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Collecting big bones from the Bone Yard",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Mining adamantite ore (free-to-play)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Collecting and tanning cowhide",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6316,20 +6302,6 @@
       "market_saturated": false
     },
     {
-      "name": "Crafting gold jewellery",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Collecting red spiders' eggs (free-to-play)",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -6358,7 +6330,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cooking plain pizzas",
+      "name": "Buying kebabs in Al Kharid",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6372,7 +6344,7 @@
       "market_saturated": false
     },
     {
-      "name": "Buying kebabs in Al Kharid",
+      "name": "Cooking plain pizzas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6400,7 +6372,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing Bryophyta (free-to-play)",
+      "name": "Crafting gold jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6414,7 +6386,7 @@
       "market_saturated": false
     },
     {
-      "name": "Stringing amulets",
+      "name": "Killing Bryophyta (free-to-play)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6442,7 +6414,7 @@
       "market_saturated": false
     },
     {
-      "name": "Buying ale from the Rising Sun Inn",
+      "name": "Collecting air talismans",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6456,7 +6428,7 @@
       "market_saturated": false
     },
     {
-      "name": "Collecting air talismans",
+      "name": "Buying ale from the Rising Sun Inn",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6484,21 +6456,7 @@
       "market_saturated": false
     },
     {
-      "name": "Tanning cowhide",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Mining clay",
+      "name": "Stringing amulets",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6526,7 +6484,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cooking raw tuna",
+      "name": "Mining clay",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6540,7 +6498,7 @@
       "market_saturated": false
     },
     {
-      "name": "Cooking raw chicken",
+      "name": "Smelting iron bars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6582,7 +6540,7 @@
       "market_saturated": false
     },
     {
-      "name": "Smelting iron bars",
+      "name": "Cooking raw chicken",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6610,7 +6568,7 @@
       "market_saturated": false
     },
     {
-      "name": "Catching lobsters",
+      "name": "Cooking raw tuna",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6624,7 +6582,7 @@
       "market_saturated": false
     },
     {
-      "name": "Mining gold ore (Crafting Guild)",
+      "name": "Catching lobsters",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6652,7 +6610,7 @@
       "market_saturated": false
     },
     {
-      "name": "Filling water containers",
+      "name": "Mining gold ore (Crafting Guild)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6667,6 +6625,34 @@
     },
     {
       "name": "Killing Ankou (free-to-play)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Smelting silver bars",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Filling water containers",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6722,20 +6708,6 @@
       "market_saturated": false
     },
     {
-      "name": "Catching tuna & swordfish (free-to-play)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Catching sardines & herring",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -6750,7 +6722,7 @@
       "market_saturated": false
     },
     {
-      "name": "Smelting silver bars",
+      "name": "Catching tuna & swordfish (free-to-play)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6792,7 +6764,7 @@
       "market_saturated": false
     },
     {
-      "name": "Taking from the infinite money bag while picking up coin spawns in Varrock West bank",
+      "name": "Killing bears",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6806,7 +6778,7 @@
       "market_saturated": false
     },
     {
-      "name": "Killing bears",
+      "name": "Taking from the infinite money bag while picking up coin spawns in Varrock West bank",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -6876,6 +6848,20 @@
       "market_saturated": false
     },
     {
+      "name": "Growing magic saplings",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
       "name": "Growing palm saplings",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -6932,34 +6918,6 @@
       "market_saturated": false
     },
     {
-      "name": "Farming toadflax",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
-      "name": "Farming snapdragon",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [],
-      "profit_per_action": 0,
-      "profit_per_hour": 0,
-      "actions_real": 900,
-      "liquidity": 1,
-      "risk": 1,
-      "score": 0,
-      "requires_prebuy": false,
-      "market_saturated": false
-    },
-    {
       "name": "Farming huasca",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -6988,7 +6946,21 @@
       "market_saturated": false
     },
     {
-      "name": "Growing magic saplings",
+      "name": "Farming toadflax",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [],
+      "profit_per_action": 0,
+      "profit_per_hour": 0,
+      "actions_real": 900,
+      "liquidity": 1,
+      "risk": 1,
+      "score": 0,
+      "requires_prebuy": false,
+      "market_saturated": false
+    },
+    {
+      "name": "Farming snapdragon",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -7016,7 +6988,7 @@
       "market_saturated": false
     },
     {
-      "name": "Farming avantoe",
+      "name": "Farming irit leaves",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -7030,7 +7002,7 @@
       "market_saturated": false
     },
     {
-      "name": "Farming irit leaves",
+      "name": "Farming avantoe",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -7142,7 +7114,7 @@
       "market_saturated": false
     },
     {
-      "name": "Managing Miscellania",
+      "name": "Picking coconuts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -7156,7 +7128,7 @@
       "market_saturated": false
     },
     {
-      "name": "Picking coconuts",
+      "name": "Managing Miscellania",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -7226,7 +7198,7 @@
       "market_saturated": false
     },
     {
-      "name": "Picking cactus spines",
+      "name": "Dying blue wizard robes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
@@ -7240,7 +7212,7 @@
       "market_saturated": false
     },
     {
-      "name": "Dying blue wizard robes",
+      "name": "Picking cactus spines",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": [],
