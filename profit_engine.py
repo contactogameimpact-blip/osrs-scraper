@@ -33,6 +33,7 @@ def fetch_volumes():
 
 
 def get_price(item_name, prices, items_map):
+
     item_id = items_map.get(item_name)
 
     if not item_id:
@@ -43,10 +44,14 @@ def get_price(item_name, prices, items_map):
     if not info:
         return 0
 
-    return info.get("high", 0)
+    if isinstance(info, dict):
+        return info.get("high", 0)
+
+    return 0
 
 
 def get_volume(item_name, volumes, items_map):
+
     item_id = items_map.get(item_name)
 
     if not item_id:
@@ -57,7 +62,13 @@ def get_volume(item_name, volumes, items_map):
     if not info:
         return 0
 
-    return info.get("volume", 0)
+    if isinstance(info, int):
+        return info
+
+    if isinstance(info, dict):
+        return info.get("volume", 0)
+
+    return 0
 
 
 def compute_profit(method, prices, volumes, ge_limits, items_map):
@@ -68,20 +79,26 @@ def compute_profit(method, prices, volumes, ge_limits, items_map):
     actions = method.get("actions_per_hour_human", 0)
 
     cost = 0
+
     for item in inputs:
+
         price = get_price(item["name"], prices, items_map)
+
         cost += price * item["qty"]
 
     value = 0
+
     for item in outputs:
+
         price = get_price(item["name"], prices, items_map)
+
         value += price * item["qty"]
 
     profit_per_action = value - cost
 
-    # -------------------------
-    # LIMITAR POR GE BUY LIMIT
-    # -------------------------
+    # ------------------------
+    # GE LIMIT CHECK
+    # ------------------------
 
     for item in inputs:
 
@@ -97,9 +114,9 @@ def compute_profit(method, prices, volumes, ge_limits, items_map):
 
             actions = min(actions, possible_actions)
 
-    # -------------------------
-    # LIMITAR POR VOLUMEN REAL
-    # -------------------------
+    # ------------------------
+    # MARKET VOLUME CHECK
+    # ------------------------
 
     if outputs:
 
@@ -115,9 +132,9 @@ def compute_profit(method, prices, volumes, ge_limits, items_map):
 
     profit_per_hour = int(profit_per_action * actions)
 
-    # -------------------------
-    # STATUS DEL MÉTODO
-    # -------------------------
+    # ------------------------
+    # STATUS
+    # ------------------------
 
     if profit_per_hour <= 0:
 
@@ -149,7 +166,7 @@ def main():
 
     volumes = fetch_volumes()
 
-    methods = base["methods"]
+    methods = base.get("methods", [])
 
     for method in methods:
 
@@ -168,8 +185,16 @@ def main():
     print("Métodos analizados:", len(methods))
 
     if methods:
+
         top = methods[0]
-        print("Top método:", top["name"], "-", f"{top['profit_per_hour']:,}", "gp/h")
+
+        print(
+            "Top método:",
+            top.get("name", "unknown"),
+            "-",
+            f"{top.get('profit_per_hour',0):,}",
+            "gp/h"
+        )
 
 
 if __name__ == "__main__":
