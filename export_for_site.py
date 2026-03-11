@@ -4,8 +4,12 @@ methods=json.load(open("money_methods.json"))
 flips=json.load(open("flips.json"))
 
 site={
-    "methods":methods["methods"],
-    "flips":flips
+ "updated":methods["updated"],
+ "methods":methods["methods"][:200],
+ "flips":flips[:100]
 }
 
-json.dump(site,open("site_data.json","w"),indent=2)
+with open("site_data.json","w") as f:
+ json.dump(site,f,indent=2)
+
+print("site data exported")
