@@ -2,194 +2,168 @@ import json
 import time
 import requests
 
-PRICES_API = "https://prices.runescape.wiki/api/v1/osrs/latest"
-VOLUMES_API = "https://prices.runescape.wiki/api/v1/osrs/volumes"
+PRICES="https://prices.runescape.wiki/api/v1/osrs/latest"
+VOLUMES="https://prices.runescape.wiki/api/v1/osrs/volumes"
 
-HEADERS = {
-    "User-Agent": "OSRS-MoneyEngine"
-}
+HEADERS={"User-Agent":"OSRS-MoneyEngine"}
 
-GE_TAX = 0.01
+GE_TAX=0.01
 
 
-def load_json(path):
-    with open(path, encoding="utf-8") as f:
+def load(path):
+    with open(path,encoding="utf8") as f:
         return json.load(f)
 
+def save(path,data):
+    with open(path,"w",encoding="utf8") as f:
+        json.dump(data,f,indent=2)
 
-def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-
-
-def fetch_prices():
-    r = requests.get(PRICES_API, headers=HEADERS)
+def fetch(url):
+    r=requests.get(url,headers=HEADERS)
     r.raise_for_status()
     return r.json()["data"]
 
+def price(name,prices,map):
 
-def fetch_volumes():
-    r = requests.get(VOLUMES_API, headers=HEADERS)
-    r.raise_for_status()
-    return r.json()["data"]
+    id=map.get(name)
 
-
-def get_price(name, prices, items_map):
-
-    item_id = items_map.get(name)
-
-    if not item_id:
+    if not id:
         return 0
 
-    info = prices.get(str(item_id))
+    p=prices.get(str(id))
 
-    if not info:
+    if not p:
         return 0
 
-    return info.get("high", 0)
+    return p.get("high",0)
 
+def volume(name,volumes,map):
 
-def get_volume(name, volumes, items_map):
+    id=map.get(name)
 
-    item_id = items_map.get(name)
-
-    if not item_id:
+    if not id:
         return 0
 
-    info = volumes.get(str(item_id))
+    v=volumes.get(str(id))
 
-    if not info:
-        return 0
+    if isinstance(v,int):
+        return v
 
-    if isinstance(info, int):
-        return info
-
-    if isinstance(info, dict):
-        return info.get("volume", 0)
+    if isinstance(v,dict):
+        return v.get("volume",0)
 
     return 0
 
+def compute(method,prices,volumes,limits,map):
 
-def apply_ge_tax(value):
+    inputs=method["inputs"]
+    outputs=method["outputs"]
 
-    return value * (1 - GE_TAX)
+    actions=method["actions_per_hour_human"]
 
+    cost=0
 
-def compute_profit(method, prices, volumes, ge_limits, items_map):
+    for i in inputs:
 
-    inputs = method.get("inputs", [])
-    outputs = method.get("outputs", [])
-    actions = method.get("actions_per_hour_human", 0)
+        cost+=price(i["name"],prices,map)*i["qty"]
 
-    cost = 0
+    value=0
 
-    for item in inputs:
+    for o in outputs:
 
-        price = get_price(item["name"], prices, items_map)
-        cost += price * item["qty"]
+        value+=price(o["name"],prices,map)*o["qty"]
 
-    value = 0
+    value=value*(1-GE_TAX)
 
-    for item in outputs:
+    profit_action=value-cost
 
-        price = get_price(item["name"], prices, items_map)
-        value += price * item["qty"]
+    requires_prebuy=False
 
-    value = apply_ge_tax(value)
+    for i in inputs:
 
-    profit_action = value - cost
+        name=i["name"]
 
-    requires_prebuy = False
+        if name in limits:
 
-    for item in inputs:
+            limit=limits[name]/4
 
-        name = item["name"]
+            possible=limit/i["qty"]
 
-        if name in ge_limits:
+            if possible<actions:
+                requires_prebuy=True
 
-            limit = ge_limits[name] / 4
-            possible = limit / item["qty"]
+            actions=min(actions,possible)
 
-            if possible < actions:
-                requires_prebuy = True
-
-            actions = min(actions, possible)
-
-    market_saturated = False
+    market_saturated=False
+    liquidity=1
 
     if outputs:
 
-        out_name = outputs[0]["name"]
+        out=outputs[0]["name"]
 
-        daily_volume = get_volume(out_name, volumes, items_map)
+        vol=volume(out,volumes,map)
 
-        if daily_volume > 0:
+        if vol>0:
 
-            sell_hour = daily_volume / 24
+            sell_hour=vol/24
 
-            if sell_hour < actions:
-                market_saturated = True
+            if sell_hour<actions:
+                market_saturated=True
 
-            actions = min(actions, sell_hour)
+            actions=min(actions,sell_hour)
 
-    profit_hour = int(profit_action * actions)
+            liquidity=min(1,sell_hour/500)
 
-    score = profit_hour / 1000
+    profit_hour=int(profit_action*actions)
+
+    risk=1
 
     if market_saturated:
-        score *= 0.5
+        risk*=0.5
 
     if requires_prebuy:
-        score *= 0.7
+        risk*=0.7
 
-    if profit_hour <= 0:
-        status = "dead"
+    score=profit_hour*liquidity*risk
 
-    elif market_saturated:
-        status = "market_saturated"
-
-    elif requires_prebuy:
-        status = "requires_prebuy"
-
-    else:
-        status = "ok"
-
-    method["profit_per_action"] = int(profit_action)
-    method["profit_per_hour"] = profit_hour
-    method["real_actions_per_hour"] = int(actions)
-    method["requires_prebuy"] = requires_prebuy
-    method["market_saturated"] = market_saturated
-    method["score"] = round(score, 2)
-    method["status"] = status
+    method["profit_per_action"]=int(profit_action)
+    method["profit_per_hour"]=profit_hour
+    method["actions_real"]=int(actions)
+    method["liquidity"]=round(liquidity,2)
+    method["risk"]=round(risk,2)
+    method["score"]=int(score)
+    method["requires_prebuy"]=requires_prebuy
+    method["market_saturated"]=market_saturated
 
 
 def main():
 
-    base = load_json("methods_base.json")
-    ge_limits = load_json("data/ge_limits.json")
-    items_map = load_json("data/items_map.json")
+    base=load("methods_base.json")
 
-    prices = fetch_prices()
-    volumes = fetch_volumes()
+    limits=load("data/ge_limits.json")
 
-    methods = base.get("methods", [])
+    items=load("data/items_map.json")
+
+    prices=fetch(PRICES)
+
+    volumes=fetch(VOLUMES)
+
+    methods=base["methods"]
 
     for m in methods:
 
-        compute_profit(m, prices, volumes, ge_limits, items_map)
+        compute(m,prices,volumes,limits,items)
 
-    methods.sort(key=lambda x: x.get("score", 0), reverse=True)
+    methods.sort(key=lambda x:x["score"],reverse=True)
 
-    final = {
-        "updated": int(time.time()),
-        "methods": methods
+    out={
+        "updated":int(time.time()),
+        "methods":methods
     }
 
-    save_json("money_methods.json", final)
+    save("money_methods.json",out)
 
-    print("engine completo")
-    print("metodos:", len(methods))
+    print("engine done")
 
-
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
