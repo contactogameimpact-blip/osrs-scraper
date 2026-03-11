@@ -6,37 +6,34 @@ on:
   workflow_dispatch:
 
 jobs:
-
   run:
-
     runs-on: ubuntu-latest
 
     steps:
-
-      - name: checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: setup python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: install deps
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: scrape methods
+      - name: Scrape methods
         run: python scrape_methods.py
 
-      - name: run profit engine
+      - name: Run profit engine
         run: python profit_engine.py
 
-      - name: detect flips
+      - name: Detect flips
         run: python flip_detector.py
 
-      - name: export site data
+      - name: Export site data
         run: python export_for_site.py
 
-      - name: commit results
+      - name: Commit results
         run: |
           git config --global user.name bot
           git config --global user.email bot@users.noreply.github.com
