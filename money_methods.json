@@ -1,4 +1,105 @@
 {
-  "updated": 0,
-  "methods": []
+  "updated": 1773232832,
+  "methods": [
+    {
+      "name": "Spin flax",
+      "actions_per_hour_human": 2000,
+      "inputs": [
+        {
+          "name": "Flax",
+          "qty": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Bow string",
+          "qty": 1
+        }
+      ],
+      "profit_per_action": 88,
+      "profit_per_hour": 176000,
+      "real_actions_per_hour": 2000,
+      "status": "ok"
+    },
+    {
+      "name": "Make pie shell",
+      "actions_per_hour_human": 1800,
+      "inputs": [
+        {
+          "name": "Pie dish",
+          "qty": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Pie shell",
+          "qty": 1
+        }
+      ],
+      "profit_per_action": 203,
+      "profit_per_hour": 25375,
+      "real_actions_per_hour": 125,
+      "status": "ok"
+    },
+    {
+      "name": "Cook salmon",
+      "actions_per_hour_human": 1400,
+      "inputs": [
+        {
+          "name": "Raw salmon",
+          "qty": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Salmon",
+          "qty": 1
+        }
+      ],
+      "profit_per_action": 3,
+      "profit_per_hour": 4200,
+      "real_actions_per_hour": 1400,
+      "status": "ok"
+    },
+    {
+      "name": "Cook shrimp",
+      "actions_per_hour_human": 1500,
+      "inputs": [
+        {
+          "name": "Raw shrimp",
+          "qty": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Shrimp",
+          "qty": 1
+        }
+      ],
+      "profit_per_action": -2,
+      "profit_per_hour": -3000,
+      "real_actions_per_hour": 1500,
+      "status": "dead"
+    },
+    {
+      "name": "Cook trout",
+      "actions_per_hour_human": 1400,
+      "inputs": [
+        {
+          "name": "Raw trout",
+          "qty": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Trout",
+          "qty": 1
+        }
+      ],
+      "profit_per_action": -23,
+      "profit_per_hour": -32200,
+      "real_actions_per_hour": 1400,
+      "status": "dead"
+    }
+  ]
 }
