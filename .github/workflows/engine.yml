@@ -1,4 +1,4 @@
-name: engine
+name: osrs-engine
 
 on:
   schedule:
@@ -13,22 +13,33 @@ jobs:
 
     steps:
 
-      - uses: actions/checkout@v4
+      - name: checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: setup python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install -r requirements.txt
+      - name: install deps
+        run: pip install -r requirements.txt
 
-      - run: python scrape_methods.py
-      - run: python profit_engine.py
-      - run: python flip_detector.py
-      - run: python export_for_site.py
+      - name: scrape methods
+        run: python scrape_methods.py
 
-      - run: |
+      - name: run profit engine
+        run: python profit_engine.py
+
+      - name: detect flips
+        run: python flip_detector.py
+
+      - name: export site data
+        run: python export_for_site.py
+
+      - name: commit results
+        run: |
           git config --global user.name bot
           git config --global user.email bot@users.noreply.github.com
           git add .
-          git commit -m "update data" || echo "no changes"
+          git commit -m "update market data" || echo "no changes"
           git push
