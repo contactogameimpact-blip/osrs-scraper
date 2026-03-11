@@ -9,193 +9,155 @@ HEADERS = {
     "User-Agent": "OSRS-MoneyHub/1.0"
 }
 
-
 def load_json(path):
-    with open(path, encoding="utf-8") as f:
+    with open(path,encoding="utf-8") as f:
         return json.load(f)
 
-
-def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
+def save_json(path,data):
+    with open(path,"w",encoding="utf-8") as f:
+        json.dump(data,f,indent=2)
 
 def fetch_prices():
-    r = requests.get(PRICES_API, headers=HEADERS)
+    r=requests.get(PRICES_API,headers=HEADERS)
     r.raise_for_status()
     return r.json()["data"]
-
 
 def fetch_volumes():
-    r = requests.get(VOLUMES_API, headers=HEADERS)
+    r=requests.get(VOLUMES_API,headers=HEADERS)
     r.raise_for_status()
     return r.json()["data"]
 
+def get_price(name,prices,items_map):
 
-def get_price(item_name, prices, items_map):
-
-    item_id = items_map.get(item_name)
-
-    if not item_id:
-        return 0
-
-    info = prices.get(str(item_id))
-
-    if not info:
-        return 0
-
-    if isinstance(info, dict):
-        return info.get("high", 0)
-
-    return 0
-
-
-def get_volume(item_name, volumes, items_map):
-
-    item_id = items_map.get(item_name)
+    item_id=items_map.get(name)
 
     if not item_id:
         return 0
 
-    info = volumes.get(str(item_id))
+    info=prices.get(str(item_id))
 
     if not info:
         return 0
 
-    if isinstance(info, int):
+    return info.get("high",0)
+
+def get_volume(name,volumes,items_map):
+
+    item_id=items_map.get(name)
+
+    if not item_id:
+        return 0
+
+    info=volumes.get(str(item_id))
+
+    if not info:
+        return 0
+
+    if isinstance(info,int):
         return info
 
-    if isinstance(info, dict):
-        return info.get("volume", 0)
+    if isinstance(info,dict):
+        return info.get("volume",0)
 
     return 0
 
+def compute_profit(method,prices,volumes,ge_limits,items_map):
 
-def compute_profit(method, prices, volumes, ge_limits, items_map):
+    inputs=method.get("inputs",[])
+    outputs=method.get("outputs",[])
 
-    inputs = method.get("inputs", [])
-    outputs = method.get("outputs", [])
+    actions=method.get("actions_per_hour_human",0)
 
-    actions = method.get("actions_per_hour_human", 0)
-
-    cost = 0
+    cost=0
 
     for item in inputs:
 
-        price = get_price(item["name"], prices, items_map)
+        p=get_price(item["name"],prices,items_map)
 
-        cost += price * item["qty"]
+        cost+=p*item["qty"]
 
-    value = 0
+    value=0
 
     for item in outputs:
 
-        price = get_price(item["name"], prices, items_map)
+        p=get_price(item["name"],prices,items_map)
 
-        value += price * item["qty"]
+        value+=p*item["qty"]
 
-    profit_per_action = value - cost
-
-    # ------------------------
-    # GE LIMIT CHECK
-    # ------------------------
+    profit_action=value-cost
 
     for item in inputs:
 
-        name = item["name"]
+        name=item["name"]
 
         if name in ge_limits:
 
-            limit_4h = ge_limits[name]
+            limit=ge_limits[name]/4
 
-            hourly_limit = limit_4h / 4
+            possible=limit/item["qty"]
 
-            possible_actions = hourly_limit / item["qty"]
-
-            actions = min(actions, possible_actions)
-
-    # ------------------------
-    # MARKET VOLUME CHECK
-    # ------------------------
+            actions=min(actions,possible)
 
     if outputs:
 
-        out_name = outputs[0]["name"]
+        out_name=outputs[0]["name"]
 
-        daily_volume = get_volume(out_name, volumes, items_map)
+        daily=get_volume(out_name,volumes,items_map)
 
-        if daily_volume > 0:
+        if daily>0:
 
-            sell_per_hour = daily_volume / 24
+            sell_hour=daily/24
 
-            actions = min(actions, sell_per_hour)
+            actions=min(actions,sell_hour)
 
-    profit_per_hour = int(profit_per_action * actions)
+    profit_hour=int(profit_action*actions)
 
-    # ------------------------
-    # STATUS
-    # ------------------------
+    if profit_hour<=0:
 
-    if profit_per_hour <= 0:
+        status="dead"
 
-        status = "dead"
+    elif actions<10:
 
-    elif actions < 10:
-
-        status = "slow_volume"
+        status="slow_volume"
 
     else:
 
-        status = "ok"
+        status="ok"
 
-    method["profit_per_action"] = int(profit_per_action)
-    method["profit_per_hour"] = profit_per_hour
-    method["real_actions_per_hour"] = int(actions)
-    method["status"] = status
-
+    method["profit_per_action"]=int(profit_action)
+    method["profit_per_hour"]=profit_hour
+    method["real_actions_per_hour"]=int(actions)
+    method["status"]=status
 
 def main():
 
-    base = load_json("methods_base.json")
+    base=load_json("methods_base.json")
 
-    ge_limits = load_json("data/ge_limits.json")
+    ge_limits=load_json("data/ge_limits.json")
 
-    items_map = load_json("data/items_map.json")
+    items_map=load_json("data/items_map.json")
 
-    prices = fetch_prices()
+    prices=fetch_prices()
 
-    volumes = fetch_volumes()
+    volumes=fetch_volumes()
 
-    methods = base.get("methods", [])
+    methods=base.get("methods",[])
 
-    for method in methods:
+    for m in methods:
 
-        compute_profit(method, prices, volumes, ge_limits, items_map)
+        compute_profit(m,prices,volumes,ge_limits,items_map)
 
-    methods.sort(key=lambda x: x.get("profit_per_hour", 0), reverse=True)
+    methods.sort(key=lambda x:x.get("profit_per_hour",0),reverse=True)
 
-    final = {
-        "updated": int(time.time()),
-        "methods": methods
+    final={
+        "updated":int(time.time()),
+        "methods":methods
     }
 
-    save_json("money_methods.json", final)
+    save_json("money_methods.json",final)
 
-    print("Profit engine terminado")
-    print("Métodos analizados:", len(methods))
+    print("engine terminado")
+    print("metodos:",len(methods))
 
-    if methods:
-
-        top = methods[0]
-
-        print(
-            "Top método:",
-            top.get("name", "unknown"),
-            "-",
-            f"{top.get('profit_per_hour',0):,}",
-            "gp/h"
-        )
-
-
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
