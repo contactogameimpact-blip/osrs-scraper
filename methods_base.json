@@ -31,13 +31,13 @@
       "outputs": []
     },
     {
-      "name": "Killing Yama (Contract of catalyst acquisition, duo)",
+      "name": "Completing the Fortis Colosseum (Wave 12)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Completing the Fortis Colosseum (Wave 12)",
+      "name": "Killing Yama (Contract of catalyst acquisition, duo)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -55,13 +55,13 @@
       "outputs": []
     },
     {
-      "name": "Killing Yama (Contract of harmony acquisition)",
+      "name": "Chambers of Xeric (Normal Mode)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Chambers of Xeric (Normal Mode)",
+      "name": "Killing Yama (Contract of harmony acquisition)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -109,19 +109,25 @@
       "outputs": []
     },
     {
-      "name": "Killing Araxxor",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Killing Phantom Muspah (Twisted bow)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
+      "name": "Killing Araxxor",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Killing The Whisperer",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crafting aether runes using scarred extract",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -145,12 +151,6 @@
       "outputs": []
     },
     {
-      "name": "Crafting aether runes using scarred extract",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Completing The Corrupted Gauntlet",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -158,12 +158,6 @@
     },
     {
       "name": "Killing zombie pirates (Max efficiency)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing General Graardor",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -181,13 +175,19 @@
       "outputs": []
     },
     {
-      "name": "Killing Kree'arra",
+      "name": "Killing General Graardor",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Killing Vet'ion",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing Kree'arra",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -253,19 +253,25 @@
       "outputs": []
     },
     {
-      "name": "Deep sea trawling for marlin",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Killing Cerberus",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
+      "name": "Deep sea trawling for marlin",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Killing the Corporeal Beast",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cutting raw marlin",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -295,13 +301,19 @@
       "outputs": []
     },
     {
-      "name": "Smelting runite bars at Blast Furnace",
+      "name": "Creating crystal keys",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Crafting double nature runes (Achievement Diary Cape teleport)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Smelting runite bars at Blast Furnace",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -325,7 +337,7 @@
       "outputs": []
     },
     {
-      "name": "Killing Dagannoth Kings (Solo tribrid)",
+      "name": "Making sanfew serum(4)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -337,7 +349,13 @@
       "outputs": []
     },
     {
-      "name": "Cutting raw marlin",
+      "name": "Poisoning ammunition",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing Dagannoth Kings (Solo tribrid)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -349,19 +367,7 @@
       "outputs": []
     },
     {
-      "name": "Making sanfew serum(4)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing Blood Moon",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Moons of Peril",
+      "name": "Fletching gem-tipped dragon bolts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -379,7 +385,19 @@
       "outputs": []
     },
     {
-      "name": "Creating crystal keys",
+      "name": "Moons of Peril",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Degriming grimy toadflax",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing Blood Moon",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -397,19 +415,13 @@
       "outputs": []
     },
     {
-      "name": "Casting Tan Leather",
+      "name": "Degriming grimy avantoe",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing Zulrah",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Opening larran's big chests",
+      "name": "Degriming grimy irit leaf",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -421,13 +433,19 @@
       "outputs": []
     },
     {
+      "name": "Killing Zulrah",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Killing Calvar'ion",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making toy cats",
+      "name": "Casting Tan Leather",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -439,19 +457,31 @@
       "outputs": []
     },
     {
+      "name": "Degriming grimy dwarf weed",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making toy cats",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Looting Eldric the Ice King",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing Zalcano",
+      "name": "Killing Artio",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing Artio",
+      "name": "Killing Zalcano",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -481,13 +511,7 @@
       "outputs": []
     },
     {
-      "name": "Fletching gem-tipped dragon bolts",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Opening sinister chests",
+      "name": "Delivering food in Gnome Restaurant",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -499,25 +523,7 @@
       "outputs": []
     },
     {
-      "name": "Delivering food in Gnome Restaurant",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Killing adamant dragons",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Degriming grimy cadantine",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Degriming grimy irit leaf",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -529,13 +535,25 @@
       "outputs": []
     },
     {
+      "name": "Killing K'ril Tsutsaroth",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Hallowed Sepulchre (Floor 5)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Degriming grimy toadflax",
+      "name": "Creating eternal glories",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Opening sinister chests",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -547,7 +565,7 @@
       "outputs": []
     },
     {
-      "name": "Killing K'ril Tsutsaroth",
+      "name": "Smelting mithril bars at Blast Furnace",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -559,7 +577,7 @@
       "outputs": []
     },
     {
-      "name": "Poisoning ammunition",
+      "name": "Degriming grimy lantadyme",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -571,13 +589,7 @@
       "outputs": []
     },
     {
-      "name": "Degriming grimy kwuarm",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Smelting steel bars at Blast Furnace",
+      "name": "Making raw wild pies",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -589,7 +601,7 @@
       "outputs": []
     },
     {
-      "name": "Smelting mithril bars at Blast Furnace",
+      "name": "Smelting steel bars at Blast Furnace",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -607,25 +619,13 @@
       "outputs": []
     },
     {
-      "name": "Humidifying clay",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crafting double law runes through the Abyss",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Crafting steam runes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making raw wild pies",
+      "name": "Crafting double law runes through the Abyss",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -649,19 +649,19 @@
       "outputs": []
     },
     {
-      "name": "Degriming grimy dwarf weed",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Killing lava dragons",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Crafting mist runes",
+      "name": "Degriming grimy ranarr weed",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Degriming grimy kwuarm",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -673,25 +673,7 @@
       "outputs": []
     },
     {
-      "name": "Killing the Giant Mole (Twisted bow)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making mahogany planks at the Woodcutting Guild",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Deep sea trawling for bluefin",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Degriming grimy torstol",
+      "name": "Humidifying clay",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -703,19 +685,31 @@
       "outputs": []
     },
     {
+      "name": "Crafting mist runes",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing the Giant Mole (Twisted bow)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Deep sea trawling for bluefin",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making mahogany planks at the Woodcutting Guild",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Killing skeletal wyverns",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Degriming grimy avantoe",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Last Man Standing",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -727,19 +721,7 @@
       "outputs": []
     },
     {
-      "name": "Making cadantine potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Creating eternal glories",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing hydras",
+      "name": "Making avantoe potions",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -751,7 +733,25 @@
       "outputs": []
     },
     {
+      "name": "Killing hydras",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Last Man Standing",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Opening eclectic impling jars",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making dwarf weed potions",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -763,13 +763,7 @@
       "outputs": []
     },
     {
-      "name": "Opening crystal chests",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making irit potions",
+      "name": "Making super combat potions (with prescription goggles)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -781,13 +775,49 @@
       "outputs": []
     },
     {
+      "name": "Making snapdragon potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making cadantine potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Killing the Chaos Fanatic",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
+      "name": "Making irit potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Smithing rune items (Player-to-player trading)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Opening crystal chests",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Killing the Grotesque Guardians",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making lantadyme potions",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -805,25 +835,19 @@
       "outputs": []
     },
     {
-      "name": "Degriming grimy ranarr weed",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Degriming grimy lantadyme",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Hunting sunlight antelopes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making snapdragon potions",
+      "name": "Making toadflax potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making kwuarm potions",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -835,31 +859,13 @@
       "outputs": []
     },
     {
-      "name": "Making avantoe potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Smithing rune items (Player-to-player trading)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making dwarf weed potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Guardians of the Rift",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making toadflax potions",
+      "name": "Degriming grimy cadantine",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -877,25 +883,7 @@
       "outputs": []
     },
     {
-      "name": "Filling bullseye lantern (empty)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making lantadyme potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making kwuarm potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Deep sea trawling for yellowfin",
+      "name": "Making Guthix rests",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -907,19 +895,31 @@
       "outputs": []
     },
     {
+      "name": "Filling bullseye lantern (empty)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Opening larran's big chests",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Deep sea trawling for yellowfin",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making ranarr potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Crafting cosmic runes through the Abyss",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Tanning blue dragonhide",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cutting raw sharks",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -937,25 +937,13 @@
       "outputs": []
     },
     {
-      "name": "Killing Dagannoth Kings (Rex only)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Killing fiyr shades",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making oak planks (Auburnvale)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making ranarr potions",
+      "name": "Killing Dagannoth Kings (Rex only)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -967,19 +955,13 @@
       "outputs": []
     },
     {
-      "name": "Making super combat potions (with prescription goggles)",
+      "name": "Tanning red dragonhide",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing Spitting Wyvern",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Catching snowy knights",
+      "name": "Making oak planks (Auburnvale)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -991,13 +973,55 @@
       "outputs": []
     },
     {
+      "name": "Catching snowy knights",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Looting ogre coffins",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
+      "name": "Killing Spitting Wyvern",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cutting raw sharks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Making mahogany planks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Pickpocketing master farmers",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Hallowed Sepulchre (Floor 4)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making redwood pyre logs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Buying beer tankards",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1015,55 +1039,13 @@
       "outputs": []
     },
     {
-      "name": "Tanning red dragonhide",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Buying beer tankards",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Hallowed Sepulchre (Floor 4)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Pickpocketing master farmers",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Buying monkey nuts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making redwood pyre logs",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making Guthix rests",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Degriming grimy marrentill",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making magic pyre logs",
+      "name": "Enchanting dragonstone jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1075,19 +1057,25 @@
       "outputs": []
     },
     {
-      "name": "Pickpocketing H.A.M. members",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Making pineapple pizzas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Tanning green dragonhide",
+      "name": "Pickpocketing H.A.M. members",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Tanning blue dragonhide",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making magic pyre logs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1099,13 +1087,13 @@
       "outputs": []
     },
     {
-      "name": "Making prayer potions",
+      "name": "Mining lead ore (Deepfin mine)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Mining lead ore (Deepfin mine)",
+      "name": "Hunting implings",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1118,12 +1106,6 @@
     },
     {
       "name": "Crafting cosmic runes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Hunting implings",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1147,19 +1129,13 @@
       "outputs": []
     },
     {
+      "name": "Making prayer potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Tanning black dragonhide",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting wine of zamorak (Deep Wilderness Dungeon)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Creating forester's rations",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1183,13 +1159,31 @@
       "outputs": []
     },
     {
-      "name": "Enchanting dragonstone jewellery",
+      "name": "Collecting wine of zamorak (Deep Wilderness Dungeon)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Killing green dragons (Myths Guild)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making guam potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making adamant brutal arrows",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cleaning grimy toadflax",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1207,13 +1201,25 @@
       "outputs": []
     },
     {
+      "name": "Creating forester's rations",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Grinding unicorn horns",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making teak planks",
+      "name": "Degriming grimy marrentill",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making harralander potions",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1231,163 +1237,13 @@
       "outputs": []
     },
     {
-      "name": "Making harralander potions",
+      "name": "Cleaning grimy avantoe",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making guam potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing green dragons",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Fletching sunlight antler bolts",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Creating teleport to house tablets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Catching rainbow crabs",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing the Kraken",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Fletching flighted ogre arrows",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Degriming grimy snapdragon",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Degriming grimy harralander",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making raw admiral pies",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making adamant brutal arrows",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making tarromin potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Smelting runite bars (Superheat Item)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Mining runite ore",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Hallowed Sepulchre (Floor 3)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Mining and crushing infernal shale (Tick manipulation)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Fletching moonlight antler bolts",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing brine rats",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing mithril dragons",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cutting ruby bolt tips",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Pickpocketing paladins",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Stealing cave goblin wire",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing Wyrms (Slayer)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing Drakes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crafting law runes through the Abyss",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cleaning grimy cadantine",
+      "name": "Making teak planks",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1399,13 +1255,67 @@
       "outputs": []
     },
     {
-      "name": "Selling archery supplies",
+      "name": "Killing green dragons",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Collecting snape grass",
+      "name": "Killing the Kraken",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making raw admiral pies",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Tanning green dragonhide",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Catching rainbow crabs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Fletching flighted ogre arrows",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Degriming grimy harralander",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making tarromin potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cleaning grimy dwarf weed",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Fletching sunlight antler bolts",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Mining runite ore",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1417,25 +1327,37 @@
       "outputs": []
     },
     {
-      "name": "Cleaning grimy toadflax",
+      "name": "Hallowed Sepulchre (Floor 3)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Creating bones to peaches tablets",
+      "name": "Creating teleport to house tablets",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making oak planks",
+      "name": "Mining and crushing infernal shale (Tick manipulation)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing Amoxliatl",
+      "name": "Killing brine rats",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Smelting runite bars (Superheat Item)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing mithril dragons",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1447,7 +1369,49 @@
       "outputs": []
     },
     {
-      "name": "Fletching ogre arrow shafts",
+      "name": "Pickpocketing paladins",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Degriming grimy snapdragon",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Selling archery supplies",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing Wyrms (Slayer)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crafting law runes through the Abyss",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing Drakes",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Stealing cave goblin wire",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Collecting snape grass",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1459,7 +1423,37 @@
       "outputs": []
     },
     {
-      "name": "High alching profitable free-to-play items",
+      "name": "Fletching moonlight antler bolts",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Creating bones to peaches tablets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing Amoxliatl",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cutting ruby bolt tips",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Fletching ogre arrow shafts",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making oak planks",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1471,7 +1465,7 @@
       "outputs": []
     },
     {
-      "name": "Cleaning grimy kwuarm",
+      "name": "Cleaning grimy lantadyme",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1483,13 +1477,31 @@
       "outputs": []
     },
     {
-      "name": "Filling buckets with water",
+      "name": "High alching profitable free-to-play items",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Degriming grimy torstol",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Creating teleport tablets at Lectern (Lunar)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Charging air orbs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Killing Sarachnis",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1507,30 +1519,6 @@
       "outputs": []
     },
     {
-      "name": "Killing Sarachnis",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crushing bird nests",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cleaning grimy dwarf weed",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing spiritual mages",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Killing ice troll runts",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -1543,25 +1531,37 @@
       "outputs": []
     },
     {
+      "name": "Killing spiritual mages",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cleaning grimy kwuarm",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cleaning grimy ranarr weed",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Creating Varrock teleport tablets",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Crafting clockwork (teleport method)",
+      "name": "Making gloves of silence",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Hunting carnivorous chinchompas",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Charging air orbs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1579,13 +1579,25 @@
       "outputs": []
     },
     {
-      "name": "Making gloves of silence",
+      "name": "Crafting clockwork (teleport method)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Crafting nature runes through the Abyss",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Smithing rune items",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crafting opal bracelets",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1603,61 +1615,7 @@
       "outputs": []
     },
     {
-      "name": "Crafting opal bracelets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cleaning grimy torstol",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Nechrecycling",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Killing blue dragons",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cleaning grimy avantoe",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Buying iron ore from Ordan",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Mining basalt",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Enchanting sapphire rings",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Charging fire orbs",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting climbing boots",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1669,31 +1627,55 @@
       "outputs": []
     },
     {
-      "name": "Mining runite ore (free-to-play)",
+      "name": "Filling buckets with water",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing brutal red dragons",
+      "name": "Nechrecycling",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing disciples of Iban",
+      "name": "Charging fire orbs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Crafting runes at Ourania Altar",
+      "name": "Enchanting sapphire rings",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing skogres and zogres",
+      "name": "Buying iron ore from Ordan",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crushing bird nests",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making super combat potions",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Mining basalt",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Collecting climbing boots",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1705,7 +1687,25 @@
       "outputs": []
     },
     {
-      "name": "Creating Ardougne teleport tablets",
+      "name": "Killing brutal red dragons",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Mining runite ore (free-to-play)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crafting runes at Ourania Altar",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cooking raw moonlight antelope",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1717,13 +1717,7 @@
       "outputs": []
     },
     {
-      "name": "Cleaning grimy lantadyme",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cleaning grimy ranarr weed",
+      "name": "Killing disciples of Iban",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1735,43 +1729,13 @@
       "outputs": []
     },
     {
-      "name": "Crafting jade bracelets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cutting yew logs",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Smithing rune items",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting black scimitars from Ardougne Castle",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Creating Barrows teleport tablets",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Buying beer",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Mining salts",
+      "name": "Killing skogres and zogres",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1783,7 +1747,37 @@
       "outputs": []
     },
     {
-      "name": "Subduing Tempoross",
+      "name": "Cutting yew logs",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Creating Ardougne teleport tablets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crafting jade bracelets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Buying beer",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Collecting black scimitars from Ardougne Castle",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Mining salts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1795,7 +1789,7 @@
       "outputs": []
     },
     {
-      "name": "Smithing iron dart tips",
+      "name": "Subduing Tempoross",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1807,7 +1801,25 @@
       "outputs": []
     },
     {
+      "name": "Cleaning grimy cadantine",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Creating Camelot teleport tablets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Stringing magic longbows",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Smithing iron dart tips",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1831,12 +1843,6 @@
       "outputs": []
     },
     {
-      "name": "Killing fever spiders",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Fletching headless arrows",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -1849,7 +1855,7 @@
       "outputs": []
     },
     {
-      "name": "Stringing magic longbows",
+      "name": "Killing fever spiders",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1861,13 +1867,7 @@
       "outputs": []
     },
     {
-      "name": "Buying pies",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crafting topaz bracelets",
+      "name": "Killing Jubsters",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1879,25 +1879,13 @@
       "outputs": []
     },
     {
-      "name": "Killing Jubsters",
+      "name": "Buying pies",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Filling water containers (Hosidius kitchen)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cutting diamond bolt tips",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cleaning grimy marrentill",
+      "name": "Making uncooked berry pies",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1909,31 +1897,25 @@
       "outputs": []
     },
     {
+      "name": "Filling water containers (Hosidius kitchen)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Chopping infected roots",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Smithing steel dart tips",
+      "name": "Charging earth orbs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Cooking raw dark crabs",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing the Crazy archaeologist",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Casting Bones to Bananas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1957,25 +1939,7 @@
       "outputs": []
     },
     {
-      "name": "Making uncooked berry pies",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making dynamite",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Catching sacred eels",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Charging earth orbs",
+      "name": "Killing the Crazy archaeologist",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1987,7 +1951,37 @@
       "outputs": []
     },
     {
-      "name": "Pickpocketing Ardougne knights",
+      "name": "Catching sacred eels",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making dynamite",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Smithing steel dart tips",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crafting topaz bracelets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cutting diamond bolt tips",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Casting Bones to Bananas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -1999,19 +1993,25 @@
       "outputs": []
     },
     {
-      "name": "Cutting camphor logs",
+      "name": "Pickpocketing Ardougne knights",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making uncooked apple pies",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Collecting ruby rings",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Cleaning grimy guam leaves",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Smelting runite bars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2029,18 +2029,6 @@
       "outputs": []
     },
     {
-      "name": "Collecting ruby rings",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Motherlode Mine",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Killing the King Black Dragon",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -2053,31 +2041,25 @@
       "outputs": []
     },
     {
-      "name": "Cooking raw sharks",
+      "name": "Motherlode Mine",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making pie shells",
+      "name": "Cutting camphor logs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making uncooked apple pies",
+      "name": "Cleaning grimy marrentill",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Collecting steel platebodies",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cooking raw sunlight antelope",
+      "name": "Smelting runite bars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2089,7 +2071,25 @@
       "outputs": []
     },
     {
-      "name": "Cooking raw moonlight antelope",
+      "name": "Collecting steel platebodies",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Enchanting jade amulets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cooking raw sharks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cooking raw sunlight antelope",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2107,19 +2107,7 @@
       "outputs": []
     },
     {
-      "name": "Cleaning grimy snapdragon",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Cleaning grimy harralander",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing sulphur naguas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2131,19 +2119,25 @@
       "outputs": []
     },
     {
+      "name": "Making pie shells",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Buying feather packs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Enchanting jade amulets",
+      "name": "Killing sulphur naguas",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Cooking raw karambwan",
+      "name": "Buying jug packs",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2155,55 +2149,19 @@
       "outputs": []
     },
     {
-      "name": "Salvaging pirate shipwrecks",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Barbarian assault high gambles",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Catching sharks with shark lure",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Salvaging Fremennik shipwrecks",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making pizza bases",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Recharging rings of wealth",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making anchovy pizzas",
+      "name": "Cleaning grimy snapdragon",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Enchanting topaz jewellery",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting jangerberries",
+      "name": "Salvaging pirate shipwrecks",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2215,7 +2173,55 @@
       "outputs": []
     },
     {
+      "name": "Barbarian assault high gambles",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cooking raw karambwan",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Smelting iron bars at Blast Furnace",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Salvaging Fremennik shipwrecks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making anchovy pizzas",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Catching sharks with shark lure",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Buying steel nails",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Cremating urium remains",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Enchanting topaz jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2227,7 +2233,7 @@
       "outputs": []
     },
     {
-      "name": "Fletching unstrung yew longbows",
+      "name": "Cleaning grimy torstol",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2239,7 +2245,13 @@
       "outputs": []
     },
     {
-      "name": "Buying steel nails",
+      "name": "Fletching unstrung yew longbows",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Collecting jangerberries",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2257,49 +2269,13 @@
       "outputs": []
     },
     {
+      "name": "Enchanting diamond necklaces",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Crafting gold bracelets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting wine of zamorak",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crafting diamond jewellery",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Drift net fishing",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Grinding chocolate bars",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Catching raw karambwan",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making pastry dough",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Baking potatoes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2311,7 +2287,25 @@
       "outputs": []
     },
     {
-      "name": "Salvaging large shipwrecks",
+      "name": "Catching raw karambwan",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Collecting wine of zamorak",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making pizza bases",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Baking potatoes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2323,31 +2317,19 @@
       "outputs": []
     },
     {
+      "name": "Salvaging large shipwrecks",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Collecting eclipse red bottles",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Enchanting diamond necklaces",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Catching infernal eels",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing red dragons",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Smelting iron bars at Blast Furnace",
+      "name": "Drift net fishing",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2359,13 +2341,25 @@
       "outputs": []
     },
     {
-      "name": "Mining iron ore",
+      "name": "Killing red dragons",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Cooking raw dashing kebbit",
+      "name": "Catching infernal eels",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Grinding chocolate bars",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Mining iron ore",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2377,7 +2371,31 @@
       "outputs": []
     },
     {
+      "name": "Hunting chinchompas",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making pastry dough",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cooking raw marlin",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Collecting white berries",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crafting diamond jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2395,31 +2413,7 @@
       "outputs": []
     },
     {
-      "name": "Hunting chinchompas",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Exchanging impling jars",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making super combat potions",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
       "name": "Blessing unblessed symbols",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting fish food",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2431,13 +2425,7 @@
       "outputs": []
     },
     {
-      "name": "Mining volcanic ash",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Killing ogress shamans",
+      "name": "Collecting fish food",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2449,37 +2437,13 @@
       "outputs": []
     },
     {
-      "name": "Making chocolate cake",
+      "name": "Killing ogress shamans",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Collecting cosmic runes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Stealing valuables",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting chaos runes",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Planting flower seeds",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crafting ruby bracelets",
+      "name": "Mining volcanic ash",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2491,25 +2455,49 @@
       "outputs": []
     },
     {
+      "name": "Collecting cosmic runes",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Collecting chaos runes",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Stealing valuables",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Planting flower seeds",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Exchanging impling jars",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Killing chaos druids",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Crafting diamond bracelets",
+      "name": "Collecting anti-dragon shields (free-to-play)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Making fine fish offcuts",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crafting ruby jewellery",
+      "name": "Crafting ruby bracelets",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2521,7 +2509,13 @@
       "outputs": []
     },
     {
-      "name": "Selling silk to silk merchant",
+      "name": "Making chocolate cake",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Making fine fish offcuts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2533,19 +2527,31 @@
       "outputs": []
     },
     {
-      "name": "Running the Colossal Wyrm Agility Course",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Smelting steel bars",
+      "name": "Selling silk to silk merchant",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Collecting nature runes",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Running the Colossal Wyrm Agility Course",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cutting yew logs (free-to-play)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Smelting steel bars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2563,19 +2569,7 @@
       "outputs": []
     },
     {
-      "name": "Cutting yew logs (free-to-play)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting anti-dragon shields (free-to-play)",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Fletching ruby bolts",
+      "name": "Crafting dragonstone jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2587,19 +2581,37 @@
       "outputs": []
     },
     {
+      "name": "Crafting ruby jewellery",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Fletching unstrung comp bow",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Killing ankous",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Crafting emerald jewellery",
+      "name": "Killing spidines",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Killing spidines",
+      "name": "Crafting sapphire bracelets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Stranglewood fishing",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2623,13 +2635,13 @@
       "outputs": []
     },
     {
-      "name": "Killing ogress warriors",
+      "name": "Crafting emerald jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Buying jug packs",
+      "name": "Killing ogress warriors",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2642,12 +2654,6 @@
     },
     {
       "name": "Firecycling",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crafting sapphire jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2677,13 +2683,13 @@
       "outputs": []
     },
     {
-      "name": "Mining adamantite ore (free-to-play)",
+      "name": "Crafting sapphire jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Collecting and tanning cowhide",
+      "name": "Mining adamantite ore (free-to-play)",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2701,7 +2707,25 @@
       "outputs": []
     },
     {
+      "name": "Collecting and tanning cowhide",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Collecting red spiders' eggs (free-to-play)",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Cooking plain pizzas",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Crafting gold jewellery",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2719,19 +2743,7 @@
       "outputs": []
     },
     {
-      "name": "Cooking plain pizzas",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Making dough at Cooks' Guild",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Crafting gold jewellery",
+      "name": "Collecting air talismans",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2743,13 +2755,13 @@
       "outputs": []
     },
     {
-      "name": "Collecting iron ore",
+      "name": "Making dough at Cooks' Guild",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Collecting air talismans",
+      "name": "Collecting iron ore",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2767,13 +2779,7 @@
       "outputs": []
     },
     {
-      "name": "Stringing amulets",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Collecting ashes",
+      "name": "Smelting iron bars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2785,7 +2791,7 @@
       "outputs": []
     },
     {
-      "name": "Smelting iron bars",
+      "name": "Collecting ashes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2803,6 +2809,12 @@
       "outputs": []
     },
     {
+      "name": "Stringing amulets",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
       "name": "Cooking raw chicken",
       "actions_per_hour_human": 900,
       "inputs": [],
@@ -2810,12 +2822,6 @@
     },
     {
       "name": "Collecting spades",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Cooking raw tuna",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2845,13 +2851,13 @@
       "outputs": []
     },
     {
-      "name": "Smelting silver bars",
+      "name": "Cooking raw tuna",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Filling water containers",
+      "name": "Smelting silver bars",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2863,13 +2869,13 @@
       "outputs": []
     },
     {
-      "name": "Killing Zamorak monks",
+      "name": "Making flour",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Catching trout & salmon",
+      "name": "Killing Zamorak monks",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2887,7 +2893,7 @@
       "outputs": []
     },
     {
-      "name": "Making flour",
+      "name": "Catching trout & salmon",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2935,13 +2941,13 @@
       "outputs": []
     },
     {
-      "name": "Growing magic saplings",
+      "name": "Growing palm saplings",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Growing palm saplings",
+      "name": "Growing magic saplings",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2954,12 +2960,6 @@
     },
     {
       "name": "Farming ranarr weed",
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": []
-    },
-    {
-      "name": "Farming kwuarm",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -2983,13 +2983,19 @@
       "outputs": []
     },
     {
-      "name": "Farming snapdragon",
+      "name": "Farming kwuarm",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
       "name": "Farming torstol",
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "name": "Farming snapdragon",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -3019,13 +3025,13 @@
       "outputs": []
     },
     {
-      "name": "Exchanging mole parts",
+      "name": "Opening herb boxes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Opening herb boxes",
+      "name": "Exchanging mole parts",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
@@ -3079,13 +3085,13 @@
       "outputs": []
     },
     {
-      "name": "Planting Celastrus sapling",
+      "name": "Dying blue wizard robes",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
     },
     {
-      "name": "Dying blue wizard robes",
+      "name": "Planting Celastrus sapling",
       "actions_per_hour_human": 900,
       "inputs": [],
       "outputs": []
