@@ -2,15 +2,16 @@ name: osrs-engine
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
-  run:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -19,24 +20,25 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
 
       - name: Scrape methods
-        run: python scrape_methods.py
+        run: |
+          python scrape_methods.py
 
-      - name: Run profit engine
-        run: python profit_engine.py
-
-      - name: Detect flips
-        run: python flip_detector.py
+      - name: Calculate profit
+        run: |
+          python profit_engine.py
 
       - name: Export site data
-        run: python export_for_site.py
+        run: |
+          python export_for_site.py
 
       - name: Commit results
         run: |
-          git config --global user.name bot
-          git config --global user.email bot@users.noreply.github.com
+          git config --global user.name "bot"
+          git config --global user.email "bot@github.com"
           git add .
-          git commit -m "update market data" || echo "no changes"
+          git commit -m "auto update" || echo "no changes"
           git push
