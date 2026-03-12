@@ -1,15 +1,7 @@
 import json
 
-methods=json.load(open("money_methods.json"))
-flips=json.load(open("flips.json"))
-
-site={
- "updated":methods["updated"],
- "methods":methods["methods"][:200],
- "flips":flips[:100]
-}
+with open("money_methods.json") as f:
+ data=json.load(f)
 
 with open("site_data.json","w") as f:
- json.dump(site,f,indent=2)
-
-print("site data exported")
+ json.dump(data,f,indent=2)
