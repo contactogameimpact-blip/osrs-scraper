@@ -1,25 +1,52 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import re
 
-BASE = "https://oldschool.runescape.wiki"
-LIST = BASE + "/w/Money_making_guide"
+BASE="https://oldschool.runescape.wiki"
+LIST=BASE+"/w/Money_making_guide"
 
-HEADERS = {
- "User-Agent":"osrs-profit-engine"
-}
+HEADERS={"User-Agent":"osrs-engine"}
+
+def clean_item(text):
+
+ text=re.sub(r"\(.*?\)","",text)
+ text=text.replace("×","x")
+ text=text.strip()
+
+ return text
+
+
+def parse_items(text):
+
+ items=[]
+
+ matches=re.findall(r"(\d+\.?\d*)\s*x\s*([A-Za-z0-9 '\-\(\)]+)",text)
+
+ for m in matches:
+
+  qty=float(m[0])
+  name=clean_item(m[1])
+
+  items.append({
+   "name":name,
+   "qty":qty
+  })
+
+ return items
+
 
 def get_links():
 
- r = requests.get(LIST,headers=HEADERS)
- soup = BeautifulSoup(r.text,"html.parser")
+ r=requests.get(LIST,headers=HEADERS)
+ soup=BeautifulSoup(r.text,"html.parser")
 
- links = []
+ links=[]
 
  for a in soup.select("table.wikitable tbody tr td:first-child a"):
 
-  name = a.text.strip()
-  href = a.get("href")
+  name=a.text.strip()
+  href=a.get("href")
 
   if not href:
    continue
@@ -34,61 +61,25 @@ def get_links():
 
 def parse_method(url,name):
 
- r = requests.get(url,headers=HEADERS)
- soup = BeautifulSoup(r.text,"html.parser")
+ r=requests.get(url,headers=HEADERS)
+ soup=BeautifulSoup(r.text,"html.parser")
 
  inputs=[]
  outputs=[]
 
- tables = soup.select("table")
+ tables=soup.select("table")
 
  for t in tables:
 
-  text=t.text.lower()
+  text=t.get_text(" ",strip=True)
 
-  if "materials" in text:
+  if "Materials" in text:
 
-   for row in t.select("tr")[1:]:
+   inputs+=parse_items(text)
 
-    cols=row.select("td")
+  if "Product" in text or "Output" in text:
 
-    if len(cols)<2:
-     continue
-
-    item=cols[0].text.strip()
-    qty=cols[1].text.strip()
-
-    try:
-     qty=float(qty)
-    except:
-     qty=1
-
-    inputs.append({
-     "name":item,
-     "qty":qty
-    })
-
-  if "product" in text or "output" in text:
-
-   for row in t.select("tr")[1:]:
-
-    cols=row.select("td")
-
-    if len(cols)<2:
-     continue
-
-    item=cols[0].text.strip()
-    qty=cols[1].text.strip()
-
-    try:
-     qty=float(qty)
-    except:
-     qty=1
-
-    outputs.append({
-     "name":item,
-     "qty":qty
-    })
+   outputs+=parse_items(text)
 
  return {
   "name":name,
@@ -101,7 +92,6 @@ def parse_method(url,name):
 def main():
 
  methods=[]
-
  links=get_links()
 
  for m in links:
@@ -110,14 +100,10 @@ def main():
    data=parse_method(m["url"],m["name"])
    methods.append(data)
   except:
-   continue
-
- final={
-  "methods":methods
- }
+   pass
 
  with open("methods_base.json","w",encoding="utf8") as f:
-  json.dump(final,f,indent=2)
+  json.dump({"methods":methods},f,indent=2)
 
  print("scraped:",len(methods))
 
