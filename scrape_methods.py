@@ -1,44 +1,126 @@
-import json
 import requests
 from bs4 import BeautifulSoup
+import json
 
-URL = "https://oldschool.runescape.wiki/w/Money_making_guide"
+BASE = "https://oldschool.runescape.wiki"
+LIST = BASE + "/w/Money_making_guide"
 
-def scrape():
+HEADERS = {
+ "User-Agent":"osrs-profit-engine"
+}
 
-    r = requests.get(URL)
-    soup = BeautifulSoup(r.text,"html.parser")
+def get_links():
 
-    tables = soup.find_all("table",{"class":"wikitable"})
+ r = requests.get(LIST,headers=HEADERS)
+ soup = BeautifulSoup(r.text,"html.parser")
 
-    methods=[]
+ links = []
 
-    for table in tables:
+ for a in soup.select("table.wikitable tbody tr td:first-child a"):
 
-        rows=table.find_all("tr")
+  name = a.text.strip()
+  href = a.get("href")
 
-        for row in rows[1:]:
+  if not href:
+   continue
 
-            cols=row.find_all("td")
+  links.append({
+   "name":name,
+   "url":BASE+href
+  })
 
-            if len(cols)<2:
-                continue
+ return links
 
-            name=cols[0].get_text(strip=True)
 
-            methods.append({
-                "name":name,
-                "actions_per_hour_human":900,
-                "inputs":[],
-                "outputs":[]
-            })
+def parse_method(url,name):
 
-    data={"methods":methods}
+ r = requests.get(url,headers=HEADERS)
+ soup = BeautifulSoup(r.text,"html.parser")
 
-    with open("methods_base.json","w") as f:
-        json.dump(data,f,indent=2)
+ inputs=[]
+ outputs=[]
 
-    print("methods scraped:",len(methods))
+ tables = soup.select("table")
+
+ for t in tables:
+
+  text=t.text.lower()
+
+  if "materials" in text:
+
+   for row in t.select("tr")[1:]:
+
+    cols=row.select("td")
+
+    if len(cols)<2:
+     continue
+
+    item=cols[0].text.strip()
+    qty=cols[1].text.strip()
+
+    try:
+     qty=float(qty)
+    except:
+     qty=1
+
+    inputs.append({
+     "name":item,
+     "qty":qty
+    })
+
+  if "product" in text or "output" in text:
+
+   for row in t.select("tr")[1:]:
+
+    cols=row.select("td")
+
+    if len(cols)<2:
+     continue
+
+    item=cols[0].text.strip()
+    qty=cols[1].text.strip()
+
+    try:
+     qty=float(qty)
+    except:
+     qty=1
+
+    outputs.append({
+     "name":item,
+     "qty":qty
+    })
+
+ return {
+  "name":name,
+  "actions_per_hour_human":1200,
+  "inputs":inputs,
+  "outputs":outputs
+ }
+
+
+def main():
+
+ methods=[]
+
+ links=get_links()
+
+ for m in links:
+
+  try:
+   data=parse_method(m["url"],m["name"])
+   methods.append(data)
+  except:
+   continue
+
+ final={
+  "methods":methods
+ }
+
+ with open("methods_base.json","w",encoding="utf8") as f:
+  json.dump(final,f,indent=2)
+
+ print("scraped:",len(methods))
+
 
 if __name__=="__main__":
-    scrape()
+ main()
