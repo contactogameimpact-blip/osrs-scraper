@@ -24924,8 +24924,58 @@
       ]
     },
     {
-      "name": "Degriming grimy kwuarm",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_kwuarm",
+      "name": "Smelting steel bars at Blast Furnace",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Smelting_steel_bars_at_Blast_Furnace",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "inputs": [
+        {
+          "item": "15",
+          "qty": 1.0
+        },
+        {
+          "item": "30",
+          "qty": 1.0
+        },
+        {
+          "item": "50",
+          "qty": 1.0
+        },
+        {
+          "item": "70",
+          "qty": 1.0
+        },
+        {
+          "item": "85",
+          "qty": 1.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "15",
+          "qty": 1.0
+        },
+        {
+          "item": "30",
+          "qty": 1.0
+        },
+        {
+          "item": "50",
+          "qty": 1.0
+        },
+        {
+          "item": "70",
+          "qty": 1.0
+        },
+        {
+          "item": "85",
+          "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Degriming grimy cadantine",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_cadantine",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
@@ -25270,8 +25320,8 @@
       ]
     },
     {
-      "name": "Degriming grimy cadantine",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_cadantine",
+      "name": "Degriming grimy kwuarm",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_kwuarm",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
@@ -28396,56 +28446,6 @@
         },
         {
           "item": "Other",
-          "qty": 1.0
-        }
-      ]
-    },
-    {
-      "name": "Smelting steel bars at Blast Furnace",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Smelting_steel_bars_at_Blast_Furnace",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "inputs": [
-        {
-          "item": "15",
-          "qty": 1.0
-        },
-        {
-          "item": "30",
-          "qty": 1.0
-        },
-        {
-          "item": "50",
-          "qty": 1.0
-        },
-        {
-          "item": "70",
-          "qty": 1.0
-        },
-        {
-          "item": "85",
-          "qty": 1.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "15",
-          "qty": 1.0
-        },
-        {
-          "item": "30",
-          "qty": 1.0
-        },
-        {
-          "item": "50",
-          "qty": 1.0
-        },
-        {
-          "item": "70",
-          "qty": 1.0
-        },
-        {
-          "item": "85",
           "qty": 1.0
         }
       ]
