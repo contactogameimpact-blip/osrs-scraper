@@ -8754,6 +8754,352 @@
       ]
     },
     {
+      "name": "Cutting raw marlin",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_raw_marlin",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "inputs": [
+        {
+          "item": "Collecting",
+          "qty": 1.0
+        },
+        {
+          "item": "Combat",
+          "qty": 1.0
+        },
+        {
+          "item": "Raids",
+          "qty": 1.0
+        },
+        {
+          "item": "Slayer",
+          "qty": 1.0
+        },
+        {
+          "item": "Bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Monsters",
+          "qty": 1.0
+        },
+        {
+          "item": "Wilderness",
+          "qty": 1.0
+        },
+        {
+          "item": "God Wars Dungeon",
+          "qty": 1.0
+        },
+        {
+          "item": "Quest",
+          "qty": 1.0
+        },
+        {
+          "item": "Other bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Processing",
+          "qty": 1.0
+        },
+        {
+          "item": "Grinding",
+          "qty": 1.0
+        },
+        {
+          "item": "Planks",
+          "qty": 1.0
+        },
+        {
+          "item": "Tanning",
+          "qty": 1.0
+        },
+        {
+          "item": "Skills",
+          "qty": 1.0
+        },
+        {
+          "item": "Agility",
+          "qty": 1.0
+        },
+        {
+          "item": "Cooking",
+          "qty": 1.0
+        },
+        {
+          "item": "Firemaking",
+          "qty": 1.0
+        },
+        {
+          "item": "Fishing",
+          "qty": 1.0
+        },
+        {
+          "item": "Fletching",
+          "qty": 1.0
+        },
+        {
+          "item": "Cutting bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Stringing bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Herblore",
+          "qty": 1.0
+        },
+        {
+          "item": "Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Cleaning",
+          "qty": 1.0
+        },
+        {
+          "item": "Unfinished Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Hunter",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic",
+          "qty": 1.0
+        },
+        {
+          "item": "Charging orbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic tablets",
+          "qty": 1.0
+        },
+        {
+          "item": "Mining",
+          "qty": 1.0
+        },
+        {
+          "item": "Runecraft",
+          "qty": 1.0
+        },
+        {
+          "item": "Smithing",
+          "qty": 1.0
+        },
+        {
+          "item": "Blast Furnace",
+          "qty": 1.0
+        },
+        {
+          "item": "Dart tips",
+          "qty": 1.0
+        },
+        {
+          "item": "Thieving",
+          "qty": 1.0
+        },
+        {
+          "item": "Woodcutting",
+          "qty": 1.0
+        },
+        {
+          "item": "Crafting",
+          "qty": 1.0
+        },
+        {
+          "item": "Sailing",
+          "qty": 1.0
+        },
+        {
+          "item": "Farming",
+          "qty": 1.0
+        },
+        {
+          "item": "Herbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Other",
+          "qty": 1.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Collecting",
+          "qty": 1.0
+        },
+        {
+          "item": "Combat",
+          "qty": 1.0
+        },
+        {
+          "item": "Raids",
+          "qty": 1.0
+        },
+        {
+          "item": "Slayer",
+          "qty": 1.0
+        },
+        {
+          "item": "Bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Monsters",
+          "qty": 1.0
+        },
+        {
+          "item": "Wilderness",
+          "qty": 1.0
+        },
+        {
+          "item": "God Wars Dungeon",
+          "qty": 1.0
+        },
+        {
+          "item": "Quest",
+          "qty": 1.0
+        },
+        {
+          "item": "Other bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Processing",
+          "qty": 1.0
+        },
+        {
+          "item": "Grinding",
+          "qty": 1.0
+        },
+        {
+          "item": "Planks",
+          "qty": 1.0
+        },
+        {
+          "item": "Tanning",
+          "qty": 1.0
+        },
+        {
+          "item": "Skills",
+          "qty": 1.0
+        },
+        {
+          "item": "Agility",
+          "qty": 1.0
+        },
+        {
+          "item": "Cooking",
+          "qty": 1.0
+        },
+        {
+          "item": "Firemaking",
+          "qty": 1.0
+        },
+        {
+          "item": "Fishing",
+          "qty": 1.0
+        },
+        {
+          "item": "Fletching",
+          "qty": 1.0
+        },
+        {
+          "item": "Cutting bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Stringing bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Herblore",
+          "qty": 1.0
+        },
+        {
+          "item": "Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Cleaning",
+          "qty": 1.0
+        },
+        {
+          "item": "Unfinished Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Hunter",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic",
+          "qty": 1.0
+        },
+        {
+          "item": "Charging orbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic tablets",
+          "qty": 1.0
+        },
+        {
+          "item": "Mining",
+          "qty": 1.0
+        },
+        {
+          "item": "Runecraft",
+          "qty": 1.0
+        },
+        {
+          "item": "Smithing",
+          "qty": 1.0
+        },
+        {
+          "item": "Blast Furnace",
+          "qty": 1.0
+        },
+        {
+          "item": "Dart tips",
+          "qty": 1.0
+        },
+        {
+          "item": "Thieving",
+          "qty": 1.0
+        },
+        {
+          "item": "Woodcutting",
+          "qty": 1.0
+        },
+        {
+          "item": "Crafting",
+          "qty": 1.0
+        },
+        {
+          "item": "Sailing",
+          "qty": 1.0
+        },
+        {
+          "item": "Farming",
+          "qty": 1.0
+        },
+        {
+          "item": "Herbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Other",
+          "qty": 1.0
+        }
+      ]
+    },
+    {
       "name": "Fletching gem-tipped dragon bolts",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Fletching_gem-tipped_dragon_bolts",
       "wiki_actions_per_hour": 0,
@@ -24097,6 +24443,352 @@
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Crafting_astral_runes",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 1100,
+      "inputs": [
+        {
+          "item": "Collecting",
+          "qty": 1.0
+        },
+        {
+          "item": "Combat",
+          "qty": 1.0
+        },
+        {
+          "item": "Raids",
+          "qty": 1.0
+        },
+        {
+          "item": "Slayer",
+          "qty": 1.0
+        },
+        {
+          "item": "Bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Monsters",
+          "qty": 1.0
+        },
+        {
+          "item": "Wilderness",
+          "qty": 1.0
+        },
+        {
+          "item": "God Wars Dungeon",
+          "qty": 1.0
+        },
+        {
+          "item": "Quest",
+          "qty": 1.0
+        },
+        {
+          "item": "Other bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Processing",
+          "qty": 1.0
+        },
+        {
+          "item": "Grinding",
+          "qty": 1.0
+        },
+        {
+          "item": "Planks",
+          "qty": 1.0
+        },
+        {
+          "item": "Tanning",
+          "qty": 1.0
+        },
+        {
+          "item": "Skills",
+          "qty": 1.0
+        },
+        {
+          "item": "Agility",
+          "qty": 1.0
+        },
+        {
+          "item": "Cooking",
+          "qty": 1.0
+        },
+        {
+          "item": "Firemaking",
+          "qty": 1.0
+        },
+        {
+          "item": "Fishing",
+          "qty": 1.0
+        },
+        {
+          "item": "Fletching",
+          "qty": 1.0
+        },
+        {
+          "item": "Cutting bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Stringing bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Herblore",
+          "qty": 1.0
+        },
+        {
+          "item": "Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Cleaning",
+          "qty": 1.0
+        },
+        {
+          "item": "Unfinished Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Hunter",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic",
+          "qty": 1.0
+        },
+        {
+          "item": "Charging orbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic tablets",
+          "qty": 1.0
+        },
+        {
+          "item": "Mining",
+          "qty": 1.0
+        },
+        {
+          "item": "Runecraft",
+          "qty": 1.0
+        },
+        {
+          "item": "Smithing",
+          "qty": 1.0
+        },
+        {
+          "item": "Blast Furnace",
+          "qty": 1.0
+        },
+        {
+          "item": "Dart tips",
+          "qty": 1.0
+        },
+        {
+          "item": "Thieving",
+          "qty": 1.0
+        },
+        {
+          "item": "Woodcutting",
+          "qty": 1.0
+        },
+        {
+          "item": "Crafting",
+          "qty": 1.0
+        },
+        {
+          "item": "Sailing",
+          "qty": 1.0
+        },
+        {
+          "item": "Farming",
+          "qty": 1.0
+        },
+        {
+          "item": "Herbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Other",
+          "qty": 1.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Collecting",
+          "qty": 1.0
+        },
+        {
+          "item": "Combat",
+          "qty": 1.0
+        },
+        {
+          "item": "Raids",
+          "qty": 1.0
+        },
+        {
+          "item": "Slayer",
+          "qty": 1.0
+        },
+        {
+          "item": "Bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Monsters",
+          "qty": 1.0
+        },
+        {
+          "item": "Wilderness",
+          "qty": 1.0
+        },
+        {
+          "item": "God Wars Dungeon",
+          "qty": 1.0
+        },
+        {
+          "item": "Quest",
+          "qty": 1.0
+        },
+        {
+          "item": "Other bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Processing",
+          "qty": 1.0
+        },
+        {
+          "item": "Grinding",
+          "qty": 1.0
+        },
+        {
+          "item": "Planks",
+          "qty": 1.0
+        },
+        {
+          "item": "Tanning",
+          "qty": 1.0
+        },
+        {
+          "item": "Skills",
+          "qty": 1.0
+        },
+        {
+          "item": "Agility",
+          "qty": 1.0
+        },
+        {
+          "item": "Cooking",
+          "qty": 1.0
+        },
+        {
+          "item": "Firemaking",
+          "qty": 1.0
+        },
+        {
+          "item": "Fishing",
+          "qty": 1.0
+        },
+        {
+          "item": "Fletching",
+          "qty": 1.0
+        },
+        {
+          "item": "Cutting bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Stringing bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Herblore",
+          "qty": 1.0
+        },
+        {
+          "item": "Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Cleaning",
+          "qty": 1.0
+        },
+        {
+          "item": "Unfinished Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Hunter",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic",
+          "qty": 1.0
+        },
+        {
+          "item": "Charging orbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic tablets",
+          "qty": 1.0
+        },
+        {
+          "item": "Mining",
+          "qty": 1.0
+        },
+        {
+          "item": "Runecraft",
+          "qty": 1.0
+        },
+        {
+          "item": "Smithing",
+          "qty": 1.0
+        },
+        {
+          "item": "Blast Furnace",
+          "qty": 1.0
+        },
+        {
+          "item": "Dart tips",
+          "qty": 1.0
+        },
+        {
+          "item": "Thieving",
+          "qty": 1.0
+        },
+        {
+          "item": "Woodcutting",
+          "qty": 1.0
+        },
+        {
+          "item": "Crafting",
+          "qty": 1.0
+        },
+        {
+          "item": "Sailing",
+          "qty": 1.0
+        },
+        {
+          "item": "Farming",
+          "qty": 1.0
+        },
+        {
+          "item": "Herbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Other",
+          "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Salvaging merchant shipwrecks",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Salvaging_merchant_shipwrecks",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
       "inputs": [
         {
           "item": "Collecting",
@@ -40780,8 +41472,8 @@
       ]
     },
     {
-      "name": "Degriming grimy kwuarm",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_kwuarm",
+      "name": "Degriming grimy cadantine",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_cadantine",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
@@ -41126,8 +41818,8 @@
       ]
     },
     {
-      "name": "Degriming grimy cadantine",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_cadantine",
+      "name": "Degriming grimy kwuarm",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_kwuarm",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
@@ -50711,6 +51403,352 @@
       ]
     },
     {
+      "name": "Killing Vyrewatch Sentinels",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Vyrewatch_Sentinels",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 300,
+      "inputs": [
+        {
+          "item": "Collecting",
+          "qty": 1.0
+        },
+        {
+          "item": "Combat",
+          "qty": 1.0
+        },
+        {
+          "item": "Raids",
+          "qty": 1.0
+        },
+        {
+          "item": "Slayer",
+          "qty": 1.0
+        },
+        {
+          "item": "Bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Monsters",
+          "qty": 1.0
+        },
+        {
+          "item": "Wilderness",
+          "qty": 1.0
+        },
+        {
+          "item": "God Wars Dungeon",
+          "qty": 1.0
+        },
+        {
+          "item": "Quest",
+          "qty": 1.0
+        },
+        {
+          "item": "Other bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Processing",
+          "qty": 1.0
+        },
+        {
+          "item": "Grinding",
+          "qty": 1.0
+        },
+        {
+          "item": "Planks",
+          "qty": 1.0
+        },
+        {
+          "item": "Tanning",
+          "qty": 1.0
+        },
+        {
+          "item": "Skills",
+          "qty": 1.0
+        },
+        {
+          "item": "Agility",
+          "qty": 1.0
+        },
+        {
+          "item": "Cooking",
+          "qty": 1.0
+        },
+        {
+          "item": "Firemaking",
+          "qty": 1.0
+        },
+        {
+          "item": "Fishing",
+          "qty": 1.0
+        },
+        {
+          "item": "Fletching",
+          "qty": 1.0
+        },
+        {
+          "item": "Cutting bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Stringing bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Herblore",
+          "qty": 1.0
+        },
+        {
+          "item": "Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Cleaning",
+          "qty": 1.0
+        },
+        {
+          "item": "Unfinished Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Hunter",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic",
+          "qty": 1.0
+        },
+        {
+          "item": "Charging orbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic tablets",
+          "qty": 1.0
+        },
+        {
+          "item": "Mining",
+          "qty": 1.0
+        },
+        {
+          "item": "Runecraft",
+          "qty": 1.0
+        },
+        {
+          "item": "Smithing",
+          "qty": 1.0
+        },
+        {
+          "item": "Blast Furnace",
+          "qty": 1.0
+        },
+        {
+          "item": "Dart tips",
+          "qty": 1.0
+        },
+        {
+          "item": "Thieving",
+          "qty": 1.0
+        },
+        {
+          "item": "Woodcutting",
+          "qty": 1.0
+        },
+        {
+          "item": "Crafting",
+          "qty": 1.0
+        },
+        {
+          "item": "Sailing",
+          "qty": 1.0
+        },
+        {
+          "item": "Farming",
+          "qty": 1.0
+        },
+        {
+          "item": "Herbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Other",
+          "qty": 1.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Collecting",
+          "qty": 1.0
+        },
+        {
+          "item": "Combat",
+          "qty": 1.0
+        },
+        {
+          "item": "Raids",
+          "qty": 1.0
+        },
+        {
+          "item": "Slayer",
+          "qty": 1.0
+        },
+        {
+          "item": "Bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Monsters",
+          "qty": 1.0
+        },
+        {
+          "item": "Wilderness",
+          "qty": 1.0
+        },
+        {
+          "item": "God Wars Dungeon",
+          "qty": 1.0
+        },
+        {
+          "item": "Quest",
+          "qty": 1.0
+        },
+        {
+          "item": "Other bosses",
+          "qty": 1.0
+        },
+        {
+          "item": "Processing",
+          "qty": 1.0
+        },
+        {
+          "item": "Grinding",
+          "qty": 1.0
+        },
+        {
+          "item": "Planks",
+          "qty": 1.0
+        },
+        {
+          "item": "Tanning",
+          "qty": 1.0
+        },
+        {
+          "item": "Skills",
+          "qty": 1.0
+        },
+        {
+          "item": "Agility",
+          "qty": 1.0
+        },
+        {
+          "item": "Cooking",
+          "qty": 1.0
+        },
+        {
+          "item": "Firemaking",
+          "qty": 1.0
+        },
+        {
+          "item": "Fishing",
+          "qty": 1.0
+        },
+        {
+          "item": "Fletching",
+          "qty": 1.0
+        },
+        {
+          "item": "Cutting bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Stringing bows",
+          "qty": 1.0
+        },
+        {
+          "item": "Herblore",
+          "qty": 1.0
+        },
+        {
+          "item": "Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Cleaning",
+          "qty": 1.0
+        },
+        {
+          "item": "Unfinished Potions",
+          "qty": 1.0
+        },
+        {
+          "item": "Hunter",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic",
+          "qty": 1.0
+        },
+        {
+          "item": "Charging orbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Magic tablets",
+          "qty": 1.0
+        },
+        {
+          "item": "Mining",
+          "qty": 1.0
+        },
+        {
+          "item": "Runecraft",
+          "qty": 1.0
+        },
+        {
+          "item": "Smithing",
+          "qty": 1.0
+        },
+        {
+          "item": "Blast Furnace",
+          "qty": 1.0
+        },
+        {
+          "item": "Dart tips",
+          "qty": 1.0
+        },
+        {
+          "item": "Thieving",
+          "qty": 1.0
+        },
+        {
+          "item": "Woodcutting",
+          "qty": 1.0
+        },
+        {
+          "item": "Crafting",
+          "qty": 1.0
+        },
+        {
+          "item": "Sailing",
+          "qty": 1.0
+        },
+        {
+          "item": "Farming",
+          "qty": 1.0
+        },
+        {
+          "item": "Herbs",
+          "qty": 1.0
+        },
+        {
+          "item": "Other",
+          "qty": 1.0
+        }
+      ]
+    },
+    {
       "name": "Collecting mort myre fungi",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Collecting_mort_myre_fungi",
       "wiki_actions_per_hour": 0,
@@ -54551,10 +55589,10 @@
       ]
     },
     {
-      "name": "Making magic pyre logs",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_magic_pyre_logs",
+      "name": "Degriming grimy irit leaf",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_irit_leaf",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 1000,
+      "actions_per_hour_human": 900,
       "inputs": [
         {
           "item": "Collecting",
@@ -54897,10 +55935,10 @@
       ]
     },
     {
-      "name": "Degriming grimy irit leaf",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Degriming_grimy_irit_leaf",
+      "name": "Making magic pyre logs",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_magic_pyre_logs",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
+      "actions_per_hour_human": 1000,
       "inputs": [
         {
           "item": "Collecting",
@@ -58104,352 +59142,6 @@
     {
       "name": "Killing Amoxliatl",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Amoxliatl",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 300,
-      "inputs": [
-        {
-          "item": "Collecting",
-          "qty": 1.0
-        },
-        {
-          "item": "Combat",
-          "qty": 1.0
-        },
-        {
-          "item": "Raids",
-          "qty": 1.0
-        },
-        {
-          "item": "Slayer",
-          "qty": 1.0
-        },
-        {
-          "item": "Bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Monsters",
-          "qty": 1.0
-        },
-        {
-          "item": "Wilderness",
-          "qty": 1.0
-        },
-        {
-          "item": "God Wars Dungeon",
-          "qty": 1.0
-        },
-        {
-          "item": "Quest",
-          "qty": 1.0
-        },
-        {
-          "item": "Other bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Processing",
-          "qty": 1.0
-        },
-        {
-          "item": "Grinding",
-          "qty": 1.0
-        },
-        {
-          "item": "Planks",
-          "qty": 1.0
-        },
-        {
-          "item": "Tanning",
-          "qty": 1.0
-        },
-        {
-          "item": "Skills",
-          "qty": 1.0
-        },
-        {
-          "item": "Agility",
-          "qty": 1.0
-        },
-        {
-          "item": "Cooking",
-          "qty": 1.0
-        },
-        {
-          "item": "Firemaking",
-          "qty": 1.0
-        },
-        {
-          "item": "Fishing",
-          "qty": 1.0
-        },
-        {
-          "item": "Fletching",
-          "qty": 1.0
-        },
-        {
-          "item": "Cutting bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Stringing bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Herblore",
-          "qty": 1.0
-        },
-        {
-          "item": "Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Cleaning",
-          "qty": 1.0
-        },
-        {
-          "item": "Unfinished Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Hunter",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic",
-          "qty": 1.0
-        },
-        {
-          "item": "Charging orbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic tablets",
-          "qty": 1.0
-        },
-        {
-          "item": "Mining",
-          "qty": 1.0
-        },
-        {
-          "item": "Runecraft",
-          "qty": 1.0
-        },
-        {
-          "item": "Smithing",
-          "qty": 1.0
-        },
-        {
-          "item": "Blast Furnace",
-          "qty": 1.0
-        },
-        {
-          "item": "Dart tips",
-          "qty": 1.0
-        },
-        {
-          "item": "Thieving",
-          "qty": 1.0
-        },
-        {
-          "item": "Woodcutting",
-          "qty": 1.0
-        },
-        {
-          "item": "Crafting",
-          "qty": 1.0
-        },
-        {
-          "item": "Sailing",
-          "qty": 1.0
-        },
-        {
-          "item": "Farming",
-          "qty": 1.0
-        },
-        {
-          "item": "Herbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Other",
-          "qty": 1.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Collecting",
-          "qty": 1.0
-        },
-        {
-          "item": "Combat",
-          "qty": 1.0
-        },
-        {
-          "item": "Raids",
-          "qty": 1.0
-        },
-        {
-          "item": "Slayer",
-          "qty": 1.0
-        },
-        {
-          "item": "Bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Monsters",
-          "qty": 1.0
-        },
-        {
-          "item": "Wilderness",
-          "qty": 1.0
-        },
-        {
-          "item": "God Wars Dungeon",
-          "qty": 1.0
-        },
-        {
-          "item": "Quest",
-          "qty": 1.0
-        },
-        {
-          "item": "Other bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Processing",
-          "qty": 1.0
-        },
-        {
-          "item": "Grinding",
-          "qty": 1.0
-        },
-        {
-          "item": "Planks",
-          "qty": 1.0
-        },
-        {
-          "item": "Tanning",
-          "qty": 1.0
-        },
-        {
-          "item": "Skills",
-          "qty": 1.0
-        },
-        {
-          "item": "Agility",
-          "qty": 1.0
-        },
-        {
-          "item": "Cooking",
-          "qty": 1.0
-        },
-        {
-          "item": "Firemaking",
-          "qty": 1.0
-        },
-        {
-          "item": "Fishing",
-          "qty": 1.0
-        },
-        {
-          "item": "Fletching",
-          "qty": 1.0
-        },
-        {
-          "item": "Cutting bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Stringing bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Herblore",
-          "qty": 1.0
-        },
-        {
-          "item": "Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Cleaning",
-          "qty": 1.0
-        },
-        {
-          "item": "Unfinished Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Hunter",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic",
-          "qty": 1.0
-        },
-        {
-          "item": "Charging orbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic tablets",
-          "qty": 1.0
-        },
-        {
-          "item": "Mining",
-          "qty": 1.0
-        },
-        {
-          "item": "Runecraft",
-          "qty": 1.0
-        },
-        {
-          "item": "Smithing",
-          "qty": 1.0
-        },
-        {
-          "item": "Blast Furnace",
-          "qty": 1.0
-        },
-        {
-          "item": "Dart tips",
-          "qty": 1.0
-        },
-        {
-          "item": "Thieving",
-          "qty": 1.0
-        },
-        {
-          "item": "Woodcutting",
-          "qty": 1.0
-        },
-        {
-          "item": "Crafting",
-          "qty": 1.0
-        },
-        {
-          "item": "Sailing",
-          "qty": 1.0
-        },
-        {
-          "item": "Farming",
-          "qty": 1.0
-        },
-        {
-          "item": "Herbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Other",
-          "qty": 1.0
-        }
-      ]
-    },
-    {
-      "name": "Killing Vyrewatch Sentinels",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Vyrewatch_Sentinels",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 300,
       "inputs": [
@@ -80504,352 +81196,6 @@
       ]
     },
     {
-      "name": "Cutting raw marlin",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cutting_raw_marlin",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "inputs": [
-        {
-          "item": "Collecting",
-          "qty": 1.0
-        },
-        {
-          "item": "Combat",
-          "qty": 1.0
-        },
-        {
-          "item": "Raids",
-          "qty": 1.0
-        },
-        {
-          "item": "Slayer",
-          "qty": 1.0
-        },
-        {
-          "item": "Bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Monsters",
-          "qty": 1.0
-        },
-        {
-          "item": "Wilderness",
-          "qty": 1.0
-        },
-        {
-          "item": "God Wars Dungeon",
-          "qty": 1.0
-        },
-        {
-          "item": "Quest",
-          "qty": 1.0
-        },
-        {
-          "item": "Other bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Processing",
-          "qty": 1.0
-        },
-        {
-          "item": "Grinding",
-          "qty": 1.0
-        },
-        {
-          "item": "Planks",
-          "qty": 1.0
-        },
-        {
-          "item": "Tanning",
-          "qty": 1.0
-        },
-        {
-          "item": "Skills",
-          "qty": 1.0
-        },
-        {
-          "item": "Agility",
-          "qty": 1.0
-        },
-        {
-          "item": "Cooking",
-          "qty": 1.0
-        },
-        {
-          "item": "Firemaking",
-          "qty": 1.0
-        },
-        {
-          "item": "Fishing",
-          "qty": 1.0
-        },
-        {
-          "item": "Fletching",
-          "qty": 1.0
-        },
-        {
-          "item": "Cutting bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Stringing bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Herblore",
-          "qty": 1.0
-        },
-        {
-          "item": "Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Cleaning",
-          "qty": 1.0
-        },
-        {
-          "item": "Unfinished Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Hunter",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic",
-          "qty": 1.0
-        },
-        {
-          "item": "Charging orbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic tablets",
-          "qty": 1.0
-        },
-        {
-          "item": "Mining",
-          "qty": 1.0
-        },
-        {
-          "item": "Runecraft",
-          "qty": 1.0
-        },
-        {
-          "item": "Smithing",
-          "qty": 1.0
-        },
-        {
-          "item": "Blast Furnace",
-          "qty": 1.0
-        },
-        {
-          "item": "Dart tips",
-          "qty": 1.0
-        },
-        {
-          "item": "Thieving",
-          "qty": 1.0
-        },
-        {
-          "item": "Woodcutting",
-          "qty": 1.0
-        },
-        {
-          "item": "Crafting",
-          "qty": 1.0
-        },
-        {
-          "item": "Sailing",
-          "qty": 1.0
-        },
-        {
-          "item": "Farming",
-          "qty": 1.0
-        },
-        {
-          "item": "Herbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Other",
-          "qty": 1.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Collecting",
-          "qty": 1.0
-        },
-        {
-          "item": "Combat",
-          "qty": 1.0
-        },
-        {
-          "item": "Raids",
-          "qty": 1.0
-        },
-        {
-          "item": "Slayer",
-          "qty": 1.0
-        },
-        {
-          "item": "Bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Monsters",
-          "qty": 1.0
-        },
-        {
-          "item": "Wilderness",
-          "qty": 1.0
-        },
-        {
-          "item": "God Wars Dungeon",
-          "qty": 1.0
-        },
-        {
-          "item": "Quest",
-          "qty": 1.0
-        },
-        {
-          "item": "Other bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Processing",
-          "qty": 1.0
-        },
-        {
-          "item": "Grinding",
-          "qty": 1.0
-        },
-        {
-          "item": "Planks",
-          "qty": 1.0
-        },
-        {
-          "item": "Tanning",
-          "qty": 1.0
-        },
-        {
-          "item": "Skills",
-          "qty": 1.0
-        },
-        {
-          "item": "Agility",
-          "qty": 1.0
-        },
-        {
-          "item": "Cooking",
-          "qty": 1.0
-        },
-        {
-          "item": "Firemaking",
-          "qty": 1.0
-        },
-        {
-          "item": "Fishing",
-          "qty": 1.0
-        },
-        {
-          "item": "Fletching",
-          "qty": 1.0
-        },
-        {
-          "item": "Cutting bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Stringing bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Herblore",
-          "qty": 1.0
-        },
-        {
-          "item": "Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Cleaning",
-          "qty": 1.0
-        },
-        {
-          "item": "Unfinished Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Hunter",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic",
-          "qty": 1.0
-        },
-        {
-          "item": "Charging orbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic tablets",
-          "qty": 1.0
-        },
-        {
-          "item": "Mining",
-          "qty": 1.0
-        },
-        {
-          "item": "Runecraft",
-          "qty": 1.0
-        },
-        {
-          "item": "Smithing",
-          "qty": 1.0
-        },
-        {
-          "item": "Blast Furnace",
-          "qty": 1.0
-        },
-        {
-          "item": "Dart tips",
-          "qty": 1.0
-        },
-        {
-          "item": "Thieving",
-          "qty": 1.0
-        },
-        {
-          "item": "Woodcutting",
-          "qty": 1.0
-        },
-        {
-          "item": "Crafting",
-          "qty": 1.0
-        },
-        {
-          "item": "Sailing",
-          "qty": 1.0
-        },
-        {
-          "item": "Farming",
-          "qty": 1.0
-        },
-        {
-          "item": "Herbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Other",
-          "qty": 1.0
-        }
-      ]
-    },
-    {
       "name": "Vyrecycling",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Vyrecycling",
       "wiki_actions_per_hour": 0,
@@ -83272,8 +83618,8 @@
       ]
     },
     {
-      "name": "Cleaning grimy kwuarm",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_kwuarm",
+      "name": "Cleaning grimy cadantine",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_cadantine",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
@@ -83618,8 +83964,8 @@
       ]
     },
     {
-      "name": "Cleaning grimy cadantine",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_cadantine",
+      "name": "Cleaning grimy kwuarm",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_kwuarm",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
@@ -91324,10 +91670,10 @@
       ]
     },
     {
-      "name": "Crafting emerald bracelets",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Crafting_emerald_bracelets",
+      "name": "Cleaning grimy harralander",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_harralander",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 1100,
+      "actions_per_hour_human": 900,
       "inputs": [
         {
           "item": "Collecting",
@@ -91670,10 +92016,10 @@
       ]
     },
     {
-      "name": "Cleaning grimy harralander",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_harralander",
+      "name": "Crafting emerald bracelets",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Crafting_emerald_bracelets",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
+      "actions_per_hour_human": 1100,
       "inputs": [
         {
           "item": "Collecting",
@@ -95512,352 +95858,6 @@
     {
       "name": "Collecting steel platebodies (High Alchemy)",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Collecting_steel_platebodies_(High_Alchemy)",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "inputs": [
-        {
-          "item": "Collecting",
-          "qty": 1.0
-        },
-        {
-          "item": "Combat",
-          "qty": 1.0
-        },
-        {
-          "item": "Raids",
-          "qty": 1.0
-        },
-        {
-          "item": "Slayer",
-          "qty": 1.0
-        },
-        {
-          "item": "Bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Monsters",
-          "qty": 1.0
-        },
-        {
-          "item": "Wilderness",
-          "qty": 1.0
-        },
-        {
-          "item": "God Wars Dungeon",
-          "qty": 1.0
-        },
-        {
-          "item": "Quest",
-          "qty": 1.0
-        },
-        {
-          "item": "Other bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Processing",
-          "qty": 1.0
-        },
-        {
-          "item": "Grinding",
-          "qty": 1.0
-        },
-        {
-          "item": "Planks",
-          "qty": 1.0
-        },
-        {
-          "item": "Tanning",
-          "qty": 1.0
-        },
-        {
-          "item": "Skills",
-          "qty": 1.0
-        },
-        {
-          "item": "Agility",
-          "qty": 1.0
-        },
-        {
-          "item": "Cooking",
-          "qty": 1.0
-        },
-        {
-          "item": "Firemaking",
-          "qty": 1.0
-        },
-        {
-          "item": "Fishing",
-          "qty": 1.0
-        },
-        {
-          "item": "Fletching",
-          "qty": 1.0
-        },
-        {
-          "item": "Cutting bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Stringing bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Herblore",
-          "qty": 1.0
-        },
-        {
-          "item": "Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Cleaning",
-          "qty": 1.0
-        },
-        {
-          "item": "Unfinished Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Hunter",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic",
-          "qty": 1.0
-        },
-        {
-          "item": "Charging orbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic tablets",
-          "qty": 1.0
-        },
-        {
-          "item": "Mining",
-          "qty": 1.0
-        },
-        {
-          "item": "Runecraft",
-          "qty": 1.0
-        },
-        {
-          "item": "Smithing",
-          "qty": 1.0
-        },
-        {
-          "item": "Blast Furnace",
-          "qty": 1.0
-        },
-        {
-          "item": "Dart tips",
-          "qty": 1.0
-        },
-        {
-          "item": "Thieving",
-          "qty": 1.0
-        },
-        {
-          "item": "Woodcutting",
-          "qty": 1.0
-        },
-        {
-          "item": "Crafting",
-          "qty": 1.0
-        },
-        {
-          "item": "Sailing",
-          "qty": 1.0
-        },
-        {
-          "item": "Farming",
-          "qty": 1.0
-        },
-        {
-          "item": "Herbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Other",
-          "qty": 1.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Collecting",
-          "qty": 1.0
-        },
-        {
-          "item": "Combat",
-          "qty": 1.0
-        },
-        {
-          "item": "Raids",
-          "qty": 1.0
-        },
-        {
-          "item": "Slayer",
-          "qty": 1.0
-        },
-        {
-          "item": "Bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Monsters",
-          "qty": 1.0
-        },
-        {
-          "item": "Wilderness",
-          "qty": 1.0
-        },
-        {
-          "item": "God Wars Dungeon",
-          "qty": 1.0
-        },
-        {
-          "item": "Quest",
-          "qty": 1.0
-        },
-        {
-          "item": "Other bosses",
-          "qty": 1.0
-        },
-        {
-          "item": "Processing",
-          "qty": 1.0
-        },
-        {
-          "item": "Grinding",
-          "qty": 1.0
-        },
-        {
-          "item": "Planks",
-          "qty": 1.0
-        },
-        {
-          "item": "Tanning",
-          "qty": 1.0
-        },
-        {
-          "item": "Skills",
-          "qty": 1.0
-        },
-        {
-          "item": "Agility",
-          "qty": 1.0
-        },
-        {
-          "item": "Cooking",
-          "qty": 1.0
-        },
-        {
-          "item": "Firemaking",
-          "qty": 1.0
-        },
-        {
-          "item": "Fishing",
-          "qty": 1.0
-        },
-        {
-          "item": "Fletching",
-          "qty": 1.0
-        },
-        {
-          "item": "Cutting bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Stringing bows",
-          "qty": 1.0
-        },
-        {
-          "item": "Herblore",
-          "qty": 1.0
-        },
-        {
-          "item": "Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Cleaning",
-          "qty": 1.0
-        },
-        {
-          "item": "Unfinished Potions",
-          "qty": 1.0
-        },
-        {
-          "item": "Hunter",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic",
-          "qty": 1.0
-        },
-        {
-          "item": "Charging orbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Magic tablets",
-          "qty": 1.0
-        },
-        {
-          "item": "Mining",
-          "qty": 1.0
-        },
-        {
-          "item": "Runecraft",
-          "qty": 1.0
-        },
-        {
-          "item": "Smithing",
-          "qty": 1.0
-        },
-        {
-          "item": "Blast Furnace",
-          "qty": 1.0
-        },
-        {
-          "item": "Dart tips",
-          "qty": 1.0
-        },
-        {
-          "item": "Thieving",
-          "qty": 1.0
-        },
-        {
-          "item": "Woodcutting",
-          "qty": 1.0
-        },
-        {
-          "item": "Crafting",
-          "qty": 1.0
-        },
-        {
-          "item": "Sailing",
-          "qty": 1.0
-        },
-        {
-          "item": "Farming",
-          "qty": 1.0
-        },
-        {
-          "item": "Herbs",
-          "qty": 1.0
-        },
-        {
-          "item": "Other",
-          "qty": 1.0
-        }
-      ]
-    },
-    {
-      "name": "Salvaging merchant shipwrecks",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Salvaging_merchant_shipwrecks",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
@@ -117252,23 +117252,6 @@
       ]
     },
     {
-      "name": "Making pastry dough",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_pastry_dough",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 1000,
-      "inputs": [],
-      "outputs": [
-        {
-          "item": "136,800, aftertax",
-          "qty": 1.0
-        },
-        {
-          "item": "2,400×Jug of water(33,600)2,400×Pot of flour(177,600)",
-          "qty": 1.0
-        }
-      ]
-    },
-    {
       "name": "Blessing unblessed symbols",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Blessing_unblessed_symbols",
       "wiki_actions_per_hour": 0,
@@ -117281,6 +117264,23 @@
         },
         {
           "item": "360×Unblessed symbol(29,520)",
+          "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Making pastry dough",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_pastry_dough",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 1000,
+      "inputs": [],
+      "outputs": [
+        {
+          "item": "136,800, aftertax",
+          "qty": 1.0
+        },
+        {
+          "item": "2,400×Jug of water(33,600)2,400×Pot of flour(177,600)",
           "qty": 1.0
         }
       ]
