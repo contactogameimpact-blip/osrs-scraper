@@ -1,5 +1,5 @@
 {
-  "updated": 1784294453,
+  "updated": 1784315120,
   "methods": [
     {
       "name": "Killing the Doom of Mokhaiotl (Delve 1-16)",
@@ -179397,8 +179397,8 @@
       ]
     },
     {
-      "name": "Killing ankous",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_ankous",
+      "name": "Killing ankou",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_ankou",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 300,
       "effective_actions_per_hour": 300,
@@ -205660,8 +205660,8 @@
       ]
     },
     {
-      "name": "Killing Ankou (free-to-play)",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Ankou_(free-to-play)",
+      "name": "Killing ankou (free-to-play)",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_ankou_(free-to-play)",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 300,
       "effective_actions_per_hour": 300,
@@ -205671,16 +205671,509 @@
       "requires_prebuy": false,
       "market_saturated": false,
       "bottleneck_item": null,
-      "inputs": [],
+      "inputs": [
+        {
+          "item": "Collecting",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Combat",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Raids",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Slayer",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Bosses",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Monsters",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Wilderness",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "God Wars Dungeon",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Quest",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Other bosses",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Processing",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Grinding",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Planks",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Tanning",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Skills",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Agility",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Cooking",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Firemaking",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Fishing",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Fletching",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Cutting bows",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Stringing bows",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Herblore",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Potions",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Cleaning",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Unfinished Potions",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Hunter",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Magic",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Charging orbs",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Magic tablets",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Mining",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Runecraft",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Smithing",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Blast Furnace",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Dart tips",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Thieving",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Woodcutting",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Crafting",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Sailing",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Farming",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Herbs",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        },
+        {
+          "item": "Other",
+          "qty": 1.0,
+          "price": null,
+          "cost_per_action": null
+        }
+      ],
       "outputs": [
         {
-          "item": "25,129, aftertax",
-          "qty": 288009600.0,
+          "item": "Collecting",
+          "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "24×Tuna(1,560)",
+          "item": "Combat",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Raids",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Slayer",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Bosses",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Monsters",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Wilderness",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "God Wars Dungeon",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Quest",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Other bosses",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Processing",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Grinding",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Planks",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Tanning",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Skills",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Agility",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Cooking",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Firemaking",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Fishing",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Fletching",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Cutting bows",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Stringing bows",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Herblore",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Potions",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Cleaning",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Unfinished Potions",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Hunter",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Magic",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Charging orbs",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Magic tablets",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Mining",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Runecraft",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Smithing",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Blast Furnace",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Dart tips",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Thieving",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Woodcutting",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Crafting",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Sailing",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Farming",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Herbs",
+          "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        },
+        {
+          "item": "Other",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -228483,9 +228976,9 @@
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "effective_actions_per_hour": 3.0,
-      "profit_per_action": -3390.0,
-      "profit_per_hour": -10287.26,
-      "score": -10287.26,
+      "profit_per_action": -4060.0,
+      "profit_per_hour": -12320.44,
+      "score": -12320.44,
       "requires_prebuy": false,
       "market_saturated": false,
       "bottleneck_item": "Willow shortbow",
@@ -228493,26 +228986,26 @@
         {
           "item": "Mithril arrow",
           "qty": 7.0,
-          "price": 8,
-          "cost_per_action": 56.0
+          "price": 6,
+          "cost_per_action": 42.0
         },
         {
           "item": "Adamant arrow",
-          "qty": 34.0,
-          "price": 35,
-          "cost_per_action": 1190.0
-        },
-        {
-          "item": "Oak longbow",
           "qty": 34.0,
           "price": 33,
           "cost_per_action": 1122.0
         },
         {
+          "item": "Oak longbow",
+          "qty": 34.0,
+          "price": 36,
+          "cost_per_action": 1224.0
+        },
+        {
           "item": "Willow shortbow",
           "qty": 106.0,
-          "price": 96,
-          "cost_per_action": 10176.0
+          "price": 140,
+          "cost_per_action": 14840.0
         },
         {
           "item": "Willow longbow",
@@ -228523,14 +229016,14 @@
         {
           "item": "Maple shortbow",
           "qty": 197.0,
-          "price": 197,
-          "cost_per_action": 38809.0
+          "price": 196,
+          "cost_per_action": 38612.0
         },
         {
           "item": "Maple longbow",
           "qty": 267.0,
-          "price": 267,
-          "cost_per_action": 71289.0
+          "price": 265,
+          "cost_per_action": 70755.0
         }
       ],
       "outputs": [
@@ -228543,8 +229036,8 @@
         {
           "item": "Adamant arrow",
           "qty": 34.0,
-          "price": 35,
-          "value_per_action": 1190.0
+          "price": 33,
+          "value_per_action": 1122.0
         },
         {
           "item": "Oak longbow",
@@ -228555,8 +229048,8 @@
         {
           "item": "Willow shortbow",
           "qty": 106.0,
-          "price": 90,
-          "value_per_action": 9540.0
+          "price": 111,
+          "value_per_action": 11766.0
         },
         {
           "item": "Willow longbow",
@@ -228567,14 +229060,14 @@
         {
           "item": "Maple shortbow",
           "qty": 197.0,
-          "price": 190,
-          "value_per_action": 37430.0
+          "price": 193,
+          "value_per_action": 38021.0
         },
         {
           "item": "Maple longbow",
           "qty": 267.0,
-          "price": 263,
-          "value_per_action": 70221.0
+          "price": 265,
+          "value_per_action": 70755.0
         }
       ]
     },
@@ -228584,9 +229077,9 @@
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "effective_actions_per_hour": 1,
-      "profit_per_action": -483062.0,
-      "profit_per_hour": -483062.0,
-      "score": -483062.0,
+      "profit_per_action": -352197.0,
+      "profit_per_hour": -352197.0,
+      "score": -352197.0,
       "requires_prebuy": false,
       "market_saturated": false,
       "bottleneck_item": "Redwood tree seed",
@@ -228594,44 +229087,44 @@
         {
           "item": "Acorn",
           "qty": 15.0,
-          "price": 84,
-          "cost_per_action": 1260.0
+          "price": 83,
+          "cost_per_action": 1245.0
         },
         {
           "item": "Apple tree seed",
           "qty": 27.0,
-          "price": 6,
-          "cost_per_action": 162.0
+          "price": 5,
+          "cost_per_action": 135.0
         },
         {
           "item": "Willow seed",
           "qty": 30.0,
-          "price": 56,
-          "cost_per_action": 1680.0
+          "price": 73,
+          "cost_per_action": 2190.0
         },
         {
           "item": "Banana tree seed",
           "qty": 33.0,
-          "price": 65,
-          "cost_per_action": 2145.0
+          "price": 20,
+          "cost_per_action": 660.0
         },
         {
           "item": "Teak seed",
           "qty": 35.0,
-          "price": 10,
-          "cost_per_action": 350.0
+          "price": 35,
+          "cost_per_action": 1225.0
         },
         {
           "item": "Orange tree seed",
           "qty": 39.0,
-          "price": 26,
-          "cost_per_action": 1014.0
+          "price": 25,
+          "cost_per_action": 975.0
         },
         {
           "item": "Curry tree seed",
           "qty": 42.0,
-          "price": 38,
-          "cost_per_action": 1596.0
+          "price": 24,
+          "cost_per_action": 1008.0
         },
         {
           "item": "Maple seed",
@@ -228642,50 +229135,50 @@
         {
           "item": "Pineapple seed",
           "qty": 51.0,
-          "price": 69,
-          "cost_per_action": 3519.0
+          "price": 53,
+          "cost_per_action": 2703.0
         },
         {
           "item": "Mahogany seed",
           "qty": 55.0,
-          "price": 479,
-          "cost_per_action": 26345.0
+          "price": 464,
+          "cost_per_action": 25520.0
         },
         {
           "item": "Papaya tree seed",
           "qty": 57.0,
-          "price": 1685,
-          "cost_per_action": 96045.0
+          "price": 1457,
+          "cost_per_action": 83049.0
         },
         {
           "item": "Yew seed",
           "qty": 60.0,
-          "price": 24000,
-          "cost_per_action": 1440000.0
+          "price": 21540,
+          "cost_per_action": 1292400.0
         },
         {
           "item": "Palm tree seed",
           "qty": 68.0,
-          "price": 18230,
-          "cost_per_action": 1239640.0
+          "price": 18416,
+          "cost_per_action": 1252288.0
         },
         {
           "item": "Calquat tree seed",
           "qty": 72.0,
-          "price": 414,
-          "cost_per_action": 29808.0
+          "price": 402,
+          "cost_per_action": 28944.0
         },
         {
           "item": "Magic seed",
           "qty": 75.0,
-          "price": 80000,
-          "cost_per_action": 6000000.0
+          "price": 76500,
+          "cost_per_action": 5737500.0
         },
         {
           "item": "Dragonfruit tree seed",
           "qty": 81.0,
-          "price": 152717,
-          "cost_per_action": 12370077.0
+          "price": 153648,
+          "cost_per_action": 12445488.0
         },
         {
           "item": "Celastrus seed",
@@ -228704,26 +229197,26 @@
         {
           "item": "Acorn",
           "qty": 15.0,
-          "price": 89,
-          "value_per_action": 1335.0
+          "price": 83,
+          "value_per_action": 1245.0
         },
         {
           "item": "Apple tree seed",
           "qty": 27.0,
-          "price": 3,
-          "value_per_action": 81.0
+          "price": 5,
+          "value_per_action": 135.0
         },
         {
           "item": "Willow seed",
           "qty": 30.0,
-          "price": 56,
-          "value_per_action": 1680.0
+          "price": 75,
+          "value_per_action": 2250.0
         },
         {
           "item": "Banana tree seed",
           "qty": 33.0,
-          "price": 40,
-          "value_per_action": 1320.0
+          "price": 20,
+          "value_per_action": 660.0
         },
         {
           "item": "Teak seed",
@@ -228734,80 +229227,80 @@
         {
           "item": "Orange tree seed",
           "qty": 39.0,
-          "price": 56,
-          "value_per_action": 2184.0
+          "price": 29,
+          "value_per_action": 1131.0
         },
         {
           "item": "Curry tree seed",
           "qty": 42.0,
-          "price": 55,
-          "value_per_action": 2310.0
+          "price": 41,
+          "value_per_action": 1722.0
         },
         {
           "item": "Maple seed",
           "qty": 45.0,
-          "price": 3314,
-          "value_per_action": 149130.0
+          "price": 3350,
+          "value_per_action": 150750.0
         },
         {
           "item": "Pineapple seed",
           "qty": 51.0,
-          "price": 67,
-          "value_per_action": 3417.0
+          "price": 50,
+          "value_per_action": 2550.0
         },
         {
           "item": "Mahogany seed",
           "qty": 55.0,
-          "price": 350,
-          "value_per_action": 19250.0
+          "price": 218,
+          "value_per_action": 11990.0
         },
         {
           "item": "Papaya tree seed",
           "qty": 57.0,
-          "price": 1500,
-          "value_per_action": 85500.0
+          "price": 1529,
+          "value_per_action": 87153.0
         },
         {
           "item": "Yew seed",
           "qty": 60.0,
-          "price": 22001,
-          "value_per_action": 1320060.0
+          "price": 21540,
+          "value_per_action": 1292400.0
         },
         {
           "item": "Palm tree seed",
           "qty": 68.0,
-          "price": 18350,
-          "value_per_action": 1247800.0
+          "price": 18769,
+          "value_per_action": 1276292.0
         },
         {
           "item": "Calquat tree seed",
           "qty": 72.0,
-          "price": 386,
-          "value_per_action": 27792.0
+          "price": 400,
+          "value_per_action": 28800.0
         },
         {
           "item": "Magic seed",
           "qty": 75.0,
-          "price": 77950,
-          "value_per_action": 5846250.0
+          "price": 74500,
+          "value_per_action": 5587500.0
         },
         {
           "item": "Dragonfruit tree seed",
           "qty": 81.0,
-          "price": 151110,
-          "value_per_action": 12239910.0
+          "price": 151155,
+          "value_per_action": 12243555.0
         },
         {
           "item": "Celastrus seed",
           "qty": 85.0,
-          "price": 18522,
-          "value_per_action": 1574370.0
+          "price": 18600,
+          "value_per_action": 1581000.0
         },
         {
           "item": "Redwood tree seed",
           "qty": 90.0,
-          "price": 19001,
-          "value_per_action": 1710090.0
+          "price": 19510,
+          "value_per_action": 1755900.0
         }
       ]
     },
@@ -228817,9 +229310,9 @@
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "effective_actions_per_hour": 1,
-      "profit_per_action": -483062.0,
-      "profit_per_hour": -483062.0,
-      "score": -483062.0,
+      "profit_per_action": -352197.0,
+      "profit_per_hour": -352197.0,
+      "score": -352197.0,
       "requires_prebuy": false,
       "market_saturated": false,
       "bottleneck_item": "Redwood tree seed",
@@ -228827,44 +229320,44 @@
         {
           "item": "Acorn",
           "qty": 15.0,
-          "price": 84,
-          "cost_per_action": 1260.0
+          "price": 83,
+          "cost_per_action": 1245.0
         },
         {
           "item": "Apple tree seed",
           "qty": 27.0,
-          "price": 6,
-          "cost_per_action": 162.0
+          "price": 5,
+          "cost_per_action": 135.0
         },
         {
           "item": "Willow seed",
           "qty": 30.0,
-          "price": 56,
-          "cost_per_action": 1680.0
+          "price": 73,
+          "cost_per_action": 2190.0
         },
         {
           "item": "Banana tree seed",
           "qty": 33.0,
-          "price": 65,
-          "cost_per_action": 2145.0
+          "price": 20,
+          "cost_per_action": 660.0
         },
         {
           "item": "Teak seed",
           "qty": 35.0,
-          "price": 10,
-          "cost_per_action": 350.0
+          "price": 35,
+          "cost_per_action": 1225.0
         },
         {
           "item": "Orange tree seed",
           "qty": 39.0,
-          "price": 26,
-          "cost_per_action": 1014.0
+          "price": 25,
+          "cost_per_action": 975.0
         },
         {
           "item": "Curry tree seed",
           "qty": 42.0,
-          "price": 38,
-          "cost_per_action": 1596.0
+          "price": 24,
+          "cost_per_action": 1008.0
         },
         {
           "item": "Maple seed",
@@ -228875,50 +229368,50 @@
         {
           "item": "Pineapple seed",
           "qty": 51.0,
-          "price": 69,
-          "cost_per_action": 3519.0
+          "price": 53,
+          "cost_per_action": 2703.0
         },
         {
           "item": "Mahogany seed",
           "qty": 55.0,
-          "price": 479,
-          "cost_per_action": 26345.0
+          "price": 464,
+          "cost_per_action": 25520.0
         },
         {
           "item": "Papaya tree seed",
           "qty": 57.0,
-          "price": 1685,
-          "cost_per_action": 96045.0
+          "price": 1457,
+          "cost_per_action": 83049.0
         },
         {
           "item": "Yew seed",
           "qty": 60.0,
-          "price": 24000,
-          "cost_per_action": 1440000.0
+          "price": 21540,
+          "cost_per_action": 1292400.0
         },
         {
           "item": "Palm tree seed",
           "qty": 68.0,
-          "price": 18230,
-          "cost_per_action": 1239640.0
+          "price": 18416,
+          "cost_per_action": 1252288.0
         },
         {
           "item": "Calquat tree seed",
           "qty": 72.0,
-          "price": 414,
-          "cost_per_action": 29808.0
+          "price": 402,
+          "cost_per_action": 28944.0
         },
         {
           "item": "Magic seed",
           "qty": 75.0,
-          "price": 80000,
-          "cost_per_action": 6000000.0
+          "price": 76500,
+          "cost_per_action": 5737500.0
         },
         {
           "item": "Dragonfruit tree seed",
           "qty": 81.0,
-          "price": 152717,
-          "cost_per_action": 12370077.0
+          "price": 153648,
+          "cost_per_action": 12445488.0
         },
         {
           "item": "Celastrus seed",
@@ -228937,26 +229430,26 @@
         {
           "item": "Acorn",
           "qty": 15.0,
-          "price": 89,
-          "value_per_action": 1335.0
+          "price": 83,
+          "value_per_action": 1245.0
         },
         {
           "item": "Apple tree seed",
           "qty": 27.0,
-          "price": 3,
-          "value_per_action": 81.0
+          "price": 5,
+          "value_per_action": 135.0
         },
         {
           "item": "Willow seed",
           "qty": 30.0,
-          "price": 56,
-          "value_per_action": 1680.0
+          "price": 75,
+          "value_per_action": 2250.0
         },
         {
           "item": "Banana tree seed",
           "qty": 33.0,
-          "price": 40,
-          "value_per_action": 1320.0
+          "price": 20,
+          "value_per_action": 660.0
         },
         {
           "item": "Teak seed",
@@ -228967,80 +229460,80 @@
         {
           "item": "Orange tree seed",
           "qty": 39.0,
-          "price": 56,
-          "value_per_action": 2184.0
+          "price": 29,
+          "value_per_action": 1131.0
         },
         {
           "item": "Curry tree seed",
           "qty": 42.0,
-          "price": 55,
-          "value_per_action": 2310.0
+          "price": 41,
+          "value_per_action": 1722.0
         },
         {
           "item": "Maple seed",
           "qty": 45.0,
-          "price": 3314,
-          "value_per_action": 149130.0
+          "price": 3350,
+          "value_per_action": 150750.0
         },
         {
           "item": "Pineapple seed",
           "qty": 51.0,
-          "price": 67,
-          "value_per_action": 3417.0
+          "price": 50,
+          "value_per_action": 2550.0
         },
         {
           "item": "Mahogany seed",
           "qty": 55.0,
-          "price": 350,
-          "value_per_action": 19250.0
+          "price": 218,
+          "value_per_action": 11990.0
         },
         {
           "item": "Papaya tree seed",
           "qty": 57.0,
-          "price": 1500,
-          "value_per_action": 85500.0
+          "price": 1529,
+          "value_per_action": 87153.0
         },
         {
           "item": "Yew seed",
           "qty": 60.0,
-          "price": 22001,
-          "value_per_action": 1320060.0
+          "price": 21540,
+          "value_per_action": 1292400.0
         },
         {
           "item": "Palm tree seed",
           "qty": 68.0,
-          "price": 18350,
-          "value_per_action": 1247800.0
+          "price": 18769,
+          "value_per_action": 1276292.0
         },
         {
           "item": "Calquat tree seed",
           "qty": 72.0,
-          "price": 386,
-          "value_per_action": 27792.0
+          "price": 400,
+          "value_per_action": 28800.0
         },
         {
           "item": "Magic seed",
           "qty": 75.0,
-          "price": 77950,
-          "value_per_action": 5846250.0
+          "price": 74500,
+          "value_per_action": 5587500.0
         },
         {
           "item": "Dragonfruit tree seed",
           "qty": 81.0,
-          "price": 151110,
-          "value_per_action": 12239910.0
+          "price": 151155,
+          "value_per_action": 12243555.0
         },
         {
           "item": "Celastrus seed",
           "qty": 85.0,
-          "price": 18522,
-          "value_per_action": 1574370.0
+          "price": 18600,
+          "value_per_action": 1581000.0
         },
         {
           "item": "Redwood tree seed",
           "qty": 90.0,
-          "price": 19001,
-          "value_per_action": 1710090.0
+          "price": 19510,
+          "value_per_action": 1755900.0
         }
       ]
     }
@@ -229050,6 +229543,6 @@
     "with_profit": 0,
     "with_prebuy": 0,
     "market_saturated": 0,
-    "generated_at": 1784294453
+    "generated_at": 1784315120
   }
 }
