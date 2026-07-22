@@ -50,7 +50,7 @@
       "inputs": [
         {
           "item": "Killing Yama (Contract of shard acquisition, duo)",
-          "qty": 12892989.0
+          "qty": 12752038.0
         },
         {
           "item": "Killing Yama (Contract of oathplate acquisition)",
@@ -58,17 +58,17 @@
         },
         {
           "item": "Killing Yama (Contract of catalyst acquisition, duo)",
-          "qty": 5801163.0
+          "qty": 5800764.0
         },
         {
           "item": "Killing Yama (Contract of harmony acquisition)",
-          "qty": 5206651.0
+          "qty": 5189325.0
         }
       ],
       "outputs": [
         {
           "item": "Killing Yama (Contract of shard acquisition, duo)",
-          "qty": 12892989.0
+          "qty": 12752038.0
         },
         {
           "item": "Killing Yama (Contract of oathplate acquisition)",
@@ -76,11 +76,11 @@
         },
         {
           "item": "Killing Yama (Contract of catalyst acquisition, duo)",
-          "qty": 5801163.0
+          "qty": 5800764.0
         },
         {
           "item": "Killing Yama (Contract of harmony acquisition)",
-          "qty": 5206651.0
+          "qty": 5189325.0
         }
       ]
     },
@@ -1199,8 +1199,8 @@
       ]
     },
     {
-      "name": "Killing Duke Sucellus",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Duke_Sucellus",
+      "name": "Killing the Maggot King (Ranged)",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_the_Maggot_King_(Ranged)",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 300,
       "inputs": [
@@ -1545,8 +1545,8 @@
       ]
     },
     {
-      "name": "Killing the Maggot King (Ranged)",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_the_Maggot_King_(Ranged)",
+      "name": "Killing Duke Sucellus",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Duke_Sucellus",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 300,
       "inputs": [
@@ -3468,21 +3468,21 @@
       "inputs": [
         {
           "item": "Killing Yama (Contract of shard acquisition, duo)",
-          "qty": 12892989.0
+          "qty": 12752038.0
         },
         {
           "item": "Killing Yama (Contract of catalyst acquisition, duo)",
-          "qty": 5801163.0
+          "qty": 5800764.0
         }
       ],
       "outputs": [
         {
           "item": "Killing Yama (Contract of shard acquisition, duo)",
-          "qty": 12892989.0
+          "qty": 12752038.0
         },
         {
           "item": "Killing Yama (Contract of catalyst acquisition, duo)",
-          "qty": 5801163.0
+          "qty": 5800764.0
         }
       ]
     },
@@ -29875,6 +29875,40 @@
         {
           "item": "Other",
           "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Chopping the engorged bloodwood tree",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_the_engorged_bloodwood_tree",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "inputs": [
+        {
+          "item": "Yew logs",
+          "qty": 75.0
+        },
+        {
+          "item": "Magic logs",
+          "qty": 90.0
+        },
+        {
+          "item": "Redwood logs",
+          "qty": 105.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Yew logs",
+          "qty": 75.0
+        },
+        {
+          "item": "Magic logs",
+          "qty": 90.0
+        },
+        {
+          "item": "Redwood logs",
+          "qty": 105.0
         }
       ]
     },
@@ -110292,8 +110326,8 @@
       ]
     },
     {
-      "name": "Collecting eclipse red bottles",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Collecting_eclipse_red_bottles",
+      "name": "Cleaning grimy snapdragon",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_snapdragon",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
@@ -110638,8 +110672,8 @@
       ]
     },
     {
-      "name": "Cleaning grimy snapdragon",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_snapdragon",
+      "name": "Collecting eclipse red bottles",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Collecting_eclipse_red_bottles",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "inputs": [
