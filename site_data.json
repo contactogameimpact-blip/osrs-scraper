@@ -1,5 +1,5 @@
 {
-  "updated": 1785809025,
+  "updated": 1785832411,
   "methods": [
     {
       "name": "Killing the Doom of Mokhaiotl (Delve 1-16)",
@@ -228660,9 +228660,9 @@
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "effective_actions_per_hour": 4.4,
-      "profit_per_action": -3969.0,
-      "profit_per_hour": -17280.13,
-      "score": -17280.13,
+      "profit_per_action": -10584.0,
+      "profit_per_hour": -46080.34,
+      "score": -46080.34,
       "requires_prebuy": false,
       "market_saturated": false,
       "bottleneck_item": "Willow shortbow",
@@ -228676,38 +228676,38 @@
         {
           "item": "Adamant arrow",
           "qty": 31.0,
-          "price": 31,
-          "cost_per_action": 961.0
+          "price": 30,
+          "cost_per_action": 930.0
         },
         {
           "item": "Oak longbow",
           "qty": 31.0,
-          "price": 26,
-          "cost_per_action": 806.0
+          "price": 30,
+          "cost_per_action": 930.0
         },
         {
           "item": "Willow shortbow",
           "qty": 106.0,
-          "price": 69,
-          "cost_per_action": 7314.0
+          "price": 96,
+          "cost_per_action": 10176.0
         },
         {
           "item": "Willow longbow",
           "qty": 106.0,
-          "price": 106,
-          "cost_per_action": 11236.0
+          "price": 112,
+          "cost_per_action": 11872.0
         },
         {
           "item": "Maple shortbow",
           "qty": 202.0,
-          "price": 202,
-          "cost_per_action": 40804.0
+          "price": 210,
+          "cost_per_action": 42420.0
         },
         {
           "item": "Maple longbow",
           "qty": 261.0,
-          "price": 261,
-          "cost_per_action": 68121.0
+          "price": 273,
+          "cost_per_action": 71253.0
         }
       ],
       "outputs": [
@@ -228726,14 +228726,14 @@
         {
           "item": "Oak longbow",
           "qty": 31.0,
-          "price": 25,
-          "value_per_action": 775.0
+          "price": 28,
+          "value_per_action": 868.0
         },
         {
           "item": "Willow shortbow",
           "qty": 106.0,
-          "price": 62,
-          "value_per_action": 6572.0
+          "price": 70,
+          "value_per_action": 7420.0
         },
         {
           "item": "Willow longbow",
@@ -228750,61 +228750,8 @@
         {
           "item": "Maple longbow",
           "qty": 261.0,
-          "price": 254,
-          "value_per_action": 66294.0
-        }
-      ]
-    },
-    {
-      "name": "Chopping the engorged bloodwood tree",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_the_engorged_bloodwood_tree",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 41.7,
-      "profit_per_action": -3585.0,
-      "profit_per_hour": -149375.0,
-      "score": -112031.25,
-      "requires_prebuy": true,
-      "market_saturated": false,
-      "bottleneck_item": "Magic logs",
-      "inputs": [
-        {
-          "item": "Yew logs",
-          "qty": 75.0,
-          "price": 109,
-          "cost_per_action": 8175.0
-        },
-        {
-          "item": "Magic logs",
-          "qty": 90.0,
-          "price": 791,
-          "cost_per_action": 71190.0
-        },
-        {
-          "item": "Redwood logs",
-          "qty": 105.0,
-          "price": 690,
-          "cost_per_action": 72450.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Yew logs",
-          "qty": 75.0,
-          "price": 105,
-          "value_per_action": 7875.0
-        },
-        {
-          "item": "Magic logs",
-          "qty": 90.0,
-          "price": 765,
-          "value_per_action": 68850.0
-        },
-        {
-          "item": "Redwood logs",
-          "qty": 105.0,
-          "price": 681,
-          "value_per_action": 71505.0
+          "price": 257,
+          "value_per_action": 67077.0
         }
       ]
     },
@@ -228814,9 +228761,9 @@
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "effective_actions_per_hour": 1,
-      "profit_per_action": -271344.0,
-      "profit_per_hour": -271344.0,
-      "score": -271344.0,
+      "profit_per_action": -144293.0,
+      "profit_per_hour": -144293.0,
+      "score": -144293.0,
       "requires_prebuy": false,
       "market_saturated": false,
       "bottleneck_item": "Redwood tree seed",
@@ -228824,38 +228771,38 @@
         {
           "item": "Acorn",
           "qty": 15.0,
-          "price": 83,
-          "cost_per_action": 1245.0
+          "price": 110,
+          "cost_per_action": 1650.0
         },
         {
           "item": "Apple tree seed",
           "qty": 27.0,
-          "price": 39,
-          "cost_per_action": 1053.0
+          "price": 40,
+          "cost_per_action": 1080.0
         },
         {
           "item": "Willow seed",
           "qty": 30.0,
-          "price": 50,
-          "cost_per_action": 1500.0
+          "price": 102,
+          "cost_per_action": 3060.0
         },
         {
           "item": "Banana tree seed",
           "qty": 33.0,
-          "price": 31,
-          "cost_per_action": 1023.0
+          "price": 44,
+          "cost_per_action": 1452.0
         },
         {
           "item": "Teak seed",
           "qty": 35.0,
-          "price": 250,
-          "cost_per_action": 8750.0
+          "price": 65,
+          "cost_per_action": 2275.0
         },
         {
           "item": "Orange tree seed",
           "qty": 39.0,
-          "price": 77,
-          "cost_per_action": 3003.0
+          "price": 56,
+          "cost_per_action": 2184.0
         },
         {
           "item": "Curry tree seed",
@@ -228890,8 +228837,8 @@
         {
           "item": "Yew seed",
           "qty": 60.0,
-          "price": 19257,
-          "cost_per_action": 1155420.0
+          "price": 19900,
+          "cost_per_action": 1194000.0
         },
         {
           "item": "Palm tree seed",
@@ -228908,14 +228855,14 @@
         {
           "item": "Magic seed",
           "qty": 75.0,
-          "price": 72487,
-          "cost_per_action": 5436525.0
+          "price": 70867,
+          "cost_per_action": 5315025.0
         },
         {
           "item": "Dragonfruit tree seed",
           "qty": 81.0,
-          "price": 130000,
-          "cost_per_action": 10530000.0
+          "price": 134717,
+          "cost_per_action": 10912077.0
         },
         {
           "item": "Celastrus seed",
@@ -228926,88 +228873,88 @@
         {
           "item": "Redwood tree seed",
           "qty": 90.0,
-          "price": 14051,
-          "cost_per_action": 1264590.0
+          "price": 14100,
+          "cost_per_action": 1269000.0
         }
       ],
       "outputs": [
         {
           "item": "Acorn",
           "qty": 15.0,
-          "price": 83,
-          "value_per_action": 1245.0
+          "price": 128,
+          "value_per_action": 1920.0
         },
         {
           "item": "Apple tree seed",
           "qty": 27.0,
-          "price": 30,
-          "value_per_action": 810.0
+          "price": 56,
+          "value_per_action": 1512.0
         },
         {
           "item": "Willow seed",
           "qty": 30.0,
-          "price": 50,
-          "value_per_action": 1500.0
+          "price": 61,
+          "value_per_action": 1830.0
         },
         {
           "item": "Banana tree seed",
           "qty": 33.0,
-          "price": 31,
-          "value_per_action": 1023.0
+          "price": 56,
+          "value_per_action": 1848.0
         },
         {
           "item": "Teak seed",
           "qty": 35.0,
-          "price": 71,
-          "value_per_action": 2485.0
+          "price": 65,
+          "value_per_action": 2275.0
         },
         {
           "item": "Orange tree seed",
           "qty": 39.0,
-          "price": 35,
-          "value_per_action": 1365.0
+          "price": 55,
+          "value_per_action": 2145.0
         },
         {
           "item": "Curry tree seed",
           "qty": 42.0,
-          "price": 40,
-          "value_per_action": 1680.0
+          "price": 48,
+          "value_per_action": 2016.0
         },
         {
           "item": "Maple seed",
           "qty": 45.0,
-          "price": 3365,
-          "value_per_action": 151425.0
+          "price": 3488,
+          "value_per_action": 156960.0
         },
         {
           "item": "Pineapple seed",
           "qty": 51.0,
-          "price": 66,
-          "value_per_action": 3366.0
+          "price": 75,
+          "value_per_action": 3825.0
         },
         {
           "item": "Mahogany seed",
           "qty": 55.0,
-          "price": 206,
-          "value_per_action": 11330.0
+          "price": 205,
+          "value_per_action": 11275.0
         },
         {
           "item": "Papaya tree seed",
           "qty": 57.0,
-          "price": 1369,
-          "value_per_action": 78033.0
+          "price": 1508,
+          "value_per_action": 85956.0
         },
         {
           "item": "Yew seed",
           "qty": 60.0,
-          "price": 19000,
-          "value_per_action": 1140000.0
+          "price": 19633,
+          "value_per_action": 1177980.0
         },
         {
           "item": "Palm tree seed",
           "qty": 68.0,
-          "price": 16421,
-          "value_per_action": 1116628.0
+          "price": 16800,
+          "value_per_action": 1142400.0
         },
         {
           "item": "Calquat tree seed",
@@ -229018,20 +228965,20 @@
         {
           "item": "Magic seed",
           "qty": 75.0,
-          "price": 70479,
-          "value_per_action": 5285925.0
+          "price": 70781,
+          "value_per_action": 5308575.0
         },
         {
           "item": "Dragonfruit tree seed",
           "qty": 81.0,
-          "price": 130000,
-          "value_per_action": 10530000.0
+          "price": 133703,
+          "value_per_action": 10829943.0
         },
         {
           "item": "Celastrus seed",
           "qty": 85.0,
-          "price": 16740,
-          "value_per_action": 1422900.0
+          "price": 17000,
+          "value_per_action": 1445000.0
         },
         {
           "item": "Redwood tree seed",
@@ -229047,9 +228994,9 @@
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
       "effective_actions_per_hour": 1,
-      "profit_per_action": -271344.0,
-      "profit_per_hour": -271344.0,
-      "score": -271344.0,
+      "profit_per_action": -144293.0,
+      "profit_per_hour": -144293.0,
+      "score": -144293.0,
       "requires_prebuy": false,
       "market_saturated": false,
       "bottleneck_item": "Redwood tree seed",
@@ -229057,38 +229004,38 @@
         {
           "item": "Acorn",
           "qty": 15.0,
-          "price": 83,
-          "cost_per_action": 1245.0
+          "price": 110,
+          "cost_per_action": 1650.0
         },
         {
           "item": "Apple tree seed",
           "qty": 27.0,
-          "price": 39,
-          "cost_per_action": 1053.0
+          "price": 40,
+          "cost_per_action": 1080.0
         },
         {
           "item": "Willow seed",
           "qty": 30.0,
-          "price": 50,
-          "cost_per_action": 1500.0
+          "price": 102,
+          "cost_per_action": 3060.0
         },
         {
           "item": "Banana tree seed",
           "qty": 33.0,
-          "price": 31,
-          "cost_per_action": 1023.0
+          "price": 44,
+          "cost_per_action": 1452.0
         },
         {
           "item": "Teak seed",
           "qty": 35.0,
-          "price": 250,
-          "cost_per_action": 8750.0
+          "price": 65,
+          "cost_per_action": 2275.0
         },
         {
           "item": "Orange tree seed",
           "qty": 39.0,
-          "price": 77,
-          "cost_per_action": 3003.0
+          "price": 56,
+          "cost_per_action": 2184.0
         },
         {
           "item": "Curry tree seed",
@@ -229123,8 +229070,8 @@
         {
           "item": "Yew seed",
           "qty": 60.0,
-          "price": 19257,
-          "cost_per_action": 1155420.0
+          "price": 19900,
+          "cost_per_action": 1194000.0
         },
         {
           "item": "Palm tree seed",
@@ -229141,14 +229088,14 @@
         {
           "item": "Magic seed",
           "qty": 75.0,
-          "price": 72487,
-          "cost_per_action": 5436525.0
+          "price": 70867,
+          "cost_per_action": 5315025.0
         },
         {
           "item": "Dragonfruit tree seed",
           "qty": 81.0,
-          "price": 130000,
-          "cost_per_action": 10530000.0
+          "price": 134717,
+          "cost_per_action": 10912077.0
         },
         {
           "item": "Celastrus seed",
@@ -229159,88 +229106,88 @@
         {
           "item": "Redwood tree seed",
           "qty": 90.0,
-          "price": 14051,
-          "cost_per_action": 1264590.0
+          "price": 14100,
+          "cost_per_action": 1269000.0
         }
       ],
       "outputs": [
         {
           "item": "Acorn",
           "qty": 15.0,
-          "price": 83,
-          "value_per_action": 1245.0
+          "price": 128,
+          "value_per_action": 1920.0
         },
         {
           "item": "Apple tree seed",
           "qty": 27.0,
-          "price": 30,
-          "value_per_action": 810.0
+          "price": 56,
+          "value_per_action": 1512.0
         },
         {
           "item": "Willow seed",
           "qty": 30.0,
-          "price": 50,
-          "value_per_action": 1500.0
+          "price": 61,
+          "value_per_action": 1830.0
         },
         {
           "item": "Banana tree seed",
           "qty": 33.0,
-          "price": 31,
-          "value_per_action": 1023.0
+          "price": 56,
+          "value_per_action": 1848.0
         },
         {
           "item": "Teak seed",
           "qty": 35.0,
-          "price": 71,
-          "value_per_action": 2485.0
+          "price": 65,
+          "value_per_action": 2275.0
         },
         {
           "item": "Orange tree seed",
           "qty": 39.0,
-          "price": 35,
-          "value_per_action": 1365.0
+          "price": 55,
+          "value_per_action": 2145.0
         },
         {
           "item": "Curry tree seed",
           "qty": 42.0,
-          "price": 40,
-          "value_per_action": 1680.0
+          "price": 48,
+          "value_per_action": 2016.0
         },
         {
           "item": "Maple seed",
           "qty": 45.0,
-          "price": 3365,
-          "value_per_action": 151425.0
+          "price": 3488,
+          "value_per_action": 156960.0
         },
         {
           "item": "Pineapple seed",
           "qty": 51.0,
-          "price": 66,
-          "value_per_action": 3366.0
+          "price": 75,
+          "value_per_action": 3825.0
         },
         {
           "item": "Mahogany seed",
           "qty": 55.0,
-          "price": 206,
-          "value_per_action": 11330.0
+          "price": 205,
+          "value_per_action": 11275.0
         },
         {
           "item": "Papaya tree seed",
           "qty": 57.0,
-          "price": 1369,
-          "value_per_action": 78033.0
+          "price": 1508,
+          "value_per_action": 85956.0
         },
         {
           "item": "Yew seed",
           "qty": 60.0,
-          "price": 19000,
-          "value_per_action": 1140000.0
+          "price": 19633,
+          "value_per_action": 1177980.0
         },
         {
           "item": "Palm tree seed",
           "qty": 68.0,
-          "price": 16421,
-          "value_per_action": 1116628.0
+          "price": 16800,
+          "value_per_action": 1142400.0
         },
         {
           "item": "Calquat tree seed",
@@ -229251,26 +229198,79 @@
         {
           "item": "Magic seed",
           "qty": 75.0,
-          "price": 70479,
-          "value_per_action": 5285925.0
+          "price": 70781,
+          "value_per_action": 5308575.0
         },
         {
           "item": "Dragonfruit tree seed",
           "qty": 81.0,
-          "price": 130000,
-          "value_per_action": 10530000.0
+          "price": 133703,
+          "value_per_action": 10829943.0
         },
         {
           "item": "Celastrus seed",
           "qty": 85.0,
-          "price": 16740,
-          "value_per_action": 1422900.0
+          "price": 17000,
+          "value_per_action": 1445000.0
         },
         {
           "item": "Redwood tree seed",
           "qty": 90.0,
           "price": 14100,
           "value_per_action": 1269000.0
+        }
+      ]
+    },
+    {
+      "name": "Chopping the engorged bloodwood tree",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_the_engorged_bloodwood_tree",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 41.7,
+      "profit_per_action": -5010.0,
+      "profit_per_hour": -208750.0,
+      "score": -156562.5,
+      "requires_prebuy": true,
+      "market_saturated": false,
+      "bottleneck_item": "Magic logs",
+      "inputs": [
+        {
+          "item": "Yew logs",
+          "qty": 75.0,
+          "price": 110,
+          "cost_per_action": 8250.0
+        },
+        {
+          "item": "Magic logs",
+          "qty": 90.0,
+          "price": 799,
+          "cost_per_action": 71910.0
+        },
+        {
+          "item": "Redwood logs",
+          "qty": 105.0,
+          "price": 724,
+          "cost_per_action": 76020.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Yew logs",
+          "qty": 75.0,
+          "price": 108,
+          "value_per_action": 8100.0
+        },
+        {
+          "item": "Magic logs",
+          "qty": 90.0,
+          "price": 773,
+          "value_per_action": 69570.0
+        },
+        {
+          "item": "Redwood logs",
+          "qty": 105.0,
+          "price": 700,
+          "value_per_action": 73500.0
         }
       ]
     }
@@ -229280,6 +229280,6 @@
     "with_profit": 0,
     "with_prebuy": 1,
     "market_saturated": 0,
-    "generated_at": 1785809025
+    "generated_at": 1785832411
   }
 }
