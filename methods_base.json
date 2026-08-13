@@ -3487,66 +3487,6 @@
       ]
     },
     {
-      "name": "Killing zombie pirates (Max efficiency)",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_zombie_pirates_(Max_efficiency)",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 300,
-      "inputs": [],
-      "outputs": [
-        {
-          "item": "4,920,823, aftertax",
-          "qty": 1.0
-        },
-        {
-          "item": "2,160×Steel cannonball(600,480)0.5×Burning amulet(5)(1,601)240×Amethyst arrow(33,360)10×Blighted manta ray(980)8×Blighted super restore(4)(21,272)1.5×Prayer regeneration potion(4)(154,232)",
-          "qty": 1.0
-        }
-      ]
-    },
-    {
-      "name": "Killing demonic gorillas",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_demonic_gorillas",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 300,
-      "inputs": [
-        {
-          "item": "85Combat statsArclight+Toxic blowpipe",
-          "qty": 60.0
-        },
-        {
-          "item": "99Combat statsEmberlight+Scorching bow",
-          "qty": 75.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "85Combat statsArclight+Toxic blowpipe",
-          "qty": 60.0
-        },
-        {
-          "item": "99Combat statsEmberlight+Scorching bow",
-          "qty": 75.0
-        }
-      ]
-    },
-    {
-      "name": "Killing The Nightmare",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_The_Nightmare",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 300,
-      "inputs": [],
-      "outputs": [
-        {
-          "item": "4,741,968, aftertax",
-          "qty": 1.0
-        },
-        {
-          "item": "3×Divine super combat potion(4)(55,977)6×Super restore(4)(61,212)60×Dark crab(82,500)360×Trident of the swamp(176,400)(Charges)",
-          "qty": 1.0
-        }
-      ]
-    },
-    {
       "name": "Killing Araxxor",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Araxxor",
       "wiki_actions_per_hour": 0,
@@ -3888,6 +3828,66 @@
         },
         {
           "item": "Other",
+          "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Killing zombie pirates (Max efficiency)",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_zombie_pirates_(Max_efficiency)",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 300,
+      "inputs": [],
+      "outputs": [
+        {
+          "item": "4,920,823, aftertax",
+          "qty": 1.0
+        },
+        {
+          "item": "2,160×Steel cannonball(600,480)0.5×Burning amulet(5)(1,601)240×Amethyst arrow(33,360)10×Blighted manta ray(980)8×Blighted super restore(4)(21,272)1.5×Prayer regeneration potion(4)(154,232)",
+          "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Killing demonic gorillas",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_demonic_gorillas",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 300,
+      "inputs": [
+        {
+          "item": "85Combat statsArclight+Toxic blowpipe",
+          "qty": 60.0
+        },
+        {
+          "item": "99Combat statsEmberlight+Scorching bow",
+          "qty": 75.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "85Combat statsArclight+Toxic blowpipe",
+          "qty": 60.0
+        },
+        {
+          "item": "99Combat statsEmberlight+Scorching bow",
+          "qty": 75.0
+        }
+      ]
+    },
+    {
+      "name": "Killing The Nightmare",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_The_Nightmare",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 300,
+      "inputs": [],
+      "outputs": [
+        {
+          "item": "4,741,968, aftertax",
+          "qty": 1.0
+        },
+        {
+          "item": "3×Divine super combat potion(4)(55,977)6×Super restore(4)(61,212)60×Dark crab(82,500)360×Trident of the swamp(176,400)(Charges)",
           "qty": 1.0
         }
       ]
