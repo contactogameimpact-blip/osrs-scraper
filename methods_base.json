@@ -794,48 +794,6 @@
       ]
     },
     {
-      "name": "Killing The Doom of Mokhaiotl (Delve 1-8)",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_The_Doom_of_Mokhaiotl_(Delve_1-8)",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 300,
-      "inputs": [
-        {
-          "item": "Total:535,714.52Uniques:455,838.13Common loot:79,876.39",
-          "qty": 1.0
-        },
-        {
-          "item": "1:30",
-          "qty": 21428580.71
-        },
-        {
-          "item": "2:00",
-          "qty": 16071435.53
-        },
-        {
-          "item": "2:30",
-          "qty": 10714290.36
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Total:535,714.52Uniques:455,838.13Common loot:79,876.39",
-          "qty": 1.0
-        },
-        {
-          "item": "1:30",
-          "qty": 21428580.71
-        },
-        {
-          "item": "2:00",
-          "qty": 16071435.53
-        },
-        {
-          "item": "2:30",
-          "qty": 10714290.36
-        }
-      ]
-    },
-    {
       "name": "Killing Nex (Duo)",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Nex_(Duo)",
       "wiki_actions_per_hour": 0,
@@ -1178,6 +1136,48 @@
         {
           "item": "Other",
           "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Killing The Doom of Mokhaiotl (Delve 1-8)",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_The_Doom_of_Mokhaiotl_(Delve_1-8)",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 300,
+      "inputs": [
+        {
+          "item": "Total:535,714.52Uniques:455,838.13Common loot:79,876.39",
+          "qty": 1.0
+        },
+        {
+          "item": "1:30",
+          "qty": 21428580.71
+        },
+        {
+          "item": "2:00",
+          "qty": 16071435.53
+        },
+        {
+          "item": "2:30",
+          "qty": 10714290.36
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Total:535,714.52Uniques:455,838.13Common loot:79,876.39",
+          "qty": 1.0
+        },
+        {
+          "item": "1:30",
+          "qty": 21428580.71
+        },
+        {
+          "item": "2:00",
+          "qty": 16071435.53
+        },
+        {
+          "item": "2:30",
+          "qty": 10714290.36
         }
       ]
     },
