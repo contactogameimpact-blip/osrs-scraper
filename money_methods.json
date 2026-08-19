@@ -1,472 +1,6 @@
 {
-  "updated": 1787101147,
+  "updated": 1787121628,
   "methods": [
-    {
-      "name": "Growing magic saplings",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Growing_magic_saplings",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 1,
-      "bottleneck_item": "Redwood tree seed",
-      "requires_prebuy": false,
-      "market_saturated": false,
-      "inputs": [
-        {
-          "item": "Acorn",
-          "qty": 15.0,
-          "price": 145,
-          "cost_per_action": 2175.0
-        },
-        {
-          "item": "Apple tree seed",
-          "qty": 27.0,
-          "price": 17,
-          "cost_per_action": 459.0
-        },
-        {
-          "item": "Willow seed",
-          "qty": 30.0,
-          "price": 57,
-          "cost_per_action": 1710.0
-        },
-        {
-          "item": "Banana tree seed",
-          "qty": 33.0,
-          "price": 13,
-          "cost_per_action": 429.0
-        },
-        {
-          "item": "Teak seed",
-          "qty": 35.0,
-          "price": 67,
-          "cost_per_action": 2345.0
-        },
-        {
-          "item": "Orange tree seed",
-          "qty": 39.0,
-          "price": 54,
-          "cost_per_action": 2106.0
-        },
-        {
-          "item": "Curry tree seed",
-          "qty": 42.0,
-          "price": 50,
-          "cost_per_action": 2100.0
-        },
-        {
-          "item": "Maple seed",
-          "qty": 45.0,
-          "price": 3188,
-          "cost_per_action": 143460.0
-        },
-        {
-          "item": "Pineapple seed",
-          "qty": 51.0,
-          "price": 199,
-          "cost_per_action": 10149.0
-        },
-        {
-          "item": "Mahogany seed",
-          "qty": 55.0,
-          "price": 311,
-          "cost_per_action": 17105.0
-        },
-        {
-          "item": "Papaya tree seed",
-          "qty": 57.0,
-          "price": 1144,
-          "cost_per_action": 65208.0
-        },
-        {
-          "item": "Yew seed",
-          "qty": 60.0,
-          "price": 19258,
-          "cost_per_action": 1155480.0
-        },
-        {
-          "item": "Palm tree seed",
-          "qty": 68.0,
-          "price": 16309,
-          "cost_per_action": 1109012.0
-        },
-        {
-          "item": "Calquat tree seed",
-          "qty": 72.0,
-          "price": 551,
-          "cost_per_action": 39672.0
-        },
-        {
-          "item": "Magic seed",
-          "qty": 75.0,
-          "price": 71057,
-          "cost_per_action": 5329275.0
-        },
-        {
-          "item": "Dragonfruit tree seed",
-          "qty": 81.0,
-          "price": 144347,
-          "cost_per_action": 11692107.0
-        },
-        {
-          "item": "Celastrus seed",
-          "qty": 85.0,
-          "price": 17575,
-          "cost_per_action": 1493875.0
-        },
-        {
-          "item": "Redwood tree seed",
-          "qty": 90.0,
-          "price": 14396,
-          "cost_per_action": 1295640.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Acorn",
-          "qty": 15.0,
-          "price": 128,
-          "value_per_action": 1920.0
-        },
-        {
-          "item": "Apple tree seed",
-          "qty": 27.0,
-          "price": 12,
-          "value_per_action": 324.0
-        },
-        {
-          "item": "Willow seed",
-          "qty": 30.0,
-          "price": 57,
-          "value_per_action": 1710.0
-        },
-        {
-          "item": "Banana tree seed",
-          "qty": 33.0,
-          "price": 12,
-          "value_per_action": 396.0
-        },
-        {
-          "item": "Teak seed",
-          "qty": 35.0,
-          "price": 67,
-          "value_per_action": 2345.0
-        },
-        {
-          "item": "Orange tree seed",
-          "qty": 39.0,
-          "price": 40,
-          "value_per_action": 1560.0
-        },
-        {
-          "item": "Curry tree seed",
-          "qty": 42.0,
-          "price": 55,
-          "value_per_action": 2310.0
-        },
-        {
-          "item": "Maple seed",
-          "qty": 45.0,
-          "price": 3066,
-          "value_per_action": 137970.0
-        },
-        {
-          "item": "Pineapple seed",
-          "qty": 51.0,
-          "price": 90,
-          "value_per_action": 4590.0
-        },
-        {
-          "item": "Mahogany seed",
-          "qty": 55.0,
-          "price": 214,
-          "value_per_action": 11770.0
-        },
-        {
-          "item": "Papaya tree seed",
-          "qty": 57.0,
-          "price": 1088,
-          "value_per_action": 62016.0
-        },
-        {
-          "item": "Yew seed",
-          "qty": 60.0,
-          "price": 18815,
-          "value_per_action": 1128900.0
-        },
-        {
-          "item": "Palm tree seed",
-          "qty": 68.0,
-          "price": 16453,
-          "value_per_action": 1118804.0
-        },
-        {
-          "item": "Calquat tree seed",
-          "qty": 72.0,
-          "price": 551,
-          "value_per_action": 39672.0
-        },
-        {
-          "item": "Magic seed",
-          "qty": 75.0,
-          "price": 71222,
-          "value_per_action": 5341650.0
-        },
-        {
-          "item": "Dragonfruit tree seed",
-          "qty": 81.0,
-          "price": 145000,
-          "value_per_action": 11745000.0
-        },
-        {
-          "item": "Celastrus seed",
-          "qty": 85.0,
-          "price": 17712,
-          "value_per_action": 1505520.0
-        },
-        {
-          "item": "Redwood tree seed",
-          "qty": 90.0,
-          "price": 14015,
-          "value_per_action": 1261350.0
-        }
-      ],
-      "profit_per_action": 5500.0,
-      "profit_per_hour": 5500.0,
-      "score": 5500.0
-    },
-    {
-      "name": "Growing palm saplings",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Growing_palm_saplings",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 1,
-      "bottleneck_item": "Redwood tree seed",
-      "requires_prebuy": false,
-      "market_saturated": false,
-      "inputs": [
-        {
-          "item": "Acorn",
-          "qty": 15.0,
-          "price": 145,
-          "cost_per_action": 2175.0
-        },
-        {
-          "item": "Apple tree seed",
-          "qty": 27.0,
-          "price": 17,
-          "cost_per_action": 459.0
-        },
-        {
-          "item": "Willow seed",
-          "qty": 30.0,
-          "price": 57,
-          "cost_per_action": 1710.0
-        },
-        {
-          "item": "Banana tree seed",
-          "qty": 33.0,
-          "price": 13,
-          "cost_per_action": 429.0
-        },
-        {
-          "item": "Teak seed",
-          "qty": 35.0,
-          "price": 67,
-          "cost_per_action": 2345.0
-        },
-        {
-          "item": "Orange tree seed",
-          "qty": 39.0,
-          "price": 54,
-          "cost_per_action": 2106.0
-        },
-        {
-          "item": "Curry tree seed",
-          "qty": 42.0,
-          "price": 50,
-          "cost_per_action": 2100.0
-        },
-        {
-          "item": "Maple seed",
-          "qty": 45.0,
-          "price": 3188,
-          "cost_per_action": 143460.0
-        },
-        {
-          "item": "Pineapple seed",
-          "qty": 51.0,
-          "price": 199,
-          "cost_per_action": 10149.0
-        },
-        {
-          "item": "Mahogany seed",
-          "qty": 55.0,
-          "price": 311,
-          "cost_per_action": 17105.0
-        },
-        {
-          "item": "Papaya tree seed",
-          "qty": 57.0,
-          "price": 1144,
-          "cost_per_action": 65208.0
-        },
-        {
-          "item": "Yew seed",
-          "qty": 60.0,
-          "price": 19258,
-          "cost_per_action": 1155480.0
-        },
-        {
-          "item": "Palm tree seed",
-          "qty": 68.0,
-          "price": 16309,
-          "cost_per_action": 1109012.0
-        },
-        {
-          "item": "Calquat tree seed",
-          "qty": 72.0,
-          "price": 551,
-          "cost_per_action": 39672.0
-        },
-        {
-          "item": "Magic seed",
-          "qty": 75.0,
-          "price": 71057,
-          "cost_per_action": 5329275.0
-        },
-        {
-          "item": "Dragonfruit tree seed",
-          "qty": 81.0,
-          "price": 144347,
-          "cost_per_action": 11692107.0
-        },
-        {
-          "item": "Celastrus seed",
-          "qty": 85.0,
-          "price": 17575,
-          "cost_per_action": 1493875.0
-        },
-        {
-          "item": "Redwood tree seed",
-          "qty": 90.0,
-          "price": 14396,
-          "cost_per_action": 1295640.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Acorn",
-          "qty": 15.0,
-          "price": 128,
-          "value_per_action": 1920.0
-        },
-        {
-          "item": "Apple tree seed",
-          "qty": 27.0,
-          "price": 12,
-          "value_per_action": 324.0
-        },
-        {
-          "item": "Willow seed",
-          "qty": 30.0,
-          "price": 57,
-          "value_per_action": 1710.0
-        },
-        {
-          "item": "Banana tree seed",
-          "qty": 33.0,
-          "price": 12,
-          "value_per_action": 396.0
-        },
-        {
-          "item": "Teak seed",
-          "qty": 35.0,
-          "price": 67,
-          "value_per_action": 2345.0
-        },
-        {
-          "item": "Orange tree seed",
-          "qty": 39.0,
-          "price": 40,
-          "value_per_action": 1560.0
-        },
-        {
-          "item": "Curry tree seed",
-          "qty": 42.0,
-          "price": 55,
-          "value_per_action": 2310.0
-        },
-        {
-          "item": "Maple seed",
-          "qty": 45.0,
-          "price": 3066,
-          "value_per_action": 137970.0
-        },
-        {
-          "item": "Pineapple seed",
-          "qty": 51.0,
-          "price": 90,
-          "value_per_action": 4590.0
-        },
-        {
-          "item": "Mahogany seed",
-          "qty": 55.0,
-          "price": 214,
-          "value_per_action": 11770.0
-        },
-        {
-          "item": "Papaya tree seed",
-          "qty": 57.0,
-          "price": 1088,
-          "value_per_action": 62016.0
-        },
-        {
-          "item": "Yew seed",
-          "qty": 60.0,
-          "price": 18815,
-          "value_per_action": 1128900.0
-        },
-        {
-          "item": "Palm tree seed",
-          "qty": 68.0,
-          "price": 16453,
-          "value_per_action": 1118804.0
-        },
-        {
-          "item": "Calquat tree seed",
-          "qty": 72.0,
-          "price": 551,
-          "value_per_action": 39672.0
-        },
-        {
-          "item": "Magic seed",
-          "qty": 75.0,
-          "price": 71222,
-          "value_per_action": 5341650.0
-        },
-        {
-          "item": "Dragonfruit tree seed",
-          "qty": 81.0,
-          "price": 145000,
-          "value_per_action": 11745000.0
-        },
-        {
-          "item": "Celastrus seed",
-          "qty": 85.0,
-          "price": 17712,
-          "value_per_action": 1505520.0
-        },
-        {
-          "item": "Redwood tree seed",
-          "qty": 90.0,
-          "price": 14015,
-          "value_per_action": 1261350.0
-        }
-      ],
-      "profit_per_action": 5500.0,
-      "profit_per_hour": 5500.0,
-      "score": 5500.0
-    },
     {
       "name": "Killing the Doom of Mokhaiotl (Delve 1-16)",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_the_Doom_of_Mokhaiotl_(Delve_1-16)",
@@ -478,52 +12,52 @@
       "market_saturated": false,
       "inputs": [
         {
-          "item": "Total:539,715.87Uniques:462,456.27Common loot:77,259.60",
+          "item": "Total:537,157.86Uniques:459,983.57Common loot:77,174.29",
           "qty": 1.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "1:30",
-          "qty": 21588634.74,
+          "qty": 21486314.41,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "2:00",
-          "qty": 16191476.06,
+          "qty": 16114735.81,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "2:30",
-          "qty": 10794317.37,
+          "qty": 10743157.21,
           "price": null,
           "cost_per_action": null
         }
       ],
       "outputs": [
         {
-          "item": "Total:539,715.87Uniques:462,456.27Common loot:77,259.60",
+          "item": "Total:537,157.86Uniques:459,983.57Common loot:77,174.29",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "1:30",
-          "qty": 21588634.74,
+          "qty": 21486314.41,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "2:00",
-          "qty": 16191476.06,
+          "qty": 16114735.81,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "2:30",
-          "qty": 10794317.37,
+          "qty": 10743157.21,
           "price": null,
           "value_per_action": null
         }
@@ -1065,13 +599,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "11,493,814, aftertax",
+          "item": "11,637,641, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "3.56×Divine super combat potion(4)(65,830)11.88×Sanfew serum(4)(254,315)38×Dark crab(51,148)285×Eye of ayak(76,665)(Charges)40×Resurrect Greater Ghost(155,960)",
+          "item": "3.56×Divine super combat potion(4)(66,436)11.88×Sanfew serum(4)(255,039)38×Dark crab(52,060)285×Eye of ayak(76,095)(Charges)40×Resurrect Greater Ghost(153,960)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -2134,52 +1668,52 @@
       "market_saturated": false,
       "inputs": [
         {
-          "item": "Total:539,715.87Uniques:462,456.27Common loot:77,259.60",
+          "item": "Total:537,157.86Uniques:459,983.57Common loot:77,174.29",
           "qty": 1.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "1:30",
-          "qty": 21588634.74,
+          "qty": 21486314.41,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "2:00",
-          "qty": 16191476.06,
+          "qty": 16114735.81,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "2:30",
-          "qty": 10794317.37,
+          "qty": 10743157.21,
           "price": null,
           "cost_per_action": null
         }
       ],
       "outputs": [
         {
-          "item": "Total:539,715.87Uniques:462,456.27Common loot:77,259.60",
+          "item": "Total:537,157.86Uniques:459,983.57Common loot:77,174.29",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "1:30",
-          "qty": 21588634.74,
+          "qty": 21486314.41,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "2:00",
-          "qty": 16191476.06,
+          "qty": 16114735.81,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "2:30",
-          "qty": 10794317.37,
+          "qty": 10743157.21,
           "price": null,
           "value_per_action": null
         }
@@ -2200,19 +1734,19 @@
       "inputs": [
         {
           "item": "55,000",
-          "qty": 5503139.0,
+          "qty": 5526309.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "60,000",
-          "qty": 5999690.0,
+          "qty": 6024967.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "62,000",
-          "qty": 6198168.0,
+          "qty": 6224288.0,
           "price": null,
           "cost_per_action": null
         }
@@ -2220,19 +1754,19 @@
       "outputs": [
         {
           "item": "55,000",
-          "qty": 5503139.0,
+          "qty": 5526309.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "60,000",
-          "qty": 5999690.0,
+          "qty": 6024967.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "62,000",
-          "qty": 6198168.0,
+          "qty": 6224288.0,
           "price": null,
           "value_per_action": null
         }
@@ -2253,25 +1787,25 @@
       "inputs": [
         {
           "item": "Killing Yama (Contract of shard acquisition, duo)",
-          "qty": 10841368.0,
+          "qty": 9816959.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Killing Yama (Contract of oathplate acquisition)",
-          "qty": 27585968.0,
+          "qty": 33932364.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Killing Yama (Contract of catalyst acquisition, duo)",
-          "qty": 5507732.0,
+          "qty": 5465650.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Killing Yama (Contract of harmony acquisition)",
-          "qty": 6775806.0,
+          "qty": 6552935.0,
           "price": null,
           "cost_per_action": null
         }
@@ -2279,25 +1813,25 @@
       "outputs": [
         {
           "item": "Killing Yama (Contract of shard acquisition, duo)",
-          "qty": 10841368.0,
+          "qty": 9816959.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Killing Yama (Contract of oathplate acquisition)",
-          "qty": 27585968.0,
+          "qty": 33932364.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Killing Yama (Contract of catalyst acquisition, duo)",
-          "qty": 5507732.0,
+          "qty": 5465650.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Killing Yama (Contract of harmony acquisition)",
-          "qty": 6775806.0,
+          "qty": 6552935.0,
           "price": null,
           "value_per_action": null
         }
@@ -2839,13 +2373,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "8,899,520, aftertax",
+          "item": "8,973,522, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "4.5×Super combat potion(4)(54,153)3×Divine super combat potion(4)(55,443)1.5×Ranging potion(4)(2,999)3×Super restore(4)(30,315)81×Zulrah's scales(13,365)24×Dragon dart(25,920)21×Black chinchompa(64,365)18×Ice Barrage(27,108)18×Resurrect Greater Ghost(40,932)18×Spellbook Swap(12,582)45×Vengeance(50,310)660×Scythe of vitur(547,714)(Charges)24×Seeking dragon arrow(56,544)6×Anglerfish(11,802)",
+          "item": "4.5×Super combat potion(4)(54,230)3×Divine super combat potion(4)(55,953)1.5×Ranging potion(4)(2,925)3×Super restore(4)(30,126)81×Zulrah's scales(13,365)24×Dragon dart(25,968)21×Black chinchompa(64,659)18×Ice Barrage(26,928)18×Resurrect Greater Ghost(40,482)18×Spellbook Swap(12,636)45×Vengeance(50,490)660×Scythe of vitur(541,378)(Charges)24×Seeking dragon arrow(56,208)6×Anglerfish(11,592)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -3388,31 +2922,31 @@
       "inputs": [
         {
           "item": "10,000",
-          "qty": 960230.0,
+          "qty": 963983.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "15,000",
-          "qty": 1435871.0,
+          "qty": 1441499.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "20,000",
-          "qty": 1911002.0,
+          "qty": 1918505.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "25,000",
-          "qty": 2385624.0,
+          "qty": 2395002.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "30,000",
-          "qty": 2859735.0,
+          "qty": 2870988.0,
           "price": null,
           "cost_per_action": null
         }
@@ -3420,31 +2954,31 @@
       "outputs": [
         {
           "item": "10,000",
-          "qty": 960230.0,
+          "qty": 963983.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "15,000",
-          "qty": 1435871.0,
+          "qty": 1441499.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "20,000",
-          "qty": 1911002.0,
+          "qty": 1918505.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "25,000",
-          "qty": 2385624.0,
+          "qty": 2395002.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "30,000",
-          "qty": 2859735.0,
+          "qty": 2870988.0,
           "price": null,
           "value_per_action": null
         }
@@ -3465,13 +2999,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "8,266,112, aftertax",
+          "item": "8,288,822, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1.7×Divine super combat potion(2)(16,051)8.5×Sanfew serum(4)(182,036)1.7×Prayer regeneration potion(4)(143,099)1.7×Surge potion(4)(8,477)128×Toxic blowpipe(48,578)(Dragon darts + Scales)25.5×Resurrect Greater Ghost(51,867)34×Seeking dragon arrow(80,104)255×Tumeken's shadow(331,245)(Charges)10.2×Black chinchompa(31,263)3.4×Ruby dragon bolts (e)(9,928)",
+          "item": "1.7×Divine super combat potion(2)(16,051)8.5×Sanfew serum(4)(182,555)1.7×Prayer regeneration potion(4)(141,170)1.7×Surge potion(4)(8,414)128×Toxic blowpipe(48,629)(Dragon darts + Scales)25.5×Resurrect Greater Ghost(51,230)34×Seeking dragon arrow(79,628)255×Tumeken's shadow(331,245)(Charges)10.2×Black chinchompa(31,406)3.4×Ruby dragon bolts (e)(9,945)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -3493,13 +3027,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "7,879,634, aftertax",
+          "item": "7,764,666, aftertax",
           "qty": 15008050027.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "3×Divine super combat potion(4)(55,443)16×Super restore(4)(161,680)150×Dark crab(201,900)45×Resurrect Greater Zombie(91,530)32×Death Charge(30,400)",
+          "item": "3×Divine super combat potion(4)(55,953)16×Super restore(4)(160,672)150×Dark crab(205,500)45×Resurrect Greater Zombie(90,405)32×Death Charge(30,240)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -3521,13 +3055,13 @@
       "inputs": [
         {
           "item": "Killing Yama (Contract of shard acquisition, duo)",
-          "qty": 10841368.0,
+          "qty": 9816959.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Killing Yama (Contract of catalyst acquisition, duo)",
-          "qty": 5507732.0,
+          "qty": 5465650.0,
           "price": null,
           "cost_per_action": null
         }
@@ -3535,13 +3069,13 @@
       "outputs": [
         {
           "item": "Killing Yama (Contract of shard acquisition, duo)",
-          "qty": 10841368.0,
+          "qty": 9816959.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Killing Yama (Contract of catalyst acquisition, duo)",
-          "qty": 5507732.0,
+          "qty": 5465650.0,
           "price": null,
           "value_per_action": null
         }
@@ -4083,13 +3617,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "6,422,392, aftertax",
+          "item": "6,317,303, aftertax",
           "qty": 17064056880.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "4×Divine ranging potion(4)(24,848)16×Super restore(4)(161,680)100×Dark crab(134,600)120×Shadow Rush(117,840)",
+          "item": "4×Divine ranging potion(4)(25,592)16×Super restore(4)(160,672)100×Dark crab(137,000)120×Shadow Rush(117,960)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -4632,13 +4166,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "6,127,192, aftertax",
+          "item": "5,994,132, aftertax",
           "qty": 12060040200.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,000×Tumeken's shadow(1,299,000)(Charges)28×Super restore(4)(282,940)20×Dark crab(26,920)80×Bronze arrow(400)(Used withVenator bow)80×Ancient essence(1,440)(Charges for Venator bow)",
+          "item": "1,000×Tumeken's shadow(1,299,000)(Charges)28×Super restore(4)(281,176)20×Dark crab(27,400)80×Bronze arrow(320)(Used withVenator bow)80×Ancient essence(1,440)(Charges for Venator bow)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -5181,13 +4715,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "5,922,536, aftertax",
+          "item": "5,937,332, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1.5×Super combat potion(2)(9,231)9×Super restore(4)(90,945)113×Toxic blowpipe(42,863)(Dragon darts + Scales)22.5×Resurrect Greater Ghost(45,765)",
+          "item": "1.5×Super combat potion(2)(9,276)9×Super restore(4)(90,378)113×Toxic blowpipe(42,908)(Dragon darts + Scales)22.5×Resurrect Greater Ghost(45,203)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -5730,13 +5264,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "5,465,650, aftertax",
+          "item": "5,464,331, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "44×Sanfew serum(4)(942,304)66×Anglerfish(129,822)22×Phoenix necklace(48,906)77×Cooked karambwan(33,187)5.5×Contract of catalyst acquisition(457,771)550×Tumeken's shadow(714,450)(Charges)110×Dark Demonbane(175,230)(Casts)22×Death Charge(29,524)(Casts)11×Mark of Darkness(17,138)(Casts)22×Resurrect Greater Ghost(59,268)(Casts)",
+          "item": "44×Sanfew serum(4)(944,988)66×Anglerfish(127,512)22×Phoenix necklace(49,808)77×Cooked karambwan(33,187)5.5×Contract of catalyst acquisition(457,771)550×Tumeken's shadow(714,450)(Charges)110×Dark Demonbane(174,790)(Casts)22×Death Charge(29,370)(Casts)11×Mark of Darkness(17,094)(Casts)22×Resurrect Greater Ghost(58,674)(Casts)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -5758,13 +5292,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "5,033,632, aftertax",
+          "item": "5,027,204, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "2,160×Steel cannonball(542,160)0.5×Burning amulet(5)(1,444)240×Amethyst arrow(33,840)10×Blighted manta ray(1,090)8×Blighted super restore(4)(23,536)1.5×Prayer regeneration potion(4)(126,264)",
+          "item": "2,160×Steel cannonball(537,840)0.5×Burning amulet(5)(1,418)240×Amethyst arrow(34,080)10×Blighted manta ray(1,100)8×Blighted super restore(4)(23,376)1.5×Prayer regeneration potion(4)(124,562)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -6348,13 +5882,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "4,745,954, aftertax",
+          "item": "4,803,959, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "3×Divine super combat potion(4)(55,443)6×Super restore(4)(60,630)60×Dark crab(80,760)360×Trident of the swamp(174,600)(Charges)",
+          "item": "3×Divine super combat potion(4)(55,953)6×Super restore(4)(60,252)60×Dark crab(82,200)360×Trident of the swamp(174,600)(Charges)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -13149,13 +12683,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "3,560,032, aftertax",
+          "item": "3,536,786, aftertax",
           "qty": 65340.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "7,260×Pure essence(14,520)13.75×Astral Contact(3,176)",
+          "item": "7,260×Pure essence(14,520)13.75×Astral Contact(3,190)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -13698,13 +13232,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "3,524,288, aftertax",
+          "item": "3,533,589, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "2.19×Super combat potion(4)(26,324)0.44×Ranging potion(4)(875)8.75×Super restore(4)(88,419)8.75×Saradomin brew(4)(62,335)455×Zulrah's scales(75,075)126×Dragon dart(136,080)112×Death rune(21,280)292×Blood rune(109,009)224×Water rune(1,120)8.75×Soul rune(3,386)19.25×Seeking dragon arrow(45,353)",
+          "item": "2.19×Super combat potion(4)(26,362)0.44×Ranging potion(4)(853)8.75×Super restore(4)(87,868)8.75×Saradomin brew(4)(62,948)455×Zulrah's scales(75,075)126×Dragon dart(136,332)112×Death rune(21,280)292×Blood rune(107,548)224×Water rune(1,120)8.75×Soul rune(3,386)19.25×Seeking dragon arrow(45,084)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -15666,13 +15200,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "3,298,509, aftertax",
+          "item": "3,296,546, aftertax",
           "qty": 8000026668.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "40×Zul-andra teleport(453,760)3×Divine ranging potion(4)(18,636)2.5×Extended anti-venom+(4)(48,785)24×Dark crab(32,304)50×Dragon dart(54,000)16×Zulrah's scales(2,640)440×Fire rune(2,200)2,360×Chaos rune(247,800)520×Death rune(98,800)944×Soul rune(365,328)30×Seeking dragon arrow(70,680)30×Dragon knife(118,110)608×Blood rune(226,784)44×Cosmic rune(5,236)",
+          "item": "40×Zul-andra teleport(453,200)3×Divine ranging potion(4)(19,194)2.5×Extended anti-venom+(4)(48,780)24×Dark crab(32,880)50×Dragon dart(54,100)16×Zulrah's scales(2,640)440×Fire rune(2,200)2,360×Chaos rune(247,800)520×Death rune(98,800)944×Soul rune(365,328)30×Seeking dragon arrow(70,260)30×Dragon knife(116,730)608×Blood rune(223,744)44×Cosmic rune(5,236)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -17257,7 +16791,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "2,887,104, aftertax",
+          "item": "2,836,416, aftertax",
           "qty": 42240.0,
           "price": null,
           "value_per_action": null
@@ -26296,13 +25830,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "2,024,367, aftertax",
+          "item": "2,029,444, aftertax",
           "qty": 1377004590036248.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "4×Divine super combat potion(4)(73,924)3.5×Dark crab(4,711)1×Prayer potion(4)(9,438)",
+          "item": "4×Divine super combat potion(4)(74,604)3.5×Dark crab(4,795)1×Prayer potion(4)(9,351)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -30089,7 +29623,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,797,397, aftertax",
+          "item": "1,788,820, aftertax",
           "qty": 7050023500.0,
           "price": null,
           "value_per_action": null
@@ -30111,7 +29645,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,788,436, aftertax",
+          "item": "1,775,764, aftertax",
           "qty": 44650148834918.0,
           "price": null,
           "value_per_action": null
@@ -30133,13 +29667,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,786,849, aftertax",
+          "item": "1,781,581, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "80×Blighted karambwan(4,080)6×Blighted super restore(4)(17,652)0.5×Ring of dueling(8)(463)",
+          "item": "80×Blighted karambwan(4,080)6×Blighted super restore(4)(17,532)0.5×Ring of dueling(8)(461)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -31203,13 +30737,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,754,270, aftertax",
+          "item": "1,760,974, aftertax",
           "qty": 761101902619470.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "15×Prayer potion(4)(141,570)2.5×Divine super combat potion(4)(46,203)1.25×Extended antifire(4)(338)1.25×Antidote++(4)(11,074)100×Cooked karambwan(43,100)1×Digsite pendant(1,500)5×Teleport to house (tablet)(4,140)",
+          "item": "15×Prayer potion(4)(140,265)2.5×Divine super combat potion(4)(46,628)1.25×Extended antifire(4)(336)1.25×Antidote++(4)(10,849)100×Cooked karambwan(43,100)1×Digsite pendant(1,500)5×Teleport to house (tablet)(3,950)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -40302,13 +39836,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,511,066, aftertax",
+          "item": "1,515,038, aftertax",
           "qty": 726002420018150.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "15×Prayer potion(4)(141,570)2.5×Divine super combat potion(4)(46,203)1.25×Extended antifire(4)(338)100×Cooked karambwan(43,100)1×Digsite pendant(1,500)5×Teleport to house (tablet)(4,140)",
+          "item": "15×Prayer potion(4)(140,265)2.5×Divine super combat potion(4)(46,628)1.25×Extended antifire(4)(336)100×Cooked karambwan(43,100)1×Digsite pendant(1,500)5×Teleport to house (tablet)(3,950)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -41372,13 +40906,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,454,400, aftertax",
+          "item": "1,308,800, aftertax",
           "qty": 129600.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,600×Nature rune(251,200)3,200×Astral rune(358,400)8,000×Red dragonhide(18,368,000)",
+          "item": "1,600×Nature rune(249,600)3,200×Astral rune(361,600)8,000×Black dragonhide(28,848,000)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -45568,13 +45102,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,319,722, aftertax",
+          "item": "1,319,884, aftertax",
           "qty": 12750.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "400×Olive oil(4)(21,200)8×Flamtaer bracelet(5,928)35×Timber beam(17,570)35×Limestone brick(5,180)175×Swamp paste(2,800)",
+          "item": "400×Olive oil(4)(21,200)8×Flamtaer bracelet(5,976)35×Timber beam(17,570)35×Limestone brick(4,970)175×Swamp paste(2,800)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -50285,13 +49819,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,208,700, aftertax",
+          "item": "1,203,300, aftertax",
           "qty": 202500.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "2,700×Runite bar(32,991,300)",
+          "item": "2,700×Runite bar(32,996,700)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -55139,13 +54673,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,123,115, aftertax",
+          "item": "1,105,414, aftertax",
           "qty": 3590544105880.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "0.74×Blood essence(60,529)",
+          "item": "0.74×Blood essence(62,060)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -60377,13 +59911,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "1,069,313, aftertax",
+          "item": "1,052,347, aftertax",
           "qty": 3590544105880.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "0.74×Blood essence(60,529)",
+          "item": "0.74×Blood essence(62,060)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -60926,13 +60460,13 @@
       "inputs": [
         {
           "item": "Alchemist's amuletandPrescription goggles, unfinished potions bought from the Grand Exchange",
-          "qty": 214.93,
+          "qty": 147.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Amulet of chemistry, unfinished potions from Zahur",
-          "qty": 127.43,
+          "qty": 54.98,
           "price": null,
           "cost_per_action": null
         },
@@ -60944,7 +60478,7 @@
         },
         {
           "item": "No Herblore equipment, unfinished potions from Zahur",
-          "qty": 26.5,
+          "qty": 1.0,
           "price": null,
           "cost_per_action": null
         },
@@ -60958,13 +60492,13 @@
       "outputs": [
         {
           "item": "Alchemist's amuletandPrescription goggles, unfinished potions bought from the Grand Exchange",
-          "qty": 214.93,
+          "qty": 147.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Amulet of chemistry, unfinished potions from Zahur",
-          "qty": 127.43,
+          "qty": 54.98,
           "price": null,
           "value_per_action": null
         },
@@ -60976,7 +60510,7 @@
         },
         {
           "item": "No Herblore equipment, unfinished potions from Zahur",
-          "qty": 26.5,
+          "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
@@ -75098,13 +74632,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "854,713, aftertax",
+          "item": "812,698, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "631×Ogre coffin key(1,207,103)",
+          "item": "631×Ogre coffin key(1,256,321)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -81035,13 +80569,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "752,000, aftertax",
+          "item": "760,000, aftertax",
           "qty": 124800.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,600×Dragonstone bracelet(17,990,400)1,600×Cosmic rune(190,400)",
+          "item": "1,600×Dragonstone amulet(17,332,800)1,600×Cosmic rune(190,400)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -81584,13 +81118,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "746,501, aftertax",
+          "item": "733,945, aftertax",
           "qty": 3590544105880.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "0.74×Blood essence(60,529)",
+          "item": "0.74×Blood essence(62,060)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -81612,13 +81146,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "742,789, aftertax",
+          "item": "659,230, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "6,900×Mahogany logs(1,131,600)10,350,000×Coins(10,350,000)sawmill fee4×Stamina potion(4)(14,436)155×Ring of the elements(22,475)(Teleport charge)",
+          "item": "6,900×Mahogany logs(1,152,300)10,350,000×Coins(10,350,000)sawmill fee4×Stamina potion(4)(15,040)155×Ring of the elements(22,630)(Teleport charge)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -84843,7 +84377,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "688,800, aftertax",
+          "item": "722,400, aftertax",
           "qty": 15120.0,
           "price": null,
           "value_per_action": null
@@ -93207,13 +92741,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "632,100, aftertax",
+          "item": "638,550, aftertax",
           "qty": 55040.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "2,150×Steel bar(1,268,500)215,000×Coins(215,000)",
+          "item": "2,150×Steel bar(1,253,450)215,000×Coins(215,000)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -93756,13 +93290,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "604,800, aftertax",
+          "item": "432,000, aftertax",
           "qty": 202500.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "2,700×Runite bar(32,991,300)",
+          "item": "2,700×Runite bar(32,996,700)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -118476,7 +118010,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "423,500, aftertax",
+          "item": "437,500, aftertax",
           "qty": 5000.0,
           "price": null,
           "value_per_action": null
@@ -120582,13 +120116,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "410,727, aftertax",
+          "item": "347,508, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "4,238×Mahogany logs(695,032)6,357,000×Coins(6,357,000)sawmill fee9×Stamina potion(4)(32,481)28×Skills necklace(6)(335,160)21×Ring of dueling(8)(19,446)",
+          "item": "4,238×Mahogany logs(707,746)6,357,000×Coins(6,357,000)sawmill fee9×Stamina potion(4)(33,840)28×Skills necklace(6)(346,444)21×Ring of dueling(8)(19,362)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -127904,13 +127438,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "369,600, aftertax",
+          "item": "316,800, aftertax",
           "qty": 86400.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "960×Ironwood logs(108,480)3,360,000×Coins(3,360,000)960×Nature rune(150,720)1,920×Astral rune(215,040)960×Sawmill voucher(3,134,400)",
+          "item": "960×Ironwood logs(108,480)3,360,000×Coins(3,360,000)960×Nature rune(149,760)1,920×Astral rune(216,960)960×Sawmill voucher(3,188,160)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -129495,7 +129029,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "365,501, aftertax",
+          "item": "364,979, aftertax",
           "qty": 61750.0,
           "price": null,
           "value_per_action": null
@@ -148533,7 +148067,7 @@
         },
         {
           "item": "Profit per hour",
-          "qty": 29485.0,
+          "qty": 29288.0,
           "price": null,
           "cost_per_action": null
         },
@@ -148553,7 +148087,7 @@
         },
         {
           "item": "Profit per hour",
-          "qty": 29485.0,
+          "qty": 29288.0,
           "price": null,
           "value_per_action": null
         },
@@ -162219,7 +161753,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "209,500, aftertax",
+          "item": "213,340, aftertax",
           "qty": 224007448.0,
           "price": null,
           "value_per_action": null
@@ -162768,13 +162302,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "208,800, aftertax",
+          "item": "230,400, aftertax",
           "qty": 108000.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,200×Gold bar(108,000)1,200×Diamond(2,017,200)",
+          "item": "1,200×Gold bar(106,800)1,200×Diamond(1,996,800)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -166443,13 +165977,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "202,800, aftertax",
+          "item": "199,200, aftertax",
           "qty": 90000.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,200×Gold bar(108,000)1,200×Ruby(982,800)",
+          "item": "1,200×Gold bar(106,800)1,200×Ruby(982,800)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -168561,13 +168095,13 @@
         },
         {
           "item": "0",
-          "qty": 705.0,
+          "qty": 702.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "1",
-          "qty": 409.0,
+          "qty": 393.0,
           "price": null,
           "cost_per_action": null
         },
@@ -168593,13 +168127,13 @@
         },
         {
           "item": "0",
-          "qty": 705.0,
+          "qty": 702.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "1",
-          "qty": 409.0,
+          "qty": 393.0,
           "price": null,
           "value_per_action": null
         },
@@ -168661,13 +168195,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "184,800, aftertax",
+          "item": "183,600, aftertax",
           "qty": 72000.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,200×Gold bar(108,000)1,200×Emerald(496,800)",
+          "item": "1,200×Gold bar(106,800)1,200×Emerald(495,600)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -172886,13 +172420,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "170,400, aftertax",
+          "item": "178,800, aftertax",
           "qty": 66000.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,200×Gold bar(108,000)1,200×Sapphire(260,400)",
+          "item": "1,200×Gold bar(106,800)1,200×Sapphire(256,800)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -173435,13 +172969,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "165,600, aftertax",
+          "item": "158,400, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "2,400×Jug of water(36,000)2,400×Pot of flour(134,400)",
+          "item": "2,400×Jug of water(36,000)2,400×Pot of flour(139,200)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -177247,13 +176781,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "146,112, aftertax",
+          "item": "141,024, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "3,744×Redberries(179,712)6,240×Coins(6,240)48×Energy potion(4)(8,640)(Optional)",
+          "item": "3,744×Redberries(190,944)6,240×Coins(6,240)48×Energy potion(4)(8,736)(Optional)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -184569,7 +184103,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "117,700, aftertax",
+          "item": "28,600, aftertax",
           "qty": 82500.0,
           "price": null,
           "value_per_action": null
@@ -184597,7 +184131,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "114,751, aftertax",
+          "item": "113,568, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -189308,13 +188842,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "100,800, aftertax",
+          "item": "282,000, aftertax",
           "qty": 132000.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,200×Gold bar(108,000)1,200×Dragonstone(13,015,200)",
+          "item": "1,200×Gold bar(106,800)1,200×Dragonstone(13,020,000)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -189336,7 +188870,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "89,128, aftertax",
+          "item": "88,400, aftertax",
           "qty": 4664.0,
           "price": null,
           "value_per_action": null
@@ -191448,7 +190982,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "69,875, aftertax",
+          "item": "67,925, aftertax",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -193582,13 +193116,13 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "65,800, aftertax",
-          "qty": 42000.0,
+          "item": "67,200, aftertax",
+          "qty": 21000.0,
           "price": null,
           "value_per_action": null
         },
         {
-          "item": "1,400×Gold bar(126,000)",
+          "item": "1,400×Gold bar(124,600)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -196736,7 +196270,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "56,547, aftertax",
+          "item": "57,007, aftertax",
           "qty": 154005121.0,
           "price": null,
           "value_per_action": null
@@ -204608,7 +204142,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "30,870, aftertax",
+          "item": "31,080, aftertax",
           "qty": 13650.0,
           "price": null,
           "value_per_action": null
@@ -210882,7 +210416,7 @@
       "inputs": [],
       "outputs": [
         {
-          "item": "17,640, aftertax",
+          "item": "17,760, aftertax",
           "qty": 7800.0,
           "price": null,
           "value_per_action": null
@@ -213006,7 +212540,7 @@
           "value_per_action": null
         },
         {
-          "item": "2×Pillar frag(1,274)10×Elkhorn coral(16,340)",
+          "item": "2×Pillar frag(1,258)10×Elkhorn coral(16,340)",
           "qty": 1.0,
           "price": null,
           "value_per_action": null
@@ -229886,7 +229420,7 @@
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Selling_archery_supplies",
       "wiki_actions_per_hour": 0,
       "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 4.9,
+      "effective_actions_per_hour": 7.5,
       "bottleneck_item": "Willow shortbow",
       "requires_prebuy": false,
       "market_saturated": false,
@@ -229905,33 +229439,33 @@
         },
         {
           "item": "Oak longbow",
-          "qty": 38.0,
+          "qty": 40.0,
           "price": 54,
-          "cost_per_action": 2052.0
+          "cost_per_action": 2160.0
         },
         {
           "item": "Willow shortbow",
-          "qty": 112.0,
-          "price": 121,
-          "cost_per_action": 13552.0
+          "qty": 114.0,
+          "price": 114,
+          "cost_per_action": 12996.0
         },
         {
           "item": "Willow longbow",
-          "qty": 105.0,
-          "price": 95,
-          "cost_per_action": 9975.0
+          "qty": 103.0,
+          "price": 111,
+          "cost_per_action": 11433.0
         },
         {
           "item": "Maple shortbow",
           "qty": 188.0,
-          "price": 188,
-          "cost_per_action": 35344.0
+          "price": 183,
+          "cost_per_action": 34404.0
         },
         {
           "item": "Maple longbow",
-          "qty": 257.0,
-          "price": 257,
-          "cost_per_action": 66049.0
+          "qty": 263.0,
+          "price": 263,
+          "cost_per_action": 69169.0
         }
       ],
       "outputs": [
@@ -229949,38 +229483,38 @@
         },
         {
           "item": "Oak longbow",
-          "qty": 38.0,
-          "price": 49,
-          "value_per_action": 1862.0
+          "qty": 40.0,
+          "price": 42,
+          "value_per_action": 1680.0
         },
         {
           "item": "Willow shortbow",
-          "qty": 112.0,
-          "price": 120,
-          "value_per_action": 13440.0
+          "qty": 114.0,
+          "price": 112,
+          "value_per_action": 12768.0
         },
         {
           "item": "Willow longbow",
-          "qty": 105.0,
-          "price": 86,
-          "value_per_action": 9030.0
+          "qty": 103.0,
+          "price": 103,
+          "value_per_action": 10609.0
         },
         {
           "item": "Maple shortbow",
           "qty": 188.0,
-          "price": 188,
-          "value_per_action": 35344.0
+          "price": 179,
+          "value_per_action": 33652.0
         },
         {
           "item": "Maple longbow",
-          "qty": 257.0,
-          "price": 256,
-          "value_per_action": 65792.0
+          "qty": 263.0,
+          "price": 257,
+          "value_per_action": 67591.0
         }
       ],
-      "profit_per_action": -1504.0,
-      "profit_per_hour": -7422.64,
-      "score": -7422.64
+      "profit_per_action": -3862.0,
+      "profit_per_hour": -29140.03,
+      "score": -29140.03
     },
     {
       "name": "Chopping the engorged bloodwood tree",
@@ -229995,45 +229529,511 @@
         {
           "item": "Yew logs",
           "qty": 75.0,
-          "price": 108,
-          "cost_per_action": 8100.0
+          "price": 113,
+          "cost_per_action": 8475.0
         },
         {
           "item": "Magic logs",
           "qty": 90.0,
-          "price": 782,
-          "cost_per_action": 70380.0
+          "price": 773,
+          "cost_per_action": 69570.0
         },
         {
           "item": "Redwood logs",
           "qty": 105.0,
-          "price": 696,
-          "cost_per_action": 73080.0
+          "price": 714,
+          "cost_per_action": 74970.0
         }
       ],
       "outputs": [
         {
           "item": "Yew logs",
           "qty": 75.0,
-          "price": 106,
-          "value_per_action": 7950.0
+          "price": 109,
+          "value_per_action": 8175.0
         },
         {
           "item": "Magic logs",
           "qty": 90.0,
-          "price": 768,
-          "value_per_action": 69120.0
+          "price": 771,
+          "value_per_action": 69390.0
         },
         {
           "item": "Redwood logs",
           "qty": 105.0,
-          "price": 684,
-          "value_per_action": 71820.0
+          "price": 688,
+          "value_per_action": 72240.0
         }
       ],
-      "profit_per_action": -2670.0,
-      "profit_per_hour": -111250.0,
-      "score": -83437.5
+      "profit_per_action": -3210.0,
+      "profit_per_hour": -133750.0,
+      "score": -100312.5
+    },
+    {
+      "name": "Growing magic saplings",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Growing_magic_saplings",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 1,
+      "bottleneck_item": "Redwood tree seed",
+      "requires_prebuy": false,
+      "market_saturated": false,
+      "inputs": [
+        {
+          "item": "Acorn",
+          "qty": 15.0,
+          "price": 87,
+          "cost_per_action": 1305.0
+        },
+        {
+          "item": "Apple tree seed",
+          "qty": 27.0,
+          "price": 17,
+          "cost_per_action": 459.0
+        },
+        {
+          "item": "Willow seed",
+          "qty": 30.0,
+          "price": 57,
+          "cost_per_action": 1710.0
+        },
+        {
+          "item": "Banana tree seed",
+          "qty": 33.0,
+          "price": 22,
+          "cost_per_action": 726.0
+        },
+        {
+          "item": "Teak seed",
+          "qty": 35.0,
+          "price": 67,
+          "cost_per_action": 2345.0
+        },
+        {
+          "item": "Orange tree seed",
+          "qty": 39.0,
+          "price": 40,
+          "cost_per_action": 1560.0
+        },
+        {
+          "item": "Curry tree seed",
+          "qty": 42.0,
+          "price": 56,
+          "cost_per_action": 2352.0
+        },
+        {
+          "item": "Maple seed",
+          "qty": 45.0,
+          "price": 3150,
+          "cost_per_action": 141750.0
+        },
+        {
+          "item": "Pineapple seed",
+          "qty": 51.0,
+          "price": 69,
+          "cost_per_action": 3519.0
+        },
+        {
+          "item": "Mahogany seed",
+          "qty": 55.0,
+          "price": 212,
+          "cost_per_action": 11660.0
+        },
+        {
+          "item": "Papaya tree seed",
+          "qty": 57.0,
+          "price": 1024,
+          "cost_per_action": 58368.0
+        },
+        {
+          "item": "Yew seed",
+          "qty": 60.0,
+          "price": 18869,
+          "cost_per_action": 1132140.0
+        },
+        {
+          "item": "Palm tree seed",
+          "qty": 68.0,
+          "price": 16300,
+          "cost_per_action": 1108400.0
+        },
+        {
+          "item": "Calquat tree seed",
+          "qty": 72.0,
+          "price": 556,
+          "cost_per_action": 40032.0
+        },
+        {
+          "item": "Magic seed",
+          "qty": 75.0,
+          "price": 73000,
+          "cost_per_action": 5475000.0
+        },
+        {
+          "item": "Dragonfruit tree seed",
+          "qty": 81.0,
+          "price": 144349,
+          "cost_per_action": 11692269.0
+        },
+        {
+          "item": "Celastrus seed",
+          "qty": 85.0,
+          "price": 19366,
+          "cost_per_action": 1646110.0
+        },
+        {
+          "item": "Redwood tree seed",
+          "qty": 90.0,
+          "price": 14043,
+          "cost_per_action": 1263870.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Acorn",
+          "qty": 15.0,
+          "price": 123,
+          "value_per_action": 1845.0
+        },
+        {
+          "item": "Apple tree seed",
+          "qty": 27.0,
+          "price": 18,
+          "value_per_action": 486.0
+        },
+        {
+          "item": "Willow seed",
+          "qty": 30.0,
+          "price": 63,
+          "value_per_action": 1890.0
+        },
+        {
+          "item": "Banana tree seed",
+          "qty": 33.0,
+          "price": 18,
+          "value_per_action": 594.0
+        },
+        {
+          "item": "Teak seed",
+          "qty": 35.0,
+          "price": 70,
+          "value_per_action": 2450.0
+        },
+        {
+          "item": "Orange tree seed",
+          "qty": 39.0,
+          "price": 35,
+          "value_per_action": 1365.0
+        },
+        {
+          "item": "Curry tree seed",
+          "qty": 42.0,
+          "price": 56,
+          "value_per_action": 2352.0
+        },
+        {
+          "item": "Maple seed",
+          "qty": 45.0,
+          "price": 3150,
+          "value_per_action": 141750.0
+        },
+        {
+          "item": "Pineapple seed",
+          "qty": 51.0,
+          "price": 65,
+          "value_per_action": 3315.0
+        },
+        {
+          "item": "Mahogany seed",
+          "qty": 55.0,
+          "price": 212,
+          "value_per_action": 11660.0
+        },
+        {
+          "item": "Papaya tree seed",
+          "qty": 57.0,
+          "price": 1130,
+          "value_per_action": 64410.0
+        },
+        {
+          "item": "Yew seed",
+          "qty": 60.0,
+          "price": 18752,
+          "value_per_action": 1125120.0
+        },
+        {
+          "item": "Palm tree seed",
+          "qty": 68.0,
+          "price": 16300,
+          "value_per_action": 1108400.0
+        },
+        {
+          "item": "Calquat tree seed",
+          "qty": 72.0,
+          "price": 550,
+          "value_per_action": 39600.0
+        },
+        {
+          "item": "Magic seed",
+          "qty": 75.0,
+          "price": 71386,
+          "value_per_action": 5353950.0
+        },
+        {
+          "item": "Dragonfruit tree seed",
+          "qty": 81.0,
+          "price": 144350,
+          "value_per_action": 11692350.0
+        },
+        {
+          "item": "Celastrus seed",
+          "qty": 85.0,
+          "price": 18005,
+          "value_per_action": 1530425.0
+        },
+        {
+          "item": "Redwood tree seed",
+          "qty": 90.0,
+          "price": 14016,
+          "value_per_action": 1261440.0
+        }
+      ],
+      "profit_per_action": -240173.0,
+      "profit_per_hour": -240173.0,
+      "score": -240173.0
+    },
+    {
+      "name": "Growing palm saplings",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Growing_palm_saplings",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 1,
+      "bottleneck_item": "Redwood tree seed",
+      "requires_prebuy": false,
+      "market_saturated": false,
+      "inputs": [
+        {
+          "item": "Acorn",
+          "qty": 15.0,
+          "price": 87,
+          "cost_per_action": 1305.0
+        },
+        {
+          "item": "Apple tree seed",
+          "qty": 27.0,
+          "price": 17,
+          "cost_per_action": 459.0
+        },
+        {
+          "item": "Willow seed",
+          "qty": 30.0,
+          "price": 57,
+          "cost_per_action": 1710.0
+        },
+        {
+          "item": "Banana tree seed",
+          "qty": 33.0,
+          "price": 22,
+          "cost_per_action": 726.0
+        },
+        {
+          "item": "Teak seed",
+          "qty": 35.0,
+          "price": 67,
+          "cost_per_action": 2345.0
+        },
+        {
+          "item": "Orange tree seed",
+          "qty": 39.0,
+          "price": 40,
+          "cost_per_action": 1560.0
+        },
+        {
+          "item": "Curry tree seed",
+          "qty": 42.0,
+          "price": 56,
+          "cost_per_action": 2352.0
+        },
+        {
+          "item": "Maple seed",
+          "qty": 45.0,
+          "price": 3150,
+          "cost_per_action": 141750.0
+        },
+        {
+          "item": "Pineapple seed",
+          "qty": 51.0,
+          "price": 69,
+          "cost_per_action": 3519.0
+        },
+        {
+          "item": "Mahogany seed",
+          "qty": 55.0,
+          "price": 212,
+          "cost_per_action": 11660.0
+        },
+        {
+          "item": "Papaya tree seed",
+          "qty": 57.0,
+          "price": 1024,
+          "cost_per_action": 58368.0
+        },
+        {
+          "item": "Yew seed",
+          "qty": 60.0,
+          "price": 18869,
+          "cost_per_action": 1132140.0
+        },
+        {
+          "item": "Palm tree seed",
+          "qty": 68.0,
+          "price": 16300,
+          "cost_per_action": 1108400.0
+        },
+        {
+          "item": "Calquat tree seed",
+          "qty": 72.0,
+          "price": 556,
+          "cost_per_action": 40032.0
+        },
+        {
+          "item": "Magic seed",
+          "qty": 75.0,
+          "price": 73000,
+          "cost_per_action": 5475000.0
+        },
+        {
+          "item": "Dragonfruit tree seed",
+          "qty": 81.0,
+          "price": 144349,
+          "cost_per_action": 11692269.0
+        },
+        {
+          "item": "Celastrus seed",
+          "qty": 85.0,
+          "price": 19366,
+          "cost_per_action": 1646110.0
+        },
+        {
+          "item": "Redwood tree seed",
+          "qty": 90.0,
+          "price": 14043,
+          "cost_per_action": 1263870.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Acorn",
+          "qty": 15.0,
+          "price": 123,
+          "value_per_action": 1845.0
+        },
+        {
+          "item": "Apple tree seed",
+          "qty": 27.0,
+          "price": 18,
+          "value_per_action": 486.0
+        },
+        {
+          "item": "Willow seed",
+          "qty": 30.0,
+          "price": 63,
+          "value_per_action": 1890.0
+        },
+        {
+          "item": "Banana tree seed",
+          "qty": 33.0,
+          "price": 18,
+          "value_per_action": 594.0
+        },
+        {
+          "item": "Teak seed",
+          "qty": 35.0,
+          "price": 70,
+          "value_per_action": 2450.0
+        },
+        {
+          "item": "Orange tree seed",
+          "qty": 39.0,
+          "price": 35,
+          "value_per_action": 1365.0
+        },
+        {
+          "item": "Curry tree seed",
+          "qty": 42.0,
+          "price": 56,
+          "value_per_action": 2352.0
+        },
+        {
+          "item": "Maple seed",
+          "qty": 45.0,
+          "price": 3150,
+          "value_per_action": 141750.0
+        },
+        {
+          "item": "Pineapple seed",
+          "qty": 51.0,
+          "price": 65,
+          "value_per_action": 3315.0
+        },
+        {
+          "item": "Mahogany seed",
+          "qty": 55.0,
+          "price": 212,
+          "value_per_action": 11660.0
+        },
+        {
+          "item": "Papaya tree seed",
+          "qty": 57.0,
+          "price": 1130,
+          "value_per_action": 64410.0
+        },
+        {
+          "item": "Yew seed",
+          "qty": 60.0,
+          "price": 18752,
+          "value_per_action": 1125120.0
+        },
+        {
+          "item": "Palm tree seed",
+          "qty": 68.0,
+          "price": 16300,
+          "value_per_action": 1108400.0
+        },
+        {
+          "item": "Calquat tree seed",
+          "qty": 72.0,
+          "price": 550,
+          "value_per_action": 39600.0
+        },
+        {
+          "item": "Magic seed",
+          "qty": 75.0,
+          "price": 71386,
+          "value_per_action": 5353950.0
+        },
+        {
+          "item": "Dragonfruit tree seed",
+          "qty": 81.0,
+          "price": 144350,
+          "value_per_action": 11692350.0
+        },
+        {
+          "item": "Celastrus seed",
+          "qty": 85.0,
+          "price": 18005,
+          "value_per_action": 1530425.0
+        },
+        {
+          "item": "Redwood tree seed",
+          "qty": 90.0,
+          "price": 14016,
+          "value_per_action": 1261440.0
+        }
+      ],
+      "profit_per_action": -240173.0,
+      "profit_per_hour": -240173.0,
+      "score": -240173.0
     }
   ]
 }
