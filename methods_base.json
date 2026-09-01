@@ -44603,72 +44603,6 @@
       ]
     },
     {
-      "name": "Selling archery supplies",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Selling_archery_supplies",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "inputs": [
-        {
-          "item": "Mithril arrow",
-          "qty": 5.0
-        },
-        {
-          "item": "Adamant arrow",
-          "qty": 27.0
-        },
-        {
-          "item": "Oak longbow",
-          "qty": 43.0
-        },
-        {
-          "item": "Willow shortbow",
-          "qty": 100.0
-        },
-        {
-          "item": "Willow longbow",
-          "qty": 104.0
-        },
-        {
-          "item": "Maple shortbow",
-          "qty": 179.0
-        },
-        {
-          "item": "Maple longbow",
-          "qty": 276.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Mithril arrow",
-          "qty": 5.0
-        },
-        {
-          "item": "Adamant arrow",
-          "qty": 27.0
-        },
-        {
-          "item": "Oak longbow",
-          "qty": 43.0
-        },
-        {
-          "item": "Willow shortbow",
-          "qty": 100.0
-        },
-        {
-          "item": "Willow longbow",
-          "qty": 104.0
-        },
-        {
-          "item": "Maple shortbow",
-          "qty": 179.0
-        },
-        {
-          "item": "Maple longbow",
-          "qty": 276.0
-        }
-      ]
-    },
-    {
       "name": "Hallowed Sepulchre (Floor 4)",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Hallowed_Sepulchre_(Floor_4)",
       "wiki_actions_per_hour": 0,
@@ -59136,6 +59070,72 @@
         {
           "item": "1780-2000",
           "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Selling archery supplies",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Selling_archery_supplies",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "inputs": [
+        {
+          "item": "Mithril arrow",
+          "qty": 5.0
+        },
+        {
+          "item": "Adamant arrow",
+          "qty": 27.0
+        },
+        {
+          "item": "Oak longbow",
+          "qty": 43.0
+        },
+        {
+          "item": "Willow shortbow",
+          "qty": 100.0
+        },
+        {
+          "item": "Willow longbow",
+          "qty": 104.0
+        },
+        {
+          "item": "Maple shortbow",
+          "qty": 179.0
+        },
+        {
+          "item": "Maple longbow",
+          "qty": 276.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Mithril arrow",
+          "qty": 5.0
+        },
+        {
+          "item": "Adamant arrow",
+          "qty": 27.0
+        },
+        {
+          "item": "Oak longbow",
+          "qty": 43.0
+        },
+        {
+          "item": "Willow shortbow",
+          "qty": 100.0
+        },
+        {
+          "item": "Willow longbow",
+          "qty": 104.0
+        },
+        {
+          "item": "Maple shortbow",
+          "qty": 179.0
+        },
+        {
+          "item": "Maple longbow",
+          "qty": 276.0
         }
       ]
     },
