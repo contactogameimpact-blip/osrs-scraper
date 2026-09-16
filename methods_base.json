@@ -1181,37 +1181,37 @@
       "inputs": [
         {
           "item": "Killing Yama (Contract of Shard Acquisition, duo)",
-          "qty": 10412607.0
+          "qty": 9387459.0
         },
         {
           "item": "Killing Yama (Contract of Oathplate Acquisition)",
-          "qty": 24135960.0
+          "qty": 17865001.0
         },
         {
           "item": "Killing Yama (Contract of Catalyst Acquisition, duo)",
-          "qty": 5631688.0
+          "qty": 5567720.0
         },
         {
           "item": "Killing Yama (Contract of Harmony Acquisition)",
-          "qty": 5974656.0
+          "qty": 5657325.0
         }
       ],
       "outputs": [
         {
           "item": "Killing Yama (Contract of Shard Acquisition, duo)",
-          "qty": 10412607.0
+          "qty": 9387459.0
         },
         {
           "item": "Killing Yama (Contract of Oathplate Acquisition)",
-          "qty": 24135960.0
+          "qty": 17865001.0
         },
         {
           "item": "Killing Yama (Contract of Catalyst Acquisition, duo)",
-          "qty": 5631688.0
+          "qty": 5567720.0
         },
         {
           "item": "Killing Yama (Contract of Harmony Acquisition)",
-          "qty": 5974656.0
+          "qty": 5657325.0
         }
       ]
     },
@@ -3451,21 +3451,21 @@
       "inputs": [
         {
           "item": "Killing Yama (Contract of Shard Acquisition, duo)",
-          "qty": 10412607.0
+          "qty": 9387459.0
         },
         {
           "item": "Killing Yama (Contract of Catalyst Acquisition, duo)",
-          "qty": 5631688.0
+          "qty": 5567720.0
         }
       ],
       "outputs": [
         {
           "item": "Killing Yama (Contract of Shard Acquisition, duo)",
-          "qty": 10412607.0
+          "qty": 9387459.0
         },
         {
           "item": "Killing Yama (Contract of Catalyst Acquisition, duo)",
-          "qty": 5631688.0
+          "qty": 5567720.0
         }
       ]
     },
@@ -21886,19 +21886,6 @@
       ]
     },
     {
-      "name": "Moons of Peril",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Moons_of_Peril",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "inputs": [],
-      "outputs": [
-        {
-          "item": "1,709,407, aftertax",
-          "qty": 7050023500.0
-        }
-      ]
-    },
-    {
       "name": "Killing Chaos Elemental",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Chaos_Elemental",
       "wiki_actions_per_hour": 0,
@@ -22241,19 +22228,6 @@
         {
           "item": "Other",
           "qty": 1.0
-        }
-      ]
-    },
-    {
-      "name": "Killing Blood Moon",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Blood_Moon",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 300,
-      "inputs": [],
-      "outputs": [
-        {
-          "item": "1,649,731, aftertax",
-          "qty": 44650148834918.0
         }
       ]
     },
@@ -62287,6 +62261,19 @@
       ]
     },
     {
+      "name": "Moons of Peril",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Moons_of_Peril",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "inputs": [],
+      "outputs": [
+        {
+          "item": "653,221, aftertax",
+          "qty": 7050023500.0
+        }
+      ]
+    },
+    {
       "name": "Mining runite ore",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Mining_runite_ore",
       "wiki_actions_per_hour": 0,
@@ -70326,6 +70313,19 @@
         {
           "item": "Other",
           "qty": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Killing Blood Moon",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Blood_Moon",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 300,
+      "inputs": [],
+      "outputs": [
+        {
+          "item": "524,772, aftertax",
+          "qty": 44650148834918.0
         }
       ]
     },
@@ -88188,10 +88188,10 @@
       ]
     },
     {
-      "name": "Making adamant brutal arrows",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_adamant_brutal_arrows",
+      "name": "Cleaning grimy tarromin",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_tarromin",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 1000,
+      "actions_per_hour_human": 900,
       "inputs": [
         {
           "item": "Collecting",
@@ -88534,10 +88534,10 @@
       ]
     },
     {
-      "name": "Cleaning grimy tarromin",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_tarromin",
+      "name": "Making adamant brutal arrows",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_adamant_brutal_arrows",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
+      "actions_per_hour_human": 1000,
       "inputs": [
         {
           "item": "Collecting",
@@ -116943,10 +116943,10 @@
       ]
     },
     {
-      "name": "Chopping infected roots",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_infected_roots",
+      "name": "Cooking raw karambwan",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cooking_raw_karambwan",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
+      "actions_per_hour_human": 1000,
       "inputs": [
         {
           "item": "Collecting",
@@ -117289,10 +117289,10 @@
       ]
     },
     {
-      "name": "Cooking raw karambwan",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cooking_raw_karambwan",
+      "name": "Chopping infected roots",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_infected_roots",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 1000,
+      "actions_per_hour_human": 900,
       "inputs": [
         {
           "item": "Collecting",

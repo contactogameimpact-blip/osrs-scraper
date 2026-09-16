@@ -1,6 +1,472 @@
 {
-  "updated": 1789574702,
+  "updated": 1789591938,
   "methods": [
+    {
+      "name": "Growing magic saplings",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Growing_magic_saplings",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 1,
+      "bottleneck_item": "Redwood tree seed",
+      "requires_prebuy": false,
+      "market_saturated": false,
+      "inputs": [
+        {
+          "item": "Acorn",
+          "qty": 15.0,
+          "price": 88,
+          "cost_per_action": 1320.0
+        },
+        {
+          "item": "Apple tree seed",
+          "qty": 27.0,
+          "price": 18,
+          "cost_per_action": 486.0
+        },
+        {
+          "item": "Willow seed",
+          "qty": 30.0,
+          "price": 50,
+          "cost_per_action": 1500.0
+        },
+        {
+          "item": "Banana tree seed",
+          "qty": 33.0,
+          "price": 31,
+          "cost_per_action": 1023.0
+        },
+        {
+          "item": "Teak seed",
+          "qty": 35.0,
+          "price": 80,
+          "cost_per_action": 2800.0
+        },
+        {
+          "item": "Orange tree seed",
+          "qty": 39.0,
+          "price": 88,
+          "cost_per_action": 3432.0
+        },
+        {
+          "item": "Curry tree seed",
+          "qty": 42.0,
+          "price": 60,
+          "cost_per_action": 2520.0
+        },
+        {
+          "item": "Maple seed",
+          "qty": 45.0,
+          "price": 3201,
+          "cost_per_action": 144045.0
+        },
+        {
+          "item": "Pineapple seed",
+          "qty": 51.0,
+          "price": 53,
+          "cost_per_action": 2703.0
+        },
+        {
+          "item": "Mahogany seed",
+          "qty": 55.0,
+          "price": 167,
+          "cost_per_action": 9185.0
+        },
+        {
+          "item": "Papaya tree seed",
+          "qty": 57.0,
+          "price": 1100,
+          "cost_per_action": 62700.0
+        },
+        {
+          "item": "Yew seed",
+          "qty": 60.0,
+          "price": 21377,
+          "cost_per_action": 1282620.0
+        },
+        {
+          "item": "Palm tree seed",
+          "qty": 68.0,
+          "price": 16340,
+          "cost_per_action": 1111120.0
+        },
+        {
+          "item": "Calquat tree seed",
+          "qty": 72.0,
+          "price": 193,
+          "cost_per_action": 13896.0
+        },
+        {
+          "item": "Magic seed",
+          "qty": 75.0,
+          "price": 72000,
+          "cost_per_action": 5400000.0
+        },
+        {
+          "item": "Dragonfruit tree seed",
+          "qty": 81.0,
+          "price": 153969,
+          "cost_per_action": 12471489.0
+        },
+        {
+          "item": "Celastrus seed",
+          "qty": 85.0,
+          "price": 17413,
+          "cost_per_action": 1480105.0
+        },
+        {
+          "item": "Redwood tree seed",
+          "qty": 90.0,
+          "price": 15138,
+          "cost_per_action": 1362420.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Acorn",
+          "qty": 15.0,
+          "price": 83,
+          "value_per_action": 1245.0
+        },
+        {
+          "item": "Apple tree seed",
+          "qty": 27.0,
+          "price": 19,
+          "value_per_action": 513.0
+        },
+        {
+          "item": "Willow seed",
+          "qty": 30.0,
+          "price": 50,
+          "value_per_action": 1500.0
+        },
+        {
+          "item": "Banana tree seed",
+          "qty": 33.0,
+          "price": 29,
+          "value_per_action": 957.0
+        },
+        {
+          "item": "Teak seed",
+          "qty": 35.0,
+          "price": 80,
+          "value_per_action": 2800.0
+        },
+        {
+          "item": "Orange tree seed",
+          "qty": 39.0,
+          "price": 40,
+          "value_per_action": 1560.0
+        },
+        {
+          "item": "Curry tree seed",
+          "qty": 42.0,
+          "price": 48,
+          "value_per_action": 2016.0
+        },
+        {
+          "item": "Maple seed",
+          "qty": 45.0,
+          "price": 3200,
+          "value_per_action": 144000.0
+        },
+        {
+          "item": "Pineapple seed",
+          "qty": 51.0,
+          "price": 40,
+          "value_per_action": 2040.0
+        },
+        {
+          "item": "Mahogany seed",
+          "qty": 55.0,
+          "price": 204,
+          "value_per_action": 11220.0
+        },
+        {
+          "item": "Papaya tree seed",
+          "qty": 57.0,
+          "price": 1100,
+          "value_per_action": 62700.0
+        },
+        {
+          "item": "Yew seed",
+          "qty": 60.0,
+          "price": 20800,
+          "value_per_action": 1248000.0
+        },
+        {
+          "item": "Palm tree seed",
+          "qty": 68.0,
+          "price": 16550,
+          "value_per_action": 1125400.0
+        },
+        {
+          "item": "Calquat tree seed",
+          "qty": 72.0,
+          "price": 100,
+          "value_per_action": 7200.0
+        },
+        {
+          "item": "Magic seed",
+          "qty": 75.0,
+          "price": 74750,
+          "value_per_action": 5606250.0
+        },
+        {
+          "item": "Dragonfruit tree seed",
+          "qty": 81.0,
+          "price": 153120,
+          "value_per_action": 12402720.0
+        },
+        {
+          "item": "Celastrus seed",
+          "qty": 85.0,
+          "price": 17200,
+          "value_per_action": 1462000.0
+        },
+        {
+          "item": "Redwood tree seed",
+          "qty": 90.0,
+          "price": 15138,
+          "value_per_action": 1362420.0
+        }
+      ],
+      "profit_per_action": 91177.0,
+      "profit_per_hour": 91177.0,
+      "score": 91177.0
+    },
+    {
+      "name": "Growing palm saplings",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Growing_palm_saplings",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 1,
+      "bottleneck_item": "Redwood tree seed",
+      "requires_prebuy": false,
+      "market_saturated": false,
+      "inputs": [
+        {
+          "item": "Acorn",
+          "qty": 15.0,
+          "price": 88,
+          "cost_per_action": 1320.0
+        },
+        {
+          "item": "Apple tree seed",
+          "qty": 27.0,
+          "price": 18,
+          "cost_per_action": 486.0
+        },
+        {
+          "item": "Willow seed",
+          "qty": 30.0,
+          "price": 50,
+          "cost_per_action": 1500.0
+        },
+        {
+          "item": "Banana tree seed",
+          "qty": 33.0,
+          "price": 31,
+          "cost_per_action": 1023.0
+        },
+        {
+          "item": "Teak seed",
+          "qty": 35.0,
+          "price": 80,
+          "cost_per_action": 2800.0
+        },
+        {
+          "item": "Orange tree seed",
+          "qty": 39.0,
+          "price": 88,
+          "cost_per_action": 3432.0
+        },
+        {
+          "item": "Curry tree seed",
+          "qty": 42.0,
+          "price": 60,
+          "cost_per_action": 2520.0
+        },
+        {
+          "item": "Maple seed",
+          "qty": 45.0,
+          "price": 3201,
+          "cost_per_action": 144045.0
+        },
+        {
+          "item": "Pineapple seed",
+          "qty": 51.0,
+          "price": 53,
+          "cost_per_action": 2703.0
+        },
+        {
+          "item": "Mahogany seed",
+          "qty": 55.0,
+          "price": 167,
+          "cost_per_action": 9185.0
+        },
+        {
+          "item": "Papaya tree seed",
+          "qty": 57.0,
+          "price": 1100,
+          "cost_per_action": 62700.0
+        },
+        {
+          "item": "Yew seed",
+          "qty": 60.0,
+          "price": 21377,
+          "cost_per_action": 1282620.0
+        },
+        {
+          "item": "Palm tree seed",
+          "qty": 68.0,
+          "price": 16340,
+          "cost_per_action": 1111120.0
+        },
+        {
+          "item": "Calquat tree seed",
+          "qty": 72.0,
+          "price": 193,
+          "cost_per_action": 13896.0
+        },
+        {
+          "item": "Magic seed",
+          "qty": 75.0,
+          "price": 72000,
+          "cost_per_action": 5400000.0
+        },
+        {
+          "item": "Dragonfruit tree seed",
+          "qty": 81.0,
+          "price": 153969,
+          "cost_per_action": 12471489.0
+        },
+        {
+          "item": "Celastrus seed",
+          "qty": 85.0,
+          "price": 17413,
+          "cost_per_action": 1480105.0
+        },
+        {
+          "item": "Redwood tree seed",
+          "qty": 90.0,
+          "price": 15138,
+          "cost_per_action": 1362420.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Acorn",
+          "qty": 15.0,
+          "price": 83,
+          "value_per_action": 1245.0
+        },
+        {
+          "item": "Apple tree seed",
+          "qty": 27.0,
+          "price": 19,
+          "value_per_action": 513.0
+        },
+        {
+          "item": "Willow seed",
+          "qty": 30.0,
+          "price": 50,
+          "value_per_action": 1500.0
+        },
+        {
+          "item": "Banana tree seed",
+          "qty": 33.0,
+          "price": 29,
+          "value_per_action": 957.0
+        },
+        {
+          "item": "Teak seed",
+          "qty": 35.0,
+          "price": 80,
+          "value_per_action": 2800.0
+        },
+        {
+          "item": "Orange tree seed",
+          "qty": 39.0,
+          "price": 40,
+          "value_per_action": 1560.0
+        },
+        {
+          "item": "Curry tree seed",
+          "qty": 42.0,
+          "price": 48,
+          "value_per_action": 2016.0
+        },
+        {
+          "item": "Maple seed",
+          "qty": 45.0,
+          "price": 3200,
+          "value_per_action": 144000.0
+        },
+        {
+          "item": "Pineapple seed",
+          "qty": 51.0,
+          "price": 40,
+          "value_per_action": 2040.0
+        },
+        {
+          "item": "Mahogany seed",
+          "qty": 55.0,
+          "price": 204,
+          "value_per_action": 11220.0
+        },
+        {
+          "item": "Papaya tree seed",
+          "qty": 57.0,
+          "price": 1100,
+          "value_per_action": 62700.0
+        },
+        {
+          "item": "Yew seed",
+          "qty": 60.0,
+          "price": 20800,
+          "value_per_action": 1248000.0
+        },
+        {
+          "item": "Palm tree seed",
+          "qty": 68.0,
+          "price": 16550,
+          "value_per_action": 1125400.0
+        },
+        {
+          "item": "Calquat tree seed",
+          "qty": 72.0,
+          "price": 100,
+          "value_per_action": 7200.0
+        },
+        {
+          "item": "Magic seed",
+          "qty": 75.0,
+          "price": 74750,
+          "value_per_action": 5606250.0
+        },
+        {
+          "item": "Dragonfruit tree seed",
+          "qty": 81.0,
+          "price": 153120,
+          "value_per_action": 12402720.0
+        },
+        {
+          "item": "Celastrus seed",
+          "qty": 85.0,
+          "price": 17200,
+          "value_per_action": 1462000.0
+        },
+        {
+          "item": "Redwood tree seed",
+          "qty": 90.0,
+          "price": 15138,
+          "value_per_action": 1362420.0
+        }
+      ],
+      "profit_per_action": 91177.0,
+      "profit_per_hour": 91177.0,
+      "score": 91177.0
+    },
     {
       "name": "Killing the Doom of Mokhaiotl (Delve 1-16)",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_the_Doom_of_Mokhaiotl_(Delve_1-16)",
@@ -1787,25 +2253,25 @@
       "inputs": [
         {
           "item": "Killing Yama (Contract of Shard Acquisition, duo)",
-          "qty": 10412607.0,
+          "qty": 9387459.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Killing Yama (Contract of Oathplate Acquisition)",
-          "qty": 24135960.0,
+          "qty": 17865001.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Killing Yama (Contract of Catalyst Acquisition, duo)",
-          "qty": 5631688.0,
+          "qty": 5567720.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Killing Yama (Contract of Harmony Acquisition)",
-          "qty": 5974656.0,
+          "qty": 5657325.0,
           "price": null,
           "cost_per_action": null
         }
@@ -1813,25 +2279,25 @@
       "outputs": [
         {
           "item": "Killing Yama (Contract of Shard Acquisition, duo)",
-          "qty": 10412607.0,
+          "qty": 9387459.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Killing Yama (Contract of Oathplate Acquisition)",
-          "qty": 24135960.0,
+          "qty": 17865001.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Killing Yama (Contract of Catalyst Acquisition, duo)",
-          "qty": 5631688.0,
+          "qty": 5567720.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Killing Yama (Contract of Harmony Acquisition)",
-          "qty": 5974656.0,
+          "qty": 5657325.0,
           "price": null,
           "value_per_action": null
         }
@@ -5223,13 +5689,13 @@
       "inputs": [
         {
           "item": "Killing Yama (Contract of Shard Acquisition, duo)",
-          "qty": 10412607.0,
+          "qty": 9387459.0,
           "price": null,
           "cost_per_action": null
         },
         {
           "item": "Killing Yama (Contract of Catalyst Acquisition, duo)",
-          "qty": 5631688.0,
+          "qty": 5567720.0,
           "price": null,
           "cost_per_action": null
         }
@@ -5237,13 +5703,13 @@
       "outputs": [
         {
           "item": "Killing Yama (Contract of Shard Acquisition, duo)",
-          "qty": 10412607.0,
+          "qty": 9387459.0,
           "price": null,
           "value_per_action": null
         },
         {
           "item": "Killing Yama (Contract of Catalyst Acquisition, duo)",
-          "qty": 5631688.0,
+          "qty": 5567720.0,
           "price": null,
           "value_per_action": null
         }
@@ -33023,28 +33489,6 @@
       "score": 0.0
     },
     {
-      "name": "Moons of Peril",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Moons_of_Peril",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 900,
-      "bottleneck_item": null,
-      "requires_prebuy": false,
-      "market_saturated": false,
-      "inputs": [],
-      "outputs": [
-        {
-          "item": "1,709,407, aftertax",
-          "qty": 7050023500.0,
-          "price": null,
-          "value_per_action": null
-        }
-      ],
-      "profit_per_action": 0.0,
-      "profit_per_hour": 0.0,
-      "score": 0.0
-    },
-    {
       "name": "Killing Chaos Elemental",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Chaos_Elemental",
       "wiki_actions_per_hour": 0,
@@ -33557,28 +34001,6 @@
         {
           "item": "Other",
           "qty": 1.0,
-          "price": null,
-          "value_per_action": null
-        }
-      ],
-      "profit_per_action": 0.0,
-      "profit_per_hour": 0.0,
-      "score": 0.0
-    },
-    {
-      "name": "Killing Blood Moon",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Blood_Moon",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 300,
-      "effective_actions_per_hour": 300,
-      "bottleneck_item": null,
-      "requires_prebuy": false,
-      "market_saturated": false,
-      "inputs": [],
-      "outputs": [
-        {
-          "item": "1,649,731, aftertax",
-          "qty": 44650148834918.0,
           "price": null,
           "value_per_action": null
         }
@@ -93744,6 +94166,28 @@
       "score": 0.0
     },
     {
+      "name": "Moons of Peril",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Moons_of_Peril",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 900,
+      "bottleneck_item": null,
+      "requires_prebuy": false,
+      "market_saturated": false,
+      "inputs": [],
+      "outputs": [
+        {
+          "item": "653,221, aftertax",
+          "qty": 7050023500.0,
+          "price": null,
+          "value_per_action": null
+        }
+      ],
+      "profit_per_action": 0.0,
+      "profit_per_hour": 0.0,
+      "score": 0.0
+    },
+    {
       "name": "Mining runite ore",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Mining_runite_ore",
       "wiki_actions_per_hour": 0,
@@ -105858,6 +106302,28 @@
         {
           "item": "Other",
           "qty": 1.0,
+          "price": null,
+          "value_per_action": null
+        }
+      ],
+      "profit_per_action": 0.0,
+      "profit_per_hour": 0.0,
+      "score": 0.0
+    },
+    {
+      "name": "Killing Blood Moon",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Killing_Blood_Moon",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 300,
+      "effective_actions_per_hour": 300,
+      "bottleneck_item": null,
+      "requires_prebuy": false,
+      "market_saturated": false,
+      "inputs": [],
+      "outputs": [
+        {
+          "item": "524,772, aftertax",
+          "qty": 44650148834918.0,
           "price": null,
           "value_per_action": null
         }
@@ -132770,11 +133236,11 @@
       "score": 0.0
     },
     {
-      "name": "Making adamant brutal arrows",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_adamant_brutal_arrows",
+      "name": "Cleaning grimy tarromin",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_tarromin",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 1000,
-      "effective_actions_per_hour": 1000,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 900,
       "bottleneck_item": null,
       "requires_prebuy": false,
       "market_saturated": false,
@@ -133291,11 +133757,11 @@
       "score": 0.0
     },
     {
-      "name": "Cleaning grimy tarromin",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cleaning_grimy_tarromin",
+      "name": "Making adamant brutal arrows",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Making_adamant_brutal_arrows",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 900,
+      "actions_per_hour_human": 1000,
+      "effective_actions_per_hour": 1000,
       "bottleneck_item": null,
       "requires_prebuy": false,
       "market_saturated": false,
@@ -176099,11 +176565,11 @@
       "score": 0.0
     },
     {
-      "name": "Chopping infected roots",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_infected_roots",
+      "name": "Cooking raw karambwan",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cooking_raw_karambwan",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 900,
+      "actions_per_hour_human": 1000,
+      "effective_actions_per_hour": 1000,
       "bottleneck_item": null,
       "requires_prebuy": false,
       "market_saturated": false,
@@ -176620,11 +177086,11 @@
       "score": 0.0
     },
     {
-      "name": "Cooking raw karambwan",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Cooking_raw_karambwan",
+      "name": "Chopping infected roots",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_infected_roots",
       "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 1000,
-      "effective_actions_per_hour": 1000,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 900,
       "bottleneck_item": null,
       "requires_prebuy": false,
       "market_saturated": false,
@@ -231379,6 +231845,59 @@
       "score": 0.0
     },
     {
+      "name": "Chopping the engorged bloodwood tree",
+      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_the_engorged_bloodwood_tree",
+      "wiki_actions_per_hour": 0,
+      "actions_per_hour_human": 900,
+      "effective_actions_per_hour": 41.7,
+      "bottleneck_item": "Magic logs",
+      "requires_prebuy": true,
+      "market_saturated": false,
+      "inputs": [
+        {
+          "item": "Yew logs",
+          "qty": 75.0,
+          "price": 109,
+          "cost_per_action": 8175.0
+        },
+        {
+          "item": "Magic logs",
+          "qty": 90.0,
+          "price": 710,
+          "cost_per_action": 63900.0
+        },
+        {
+          "item": "Redwood logs",
+          "qty": 105.0,
+          "price": 714,
+          "cost_per_action": 74970.0
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Yew logs",
+          "qty": 75.0,
+          "price": 108,
+          "value_per_action": 8100.0
+        },
+        {
+          "item": "Magic logs",
+          "qty": 90.0,
+          "price": 710,
+          "value_per_action": 63900.0
+        },
+        {
+          "item": "Redwood logs",
+          "qty": 105.0,
+          "price": 706,
+          "value_per_action": 74130.0
+        }
+      ],
+      "profit_per_action": -915.0,
+      "profit_per_hour": -38125.0,
+      "score": -28593.75
+    },
+    {
       "name": "Selling archery supplies",
       "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Selling_archery_supplies",
       "wiki_actions_per_hour": 0,
@@ -231397,8 +231916,8 @@
         {
           "item": "Adamant arrow",
           "qty": 25.0,
-          "price": 25,
-          "cost_per_action": 625.0
+          "price": 24,
+          "cost_per_action": 600.0
         },
         {
           "item": "Oak longbow",
@@ -231409,20 +231928,20 @@
         {
           "item": "Willow shortbow",
           "qty": 89.0,
-          "price": 93,
-          "cost_per_action": 8277.0
+          "price": 121,
+          "cost_per_action": 10769.0
         },
         {
           "item": "Willow longbow",
           "qty": 111.0,
-          "price": 124,
-          "cost_per_action": 13764.0
+          "price": 133,
+          "cost_per_action": 14763.0
         },
         {
           "item": "Maple shortbow",
           "qty": 169.0,
-          "price": 161,
-          "cost_per_action": 27209.0
+          "price": 195,
+          "cost_per_action": 32955.0
         },
         {
           "item": "Maple longbow",
@@ -231447,556 +231966,37 @@
         {
           "item": "Oak longbow",
           "qty": 39.0,
-          "price": 39,
-          "value_per_action": 1521.0
+          "price": 37,
+          "value_per_action": 1443.0
         },
         {
           "item": "Willow shortbow",
           "qty": 89.0,
-          "price": 89,
-          "value_per_action": 7921.0
+          "price": 93,
+          "value_per_action": 8277.0
         },
         {
           "item": "Willow longbow",
           "qty": 111.0,
-          "price": 111,
-          "value_per_action": 12321.0
+          "price": 116,
+          "value_per_action": 12876.0
         },
         {
           "item": "Maple shortbow",
           "qty": 169.0,
-          "price": 160,
-          "value_per_action": 27040.0
+          "price": 169,
+          "value_per_action": 28561.0
         },
         {
           "item": "Maple longbow",
           "qty": 281.0,
-          "price": 281,
-          "value_per_action": 78961.0
+          "price": 271,
+          "value_per_action": 76151.0
         }
       ],
-      "profit_per_action": -1998.0,
-      "profit_per_hour": -8807.66,
-      "score": -8807.66
-    },
-    {
-      "name": "Chopping the engorged bloodwood tree",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Chopping_the_engorged_bloodwood_tree",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 41.7,
-      "bottleneck_item": "Magic logs",
-      "requires_prebuy": true,
-      "market_saturated": false,
-      "inputs": [
-        {
-          "item": "Yew logs",
-          "qty": 75.0,
-          "price": 108,
-          "cost_per_action": 8100.0
-        },
-        {
-          "item": "Magic logs",
-          "qty": 90.0,
-          "price": 710,
-          "cost_per_action": 63900.0
-        },
-        {
-          "item": "Redwood logs",
-          "qty": 105.0,
-          "price": 715,
-          "cost_per_action": 75075.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Yew logs",
-          "qty": 75.0,
-          "price": 104,
-          "value_per_action": 7800.0
-        },
-        {
-          "item": "Magic logs",
-          "qty": 90.0,
-          "price": 700,
-          "value_per_action": 63000.0
-        },
-        {
-          "item": "Redwood logs",
-          "qty": 105.0,
-          "price": 704,
-          "value_per_action": 73920.0
-        }
-      ],
-      "profit_per_action": -2355.0,
-      "profit_per_hour": -98125.0,
-      "score": -73593.75
-    },
-    {
-      "name": "Growing magic saplings",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Growing_magic_saplings",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 1,
-      "bottleneck_item": "Redwood tree seed",
-      "requires_prebuy": false,
-      "market_saturated": false,
-      "inputs": [
-        {
-          "item": "Acorn",
-          "qty": 15.0,
-          "price": 106,
-          "cost_per_action": 1590.0
-        },
-        {
-          "item": "Apple tree seed",
-          "qty": 27.0,
-          "price": 150,
-          "cost_per_action": 4050.0
-        },
-        {
-          "item": "Willow seed",
-          "qty": 30.0,
-          "price": 72,
-          "cost_per_action": 2160.0
-        },
-        {
-          "item": "Banana tree seed",
-          "qty": 33.0,
-          "price": 55,
-          "cost_per_action": 1815.0
-        },
-        {
-          "item": "Teak seed",
-          "qty": 35.0,
-          "price": 80,
-          "cost_per_action": 2800.0
-        },
-        {
-          "item": "Orange tree seed",
-          "qty": 39.0,
-          "price": 31,
-          "cost_per_action": 1209.0
-        },
-        {
-          "item": "Curry tree seed",
-          "qty": 42.0,
-          "price": 81,
-          "cost_per_action": 3402.0
-        },
-        {
-          "item": "Maple seed",
-          "qty": 45.0,
-          "price": 3201,
-          "cost_per_action": 144045.0
-        },
-        {
-          "item": "Pineapple seed",
-          "qty": 51.0,
-          "price": 70,
-          "cost_per_action": 3570.0
-        },
-        {
-          "item": "Mahogany seed",
-          "qty": 55.0,
-          "price": 210,
-          "cost_per_action": 11550.0
-        },
-        {
-          "item": "Papaya tree seed",
-          "qty": 57.0,
-          "price": 1189,
-          "cost_per_action": 67773.0
-        },
-        {
-          "item": "Yew seed",
-          "qty": 60.0,
-          "price": 20996,
-          "cost_per_action": 1259760.0
-        },
-        {
-          "item": "Palm tree seed",
-          "qty": 68.0,
-          "price": 16500,
-          "cost_per_action": 1122000.0
-        },
-        {
-          "item": "Calquat tree seed",
-          "qty": 72.0,
-          "price": 285,
-          "cost_per_action": 20520.0
-        },
-        {
-          "item": "Magic seed",
-          "qty": 75.0,
-          "price": 71700,
-          "cost_per_action": 5377500.0
-        },
-        {
-          "item": "Dragonfruit tree seed",
-          "qty": 81.0,
-          "price": 154256,
-          "cost_per_action": 12494736.0
-        },
-        {
-          "item": "Celastrus seed",
-          "qty": 85.0,
-          "price": 17999,
-          "cost_per_action": 1529915.0
-        },
-        {
-          "item": "Redwood tree seed",
-          "qty": 90.0,
-          "price": 15138,
-          "cost_per_action": 1362420.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Acorn",
-          "qty": 15.0,
-          "price": 100,
-          "value_per_action": 1500.0
-        },
-        {
-          "item": "Apple tree seed",
-          "qty": 27.0,
-          "price": 30,
-          "value_per_action": 810.0
-        },
-        {
-          "item": "Willow seed",
-          "qty": 30.0,
-          "price": 60,
-          "value_per_action": 1800.0
-        },
-        {
-          "item": "Banana tree seed",
-          "qty": 33.0,
-          "price": 39,
-          "value_per_action": 1287.0
-        },
-        {
-          "item": "Teak seed",
-          "qty": 35.0,
-          "price": 80,
-          "value_per_action": 2800.0
-        },
-        {
-          "item": "Orange tree seed",
-          "qty": 39.0,
-          "price": 40,
-          "value_per_action": 1560.0
-        },
-        {
-          "item": "Curry tree seed",
-          "qty": 42.0,
-          "price": 55,
-          "value_per_action": 2310.0
-        },
-        {
-          "item": "Maple seed",
-          "qty": 45.0,
-          "price": 3171,
-          "value_per_action": 142695.0
-        },
-        {
-          "item": "Pineapple seed",
-          "qty": 51.0,
-          "price": 40,
-          "value_per_action": 2040.0
-        },
-        {
-          "item": "Mahogany seed",
-          "qty": 55.0,
-          "price": 210,
-          "value_per_action": 11550.0
-        },
-        {
-          "item": "Papaya tree seed",
-          "qty": 57.0,
-          "price": 1214,
-          "value_per_action": 69198.0
-        },
-        {
-          "item": "Yew seed",
-          "qty": 60.0,
-          "price": 20800,
-          "value_per_action": 1248000.0
-        },
-        {
-          "item": "Palm tree seed",
-          "qty": 68.0,
-          "price": 16500,
-          "value_per_action": 1122000.0
-        },
-        {
-          "item": "Calquat tree seed",
-          "qty": 72.0,
-          "price": 273,
-          "value_per_action": 19656.0
-        },
-        {
-          "item": "Magic seed",
-          "qty": 75.0,
-          "price": 71477,
-          "value_per_action": 5360775.0
-        },
-        {
-          "item": "Dragonfruit tree seed",
-          "qty": 81.0,
-          "price": 153055,
-          "value_per_action": 12397455.0
-        },
-        {
-          "item": "Celastrus seed",
-          "qty": 85.0,
-          "price": 17501,
-          "value_per_action": 1487585.0
-        },
-        {
-          "item": "Redwood tree seed",
-          "qty": 90.0,
-          "price": 15138,
-          "value_per_action": 1362420.0
-        }
-      ],
-      "profit_per_action": -175374.0,
-      "profit_per_hour": -175374.0,
-      "score": -175374.0
-    },
-    {
-      "name": "Growing palm saplings",
-      "url": "https://oldschool.runescape.wiki/w/Money_making_guide/Growing_palm_saplings",
-      "wiki_actions_per_hour": 0,
-      "actions_per_hour_human": 900,
-      "effective_actions_per_hour": 1,
-      "bottleneck_item": "Redwood tree seed",
-      "requires_prebuy": false,
-      "market_saturated": false,
-      "inputs": [
-        {
-          "item": "Acorn",
-          "qty": 15.0,
-          "price": 106,
-          "cost_per_action": 1590.0
-        },
-        {
-          "item": "Apple tree seed",
-          "qty": 27.0,
-          "price": 150,
-          "cost_per_action": 4050.0
-        },
-        {
-          "item": "Willow seed",
-          "qty": 30.0,
-          "price": 72,
-          "cost_per_action": 2160.0
-        },
-        {
-          "item": "Banana tree seed",
-          "qty": 33.0,
-          "price": 55,
-          "cost_per_action": 1815.0
-        },
-        {
-          "item": "Teak seed",
-          "qty": 35.0,
-          "price": 80,
-          "cost_per_action": 2800.0
-        },
-        {
-          "item": "Orange tree seed",
-          "qty": 39.0,
-          "price": 31,
-          "cost_per_action": 1209.0
-        },
-        {
-          "item": "Curry tree seed",
-          "qty": 42.0,
-          "price": 81,
-          "cost_per_action": 3402.0
-        },
-        {
-          "item": "Maple seed",
-          "qty": 45.0,
-          "price": 3201,
-          "cost_per_action": 144045.0
-        },
-        {
-          "item": "Pineapple seed",
-          "qty": 51.0,
-          "price": 70,
-          "cost_per_action": 3570.0
-        },
-        {
-          "item": "Mahogany seed",
-          "qty": 55.0,
-          "price": 210,
-          "cost_per_action": 11550.0
-        },
-        {
-          "item": "Papaya tree seed",
-          "qty": 57.0,
-          "price": 1189,
-          "cost_per_action": 67773.0
-        },
-        {
-          "item": "Yew seed",
-          "qty": 60.0,
-          "price": 20996,
-          "cost_per_action": 1259760.0
-        },
-        {
-          "item": "Palm tree seed",
-          "qty": 68.0,
-          "price": 16500,
-          "cost_per_action": 1122000.0
-        },
-        {
-          "item": "Calquat tree seed",
-          "qty": 72.0,
-          "price": 285,
-          "cost_per_action": 20520.0
-        },
-        {
-          "item": "Magic seed",
-          "qty": 75.0,
-          "price": 71700,
-          "cost_per_action": 5377500.0
-        },
-        {
-          "item": "Dragonfruit tree seed",
-          "qty": 81.0,
-          "price": 154256,
-          "cost_per_action": 12494736.0
-        },
-        {
-          "item": "Celastrus seed",
-          "qty": 85.0,
-          "price": 17999,
-          "cost_per_action": 1529915.0
-        },
-        {
-          "item": "Redwood tree seed",
-          "qty": 90.0,
-          "price": 15138,
-          "cost_per_action": 1362420.0
-        }
-      ],
-      "outputs": [
-        {
-          "item": "Acorn",
-          "qty": 15.0,
-          "price": 100,
-          "value_per_action": 1500.0
-        },
-        {
-          "item": "Apple tree seed",
-          "qty": 27.0,
-          "price": 30,
-          "value_per_action": 810.0
-        },
-        {
-          "item": "Willow seed",
-          "qty": 30.0,
-          "price": 60,
-          "value_per_action": 1800.0
-        },
-        {
-          "item": "Banana tree seed",
-          "qty": 33.0,
-          "price": 39,
-          "value_per_action": 1287.0
-        },
-        {
-          "item": "Teak seed",
-          "qty": 35.0,
-          "price": 80,
-          "value_per_action": 2800.0
-        },
-        {
-          "item": "Orange tree seed",
-          "qty": 39.0,
-          "price": 40,
-          "value_per_action": 1560.0
-        },
-        {
-          "item": "Curry tree seed",
-          "qty": 42.0,
-          "price": 55,
-          "value_per_action": 2310.0
-        },
-        {
-          "item": "Maple seed",
-          "qty": 45.0,
-          "price": 3171,
-          "value_per_action": 142695.0
-        },
-        {
-          "item": "Pineapple seed",
-          "qty": 51.0,
-          "price": 40,
-          "value_per_action": 2040.0
-        },
-        {
-          "item": "Mahogany seed",
-          "qty": 55.0,
-          "price": 210,
-          "value_per_action": 11550.0
-        },
-        {
-          "item": "Papaya tree seed",
-          "qty": 57.0,
-          "price": 1214,
-          "value_per_action": 69198.0
-        },
-        {
-          "item": "Yew seed",
-          "qty": 60.0,
-          "price": 20800,
-          "value_per_action": 1248000.0
-        },
-        {
-          "item": "Palm tree seed",
-          "qty": 68.0,
-          "price": 16500,
-          "value_per_action": 1122000.0
-        },
-        {
-          "item": "Calquat tree seed",
-          "qty": 72.0,
-          "price": 273,
-          "value_per_action": 19656.0
-        },
-        {
-          "item": "Magic seed",
-          "qty": 75.0,
-          "price": 71477,
-          "value_per_action": 5360775.0
-        },
-        {
-          "item": "Dragonfruit tree seed",
-          "qty": 81.0,
-          "price": 153055,
-          "value_per_action": 12397455.0
-        },
-        {
-          "item": "Celastrus seed",
-          "qty": 85.0,
-          "price": 17501,
-          "value_per_action": 1487585.0
-        },
-        {
-          "item": "Redwood tree seed",
-          "qty": 90.0,
-          "price": 15138,
-          "value_per_action": 1362420.0
-        }
-      ],
-      "profit_per_action": -175374.0,
-      "profit_per_hour": -175374.0,
-      "score": -175374.0
+      "profit_per_action": -11666.0,
+      "profit_per_hour": -51426.52,
+      "score": -51426.52
     }
   ]
 }
